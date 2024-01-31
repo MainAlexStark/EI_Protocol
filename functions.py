@@ -1,4 +1,5 @@
 from docx import Document
+from docx.shared import Pt
 import docx
 import os
 
@@ -26,13 +27,8 @@ def create_template(path:str):
 
         # Получение текста из клетки 0 0
         cell = table.cell(0, 0)
-        text = cell.text
+        cell_text = cell.text
 
-        # Удаляем таблицу из документа
-        table._element.getparent().remove(table._element)
-
-        # Вставляем пустой параграф перед таблицей
-        paragraph = cell.add_paragraph(text)
 
         # Словарь для переменных
         var = {}
@@ -101,6 +97,9 @@ def create_template(path:str):
 
                 var['дата поверки'] = extract_value(text, "Дата поверки", " г.")
                 text = text.replace(extract_value(text, "Дата поверки", " г."), "ДАТА_ПОВЕРКИ")
+
+            if 'УСЛОВИЯ ПРОВЕДЕНИЯ ПОВЕРКИ' in text:
+                doc.paragraphs[index + 1].text = cell_text
 
             paragraph.text = text
             index += 1
