@@ -17,6 +17,10 @@ from dialogs import settings
 class App(QWidget):
     def __init__(self):
         super().__init__()
+        self.label_text_frequency = None
+        self.label_text_voltage = None
+        self.text_voltage = None
+        self.text_frequency = None
         self.tab_widget = None
         self.button_settings = None
         self.button_clean = None
@@ -63,9 +67,9 @@ class App(QWidget):
         # Layouts
         # Создание layouts ( контейнеры в которые погружаются остальные элементы )
         main_layout = QHBoxLayout()
-        var_layout = QVBoxLayout()
-        var_r_layout = QVBoxLayout()
-        var_r2_layout = QVBoxLayout()
+        self.var_layout = QVBoxLayout()
+        self.var_r_layout = QVBoxLayout()
+        self.var_r2_layout = QVBoxLayout()
 
         # Variables
         # Инициализируем элементы ввода
@@ -80,6 +84,8 @@ class App(QWidget):
 
         # Указываем размеры
         self.scale_combo.setGeometry(100, 100, 200, 30)
+
+        self.scale_combo.currentTextChanged.connect(self.scale_changed)
 
         # Достаем все имена файлов шаблонов и добавляем в выпадающий список
         files = []
@@ -101,8 +107,8 @@ class App(QWidget):
         self.scale_combo.setCompleter(completer)
 
         # Добавляем элементы в layouts
-        var_layout.addWidget(self.label_scale_combo)
-        var_layout.addWidget(self.scale_combo)
+        self.var_layout.addWidget(self.label_scale_combo)
+        self.var_layout.addWidget(self.scale_combo)
 
         # path
 
@@ -112,14 +118,14 @@ class App(QWidget):
         self.text_path = QPlainTextEdit(self)
         self.text_path.setFixedSize(500, 40)  # Указывем размер
         # Добавляем элементы в layouts
-        var_layout.addWidget(self.label_text_path)
-        var_layout.addWidget(self.text_path)
+        self.var_layout.addWidget(self.label_text_path)
+        self.var_layout.addWidget(self.text_path)
 
         # Создаем кнопку
         self.button_path = QPushButton('Выбрать путь сохранения', self)
         self.button_path.setFixedSize(500, 40)
         self.button_path.clicked.connect(self.add_path)  # Привязываем функцию
-        var_layout.addWidget(self.button_path)  # Добавляем в layout
+        self.var_layout.addWidget(self.button_path)  # Добавляем в layout
 
         # num_protocol
         # Надпись
@@ -128,15 +134,15 @@ class App(QWidget):
         # Текстовое поле
         self.text_num_protocol.setFixedSize(500, 40)  # Указывем размер
         # Добавляем элементы в layouts
-        var_layout.addWidget(self.label_text_num_protocol)
-        var_layout.addWidget(self.text_num_protocol)
+        self.var_layout.addWidget(self.label_text_num_protocol)
+        self.var_layout.addWidget(self.text_num_protocol)
 
         # num_scale
         self.label_text_num_scale = QLabel("Выберите номер весов:")
         self.text_num_scale = QPlainTextEdit(self)
         self.text_num_scale.setFixedSize(500, 40)
-        var_layout.addWidget(self.label_text_num_scale)
-        var_layout.addWidget(self.text_num_scale)
+        self.var_layout.addWidget(self.label_text_num_scale)
+        self.var_layout.addWidget(self.text_num_scale)
 
         # Verificationer
         # Определите имя файла хранилища
@@ -164,47 +170,47 @@ class App(QWidget):
         self.verificationer_combo.setCurrentIndex(-1)
         self.verificationer_combo.setFixedSize(500, 40)
         self.verificationer_combo.currentTextChanged.connect(self.verificationer_changed)
-        var_layout.addWidget(self.label_verificationer_combo)
-        var_layout.addWidget(self.verificationer_combo)
+        self.var_layout.addWidget(self.label_verificationer_combo)
+        self.var_layout.addWidget(self.verificationer_combo)
 
         # Company
 
         self.label_text_company = QLabel("Выберите компанию:")
         self.text_company = QPlainTextEdit(self)
         self.text_company.setFixedSize(500, 40)
-        var_layout.addWidget(self.label_text_company)
-        var_layout.addWidget(self.text_company)
+        self.var_layout.addWidget(self.label_text_company)
+        self.var_layout.addWidget(self.text_company)
 
         # INN
 
         self.label_text_INN = QLabel("Выберите ИНН компании:")
         self.text_INN = QPlainTextEdit(self)
         self.text_INN.setFixedSize(500, 40)
-        var_layout.addWidget(self.label_text_INN)
-        var_layout.addWidget(self.text_INN)
+        self.var_layout.addWidget(self.label_text_INN)
+        self.var_layout.addWidget(self.text_INN)
 
         # Legal address
 
         self.label_text_legal_address = QLabel("Выберите юридический адрес компании:")
         self.text_legal_address = QPlainTextEdit(self)
         self.text_legal_address.setFixedSize(500, 40)
-        var_layout.addWidget(self.label_text_legal_address)
-        var_layout.addWidget(self.text_legal_address)
+        self.var_layout.addWidget(self.label_text_legal_address)
+        self.var_layout.addWidget(self.text_legal_address)
 
         # inspection address
 
         self.label_text_inspection_address = QLabel("Выберите адрес поверки:")
         self.text_inspection_address = QPlainTextEdit(self)
         self.text_inspection_address.setFixedSize(500, 40)
-        var_layout.addWidget(self.label_text_inspection_address)
-        var_layout.addWidget(self.text_inspection_address)
+        self.var_layout.addWidget(self.label_text_inspection_address)
+        self.var_layout.addWidget(self.text_inspection_address)
 
         # Unfit
 
         self.button_unfit = QPushButton('Несоответсвует', self)
         self.button_unfit.setCheckable(True)
         self.button_unfit.setFixedSize(500, 40)
-        var_layout.addWidget(self.button_unfit)  # Добавляем в layout
+        self.var_layout.addWidget(self.button_unfit)  # Добавляем в layout
 
         ####### var_r_layout
 
@@ -212,27 +218,27 @@ class App(QWidget):
 
         self.inspection_date = QCalendarWidget(self)
         self.inspection_date.setFixedSize(500, 300)
-        var_r_layout.addWidget(self.inspection_date)
+        self.var_r_layout.addWidget(self.inspection_date)
 
         # weather
 
         self.label_text_temperature = QLabel("Выберите температуру:")
         self.text_temperature = QPlainTextEdit(self)
         self.text_temperature.setFixedSize(500, 40)
-        var_r_layout.addWidget(self.label_text_temperature)
-        var_r_layout.addWidget(self.text_temperature)
+        self.var_r_layout.addWidget(self.label_text_temperature)
+        self.var_r_layout.addWidget(self.text_temperature)
 
         self.label_text_humidity = QLabel("Выберите влажность:")
         self.text_humidity = QPlainTextEdit(self)
         self.text_humidity.setFixedSize(500, 40)
-        var_r_layout.addWidget(self.label_text_humidity)
-        var_r_layout.addWidget(self.text_humidity)
+        self.var_r_layout.addWidget(self.label_text_humidity)
+        self.var_r_layout.addWidget(self.text_humidity)
 
         self.label_text_pressure = QLabel("Выберите давление:")
         self.text_pressure = QPlainTextEdit(self)
         self.text_pressure.setFixedSize(500, 40)
-        var_r_layout.addWidget(self.label_text_pressure)
-        var_r_layout.addWidget(self.text_pressure)
+        self.var_r_layout.addWidget(self.label_text_pressure)
+        self.var_r_layout.addWidget(self.text_pressure)
 
         # Создаем кнопки
 
@@ -241,42 +247,42 @@ class App(QWidget):
         self.button_create_template = QPushButton('Создать шаблон', self)
         self.button_create_template.setFixedSize(500, 40)
         self.button_create_template.clicked.connect(self.create_template)  # Привязываем функцию
-        var_layout.addWidget(self.button_create_template)  # Добавляем в layout
+        self.var_r_layout.addWidget(self.button_create_template)  # Добавляем в layout
 
         # Create protocol
 
         self.button_create_protocol = QPushButton('Создать протокол', self)
         self.button_create_protocol.setFixedSize(500, 40)
         self.button_create_protocol.clicked.connect(self.create_protocol)  # Привязываем функцию
-        var_r_layout.addWidget(self.button_create_protocol)  # Добавляем в layout
+        self.var_r_layout.addWidget(self.button_create_protocol)  # Добавляем в layout
 
         # Use excel
 
         self.button_use_excel = QPushButton('Использовать Excel', self)
         self.button_use_excel.setCheckable(True)
         self.button_use_excel.setFixedSize(500, 40)
-        var_r_layout.addWidget(self.button_use_excel)  # Добавляем в layout
+        self.var_r_layout.addWidget(self.button_use_excel)  # Добавляем в layout
 
         # Use data
 
         self.button_use_data = QPushButton('Использовать преведущие данные', self)
         self.button_use_data.setFixedSize(500, 40)
         self.button_use_data.clicked.connect(self.use_data)  # Привязываем функцию
-        var_r_layout.addWidget(self.button_use_data)  # Добавляем в layout
+        self.var_r_layout.addWidget(self.button_use_data)  # Добавляем в layout
 
         # Clean
 
         self.button_clean = QPushButton('Очистить', self)
         self.button_clean.setFixedSize(500, 40)
         self.button_clean.clicked.connect(self.clean)  # Привязываем функцию
-        var_r_layout.addWidget(self.button_clean)  # Добавляем в layout
+        self.var_r_layout.addWidget(self.button_clean)  # Добавляем в layout
 
         # Settings
 
         self.button_settings = QPushButton('Настройки', self)
         self.button_settings.setFixedSize(500, 40)
         self.button_settings.clicked.connect(self.settings)  # Привязываем функцию
-        var_r_layout.addWidget(self.button_settings)  # Добавляем в layout
+        self.var_r_layout.addWidget(self.button_settings)  # Добавляем в layout
 
         # 2 layout
 
@@ -322,16 +328,36 @@ class App(QWidget):
 
             self.tab_widget.addTab(tab, file_name)
 
-        var_r2_layout.addWidget(self.tab_widget)
+        self.var_r2_layout.addWidget(self.tab_widget)
 
         # Add layouts in main_layout
-        main_layout.addLayout(var_layout)
-        main_layout.addLayout(var_r_layout)
-        main_layout.addLayout(var_r2_layout)
+        main_layout.addLayout(self.var_layout)
+        main_layout.addLayout(self.var_r_layout)
+        main_layout.addLayout(self.var_r2_layout)
 
         # Добавляем main_layout в окно
         self.setLayout(main_layout)
         self.show()
+
+    def scale_changed(self):
+        if 'Влагомеры' in self.scale_combo.currentText():
+            self.label_text_voltage = QLabel("Выберите напряжение:")
+            self.text_voltage = QPlainTextEdit(self)
+            self.text_voltage.setFixedSize(500, 40)
+            self.var_r_layout.addWidget(self.label_text_voltage)
+            self.var_r_layout.addWidget(self.text_voltage)
+
+            self.label_text_frequency = QLabel("Выберите частоту:")
+            self.text_frequency = QPlainTextEdit(self)
+            self.text_frequency.setFixedSize(500, 40)
+            self.var_r_layout.addWidget(self.label_text_frequency)
+            self.var_r_layout.addWidget(self.text_frequency)
+        else:
+            if self.label_text_voltage is not None:
+                self.label_text_voltage.close()
+                self.text_voltage.close()
+                self.label_text_frequency.close()
+                self.text_frequency.close()
 
     def get_selected_table(self):
         current_tab_index = self.tab_widget.currentIndex()
@@ -380,6 +406,7 @@ class App(QWidget):
             data = json.load(file)
 
             # Внесите изменения в данные
+            data['scale'] = str(self.scale_combo.currentText()).strip()
             data['path'] = str(self.text_path.toPlainText()).strip()
             data['verificationer'] = str(self.verificationer_combo.currentText()).strip()
             data['INN'] = str(self.text_INN.toPlainText()).strip()
@@ -391,6 +418,10 @@ class App(QWidget):
             data['humidity'] = str(self.text_humidity.toPlainText()).strip()
             data['pressure'] = str(self.text_pressure.toPlainText()).strip()
             data['standarts'] = standarts
+
+            if self.label_text_voltage is not None:
+                data['voltage'] = str(self.text_voltage.toPlainText()).strip()
+                data['frequency'] = str(self.text_frequency.toPlainText()).strip()
 
             if self.button_use_excel.isChecked():
                 data['use_excel'] = True
@@ -430,6 +461,16 @@ class App(QWidget):
 
     def use_data(self):
         # Определите имя файла хранилища
+        file_name = 'config.json'
+
+        # Откройте файл хранилища
+        with open(file_name, 'r+') as file:
+            # Загрузите данные из файла
+            data = json.load(file)
+            use_data = data['use_data']
+
+
+        # Определите имя файла хранилища
         file_name = 'storage.json'
 
         # Откройте файл хранилища
@@ -438,26 +479,50 @@ class App(QWidget):
             data = json.load(file)
 
             # Достаньте нужные данные из словаря
-            self.text_path.setPlainText(data.get('path', ''))
-            self.verificationer_combo.setCurrentText(data.get('verificationer', ''))
-            self.text_INN.setPlainText(data.get('INN', ''))
-            self.text_company.setPlainText(data.get('company', ''))
-            self.text_legal_address.setPlainText(data.get('legal_address', ''))
-            self.text_inspection_address.setPlainText(data.get('inspection_address', ''))
-            inspection_date_str = data.get('inspection_date', '')
-            if inspection_date_str:
-                inspection_date_parts = inspection_date_str.split('.')
-                if len(inspection_date_parts) == 3:
-                    day = int(inspection_date_parts[0])
-                    month = int(inspection_date_parts[1])
-                    year = int(inspection_date_parts[2])
-                    self.inspection_date.setSelectedDate(QDate(year, month, day))
-            self.text_temperature.setPlainText(data.get('temperature', ''))
-            self.text_humidity.setPlainText(data.get('humidity', ''))
-            self.text_pressure.setPlainText(data.get('pressure', ''))
+            if use_data['scale']: self.scale_combo.setCurrentText(data.get('scale',''))
+            if use_data['path']: self.text_path.setPlainText(data.get('path', ''))
+            if use_data['verificationer']: self.verificationer_combo.setCurrentText(data.get('verificationer', ''))
+            if use_data['INN']: self.text_INN.setPlainText(data.get('INN', ''))
+            if use_data['company']: self.text_company.setPlainText(data.get('company', ''))
+            if use_data['legal_address']: self.text_legal_address.setPlainText(data.get('legal_address', ''))
+            if use_data['inspection_address']: self.text_inspection_address.setPlainText(data.get('inspection_address', ''))
+            if use_data['inspection_date']:
+                inspection_date_str = data.get('inspection_date', '')
+                if inspection_date_str:
+                    inspection_date_parts = inspection_date_str.split('.')
+                    if len(inspection_date_parts) == 3:
+                        day = int(inspection_date_parts[0])
+                        month = int(inspection_date_parts[1])
+                        year = int(inspection_date_parts[2])
+                        self.inspection_date.setSelectedDate(QDate(year, month, day))
+            if use_data['weather']:
+                self.text_temperature.setPlainText(data.get('temperature', ''))
+                self.text_humidity.setPlainText(data.get('humidity', ''))
+                self.text_pressure.setPlainText(data.get('pressure', ''))
 
-            if data.get('use_excel', False):
-                self.button_use_excel.setChecked(True)
+                if self.label_text_voltage is not None:
+                    self.text_voltage.setPlainText(data.get('voltage', ''))
+                    self.text_frequency.setPlainText(data.get('frequency', ''))
+
+            if use_data['use_excel']:
+                if data.get('use_excel', False):
+                    self.button_use_excel.setChecked(True)
+
+            if use_data['standarts']:
+                # Перебор всех вкладок
+                for index in range(self.tab_widget.count()):
+
+
+                    current_tab = self.tab_widget.widget(index)  # Получить виджет текущей вкладки
+
+                    table = current_tab.findChild(QTableWidget)
+                    for row in range(table.rowCount()):
+                        item = table.item(row, 1)
+                        if item.text() == data['standarts']:
+                            self.tab_widget.setCurrentIndex(index)  # Установить текущую вкладку
+                            # Выделяем найденную строку
+                            table.selectRow(row)
+
 
     def clean(self):
         self.text_path.clear()
@@ -469,6 +534,12 @@ class App(QWidget):
         self.text_temperature.clear()
         self.text_humidity.clear()
         self.text_pressure.clear()
+        self.button_use_excel.setChecked(False)
+        self.button_unfit.setChecked(False)
+
+        if self.label_text_voltage is not None:
+            self.text_voltage.clear()
+            self.text_frequency.clear()
 
     def settings(self):
         settings.SettingDialog().exec_()
@@ -486,6 +557,7 @@ class App(QWidget):
             # Получаем выбранные файлы
             selected_files = file_dialog.selectedFiles()
             for file in selected_files:
+
                 result = functions.create_template(file)
                 if result:
                     files[file] = 'Ошибка при создании шаблона'
@@ -493,6 +565,10 @@ class App(QWidget):
                     files[file] = 'Успешно'
                 else:
                     files[file] = f"Не удалось обнаружить {result}"
+
+                # Дополнительная проверка на формат
+                if os.path.splitext(file)[1] == '.doc':
+                    files[file] = 'Неверный формат файла (Нужен .docx)'
 
         class Create_template_Dialog(QDialog):
             def __init__(self):
@@ -511,7 +587,7 @@ class App(QWidget):
                 self.text_result.setReadOnly(True)
 
                 for key in files.keys():
-                    self.text_result.appendPlainText(f"{key}: {files[key]}")
+                    self.text_result.appendPlainText(f"{key}: {files[key]}\n")
 
                 main_layout.addWidget(self.label_text_result)
                 main_layout.addWidget(self.text_result)
