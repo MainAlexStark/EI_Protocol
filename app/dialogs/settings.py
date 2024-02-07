@@ -1,10 +1,14 @@
 from PyQt5.QtWidgets import QVBoxLayout, QLabel, QTableWidget, QTableWidgetItem, QDialog, QPushButton, QHBoxLayout, QCheckBox
 import json
 
+from loguru import logger
+
 
 class SettingDialog(QDialog):
     def __init__(self):
         super().__init__()
+
+        logger.info('SettingDialog(QDialog)')
 
         self.setGeometry(200, 200, 400, 400)
         self.setWindowTitle('Настройки')
@@ -26,6 +30,8 @@ class SettingDialog(QDialog):
         use_data_layout.addWidget(self.label_use_data)
 
         self.use_data_check_boxes = {'scale': QCheckBox("Весы"),
+                                     'num_scale': QCheckBox("Номер весов"),
+                                     'num_protocol': QCheckBox("Номер протокола"),
                                      'path': QCheckBox("Путь сохранения"),
                                      'verificationer': QCheckBox('Поверитель'),
                                      'company': QCheckBox('Компания'),
@@ -33,9 +39,9 @@ class SettingDialog(QDialog):
                                      'legal_address': QCheckBox('Юридический адрес'),
                                      'inspection_address': QCheckBox('Адрес поверки'),
                                      'inspection_date': QCheckBox('Дата'),
-                                     'weather': QCheckBox('Погодные условия'),
                                      'standarts': QCheckBox('Набор эталонов (Может работать неккоректно)'),
-                                     'use_excel': QCheckBox('Использовать excel')
+                                     'use_excel': QCheckBox('Использовать excel'),
+                                     'unfit': QCheckBox('Соответсвует/Несоответсвует')
                                      }
 
         for widget in self.use_data_check_boxes.values():
@@ -125,6 +131,6 @@ class SettingDialog(QDialog):
                 file.truncate()  # Обрежьте файл, если новые данные занимают меньше места, чем предыдущие
 
         except Exception as e:
-            print('Ошибка при сохранении в config.json:', e)
+            logger.error(f'Ошибка при сохранении в config.json: e')
 
         self.close()
