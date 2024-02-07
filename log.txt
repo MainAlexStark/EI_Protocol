@@ -1,0 +1,94 @@
+2024-02-08 02:09:04.833 | INFO     | __main__:initUI:69 - Start initUI
+2024-02-08 02:09:56.213 | INFO     | __main__:initUI:69 - Start initUI
+2024-02-08 02:10:02.774 | INFO     | __main__:scale_changed:413 - scale_changed
+2024-02-08 02:10:03.024 | INFO     | __main__:scale_changed:413 - scale_changed
+2024-02-08 02:10:03.504 | INFO     | __main__:scale_changed:413 - scale_changed
+2024-02-08 02:10:03.683 | INFO     | __main__:scale_changed:413 - scale_changed
+2024-02-08 02:10:04.186 | INFO     | __main__:scale_changed:413 - scale_changed
+2024-02-08 02:10:04.396 | INFO     | __main__:scale_changed:413 - scale_changed
+2024-02-08 02:10:04.605 | INFO     | __main__:scale_changed:413 - scale_changed
+2024-02-08 02:10:05.360 | INFO     | __main__:scale_changed:413 - scale_changed
+2024-02-08 02:10:05.516 | INFO     | __main__:scale_changed:413 - scale_changed
+2024-02-08 02:10:05.737 | INFO     | __main__:scale_changed:413 - scale_changed
+2024-02-08 02:10:10.450 | INFO     | __main__:verificationer_changed:453 - verificationer_changed
+2024-02-08 02:10:55.060 | INFO     | __main__:initUI:69 - Start initUI
+2024-02-08 02:10:58.269 | INFO     | __main__:verificationer_changed:453 - verificationer_changed
+2024-02-08 02:11:16.182 | INFO     | __main__:use_data:514 - use_data
+2024-02-08 02:11:16.191 | INFO     | __main__:scale_changed:413 - scale_changed
+2024-02-08 02:11:30.573 | INFO     | __main__:use_data:514 - use_data
+2024-02-08 02:11:30.574 | INFO     | __main__:scale_changed:413 - scale_changed
+2024-02-08 02:11:33.340 | INFO     | __main__:create_template:613 - create_template
+2024-02-08 02:11:47.004 | INFO     | __main__:__init__:644 - Create_template_Dialog(QDialog)
+2024-02-08 02:12:08.510 | INFO     | __main__:create_template:613 - create_template
+2024-02-08 02:12:14.594 | DEBUG    | functions:create_template:23 - CREATE TEMPLATE
+2024-02-08 02:12:14.600 | DEBUG    | functions:create_template:31 - File for Template Open (C:/Users/apras/Documents/Projects/EI_Protocol/templates/ Весы электронные с программируемыми пределами взвешивания и дискретностью отсчета ПВм-3-150 35315-07.docx)
+2024-02-08 02:12:14.601 | ERROR    | functions:create_template:213 - Error create tempalte: list index out of range
+2024-02-08 02:12:14.602 | INFO     | __main__:__init__:644 - Create_template_Dialog(QDialog)
+2024-02-08 02:12:21.114 | INFO     | __main__:create_template:613 - create_template
+2024-02-08 02:12:22.820 | DEBUG    | functions:create_template:23 - CREATE TEMPLATE
+2024-02-08 02:12:22.838 | DEBUG    | functions:create_template:31 - File for Template Open (C:/Users/apras/Documents/Projects/EI_Protocol/templates/Весы настольные циферблатные РН-3Ц13У 8474-81.docx)
+2024-02-08 02:12:22.905 | DEBUG    | functions:create_template:199 - номер протокола: НОМЕР_ПРОТОКОЛА_ПЕРЕМЕННАЯ
+2024-02-08 02:12:22.906 | DEBUG    | functions:create_template:199 - весы: Весы настольные циферблатные РН-3Ц13У
+2024-02-08 02:12:22.907 | DEBUG    | functions:create_template:199 - номер весов: НОМЕР_ВЕСОВ_ПЕРЕМЕННАЯ
+2024-02-08 02:12:22.907 | DEBUG    | functions:create_template:199 - компания: КОМПАНИЯ_ПЕРЕМЕННАЯ ИНН НОМЕР_ИНН_ПЕРЕМЕННАЯ, ЮРИДИЧЕСКИЙ_АДРЕС_ПЕРЕМЕННА
+2024-02-08 02:12:22.907 | DEBUG    | functions:create_template:199 - место поверки: МЕСТО_ПОВЕРКИ_ПЕРЕМЕННАЯ
+2024-02-08 02:12:22.908 | DEBUG    | functions:create_template:199 - фиф: 8474-81
+2024-02-08 02:12:22.909 | DEBUG    | functions:create_template:199 - температура: ТЕМПЕРАТУРА_ПЕРЕМЕННАЯ
+2024-02-08 02:12:22.909 | DEBUG    | functions:create_template:199 - влажность: ВЛАЖНОСТЬ_ПЕРЕМЕННАЯ
+2024-02-08 02:12:22.910 | DEBUG    | functions:create_template:199 - давление: ДАВЛЕНИЕ_ПЕРЕМЕННАЯ
+2024-02-08 02:12:22.910 | DEBUG    | functions:create_template:199 - поверитель: ПОВЕРИТЕЛЬПЕРЕМЕННАЯ
+2024-02-08 02:12:22.910 | DEBUG    | functions:create_template:199 - дата поверки: ДАТА_ПОВЕРКИ_ПЕРЕМЕННАЯ
+2024-02-08 02:12:22.918 | DEBUG    | functions:create_template:209 - File was save
+2024-02-08 02:12:22.919 | INFO     | __main__:__init__:644 - Create_template_Dialog(QDialog)
+2024-02-08 02:12:25.276 | INFO     | __main__:create_template:613 - create_template
+2024-02-08 02:12:26.983 | DEBUG    | functions:create_template:23 - CREATE TEMPLATE
+2024-02-08 02:12:26.989 | DEBUG    | functions:create_template:31 - File for Template Open (C:/Users/apras/Documents/Projects/EI_Protocol/templates/Весы электронные с программируемыми пределами взвешивания и дискретностью отсчета ПВм-3-150 35315-07.docx)
+2024-02-08 02:12:26.990 | ERROR    | functions:create_template:213 - Error create tempalte: list index out of range
+2024-02-08 02:12:26.990 | INFO     | __main__:__init__:644 - Create_template_Dialog(QDialog)
+2024-02-08 02:12:36.668 | INFO     | __main__:create_protocol:467 - create_protocol
+2024-02-08 02:12:36.669 | DEBUG    | functions:make_new_protocol:222 - CREATE PROTOCOL
+2024-02-08 02:12:36.670 | DEBUG    | functions:make_new_protocol:229 - scale: Весы настольные циферблатные РН-3Ц13У 8474-81
+2024-02-08 02:12:36.670 | DEBUG    | functions:make_new_protocol:229 - path: C:/Programming/Python/EI_protocols
+2024-02-08 02:12:36.670 | DEBUG    | functions:make_new_protocol:229 - num_protocol: ЕИ-01-03-
+2024-02-08 02:12:36.670 | DEBUG    | functions:make_new_protocol:229 - num_scale: 
+2024-02-08 02:12:36.671 | DEBUG    | functions:make_new_protocol:229 - company: company
+2024-02-08 02:12:36.671 | DEBUG    | functions:make_new_protocol:229 - INN: INN
+2024-02-08 02:12:36.671 | DEBUG    | functions:make_new_protocol:229 - legal_address: place
+2024-02-08 02:12:36.672 | DEBUG    | functions:make_new_protocol:229 - inspection_address: place
+2024-02-08 02:12:36.672 | DEBUG    | functions:make_new_protocol:229 - temperature: temp
+2024-02-08 02:12:36.672 | DEBUG    | functions:make_new_protocol:229 - humidity: hum
+2024-02-08 02:12:36.673 | DEBUG    | functions:make_new_protocol:229 - pressure: press
+2024-02-08 02:12:36.673 | DEBUG    | functions:make_new_protocol:229 - verificationer: Стариков
+2024-02-08 02:12:36.673 | DEBUG    | functions:make_new_protocol:229 - unfit: True
+2024-02-08 02:12:36.674 | DEBUG    | functions:make_new_protocol:229 - use_excel: False
+2024-02-08 02:12:36.674 | DEBUG    | functions:make_new_protocol:229 - inspection_date: 07.02.2024
+2024-02-08 02:12:36.675 | DEBUG    | functions:make_new_protocol:229 - standarts: Набор гирь 1 мг-500 г F1 рег. № в ФИФ 58463-14, №PV156, 2 разряд;
+Гиря М1 500 г рег. № в ФИФ 58048-14 №796242, 4 разряд;
+Гиря М1 1 кг рег. № в ФИФ 58048-14 №796241, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796236, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796237, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №796238, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №812854, 4 разряд
+2024-02-08 02:12:36.778 | INFO     | functions:make_new_protocol:232 - File for protocol Open: Весы настольные циферблатные РН-3Ц13У 8474-81.docx
+2024-02-08 02:12:36.785 | ERROR    | functions:make_new_protocol:268 - Error create protocol: [Errno 2] No such file or directory: 'C:/Programming/Python/EI_protocols/Весы настольные циферблатные РН-3Ц13У 8474-81.docx'
+2024-02-08 02:12:36.786 | INFO     | __main__:verificationer_changed:453 - verificationer_changed
+2024-02-08 02:13:09.834 | INFO     | __main__:create_template:613 - create_template
+2024-02-08 02:13:16.911 | DEBUG    | functions:create_template:23 - CREATE TEMPLATE
+2024-02-08 02:13:16.915 | DEBUG    | functions:create_template:31 - File for Template Open (C:/Users/apras/Documents/Projects/EI_Protocol/templates/Влагомеры весовые, ML-50 40496-09.docx)
+2024-02-08 02:13:16.916 | ERROR    | functions:create_template:213 - Error create tempalte: list index out of range
+2024-02-08 02:13:16.916 | INFO     | __main__:__init__:644 - Create_template_Dialog(QDialog)
+2024-02-08 02:13:20.718 | INFO     | __main__:create_template:613 - create_template
+2024-02-08 02:13:21.835 | DEBUG    | functions:create_template:23 - CREATE TEMPLATE
+2024-02-08 02:13:21.847 | DEBUG    | functions:create_template:31 - File for Template Open (C:/Users/apras/Documents/Projects/EI_Protocol/templates/Весы электронные тензометрические для статического взвешивания МП 150 ВДА Ф-2 (20-50; 450x600) 53638-13.docx)
+2024-02-08 02:13:21.848 | ERROR    | functions:create_template:213 - Error create tempalte: list index out of range
+2024-02-08 02:13:21.848 | INFO     | __main__:__init__:644 - Create_template_Dialog(QDialog)
+2024-02-08 02:13:24.925 | INFO     | __main__:create_template:613 - create_template
+2024-02-08 02:13:25.965 | DEBUG    | functions:create_template:23 - CREATE TEMPLATE
+2024-02-08 02:13:25.970 | DEBUG    | functions:create_template:31 - File for Template Open (C:/Users/apras/Documents/Projects/EI_Protocol/templates/Весы неавтоматического действия МП 60 ВДА (10.20;400х500) НОМ ЕР_ФИФ.docx)
+2024-02-08 02:13:26.010 | ERROR    | functions:create_template:213 - Error create tempalte: "no style with name 'Normal'"
+2024-02-08 02:13:26.011 | INFO     | __main__:__init__:644 - Create_template_Dialog(QDialog)
+2024-02-08 02:13:34.076 | INFO     | __main__:create_template:613 - create_template
+2024-02-08 02:13:39.694 | DEBUG    | functions:create_template:23 - CREATE TEMPLATE
+2024-02-08 02:13:39.699 | DEBUG    | functions:create_template:31 - File for Template Open (C:/Users/apras/Documents/Projects/EI_Protocol/templates/Весы неавтоматического действия МП 60 ВДА (10.20;400х500) НОМ ЕР_ФИФ.docx)
+2024-02-08 02:13:39.740 | ERROR    | functions:create_template:213 - Error create tempalte: "no style with name 'Normal'"
+2024-02-08 02:13:39.741 | INFO     | __main__:__init__:644 - Create_template_Dialog(QDialog)

@@ -5,8 +5,9 @@ import json
 import os
 
 from loguru import logger
+from icecream import ic
 
-from app.__main__ import main_path, App
+main_path = os.path.abspath(os.path.join(os.path.dirname("../__main__.py")))
 
 class TableWidget(QTableWidget):
 

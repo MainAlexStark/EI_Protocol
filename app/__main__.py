@@ -74,7 +74,7 @@ class App(QWidget):
 
 
         # Определите имя файла хранилища
-        file_name = 'config.json'
+        file_name = 'app/config.json'
 
         # Откройте файл хранилища
         with open(file_name, 'r+') as file:
@@ -176,7 +176,7 @@ class App(QWidget):
 
         # Verificationer
         # Определите имя файла хранилища
-        file_name = 'config.json'
+        file_name = 'app/config.json'
 
         # Массив с поверителями
         ver = []
@@ -452,7 +452,7 @@ class App(QWidget):
     def verificationer_changed(self):
         logger.info('verificationer_changed')
         # Определите имя файла хранилища
-        file_name = 'config.json'
+        file_name = 'app/config.json'
 
         # Откройте файл хранилища
         with open(file_name, 'r+') as file:
@@ -472,7 +472,7 @@ class App(QWidget):
         standarts = self.get_selected_table().item(self.get_selected_table().currentRow(), 1).text()
 
         # Определите имя файла хранилища
-        file_name = 'storage.json'
+        file_name = 'app/storage.json'
 
         # Проверьте, существует ли файл, если нет, создайте пустой словарь
         if not os.path.exists(file_name):
@@ -514,7 +514,7 @@ class App(QWidget):
         logger.info('use_data')
 
         # Определите имя файла хранилища
-        file_name = 'config.json'
+        file_name = 'app/config.json'
 
         # Откройте файл хранилища
         with open(file_name, 'r+') as file:
@@ -524,7 +524,7 @@ class App(QWidget):
 
 
         # Определите имя файла хранилища
-        file_name = 'storage.json'
+        file_name = 'app/storage.json'
 
         # Откройте файл хранилища
         with open(file_name, 'r') as file:
@@ -542,7 +542,7 @@ class App(QWidget):
                     for widget_name in self.var_boxes.text_boxes.keys():
                         # Если названия сходятся
                         if name == widget_name:
-                            # Устанавливаем значение из storage.json в текст виджета
+                            # Устанавливаем значение из app/storage.json в текст виджета
                             self.var_boxes.text_boxes[widget_name].setPlainText(data[name])
                 except:
                     logger.error('Ошибка при установлении значений в self.var_boxes.text_boxes')
@@ -552,7 +552,7 @@ class App(QWidget):
                     for widget_name in self.var_boxes.combo_boxes.keys():
                         # Если названия сходятся
                         if name == widget_name:
-                            # Устанавливаем значение из storage.json в текст виджета
+                            # Устанавливаем значение из app/storage.json в текст виджета
                             self.var_boxes.combo_boxes[widget_name].setCurrentText(data[name])
                 except:
                     logger.error('Ошибка при установлении значений в self.var_boxes.combo_boxes')
@@ -562,7 +562,7 @@ class App(QWidget):
                     for widget_name in self.buttons.CheckableButtons.keys():
                         # Если названия сходятся
                         if name == widget_name:
-                            # Устанавливаем значение из storage.json в текст виджета
+                            # Устанавливаем значение из app/storage.json в текст виджета
                             self.buttons.CheckableButtons[widget_name].setChecked(data[name])
                 except:
                     logger.error('Ошибка при установлении значений в self.buttons.CheckableButtons')
