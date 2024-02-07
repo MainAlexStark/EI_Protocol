@@ -5,7 +5,6 @@ import json
 import os
 
 from loguru import logger
-from icecream import ic
 
 main_path = os.path.abspath(os.path.join(os.path.dirname("../__main__.py")))
 
