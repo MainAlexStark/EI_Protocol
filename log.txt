@@ -1,1 +1,0 @@
-2024-02-08 02:45:29.888 | INFO     | __main__:initUI:69 - Start initUI
