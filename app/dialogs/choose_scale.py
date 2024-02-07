@@ -8,7 +8,6 @@ from loguru import logger
 
 from app.__main__ import main_path, App
 
-
 class TableWidget(QTableWidget):
 
     def __init__(self, parent=None):

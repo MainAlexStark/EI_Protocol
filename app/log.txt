@@ -2646,3 +2646,12 @@
 2024-02-07 04:22:26.930 | INFO     | functions:make_new_protocol:232 - File for protocol Open: Весы настольные циферблатные РН-3Ц13У 8474-81.docx
 2024-02-07 04:22:26.940 | DEBUG    | functions:make_new_protocol:261 - Protocol File was Save: C:/Programming/Python/EI_protocols/Весы настольные циферблатные РН-3Ц13У 8474-81.docx
 2024-02-07 04:22:26.941 | INFO     | __main__:verificationer_changed:453 - verificationer_changed
+2024-02-07 16:29:38.053 | INFO     | __main__:initUI:69 - Start initUI
+2024-02-07 16:29:44.942 | INFO     | __main__:use_data:514 - use_data
+2024-02-07 16:29:44.951 | INFO     | __main__:verificationer_changed:453 - verificationer_changed
+2024-02-07 16:29:44.953 | INFO     | __main__:scale_changed:413 - scale_changed
+2024-02-07 16:29:53.068 | INFO     | __main__:choose_scale:404 - choose_scale
+2024-02-07 16:29:53.069 | INFO     | dialogs.choose_scale:__init__:40 - ChooseScaleDialog(QDialog)
+2024-02-08 00:21:54.896 | INFO     | __main__:initUI:69 - Start initUI
+2024-02-08 00:22:39.498 | INFO     | __main__:initUI:69 - Start initUI
+2024-02-08 00:25:09.793 | INFO     | __main__:initUI:69 - Start initUI
