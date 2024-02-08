@@ -2652,6 +2652,61 @@
 2024-02-07 16:29:44.953 | INFO     | __main__:scale_changed:413 - scale_changed
 2024-02-07 16:29:53.068 | INFO     | __main__:choose_scale:404 - choose_scale
 2024-02-07 16:29:53.069 | INFO     | dialogs.choose_scale:__init__:40 - ChooseScaleDialog(QDialog)
-2024-02-08 00:21:54.896 | INFO     | __main__:initUI:69 - Start initUI
-2024-02-08 00:22:39.498 | INFO     | __main__:initUI:69 - Start initUI
-2024-02-08 00:25:09.793 | INFO     | __main__:initUI:69 - Start initUI
+2024-02-08 00:26:58.759 | INFO     | __main__:initUI:69 - Start initUI
+2024-02-08 00:36:06.214 | INFO     | __main__:initUI:69 - Start initUI
+2024-02-08 01:52:47.338 | INFO     | __main__:initUI:279 - Start initUI
+2024-02-08 01:53:26.133 | INFO     | __main__:initUI:279 - Start initUI
+2024-02-08 01:55:57.230 | INFO     | __main__:initUI:279 - Start initUI
+2024-02-08 01:56:09.453 | INFO     | __main__:initUI:279 - Start initUI
+2024-02-08 02:13:37.296 | INFO     | __main__:initUI:279 - Start initUI
+2024-02-08 02:13:38.915 | INFO     | __main__:create_template:823 - create_template
+2024-02-08 02:14:07.073 | DEBUG    | functions:create_template:23 - CREATE TEMPLATE
+2024-02-08 02:14:07.082 | DEBUG    | functions:create_template:31 - File for Template Open (C:/Programming/Python/EI_protocols/app/documents/Документ Microsoft Word.docx)
+2024-02-08 02:14:07.163 | DEBUG    | functions:create_template:199 - номер протокола: ЕИ-06-02-00056
+2024-02-08 02:14:07.163 | DEBUG    | functions:create_template:199 - весы: Влагомеры весовые, ML-50
+2024-02-08 02:14:07.164 | DEBUG    | functions:create_template:199 - номер весов: P 1047231
+2024-02-08 02:14:07.164 | DEBUG    | functions:create_template:199 - компания: ООО «Богородский молочный завод»
+2024-02-08 02:14:07.164 | DEBUG    | functions:create_template:199 - инн: 4304002110
+2024-02-08 02:14:07.166 | DEBUG    | functions:create_template:199 - юридический адрес: Россия, 612470, Кировская область, Богородский район, пгт. Богородское, ул.Советская, д.4
+2024-02-08 02:14:07.166 | DEBUG    | functions:create_template:199 - место поверки: Кирово-Чепецкий р-н, с/пос Пасеговское, д. 6
+2024-02-08 02:14:07.167 | DEBUG    | functions:create_template:199 - фиф: 40496-09
+2024-02-08 02:14:07.167 | DEBUG    | functions:create_template:199 - температура: 21,7
+2024-02-08 02:14:07.167 | DEBUG    | functions:create_template:199 - влажность: 37,5
+2024-02-08 02:14:07.168 | DEBUG    | functions:create_template:199 - давление: 100,4
+2024-02-08 02:14:07.168 | DEBUG    | functions:create_template:199 - Частота: 50
+2024-02-08 02:14:07.168 | DEBUG    | functions:create_template:199 - поверитель:     С.В.Стариков
+2024-02-08 02:14:07.168 | DEBUG    | functions:create_template:199 - дата поверки: 23 января 2024
+2024-02-08 02:14:07.169 | ERROR    | functions:create_template:213 - Error create tempalte: [Errno 2] No such file or directory: 'C:\\Programming\\Python\\EI_protocols/templates/Влагомеры весовые, ML-50 40496-09.docx'
+2024-02-08 02:14:07.169 | INFO     | __main__:__init__:854 - Create_template_Dialog(QDialog)
+2024-02-08 02:16:20.209 | INFO     | __main__:initUI:279 - Start initUI
+2024-02-08 02:16:21.705 | INFO     | __main__:create_template:823 - create_template
+2024-02-08 02:16:25.117 | DEBUG    | functions:create_template:23 - CREATE TEMPLATE
+2024-02-08 02:16:25.127 | DEBUG    | functions:create_template:28 - File for Template Open (C:/Programming/Python/EI_protocols/app/documents/Документ Microsoft Word.docx)
+2024-02-08 02:16:25.182 | DEBUG    | functions:create_template:196 - номер протокола: ЕИ-06-02-00056
+2024-02-08 02:16:25.183 | DEBUG    | functions:create_template:196 - весы: Влагомеры весовые, ML-50
+2024-02-08 02:16:25.184 | DEBUG    | functions:create_template:196 - номер весов: P 1047231
+2024-02-08 02:16:25.184 | DEBUG    | functions:create_template:196 - компания: ООО «Богородский молочный завод»
+2024-02-08 02:16:25.184 | DEBUG    | functions:create_template:196 - инн: 4304002110
+2024-02-08 02:16:25.185 | DEBUG    | functions:create_template:196 - юридический адрес: Россия, 612470, Кировская область, Богородский район, пгт. Богородское, ул.Советская, д.4
+2024-02-08 02:16:25.185 | DEBUG    | functions:create_template:196 - место поверки: Кирово-Чепецкий р-н, с/пос Пасеговское, д. 6
+2024-02-08 02:16:25.186 | DEBUG    | functions:create_template:196 - фиф: 40496-09
+2024-02-08 02:16:25.186 | DEBUG    | functions:create_template:196 - температура: 21,7
+2024-02-08 02:16:25.186 | DEBUG    | functions:create_template:196 - влажность: 37,5
+2024-02-08 02:16:25.187 | DEBUG    | functions:create_template:196 - давление: 100,4
+2024-02-08 02:16:25.187 | DEBUG    | functions:create_template:196 - Частота: 50
+2024-02-08 02:16:25.187 | DEBUG    | functions:create_template:196 - поверитель:     С.В.Стариков
+2024-02-08 02:16:25.188 | DEBUG    | functions:create_template:196 - дата поверки: 23 января 2024
+2024-02-08 02:16:25.193 | DEBUG    | functions:create_template:206 - File was save
+2024-02-08 02:16:25.194 | INFO     | __main__:__init__:854 - Create_template_Dialog(QDialog)
+2024-02-08 02:16:28.422 | INFO     | __main__:create_protocol:677 - create_protocol
+2024-02-08 02:18:10.560 | INFO     | __main__:initUI:279 - Start initUI
+2024-02-08 02:18:13.431 | INFO     | __main__:choose_scale:614 - choose_scale
+2024-02-08 02:18:13.432 | INFO     | __main__:__init__:30 - ChooseScaleDialog(QDialog)
+2024-02-08 02:18:13.432 | ERROR    | __main__:__init__:81 - Error init ChooseScaleDialog(QDialog) : [WinError 3] Системе не удается найти указанный путь: 'C:\\Programming\\Python\\EI_protocols\\templates'
+2024-02-08 02:20:31.998 | INFO     | __main__:initUI:278 - Start initUI
+2024-02-08 02:20:33.325 | INFO     | __main__:choose_scale:613 - choose_scale
+2024-02-08 02:20:33.325 | INFO     | __main__:__init__:30 - ChooseScaleDialog(QDialog)
+2024-02-08 02:20:35.071 | INFO     | __main__:scale_changed:622 - scale_changed
+2024-02-08 02:20:40.534 | INFO     | __main__:add_path:657 - add_path
+2024-02-08 02:20:43.514 | INFO     | __main__:settings:817 - settings
+2024-02-08 02:20:43.515 | INFO     | __main__:__init__:102 - SettingDialog(QDialog)

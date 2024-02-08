@@ -1,7 +1,7 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QPlainTextEdit, QComboBox, \
     QLabel, QCalendarWidget, QCompleter, QDialog, QFileDialog, QTableWidget, QTableWidgetItem, \
-    QTabWidget, QAbstractItemView
+    QTabWidget, QAbstractItemView, QCheckBox
 from PyQt5.QtCore import QDate
 from PyQt5 import QtCore
 
@@ -11,11 +11,220 @@ import os
 from docx import Document
 
 import functions
-from dialogs import settings, choose_scale
 
 from loguru import logger
 
 main_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+
+class ChooseScaleDialog(QDialog):
+
+    selected_scale = ''
+
+    def __init__(self, main_window):
+        try:
+            super().__init__()
+
+            self.main_window = main_window
+
+            logger.info('ChooseScaleDialog(QDialog)')
+
+            length_window = 1000
+            width_window = 600
+
+            self.setGeometry(200, 200, length_window, width_window)
+            self.setWindowTitle('Выбрать весы')
+
+            self.main_layout = QVBoxLayout()
+
+            # Достаем все имена файлов шаблонов и добавляем в выпадающий список
+            self.files = []
+            for file in os.listdir('templates'):
+                self.files.append(file.replace('.docx', ''))
+
+            # Поиск
+
+            self.label_text_scale = QLabel("Поиск:")
+            self.text_scale = QPlainTextEdit(self)
+            self.text_scale.setFixedSize(500, 40)
+
+            self.text_scale.textChanged.connect(self.text_scale_changed)
+
+            self.main_layout.addWidget(self.label_text_scale)
+            self.main_layout.addWidget(self.text_scale)
+
+            # Таблица с весами
+            self.label_text_table_scales = QLabel("Весы:")
+            self.table_scales = QTableWidget()
+            self.table_scales.setRowCount(len(self.files))
+            self.table_scales.setColumnCount(1)
+
+            self.table_scales.currentItemChanged.connect(self.item_changed)
+
+            self.table_scales.setEditTriggers(QAbstractItemView.NoEditTriggers)  # Запрещаем редактирование
+
+            self.table_scales.setColumnWidth(0, 940)
+
+            i = 0
+            for file_name in self.files:
+                self.table_scales.setItem(i,0, QTableWidgetItem(file_name))
+                i += 1
+
+            self.main_layout.addWidget(self.label_text_table_scales)
+            self.main_layout.addWidget(self.table_scales)
+
+
+            self.setLayout(self.main_layout)
+
+        except Exception as e:
+            logger.error(f'Error init ChooseScaleDialog(QDialog) : {e}')
+
+    def text_scale_changed(self):
+        search_text = self.text_scale.toPlainText().lower()  # Получаем текст поиска в нижнем регистре
+        self.table_scales.setRowCount(0)  # Удаляем все строки из таблицы
+
+        for file_name in self.files:
+            if search_text in file_name.lower():  # Проверяем, соответствует ли имя файла поисковому запросу
+                row_count = self.table_scales.rowCount()
+                self.table_scales.insertRow(row_count)  # Вставляем новую строку
+                self.table_scales.setItem(row_count, 0, QTableWidgetItem(file_name))
+
+
+    def item_changed(self):
+
+        self.main_window.text_scale.setPlainText(self.table_scales.currentItem().text())
+
+
+class SettingDialog(QDialog):
+    def __init__(self):
+        super().__init__()
+
+        logger.info('SettingDialog(QDialog)')
+
+        self.setGeometry(200, 200, 400, 400)
+        self.setWindowTitle('Настройки')
+
+        main_layout = QHBoxLayout()
+        verificationers_layout = QVBoxLayout()
+        use_data_layout = QVBoxLayout()
+
+        # Поверители
+        self.label_text_verificationers = QLabel("Поверители:")
+        self.table_verificationers = QTableWidget()
+        self.table_verificationers.setRowCount(10)
+        self.table_verificationers.setColumnCount(2)
+        verificationers_layout.addWidget(self.label_text_verificationers)
+        verificationers_layout.addWidget(self.table_verificationers)
+
+        # Настройки использования преведущих данных
+        self.label_use_data = QLabel("Использовать преведущие данные:")
+        use_data_layout.addWidget(self.label_use_data)
+
+        self.use_data_check_boxes = {'scale': QCheckBox("Весы"),
+                                     'num_scale': QCheckBox("Номер весов"),
+                                     'num_protocol': QCheckBox("Номер протокола"),
+                                     'path': QCheckBox("Путь сохранения"),
+                                     'verificationer': QCheckBox('Поверитель'),
+                                     'company': QCheckBox('Компания'),
+                                     'INN': QCheckBox('ИНН'),
+                                     'legal_address': QCheckBox('Юридический адрес'),
+                                     'inspection_address': QCheckBox('Адрес поверки'),
+                                     'inspection_date': QCheckBox('Дата'),
+                                     'standarts': QCheckBox('Набор эталонов (Может работать неккоректно)'),
+                                     'use_excel': QCheckBox('Использовать excel'),
+                                     'unfit': QCheckBox('Соответсвует/Несоответсвует')
+                                     }
+
+        for widget in self.use_data_check_boxes.values():
+            use_data_layout.addWidget(widget)
+
+        # Определите имя файла хранилища
+        file_name = 'config.json'
+
+        # Откройте файл хранилища
+        with open(file_name, 'r+') as file:
+            # Загрузите данные из файла
+            data = json.load(file)
+
+            verificationers = data['verificationers']
+
+            i = 0
+            for verificationer in verificationers.keys():
+                self.table_verificationers.setItem(i, 0, QTableWidgetItem(verificationer))
+                self.table_verificationers.setItem(i, 1, QTableWidgetItem(verificationers[verificationer]))
+                i += 1
+
+            use_data = data['use_data']
+
+            for key in use_data.keys():
+                self.use_data_check_boxes[key].setChecked(use_data[key])
+
+
+
+
+        # Кнопки
+
+        # Сохранить
+        self.button_save = QPushButton('Сохранить', self)
+        self.button_save.setFixedSize(500, 40)
+        self.button_save.clicked.connect(self.save)  # Привязываем функцию
+        verificationers_layout.addWidget(self.button_save)  # Добавляем в layout
+
+        # Use_all
+        self.button_use_all = QPushButton('Выбрать все', self)
+        self.button_use_all.setFixedSize(500, 40)
+        self.button_use_all.setCheckable(True)
+        self.button_use_all.clicked.connect(self.use_all)  # Привязываем функцию
+        use_data_layout.addWidget(self.button_use_all)  # Добавляем в layout
+
+        main_layout.addLayout(verificationers_layout)
+        main_layout.addLayout(use_data_layout)
+        self.setLayout(main_layout)
+
+    def use_all(self):
+        if self.button_use_all.isChecked():
+            for widjet in self.use_data_check_boxes.values():
+                widjet.setChecked(True)
+        else:
+            for widjet in self.use_data_check_boxes.values():
+                widjet.setChecked(False)
+
+    def save(self):
+        try:
+            # Определите имя файла хранилища
+            file_name = 'config.json'
+
+            # Откройте файл хранилища
+            with open(file_name, 'r+') as file:
+                # Загрузите данные из файла
+                data = json.load(file)
+
+                # Очистите предыдущие данные
+                data['verificationers'] = {}
+
+                dictionary = data['verificationers']
+
+                for i in range(self.table_verificationers.rowCount()):
+                    item_0 = self.table_verificationers.item(i, 0)
+                    item_1 = self.table_verificationers.item(i, 1)
+                    if item_0 is not None and item_1 is not None:
+                        dictionary[item_0.text()] = item_1.text()
+
+                # Очистите предыдущие данные
+                data['use_data'] = {}
+
+                for key in self.use_data_check_boxes.keys():
+                    data['use_data'][key] = self.use_data_check_boxes[key].isChecked()
+
+                # Запишите обновленные данные обратно в файл
+                file.seek(0)  # Переместите курсор в начало файла
+                json.dump(data, file)
+                file.truncate()  # Обрежьте файл, если новые данные занимают меньше места, чем предыдущие
+
+        except Exception as e:
+            logger.error(f'Ошибка при сохранении в config.json: e')
+
+        self.close()
 
 
 class App(QWidget):
@@ -74,7 +283,7 @@ class App(QWidget):
 
 
         # Определите имя файла хранилища
-        file_name = 'app/config.json'
+        file_name = 'config.json'
 
         # Откройте файл хранилища
         with open(file_name, 'r+') as file:
@@ -176,7 +385,7 @@ class App(QWidget):
 
         # Verificationer
         # Определите имя файла хранилища
-        file_name = 'app/config.json'
+        file_name = 'config.json'
 
         # Массив с поверителями
         ver = []
@@ -353,7 +562,7 @@ class App(QWidget):
         self.tab_widget.setFixedSize(850, 800)
 
         # Укажите путь к нужной папке
-        folder_path = f'{main_path}/standarts'
+        folder_path = f'standarts'
         file_names = os.listdir(folder_path)
 
         for file_name in file_names:
@@ -365,7 +574,7 @@ class App(QWidget):
             Qtable.setEditTriggers(QAbstractItemView.NoEditTriggers)  # Запрещаем редактирование
             # Добавление столбцов и строк в таблицу
             # Открываем docx документ
-            document = Document(f"{main_path}/standarts/{file_name}")
+            document = Document(f"standarts/{file_name}")
 
             # Получаем первую таблицу из документа
             table = document.tables[0]
@@ -403,7 +612,7 @@ class App(QWidget):
     def choose_scale(self):
         logger.info('choose_scale')
 
-        choose_scale.ChooseScaleDialog(self).exec_()
+        ChooseScaleDialog(self).exec_()
 
 
 
@@ -452,7 +661,7 @@ class App(QWidget):
     def verificationer_changed(self):
         logger.info('verificationer_changed')
         # Определите имя файла хранилища
-        file_name = 'app/config.json'
+        file_name = 'config.json'
 
         # Откройте файл хранилища
         with open(file_name, 'r+') as file:
@@ -472,7 +681,7 @@ class App(QWidget):
         standarts = self.get_selected_table().item(self.get_selected_table().currentRow(), 1).text()
 
         # Определите имя файла хранилища
-        file_name = 'app/storage.json'
+        file_name = 'storage.json'
 
         # Проверьте, существует ли файл, если нет, создайте пустой словарь
         if not os.path.exists(file_name):
@@ -514,7 +723,7 @@ class App(QWidget):
         logger.info('use_data')
 
         # Определите имя файла хранилища
-        file_name = 'app/config.json'
+        file_name = 'config.json'
 
         # Откройте файл хранилища
         with open(file_name, 'r+') as file:
@@ -524,7 +733,7 @@ class App(QWidget):
 
 
         # Определите имя файла хранилища
-        file_name = 'app/storage.json'
+        file_name = 'storage.json'
 
         # Откройте файл хранилища
         with open(file_name, 'r') as file:
@@ -542,7 +751,7 @@ class App(QWidget):
                     for widget_name in self.var_boxes.text_boxes.keys():
                         # Если названия сходятся
                         if name == widget_name:
-                            # Устанавливаем значение из app/storage.json в текст виджета
+                            # Устанавливаем значение из storage.json в текст виджета
                             self.var_boxes.text_boxes[widget_name].setPlainText(data[name])
                 except:
                     logger.error('Ошибка при установлении значений в self.var_boxes.text_boxes')
@@ -552,7 +761,7 @@ class App(QWidget):
                     for widget_name in self.var_boxes.combo_boxes.keys():
                         # Если названия сходятся
                         if name == widget_name:
-                            # Устанавливаем значение из app/storage.json в текст виджета
+                            # Устанавливаем значение из storage.json в текст виджета
                             self.var_boxes.combo_boxes[widget_name].setCurrentText(data[name])
                 except:
                     logger.error('Ошибка при установлении значений в self.var_boxes.combo_boxes')
@@ -562,7 +771,7 @@ class App(QWidget):
                     for widget_name in self.buttons.CheckableButtons.keys():
                         # Если названия сходятся
                         if name == widget_name:
-                            # Устанавливаем значение из app/storage.json в текст виджета
+                            # Устанавливаем значение из storage.json в текст виджета
                             self.buttons.CheckableButtons[widget_name].setChecked(data[name])
                 except:
                     logger.error('Ошибка при установлении значений в self.buttons.CheckableButtons')
@@ -607,7 +816,7 @@ class App(QWidget):
     def settings(self):
         logger.info('settings')
 
-        settings.SettingDialog().exec_()
+        SettingDialog().exec_()
 
     def create_template(self):
         logger.info('create_template')

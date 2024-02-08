@@ -22,9 +22,6 @@ def extract_value(text, start_text, end_text):
 def create_template(path:str):
     logger.debug('CREATE TEMPLATE')
 
-    file_path = os.path.abspath(__file__)
-    main_path = os.path.dirname(os.path.dirname(file_path))
-
     try:
 
         doc = Document(path)
@@ -205,7 +202,7 @@ def create_template(path:str):
         var['весы'] = var['весы'].replace('/','-').replace('\\','-').replace(':','').replace('*','x').replace('?','').replace('\"',' ').replace('<',' ').replace('>',' ').replace('|',' ')
 
         # Сохраняем файл
-        doc.save(f"{main_path}/templates/{var["весы"]} {var['фиф']}.docx")
+        doc.save(f"templates/{var["весы"]} {var['фиф']}.docx")
         logger.debug('File was save')
 
 
