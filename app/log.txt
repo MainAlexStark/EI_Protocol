@@ -2710,3 +2710,13 @@
 2024-02-08 02:20:40.534 | INFO     | __main__:add_path:657 - add_path
 2024-02-08 02:20:43.514 | INFO     | __main__:settings:817 - settings
 2024-02-08 02:20:43.515 | INFO     | __main__:__init__:102 - SettingDialog(QDialog)
+2024-02-08 12:24:44.979 | INFO     | __main__:initUI:278 - Start initUI
+2024-02-08 12:24:46.958 | INFO     | __main__:choose_scale:613 - choose_scale
+2024-02-08 12:24:46.959 | INFO     | __main__:__init__:30 - ChooseScaleDialog(QDialog)
+2024-02-08 12:24:50.016 | INFO     | __main__:scale_changed:622 - scale_changed
+2024-02-08 12:24:58.074 | INFO     | __main__:settings:817 - settings
+2024-02-08 12:24:58.074 | INFO     | __main__:__init__:102 - SettingDialog(QDialog)
+2024-02-08 12:26:34.988 | INFO     | __main__:initUI:278 - Start initUI
+2024-02-08 12:26:40.247 | INFO     | __main__:initUI:278 - Start initUI
+2024-02-08 12:26:42.238 | INFO     | __main__:choose_scale:613 - choose_scale
+2024-02-08 12:26:42.238 | INFO     | __main__:__init__:30 - ChooseScaleDialog(QDialog)

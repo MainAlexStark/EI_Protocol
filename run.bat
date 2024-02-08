@@ -1,1 +1,3 @@
-python app/__main__.py
+cd app
+py __main__.py
+pause
