@@ -1,9 +1,10 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QPlainTextEdit, QComboBox, \
-    QLabel, QCalendarWidget, QCompleter, QDialog, QFileDialog, QTableWidget, QTableWidgetItem, \
+    QLabel, QCalendarWidget, QCompleter, QFileDialog, QTableWidget, QTableWidgetItem, \
     QTabWidget, QAbstractItemView, QCheckBox
 from PyQt5.QtCore import QDate
 from PyQt5 import QtCore
+from PyQt5.QtWidgets import QMessageBox, QDialog
 
 import json
 import os
@@ -12,10 +13,9 @@ from docx import Document
 
 import functions
 
+from FNS_RUS import FNS_API
+
 from loguru import logger
-
-main_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
 
 class ChooseScaleDialog(QDialog):
 
@@ -227,6 +227,113 @@ class SettingDialog(QDialog):
         self.close()
 
 
+class ChooseInspectionAddressDialog(QDialog):
+    def __init__(self, main_window):
+        try:
+            super().__init__()
+
+            self.main_window = main_window
+
+            logger.info('ChooseInspectionAddressDialog(QDialog): __init__')
+
+            length_window = 1000
+            width_window = 600
+
+            self.setGeometry(200, 200, length_window, width_window)
+            self.setWindowTitle('Выберите нужный вариант')
+
+            self.main_layout = QVBoxLayout()
+
+            self.var = [
+                'Использовать юр.адрес компании из базы ФНС',
+                'Использовать юр.адрес ООО \"ЕДИНИЦА ИЗМЕРЕНИЯ\"'
+            ]
+
+            # Таблица с вариантами
+            self.label = QLabel("Выберите нужный вариант:")
+            self.table = QTableWidget()
+            self.table.setRowCount(len(self.var))
+            self.table.setColumnCount(1)
+
+            self.table.setEditTriggers(QAbstractItemView.NoEditTriggers)  # Запрещаем редактирование
+
+            self.table.setColumnWidth(0, 940)
+
+            i = 0
+            for var in self.var:
+                self.table.setItem(i,0, QTableWidgetItem(var))
+                i += 1
+
+            self.table.setCurrentCell(-1,-1)
+            self.table.currentItemChanged.connect(self.item_changed)
+
+            self.main_layout.addWidget(self.label)
+            self.main_layout.addWidget(self.table)
+
+
+            self.setLayout(self.main_layout)
+
+        except Exception as e:
+            logger.error(f'Error init ChooseInspectionAddressDialog(QDialog) : {e}')
+
+    def item_changed(self):
+        logger.debug(f'item_changed')
+        
+
+        if self.table.currentRow() == 0:
+            if len(self.main_window.text_INN.toPlainText()) > 0:
+                logger.debug('Use data from FNS')
+                # Определите имя файла хранилища
+                file_name = 'config.json'
+
+                # Откройте файл хранилища
+                with open(file_name, 'r+') as file:
+                    # Загрузите данные из файла
+                    data = json.load(file)
+
+                    FNS_TOKEN = data.get('FNS_TOKEN', [])
+
+                # Создаем обьект компании
+                company = FNS_API(FNS_TOKEN)
+
+                # Получаем INN
+                INN = self.main_window.text_INN.toPlainText()
+                
+                # Получаем данные о компании по INN
+                data = company.get_company_data(INN)
+
+                if data is not True and len(data['items']) > 0:
+
+                    # Получаем данные о юр.адресе компании
+                    legal_address = data['items'][0]['ЮЛ']['АдресПолн']
+
+                    # Устанавливаем
+                    self.main_window.text_inspection_address.setPlainText(legal_address)
+
+                    self.close()
+
+                else:
+                    message_box = QMessageBox()
+                    message_box.setIcon(QMessageBox.Critical)
+                    message_box.setText("Не удалось получить данные о компании!\nПроверьте введенный ИНН")
+                    message_box.setWindowTitle("Ошибка")
+                    message_box.setStandardButtons(QMessageBox.Ok)
+                    message_box.exec_()
+            else:
+                message_box = QMessageBox()
+                message_box.setIcon(QMessageBox.Critical)
+                message_box.setText("Введите ИНН!")
+                message_box.setWindowTitle("Ошибка")
+                message_box.setStandardButtons(QMessageBox.Ok)
+                message_box.exec_()
+
+        else:
+            # Устанавливаем
+            self.main_window.text_inspection_address.setPlainText('610027, Россия, Кировская область, город Киров, улица Красноармейская, дом 43А, кв. помещение 1,21')
+
+            self.close()
+
+
 class App(QWidget):
     def __init__(self):
         super().__init__()
@@ -276,11 +383,6 @@ class App(QWidget):
         # Logger
         logger.add("log.txt")
         logger.info('Start initUI')
-
-
-        file_path = os.path.abspath(__file__)
-        main_path = os.path.dirname(os.path.dirname(file_path))
-
 
         # Определите имя файла хранилища
         file_name = 'config.json'
@@ -415,16 +517,6 @@ class App(QWidget):
         # Добавляем в словарь combo boxes
         self.var_boxes.combo_boxes['verificationer'] = self.verificationer_combo
 
-        # Company
-
-        self.label_text_company = QLabel("Выберите компанию:")
-        self.text_company = QPlainTextEdit(self)
-        self.text_company.setFixedSize(500, 40)
-        self.var_layout.addWidget(self.label_text_company)
-        self.var_layout.addWidget(self.text_company)
-
-        self.var_boxes.text_boxes['company'] = self.text_company
-
         # INN
 
         self.label_text_INN = QLabel("Выберите ИНН компании:")
@@ -434,6 +526,23 @@ class App(QWidget):
         self.var_layout.addWidget(self.text_INN)
 
         self.var_boxes.text_boxes['INN'] = self.text_INN
+
+        self.button_search_company = QPushButton('Найти', self)
+        self.button_search_company.setFixedSize(500, 40)
+        self.button_search_company.clicked.connect(self.search_company)  # Привязываем функцию
+        self.var_layout.addWidget(self.button_search_company)  # Добавляем в layout
+
+        self.buttons.Buttons['create_template'] = self.button_search_company
+
+        # Company
+
+        self.label_text_company = QLabel("Выберите компанию:")
+        self.text_company = QPlainTextEdit(self)
+        self.text_company.setFixedSize(500, 40)
+        self.var_layout.addWidget(self.label_text_company)
+        self.var_layout.addWidget(self.text_company)
+
+        self.var_boxes.text_boxes['company'] = self.text_company
 
         # Legal address
 
@@ -445,15 +554,27 @@ class App(QWidget):
 
         self.var_boxes.text_boxes['legal_address'] = self.text_legal_address
 
+
         # inspection address
+
+        inspection_address_layout = QHBoxLayout()
 
         self.label_text_inspection_address = QLabel("Выберите адрес поверки:")
         self.text_inspection_address = QPlainTextEdit(self)
-        self.text_inspection_address.setFixedSize(500, 40)
+        self.text_inspection_address.setFixedSize(450, 40)
         self.var_layout.addWidget(self.label_text_inspection_address)
-        self.var_layout.addWidget(self.text_inspection_address)
+        inspection_address_layout.addWidget(self.text_inspection_address)
 
         self.var_boxes.text_boxes['inspection_address'] = self.text_inspection_address
+
+        self.button_inspection_address_setting = QPushButton('...', self)
+        self.button_inspection_address_setting.setFixedSize(40, 40)
+        self.button_inspection_address_setting.clicked.connect(self.show_inspection_address_setting)  # Привязываем функцию
+        inspection_address_layout.addWidget(self.button_inspection_address_setting)  # Добавляем в layout
+
+        self.buttons.Buttons['legal_address_setting'] = self.button_inspection_address_setting
+
+        self.var_layout.addLayout(inspection_address_layout)
 
         # Unfit
 
@@ -520,10 +641,12 @@ class App(QWidget):
 
         # Use excel
 
+        use_excel_layout = QHBoxLayout()
+
         self.button_use_excel = QPushButton('Использовать Excel', self)
         self.button_use_excel.setCheckable(True)
         self.button_use_excel.setFixedSize(500, 40)
-        self.var_r_layout.addWidget(self.button_use_excel)  # Добавляем в layout
+        self.var_layout.addWidget(self.button_use_excel)  # Добавляем в layout
 
         self.buttons.CheckableButtons['use_excel'] = self.button_use_excel
 
@@ -607,16 +730,64 @@ class App(QWidget):
         # Добавляем main_layout в окно
         self.setLayout(main_layout)
         self.show()
+
+    
+    def search_company(self):
+        logger.debug('search_company')
+
+        # Определите имя файла хранилища
+        file_name = 'config.json'
+
+        # Откройте файл хранилища
+        with open(file_name, 'r+') as file:
+            # Загрузите данные из файла
+            data = json.load(file)
+
+            FNS_TOKEN = data.get('FNS_TOKEN', [])
+
+        # Создаем обьект компании
+        company = FNS_API(FNS_TOKEN)
+
+        # Получаем INN
+        INN = self.text_INN.toPlainText()
         
+        # Получаем данные о компании по INN
+        data = company.get_company_data(INN)
+
+        if data is not True and len(data['items']) > 0:
+
+            # Получаем данные о названии комании
+            company_name = data['items'][0]['ЮЛ']['НаимСокрЮЛ']
+
+            # Устанавливаем в QPlainTextEdit
+            self.text_company.setPlainText(company_name)
+
+            # Получаем данные о юр.адресе компании
+            legal_address = data['items'][0]['ЮЛ']['АдресПолн']
+
+            # Устанавливаем в QPlainTextEdit
+            self.text_legal_address.setPlainText(legal_address)
+
+        else:
+            message_box = QMessageBox()
+            message_box.setIcon(QMessageBox.Critical)
+            message_box.setText("Не удалось получить данные о компании!\nПроверьте введенный ИНН")
+            message_box.setWindowTitle("Ошибка")
+            message_box.setStandardButtons(QMessageBox.Ok)
+            message_box.exec_()
+
+
+    def show_inspection_address_setting(self):
+        logger.debug('button_inspection_address_setting')
+
+        ChooseInspectionAddressDialog(self).exec_()
+
         
     def choose_scale(self):
         logger.info('choose_scale')
 
         ChooseScaleDialog(self).exec_()
 
-
-
-        
 
     def scale_changed(self):
         logger.info('scale_changed')

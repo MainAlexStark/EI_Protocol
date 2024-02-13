@@ -2720,3 +2720,227 @@
 2024-02-08 12:26:40.247 | INFO     | __main__:initUI:278 - Start initUI
 2024-02-08 12:26:42.238 | INFO     | __main__:choose_scale:613 - choose_scale
 2024-02-08 12:26:42.238 | INFO     | __main__:__init__:30 - ChooseScaleDialog(QDialog)
+2024-02-08 22:34:43.317 | INFO     | __main__:initUI:278 - Start initUI
+2024-02-08 22:34:45.459 | INFO     | __main__:choose_scale:613 - choose_scale
+2024-02-08 22:34:45.460 | INFO     | __main__:__init__:30 - ChooseScaleDialog(QDialog)
+2024-02-08 22:35:01.020 | INFO     | __main__:initUI:278 - Start initUI
+2024-02-08 22:35:16.552 | INFO     | __main__:settings:817 - settings
+2024-02-08 22:35:16.553 | INFO     | __main__:__init__:102 - SettingDialog(QDialog)
+2024-02-12 23:44:41.078 | INFO     | __main__:initUI:278 - Start initUI
+2024-02-12 23:44:46.695 | INFO     | __main__:choose_scale:613 - choose_scale
+2024-02-12 23:44:46.695 | INFO     | __main__:__init__:30 - ChooseScaleDialog(QDialog)
+2024-02-13 01:18:59.024 | INFO     | __main__:initUI:278 - Start initUI
+2024-02-13 01:19:00.799 | INFO     | __main__:choose_scale:613 - choose_scale
+2024-02-13 01:19:00.799 | INFO     | __main__:__init__:30 - ChooseScaleDialog(QDialog)
+2024-02-13 01:19:42.586 | INFO     | __main__:initUI:278 - Start initUI
+2024-02-13 01:45:42.865 | INFO     | __main__:initUI:280 - Start initUI
+2024-02-13 01:47:56.870 | INFO     | __main__:initUI:280 - Start initUI
+2024-02-13 01:48:24.375 | INFO     | __main__:initUI:280 - Start initUI
+2024-02-13 01:48:34.739 | DEBUG    | __main__:search_company:622 - search_company
+2024-02-13 01:48:34.740 | DEBUG    | FNS_RUS:__init__:6 - start
+2024-02-13 01:49:11.554 | INFO     | __main__:initUI:280 - Start initUI
+2024-02-13 01:49:19.843 | DEBUG    | __main__:search_company:622 - search_company
+2024-02-13 01:49:19.844 | DEBUG    | FNS_RUS:__init__:6 - start
+2024-02-13 01:49:19.845 | DEBUG    | FNS_RUS:get_company_data:10 - start
+2024-02-13 01:50:21.746 | INFO     | __main__:initUI:280 - Start initUI
+2024-02-13 01:50:33.910 | DEBUG    | __main__:search_company:622 - search_company
+2024-02-13 01:50:33.911 | DEBUG    | FNS_RUS:__init__:6 - start
+2024-02-13 01:50:33.911 | DEBUG    | FNS_RUS:get_company_data:10 - start
+2024-02-13 01:54:16.304 | INFO     | __main__:initUI:281 - Start initUI
+2024-02-13 01:54:20.576 | DEBUG    | __main__:search_company:623 - search_company
+2024-02-13 01:54:20.579 | DEBUG    | FNS_RUS:__init__:6 - start
+2024-02-13 01:54:20.579 | DEBUG    | FNS_RUS:get_company_data:10 - start
+2024-02-13 01:54:33.151 | DEBUG    | __main__:search_company:623 - search_company
+2024-02-13 01:54:33.152 | DEBUG    | FNS_RUS:__init__:6 - start
+2024-02-13 01:54:33.152 | DEBUG    | FNS_RUS:get_company_data:10 - start
+2024-02-13 01:57:04.508 | INFO     | __main__:initUI:281 - Start initUI
+2024-02-13 01:57:11.707 | DEBUG    | __main__:search_company:623 - search_company
+2024-02-13 01:57:11.708 | DEBUG    | FNS_RUS:__init__:6 - start
+2024-02-13 01:57:11.708 | DEBUG    | FNS_RUS:get_company_data:10 - start
+2024-02-13 01:57:13.947 | DEBUG    | __main__:search_company:623 - search_company
+2024-02-13 01:57:13.948 | DEBUG    | FNS_RUS:__init__:6 - start
+2024-02-13 01:57:13.948 | DEBUG    | FNS_RUS:get_company_data:10 - start
+2024-02-13 01:57:27.015 | INFO     | __main__:initUI:281 - Start initUI
+2024-02-13 01:57:30.307 | DEBUG    | __main__:search_company:623 - search_company
+2024-02-13 01:57:30.308 | DEBUG    | FNS_RUS:__init__:6 - start
+2024-02-13 01:57:30.308 | DEBUG    | FNS_RUS:get_company_data:10 - start
+2024-02-13 01:58:31.891 | INFO     | __main__:initUI:281 - Start initUI
+2024-02-13 01:58:36.280 | DEBUG    | __main__:search_company:623 - search_company
+2024-02-13 01:58:36.281 | DEBUG    | FNS_RUS:__init__:6 - start
+2024-02-13 01:58:36.282 | DEBUG    | FNS_RUS:get_company_data:10 - start
+2024-02-13 02:03:29.785 | INFO     | __main__:initUI:281 - Start initUI
+2024-02-13 02:03:40.043 | DEBUG    | __main__:search_company:623 - search_company
+2024-02-13 02:03:40.044 | DEBUG    | FNS_RUS:__init__:6 - start
+2024-02-13 02:03:40.044 | DEBUG    | FNS_RUS:get_company_data:10 - start
+2024-02-13 02:04:04.584 | INFO     | __main__:initUI:281 - Start initUI
+2024-02-13 02:04:23.867 | DEBUG    | __main__:search_company:623 - search_company
+2024-02-13 02:04:23.868 | DEBUG    | FNS_RUS:__init__:6 - start
+2024-02-13 02:04:23.869 | DEBUG    | FNS_RUS:get_company_data:10 - start
+2024-02-13 02:04:31.189 | INFO     | __main__:clean:860 - clean
+2024-02-13 02:04:31.189 | INFO     | __main__:scale_changed:675 - scale_changed
+2024-02-13 02:05:00.849 | DEBUG    | __main__:search_company:623 - search_company
+2024-02-13 02:05:00.850 | DEBUG    | FNS_RUS:__init__:6 - start
+2024-02-13 02:05:00.850 | DEBUG    | FNS_RUS:get_company_data:10 - start
+2024-02-13 02:05:14.372 | INFO     | __main__:clean:860 - clean
+2024-02-13 02:05:14.373 | INFO     | __main__:scale_changed:675 - scale_changed
+2024-02-13 02:06:41.833 | DEBUG    | __main__:search_company:623 - search_company
+2024-02-13 02:06:41.834 | DEBUG    | FNS_RUS:__init__:6 - start
+2024-02-13 02:06:41.834 | DEBUG    | FNS_RUS:get_company_data:10 - start
+2024-02-13 02:06:46.515 | INFO     | __main__:clean:860 - clean
+2024-02-13 02:06:46.516 | INFO     | __main__:scale_changed:675 - scale_changed
+2024-02-13 02:06:53.817 | DEBUG    | __main__:search_company:623 - search_company
+2024-02-13 02:06:53.818 | DEBUG    | FNS_RUS:__init__:6 - start
+2024-02-13 02:06:53.819 | DEBUG    | FNS_RUS:get_company_data:10 - start
+2024-02-13 02:07:51.743 | INFO     | __main__:initUI:281 - Start initUI
+2024-02-13 02:08:31.814 | INFO     | __main__:initUI:281 - Start initUI
+2024-02-13 02:08:53.521 | INFO     | __main__:initUI:281 - Start initUI
+2024-02-13 02:08:57.405 | INFO     | __main__:use_data:776 - use_data
+2024-02-13 02:08:57.408 | INFO     | __main__:verificationer_changed:715 - verificationer_changed
+2024-02-13 02:08:57.409 | INFO     | __main__:scale_changed:675 - scale_changed
+2024-02-13 02:09:01.531 | INFO     | __main__:clean:860 - clean
+2024-02-13 02:09:01.532 | INFO     | __main__:scale_changed:675 - scale_changed
+2024-02-13 02:09:01.532 | INFO     | __main__:verificationer_changed:715 - verificationer_changed
+2024-02-13 02:09:04.214 | INFO     | __main__:use_data:776 - use_data
+2024-02-13 02:09:04.215 | INFO     | __main__:verificationer_changed:715 - verificationer_changed
+2024-02-13 02:09:04.216 | INFO     | __main__:scale_changed:675 - scale_changed
+2024-02-13 02:09:05.203 | INFO     | __main__:clean:860 - clean
+2024-02-13 02:09:05.204 | INFO     | __main__:scale_changed:675 - scale_changed
+2024-02-13 02:09:05.204 | INFO     | __main__:verificationer_changed:715 - verificationer_changed
+2024-02-13 02:09:05.987 | INFO     | __main__:choose_scale:669 - choose_scale
+2024-02-13 02:09:05.988 | INFO     | __main__:__init__:33 - ChooseScaleDialog(QDialog)
+2024-02-13 02:09:18.747 | INFO     | __main__:add_path:710 - add_path
+2024-02-13 02:09:27.673 | INFO     | __main__:use_data:776 - use_data
+2024-02-13 02:09:27.675 | INFO     | __main__:verificationer_changed:715 - verificationer_changed
+2024-02-13 02:09:27.676 | INFO     | __main__:scale_changed:675 - scale_changed
+2024-02-13 02:09:32.971 | DEBUG    | __main__:search_company:623 - search_company
+2024-02-13 02:09:32.972 | DEBUG    | FNS_RUS:__init__:6 - start
+2024-02-13 02:09:32.972 | DEBUG    | FNS_RUS:get_company_data:10 - start
+2024-02-13 02:09:42.729 | DEBUG    | __main__:search_company:623 - search_company
+2024-02-13 02:09:42.730 | DEBUG    | FNS_RUS:__init__:6 - start
+2024-02-13 02:09:42.731 | DEBUG    | FNS_RUS:get_company_data:10 - start
+2024-02-13 02:09:47.651 | INFO     | __main__:clean:860 - clean
+2024-02-13 02:09:47.652 | INFO     | __main__:scale_changed:675 - scale_changed
+2024-02-13 02:09:47.652 | INFO     | __main__:verificationer_changed:715 - verificationer_changed
+2024-02-13 02:10:07.621 | INFO     | __main__:settings:870 - settings
+2024-02-13 02:10:07.622 | INFO     | __main__:__init__:105 - SettingDialog(QDialog)
+2024-02-13 02:13:56.513 | INFO     | __main__:initUI:281 - Start initUI
+2024-02-13 02:15:21.172 | INFO     | __main__:initUI:281 - Start initUI
+2024-02-13 02:15:41.253 | INFO     | __main__:initUI:281 - Start initUI
+2024-02-13 02:17:41.535 | INFO     | __main__:initUI:281 - Start initUI
+2024-02-13 02:18:04.171 | INFO     | __main__:initUI:281 - Start initUI
+2024-02-13 02:18:10.567 | INFO     | __main__:initUI:281 - Start initUI
+2024-02-13 02:18:20.849 | INFO     | __main__:initUI:281 - Start initUI
+2024-02-13 02:18:49.672 | INFO     | __main__:initUI:281 - Start initUI
+2024-02-13 02:19:02.238 | INFO     | __main__:initUI:281 - Start initUI
+2024-02-13 02:20:16.578 | INFO     | __main__:initUI:281 - Start initUI
+2024-02-13 02:20:35.839 | INFO     | __main__:create_protocol:742 - create_protocol
+2024-02-13 02:23:14.528 | INFO     | __main__:initUI:281 - Start initUI
+2024-02-13 02:23:22.893 | INFO     | __main__:initUI:281 - Start initUI
+2024-02-13 02:24:01.094 | INFO     | __main__:initUI:281 - Start initUI
+2024-02-13 02:24:10.707 | INFO     | __main__:initUI:281 - Start initUI
+2024-02-13 02:25:07.909 | INFO     | __main__:initUI:281 - Start initUI
+2024-02-13 02:25:35.098 | INFO     | __main__:initUI:281 - Start initUI
+2024-02-13 02:26:04.463 | INFO     | __main__:initUI:281 - Start initUI
+2024-02-13 02:26:23.428 | INFO     | __main__:initUI:281 - Start initUI
+2024-02-13 02:26:30.295 | DEBUG    | __main__:show_inspection_address_setting:682 - button_inspection_address_setting
+2024-02-13 02:26:40.257 | DEBUG    | __main__:search_company:637 - search_company
+2024-02-13 02:26:40.258 | DEBUG    | FNS_RUS:__init__:6 - start
+2024-02-13 02:26:40.259 | DEBUG    | FNS_RUS:get_company_data:10 - start
+2024-02-13 02:27:17.568 | INFO     | __main__:choose_scale:686 - choose_scale
+2024-02-13 02:27:17.568 | INFO     | __main__:__init__:33 - ChooseScaleDialog(QDialog)
+2024-02-13 02:31:36.998 | INFO     | __main__:initUI:359 - Start initUI
+2024-02-13 02:31:38.653 | INFO     | __main__:choose_scale:764 - choose_scale
+2024-02-13 02:31:38.654 | INFO     | __main__:__init__:111 - ChooseScaleDialog(QDialog)
+2024-02-13 03:04:34.433 | INFO     | __main__:initUI:375 - Start initUI
+2024-02-13 03:04:37.274 | DEBUG    | __main__:show_inspection_address_setting:776 - button_inspection_address_setting
+2024-02-13 03:04:37.274 | INFO     | __main__:__init__:237 - ChooseInspectionAddress(QDialog): __init__
+2024-02-13 03:04:37.275 | ERROR    | __main__:__init__:276 - Error init ChooseInspectionAddress(QDialog) : 'ChooseInspectionAddressDialog' object has no attribute 'files'
+2024-02-13 03:05:57.524 | INFO     | __main__:initUI:375 - Start initUI
+2024-02-13 03:06:00.241 | DEBUG    | __main__:show_inspection_address_setting:776 - button_inspection_address_setting
+2024-02-13 03:06:00.242 | INFO     | __main__:__init__:237 - ChooseInspectionAddressDialog(QDialog): __init__
+2024-02-13 03:06:00.254 | DEBUG    | __main__:item_changed:279 - item_changed
+2024-02-13 03:07:01.574 | INFO     | __main__:initUI:375 - Start initUI
+2024-02-13 03:07:03.633 | DEBUG    | __main__:show_inspection_address_setting:776 - button_inspection_address_setting
+2024-02-13 03:07:03.634 | INFO     | __main__:__init__:237 - ChooseInspectionAddressDialog(QDialog): __init__
+2024-02-13 03:07:03.643 | DEBUG    | __main__:item_changed:279 - item_changed
+2024-02-13 03:07:24.625 | INFO     | __main__:initUI:376 - Start initUI
+2024-02-13 03:07:26.660 | DEBUG    | __main__:show_inspection_address_setting:777 - button_inspection_address_setting
+2024-02-13 03:07:26.660 | INFO     | __main__:__init__:237 - ChooseInspectionAddressDialog(QDialog): __init__
+2024-02-13 03:07:26.662 | ERROR    | __main__:__init__:277 - Error init ChooseInspectionAddressDialog(QDialog) : setCurrentIndex(self, index: QModelIndex): argument 1 has unexpected type 'int'
+2024-02-13 03:10:00.033 | INFO     | __main__:initUI:376 - Start initUI
+2024-02-13 03:10:01.949 | DEBUG    | __main__:show_inspection_address_setting:777 - button_inspection_address_setting
+2024-02-13 03:10:01.950 | INFO     | __main__:__init__:237 - ChooseInspectionAddressDialog(QDialog): __init__
+2024-02-13 03:10:05.781 | DEBUG    | __main__:item_changed:280 - item_changed
+2024-02-13 03:10:07.016 | DEBUG    | __main__:show_inspection_address_setting:777 - button_inspection_address_setting
+2024-02-13 03:10:07.016 | INFO     | __main__:__init__:237 - ChooseInspectionAddressDialog(QDialog): __init__
+2024-02-13 03:10:07.576 | DEBUG    | __main__:item_changed:280 - item_changed
+2024-02-13 03:10:11.782 | DEBUG    | __main__:show_inspection_address_setting:777 - button_inspection_address_setting
+2024-02-13 03:10:11.782 | INFO     | __main__:__init__:237 - ChooseInspectionAddressDialog(QDialog): __init__
+2024-02-13 03:10:12.467 | DEBUG    | __main__:item_changed:280 - item_changed
+2024-02-13 03:11:09.702 | INFO     | __main__:initUI:377 - Start initUI
+2024-02-13 03:11:12.153 | DEBUG    | __main__:show_inspection_address_setting:778 - button_inspection_address_setting
+2024-02-13 03:11:12.154 | INFO     | __main__:__init__:237 - ChooseInspectionAddressDialog(QDialog): __init__
+2024-02-13 03:11:13.255 | DEBUG    | __main__:item_changed:280 - item_changed
+2024-02-13 03:11:22.575 | DEBUG    | __main__:show_inspection_address_setting:778 - button_inspection_address_setting
+2024-02-13 03:11:22.576 | INFO     | __main__:__init__:237 - ChooseInspectionAddressDialog(QDialog): __init__
+2024-02-13 03:12:40.163 | INFO     | __main__:initUI:377 - Start initUI
+2024-02-13 03:12:41.913 | DEBUG    | __main__:show_inspection_address_setting:778 - button_inspection_address_setting
+2024-02-13 03:12:41.914 | INFO     | __main__:__init__:237 - ChooseInspectionAddressDialog(QDialog): __init__
+2024-02-13 03:12:43.035 | DEBUG    | __main__:item_changed:280 - item_changed
+2024-02-13 03:13:28.949 | INFO     | __main__:initUI:377 - Start initUI
+2024-02-13 03:13:35.527 | DEBUG    | __main__:show_inspection_address_setting:778 - button_inspection_address_setting
+2024-02-13 03:13:35.527 | INFO     | __main__:__init__:237 - ChooseInspectionAddressDialog(QDialog): __init__
+2024-02-13 03:13:36.397 | DEBUG    | __main__:item_changed:280 - item_changed<built-in method currentIndex of QTableWidget object at 0x00000243E04315B0>
+2024-02-13 03:13:51.396 | INFO     | __main__:initUI:377 - Start initUI
+2024-02-13 03:13:53.549 | DEBUG    | __main__:show_inspection_address_setting:778 - button_inspection_address_setting
+2024-02-13 03:13:53.549 | INFO     | __main__:__init__:237 - ChooseInspectionAddressDialog(QDialog): __init__
+2024-02-13 03:13:54.046 | DEBUG    | __main__:item_changed:280 - item_changed<PyQt5.QtCore.QModelIndex object at 0x000001BB55B3BC40>
+2024-02-13 03:17:54.890 | INFO     | __main__:initUI:377 - Start initUI
+2024-02-13 03:17:56.911 | DEBUG    | __main__:show_inspection_address_setting:778 - button_inspection_address_setting
+2024-02-13 03:17:56.912 | INFO     | __main__:__init__:237 - ChooseInspectionAddressDialog(QDialog): __init__
+2024-02-13 03:17:57.956 | DEBUG    | __main__:item_changed:280 - item_changed
+2024-02-13 03:18:41.448 | INFO     | __main__:initUI:377 - Start initUI
+2024-02-13 03:18:43.011 | DEBUG    | __main__:show_inspection_address_setting:778 - button_inspection_address_setting
+2024-02-13 03:18:43.011 | INFO     | __main__:__init__:237 - ChooseInspectionAddressDialog(QDialog): __init__
+2024-02-13 03:18:43.944 | DEBUG    | __main__:item_changed:280 - item_changed
+2024-02-13 03:18:43.944 | DEBUG    | __main__:item_changed:284 - Use data from FNS
+2024-02-13 03:18:43.945 | DEBUG    | FNS_RUS:__init__:6 - start
+2024-02-13 03:19:41.750 | INFO     | __main__:initUI:377 - Start initUI
+2024-02-13 03:19:43.531 | DEBUG    | __main__:show_inspection_address_setting:778 - button_inspection_address_setting
+2024-02-13 03:19:43.532 | INFO     | __main__:__init__:237 - ChooseInspectionAddressDialog(QDialog): __init__
+2024-02-13 03:19:44.344 | DEBUG    | __main__:item_changed:280 - item_changed
+2024-02-13 03:19:44.344 | DEBUG    | __main__:item_changed:284 - Use data from FNS
+2024-02-13 03:19:44.345 | DEBUG    | FNS_RUS:__init__:6 - start
+2024-02-13 03:19:44.345 | DEBUG    | FNS_RUS:get_company_data:10 - start
+2024-02-13 03:21:43.201 | INFO     | __main__:initUI:378 - Start initUI
+2024-02-13 03:21:44.980 | DEBUG    | __main__:show_inspection_address_setting:774 - button_inspection_address_setting
+2024-02-13 03:21:44.981 | INFO     | __main__:__init__:237 - ChooseInspectionAddressDialog(QDialog): __init__
+2024-02-13 03:21:45.814 | DEBUG    | __main__:item_changed:280 - item_changed
+2024-02-13 03:24:19.240 | INFO     | __main__:initUI:385 - Start initUI
+2024-02-13 03:24:20.987 | DEBUG    | __main__:show_inspection_address_setting:781 - button_inspection_address_setting
+2024-02-13 03:24:20.988 | INFO     | __main__:__init__:237 - ChooseInspectionAddressDialog(QDialog): __init__
+2024-02-13 03:24:22.357 | DEBUG    | __main__:item_changed:280 - item_changed
+2024-02-13 03:24:23.183 | DEBUG    | __main__:show_inspection_address_setting:781 - button_inspection_address_setting
+2024-02-13 03:24:23.184 | INFO     | __main__:__init__:237 - ChooseInspectionAddressDialog(QDialog): __init__
+2024-02-13 03:24:23.780 | DEBUG    | __main__:item_changed:280 - item_changed
+2024-02-13 03:24:43.563 | INFO     | __main__:initUI:385 - Start initUI
+2024-02-13 03:24:50.055 | DEBUG    | __main__:show_inspection_address_setting:781 - button_inspection_address_setting
+2024-02-13 03:24:50.056 | INFO     | __main__:__init__:237 - ChooseInspectionAddressDialog(QDialog): __init__
+2024-02-13 03:24:51.136 | DEBUG    | __main__:item_changed:280 - item_changed
+2024-02-13 03:25:05.972 | DEBUG    | __main__:search_company:736 - search_company
+2024-02-13 03:25:05.972 | DEBUG    | FNS_RUS:__init__:6 - start
+2024-02-13 03:25:05.972 | DEBUG    | FNS_RUS:get_company_data:10 - start
+2024-02-13 03:25:07.539 | DEBUG    | __main__:show_inspection_address_setting:781 - button_inspection_address_setting
+2024-02-13 03:25:07.540 | INFO     | __main__:__init__:237 - ChooseInspectionAddressDialog(QDialog): __init__
+2024-02-13 03:25:08.559 | DEBUG    | __main__:item_changed:280 - item_changed
+2024-02-13 03:25:08.560 | DEBUG    | __main__:item_changed:285 - Use data from FNS
+2024-02-13 03:25:08.560 | DEBUG    | FNS_RUS:__init__:6 - start
+2024-02-13 03:25:08.561 | DEBUG    | FNS_RUS:get_company_data:10 - start
+2024-02-13 03:25:13.370 | DEBUG    | __main__:show_inspection_address_setting:781 - button_inspection_address_setting
+2024-02-13 03:25:13.370 | INFO     | __main__:__init__:237 - ChooseInspectionAddressDialog(QDialog): __init__
+2024-02-13 03:25:13.987 | DEBUG    | __main__:item_changed:280 - item_changed
+2024-02-13 03:25:27.505 | INFO     | __main__:clean:978 - clean
+2024-02-13 03:25:27.506 | INFO     | __main__:scale_changed:793 - scale_changed
+2024-02-13 03:25:28.125 | INFO     | __main__:use_data:894 - use_data
+2024-02-13 03:25:28.127 | INFO     | __main__:verificationer_changed:833 - verificationer_changed
+2024-02-13 03:25:28.129 | INFO     | __main__:scale_changed:793 - scale_changed
