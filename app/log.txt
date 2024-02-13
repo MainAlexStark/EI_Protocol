@@ -2944,3 +2944,201 @@
 2024-02-13 03:25:28.125 | INFO     | __main__:use_data:894 - use_data
 2024-02-13 03:25:28.127 | INFO     | __main__:verificationer_changed:833 - verificationer_changed
 2024-02-13 03:25:28.129 | INFO     | __main__:scale_changed:793 - scale_changed
+2024-02-13 03:35:05.427 | INFO     | __main__:initUI:385 - Start initUI
+2024-02-13 03:35:07.941 | DEBUG    | __main__:show_inspection_address_setting:781 - button_inspection_address_setting
+2024-02-13 03:35:07.941 | INFO     | __main__:__init__:237 - ChooseInspectionAddressDialog(QDialog): __init__
+2024-02-13 03:35:09.106 | DEBUG    | __main__:item_changed:280 - item_changed
+2024-02-13 03:37:03.033 | INFO     | __main__:use_data:894 - use_data
+2024-02-13 03:37:03.035 | INFO     | __main__:verificationer_changed:833 - verificationer_changed
+2024-02-13 03:37:03.036 | INFO     | __main__:scale_changed:793 - scale_changed
+2024-02-13 03:37:03.893 | INFO     | __main__:use_data:894 - use_data
+2024-02-13 03:37:03.895 | INFO     | __main__:scale_changed:793 - scale_changed
+2024-02-13 03:37:06.209 | INFO     | __main__:use_data:894 - use_data
+2024-02-13 03:37:06.210 | INFO     | __main__:scale_changed:793 - scale_changed
+2024-02-13 03:37:07.217 | INFO     | __main__:clean:978 - clean
+2024-02-13 03:37:07.218 | INFO     | __main__:scale_changed:793 - scale_changed
+2024-02-13 03:37:07.219 | INFO     | __main__:verificationer_changed:833 - verificationer_changed
+2024-02-13 03:37:10.203 | DEBUG    | __main__:show_inspection_address_setting:781 - button_inspection_address_setting
+2024-02-13 03:37:10.204 | INFO     | __main__:__init__:237 - ChooseInspectionAddressDialog(QDialog): __init__
+2024-02-13 03:37:11.299 | DEBUG    | __main__:item_changed:280 - item_changed
+2024-02-13 03:37:27.703 | DEBUG    | __main__:search_company:736 - search_company
+2024-02-13 03:37:27.704 | DEBUG    | FNS_RUS:__init__:6 - start
+2024-02-13 03:37:27.705 | DEBUG    | FNS_RUS:get_company_data:10 - start
+2024-02-13 03:37:29.411 | DEBUG    | __main__:show_inspection_address_setting:781 - button_inspection_address_setting
+2024-02-13 03:37:29.411 | INFO     | __main__:__init__:237 - ChooseInspectionAddressDialog(QDialog): __init__
+2024-02-13 03:37:30.307 | DEBUG    | __main__:item_changed:280 - item_changed
+2024-02-13 03:37:30.308 | DEBUG    | __main__:item_changed:285 - Use data from FNS
+2024-02-13 03:37:30.309 | DEBUG    | FNS_RUS:__init__:6 - start
+2024-02-13 03:37:30.309 | DEBUG    | FNS_RUS:get_company_data:10 - start
+2024-02-13 03:37:59.699 | INFO     | __main__:verificationer_changed:833 - verificationer_changed
+2024-02-13 03:38:05.569 | INFO     | __main__:choose_scale:787 - choose_scale
+2024-02-13 03:38:05.570 | INFO     | __main__:__init__:30 - ChooseScaleDialog(QDialog)
+2024-02-13 03:38:43.671 | DEBUG    | __main__:show_inspection_address_setting:781 - button_inspection_address_setting
+2024-02-13 03:38:43.672 | INFO     | __main__:__init__:237 - ChooseInspectionAddressDialog(QDialog): __init__
+2024-02-13 03:38:44.388 | DEBUG    | __main__:item_changed:280 - item_changed
+2024-02-13 03:41:36.848 | INFO     | __main__:initUI:385 - Start initUI
+2024-02-13 03:42:03.379 | INFO     | __main__:initUI:385 - Start initUI
+2024-02-13 03:44:02.143 | INFO     | __main__:initUI:385 - Start initUI
+2024-02-13 10:15:23.314 | INFO     | __main__:initUI:385 - Start initUI
+2024-02-13 10:15:54.632 | DEBUG    | __main__:search_company:736 - search_company
+2024-02-13 10:15:54.632 | DEBUG    | FNS_RUS:__init__:6 - start
+2024-02-13 10:15:54.633 | DEBUG    | FNS_RUS:get_company_data:10 - start
+2024-02-13 10:15:56.881 | DEBUG    | __main__:show_inspection_address_setting:781 - button_inspection_address_setting
+2024-02-13 10:15:56.882 | INFO     | __main__:__init__:237 - ChooseInspectionAddressDialog(QDialog): __init__
+2024-02-13 10:16:14.194 | DEBUG    | __main__:item_changed:280 - item_changed
+2024-02-13 10:16:14.195 | DEBUG    | __main__:item_changed:285 - Use data from FNS
+2024-02-13 10:16:14.195 | DEBUG    | FNS_RUS:__init__:6 - start
+2024-02-13 10:16:14.196 | DEBUG    | FNS_RUS:get_company_data:10 - start
+2024-02-14 00:06:19.443 | INFO     | __main__:initUI:385 - Start initUI
+2024-02-14 00:06:49.677 | DEBUG    | __main__:search_company:736 - search_company
+2024-02-14 00:06:49.678 | DEBUG    | FNS_RUS:__init__:6 - start
+2024-02-14 00:06:49.678 | DEBUG    | FNS_RUS:get_company_data:10 - start
+2024-02-14 00:11:55.272 | INFO     | __main__:initUI:74 - Start initUI
+2024-02-14 00:11:58.300 | INFO     | __main__:choose_scale:476 - choose_scale
+2024-02-14 00:11:58.303 | INFO     | dialogs.ChooseScaleDialog:__init__:25 - ChooseScaleDialog(QDialog)
+2024-02-14 00:12:00.722 | INFO     | __main__:settings:677 - settings
+2024-02-14 00:12:00.723 | INFO     | dialogs.SettingDialog:__init__:19 - SettingDialog(QDialog)
+2024-02-14 00:12:03.035 | DEBUG    | __main__:show_inspection_address_setting:470 - button_inspection_address_setting
+2024-02-14 00:12:03.035 | INFO     | dialogs.ChooseInspectionAddressDialog:__init__:23 - ChooseInspectionAddressDialog(QDialog): __init__
+2024-02-14 00:41:56.931 | INFO     | __main__:initUI:75 - Start initUI
+2024-02-14 00:41:59.265 | INFO     | __main__:use_data:586 - use_data
+2024-02-14 00:41:59.275 | INFO     | __main__:verificationer_changed:523 - verificationer_changed
+2024-02-14 00:41:59.276 | INFO     | __main__:scale_changed:483 - scale_changed
+2024-02-14 00:42:03.999 | INFO     | __main__:create_protocol:537 - create_protocol
+2024-02-14 00:42:04.001 | DEBUG    | functions:make_new_protocol:219 - CREATE PROTOCOL
+2024-02-14 00:42:04.002 | DEBUG    | functions:make_new_protocol:226 - scale: Весы настольные циферблатные РН-3Ц13У 8474-81
+2024-02-14 00:42:04.002 | DEBUG    | functions:make_new_protocol:226 - path: C:/Programming/Python/EI_protocols
+2024-02-14 00:42:04.002 | DEBUG    | functions:make_new_protocol:226 - num_protocol: ЕИ-01-03-
+2024-02-14 00:42:04.003 | DEBUG    | functions:make_new_protocol:226 - num_scale: 
+2024-02-14 00:42:04.003 | DEBUG    | functions:make_new_protocol:226 - INN: INN
+2024-02-14 00:42:04.003 | DEBUG    | functions:make_new_protocol:226 - company: company
+2024-02-14 00:42:04.003 | DEBUG    | functions:make_new_protocol:226 - legal_address: place
+2024-02-14 00:42:04.004 | DEBUG    | functions:make_new_protocol:226 - inspection_address: place
+2024-02-14 00:42:04.004 | DEBUG    | functions:make_new_protocol:226 - temperature: temp
+2024-02-14 00:42:04.004 | DEBUG    | functions:make_new_protocol:226 - humidity: hum
+2024-02-14 00:42:04.005 | DEBUG    | functions:make_new_protocol:226 - pressure: press
+2024-02-14 00:42:04.005 | DEBUG    | functions:make_new_protocol:226 - verificationer: Стариков
+2024-02-14 00:42:04.005 | DEBUG    | functions:make_new_protocol:226 - unfit: True
+2024-02-14 00:42:04.005 | DEBUG    | functions:make_new_protocol:226 - use_excel: True
+2024-02-14 00:42:04.006 | DEBUG    | functions:make_new_protocol:226 - inspection_date: 07.02.2024
+2024-02-14 00:42:04.006 | DEBUG    | functions:make_new_protocol:226 - standarts: Набор гирь 1 мг-500 г F1 рег. № в ФИФ 58463-14, №PV156, 2 разряд;
+Гиря М1 500 г рег. № в ФИФ 58048-14 №796242, 4 разряд;
+Гиря М1 1 кг рег. № в ФИФ 58048-14 №796241, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796236, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796237, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №796238, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №812854, 4 разряд
+2024-02-14 00:42:04.007 | ERROR    | functions:make_new_protocol:271 - Error create protocol: Package not found at 'c:\Users\maina\PythonProjects\desktop\EI_Protocol\templates\Весы настольные циферблатные РН-3Ц13У 8474-81.docx'
+2024-02-14 00:42:04.007 | INFO     | dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-02-14 00:42:04.007 | ERROR    | dialogs.CreateProtocolDialog:__init__:45 - Error init ChooseScaleDialog(QDialog) : setText(self, a0: Optional[str]): argument 1 has unexpected type 'PackageNotFoundError'
+2024-02-14 00:42:09.588 | INFO     | __main__:verificationer_changed:523 - verificationer_changed
+2024-02-14 00:42:41.845 | INFO     | __main__:initUI:75 - Start initUI
+2024-02-14 00:42:43.554 | INFO     | __main__:use_data:586 - use_data
+2024-02-14 00:42:43.556 | INFO     | __main__:verificationer_changed:523 - verificationer_changed
+2024-02-14 00:42:43.557 | INFO     | __main__:scale_changed:483 - scale_changed
+2024-02-14 00:42:46.276 | INFO     | __main__:choose_scale:477 - choose_scale
+2024-02-14 00:42:46.277 | INFO     | dialogs.ChooseScaleDialog:__init__:25 - ChooseScaleDialog(QDialog): __init__
+2024-02-14 00:43:57.468 | INFO     | __main__:initUI:75 - Start initUI
+2024-02-14 00:44:00.296 | INFO     | __main__:use_data:586 - use_data
+2024-02-14 00:44:00.299 | INFO     | __main__:verificationer_changed:523 - verificationer_changed
+2024-02-14 00:44:00.300 | INFO     | __main__:scale_changed:483 - scale_changed
+2024-02-14 00:44:01.551 | INFO     | __main__:choose_scale:477 - choose_scale
+2024-02-14 00:44:01.552 | INFO     | dialogs.ChooseScaleDialog:__init__:25 - ChooseScaleDialog(QDialog): __init__
+2024-02-14 00:44:02.565 | INFO     | __main__:scale_changed:483 - scale_changed
+2024-02-14 00:44:08.657 | INFO     | __main__:create_protocol:537 - create_protocol
+2024-02-14 00:44:08.659 | DEBUG    | functions:make_new_protocol:219 - CREATE PROTOCOL
+2024-02-14 00:44:08.659 | DEBUG    | functions:make_new_protocol:226 - scale: Весы настольные циферблатные РН-6Ц13У 8474-88
+2024-02-14 00:44:08.659 | DEBUG    | functions:make_new_protocol:226 - path: C:/Programming/Python/EI_protocols
+2024-02-14 00:44:08.660 | DEBUG    | functions:make_new_protocol:226 - num_protocol: ЕИ-01-03-
+2024-02-14 00:44:08.660 | DEBUG    | functions:make_new_protocol:226 - num_scale: 
+2024-02-14 00:44:08.660 | DEBUG    | functions:make_new_protocol:226 - INN: INN
+2024-02-14 00:44:08.660 | DEBUG    | functions:make_new_protocol:226 - company: company
+2024-02-14 00:44:08.661 | DEBUG    | functions:make_new_protocol:226 - legal_address: place
+2024-02-14 00:44:08.661 | DEBUG    | functions:make_new_protocol:226 - inspection_address: place
+2024-02-14 00:44:08.661 | DEBUG    | functions:make_new_protocol:226 - temperature: temp
+2024-02-14 00:44:08.661 | DEBUG    | functions:make_new_protocol:226 - humidity: hum
+2024-02-14 00:44:08.661 | DEBUG    | functions:make_new_protocol:226 - pressure: press
+2024-02-14 00:44:08.662 | DEBUG    | functions:make_new_protocol:226 - verificationer: Стариков
+2024-02-14 00:44:08.662 | DEBUG    | functions:make_new_protocol:226 - unfit: True
+2024-02-14 00:44:08.662 | DEBUG    | functions:make_new_protocol:226 - use_excel: True
+2024-02-14 00:44:08.662 | DEBUG    | functions:make_new_protocol:226 - inspection_date: 07.02.2024
+2024-02-14 00:44:08.663 | DEBUG    | functions:make_new_protocol:226 - standarts: Набор гирь 1 мг-500 г F1 рег. № в ФИФ 58463-14, №PV156, 2 разряд;
+Гиря М1 500 г рег. № в ФИФ 58048-14 №796242, 4 разряд;
+Гиря М1 1 кг рег. № в ФИФ 58048-14 №796241, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796236, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796237, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №796238, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №812854, 4 разряд
+2024-02-14 00:44:08.663 | ERROR    | functions:make_new_protocol:271 - Error create protocol: Package not found at 'c:\Users\maina\PythonProjects\desktop\EI_Protocol\templates\Весы настольные циферблатные РН-6Ц13У 8474-88.docx'
+2024-02-14 00:44:08.664 | INFO     | dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-02-14 00:44:08.664 | ERROR    | dialogs.CreateProtocolDialog:__init__:45 - Error init ChooseScaleDialog(QDialog) : setText(self, a0: Optional[str]): argument 1 has unexpected type 'PackageNotFoundError'
+2024-02-14 00:44:11.150 | INFO     | __main__:verificationer_changed:523 - verificationer_changed
+2024-02-14 00:45:03.959 | INFO     | __main__:initUI:75 - Start initUI
+2024-02-14 00:45:07.901 | INFO     | __main__:use_data:586 - use_data
+2024-02-14 00:45:07.908 | INFO     | __main__:verificationer_changed:523 - verificationer_changed
+2024-02-14 00:45:07.910 | INFO     | __main__:scale_changed:483 - scale_changed
+2024-02-14 00:45:47.013 | INFO     | __main__:initUI:75 - Start initUI
+2024-02-14 00:45:48.564 | INFO     | __main__:use_data:586 - use_data
+2024-02-14 00:45:48.567 | INFO     | __main__:verificationer_changed:523 - verificationer_changed
+2024-02-14 00:45:48.568 | INFO     | __main__:scale_changed:483 - scale_changed
+2024-02-14 00:45:49.261 | INFO     | __main__:create_protocol:537 - create_protocol
+2024-02-14 00:45:49.263 | DEBUG    | functions:make_new_protocol:219 - CREATE PROTOCOL
+2024-02-14 00:45:49.263 | DEBUG    | functions:make_new_protocol:223 - scale: Весы настольные циферблатные РН-6Ц13У 8474-88
+2024-02-14 00:45:49.264 | DEBUG    | functions:make_new_protocol:223 - path: C:/Programming/Python/EI_protocols
+2024-02-14 00:45:49.264 | DEBUG    | functions:make_new_protocol:223 - num_protocol: ЕИ-01-03-
+2024-02-14 00:45:49.265 | DEBUG    | functions:make_new_protocol:223 - num_scale: 
+2024-02-14 00:45:49.265 | DEBUG    | functions:make_new_protocol:223 - INN: INN
+2024-02-14 00:45:49.265 | DEBUG    | functions:make_new_protocol:223 - company: company
+2024-02-14 00:45:49.266 | DEBUG    | functions:make_new_protocol:223 - legal_address: place
+2024-02-14 00:45:49.266 | DEBUG    | functions:make_new_protocol:223 - inspection_address: place
+2024-02-14 00:45:49.266 | DEBUG    | functions:make_new_protocol:223 - temperature: temp
+2024-02-14 00:45:49.267 | DEBUG    | functions:make_new_protocol:223 - humidity: hum
+2024-02-14 00:45:49.267 | DEBUG    | functions:make_new_protocol:223 - pressure: press
+2024-02-14 00:45:49.267 | DEBUG    | functions:make_new_protocol:223 - verificationer: Стариков
+2024-02-14 00:45:49.267 | DEBUG    | functions:make_new_protocol:223 - unfit: True
+2024-02-14 00:45:49.268 | DEBUG    | functions:make_new_protocol:223 - use_excel: True
+2024-02-14 00:45:49.268 | DEBUG    | functions:make_new_protocol:223 - inspection_date: 07.02.2024
+2024-02-14 00:45:49.268 | DEBUG    | functions:make_new_protocol:223 - standarts: Набор гирь 1 мг-500 г F1 рег. № в ФИФ 58463-14, №PV156, 2 разряд;
+Гиря М1 500 г рег. № в ФИФ 58048-14 №796242, 4 разряд;
+Гиря М1 1 кг рег. № в ФИФ 58048-14 №796241, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796236, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796237, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №796238, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №812854, 4 разряд
+2024-02-14 00:45:49.349 | INFO     | functions:make_new_protocol:226 - File for protocol Open: Весы настольные циферблатные РН-6Ц13У 8474-88.docx
+2024-02-14 00:45:49.361 | DEBUG    | functions:make_new_protocol:259 - Protocol File was Save: C:/Programming/Python/EI_protocols/Весы настольные циферблатные РН-6Ц13У 8474-88.docx
+2024-02-14 00:45:49.362 | INFO     | dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-02-14 00:45:53.453 | INFO     | __main__:verificationer_changed:523 - verificationer_changed
+2024-02-14 00:46:11.799 | INFO     | __main__:initUI:75 - Start initUI
+2024-02-14 00:46:13.536 | INFO     | __main__:use_data:586 - use_data
+2024-02-14 00:46:13.538 | INFO     | __main__:verificationer_changed:523 - verificationer_changed
+2024-02-14 00:46:13.539 | INFO     | __main__:scale_changed:483 - scale_changed
+2024-02-14 00:46:24.057 | INFO     | __main__:add_path:518 - add_path
+2024-02-14 00:46:33.974 | INFO     | __main__:create_protocol:537 - create_protocol
+2024-02-14 00:46:33.975 | DEBUG    | functions:make_new_protocol:219 - CREATE PROTOCOL
+2024-02-14 00:46:33.976 | DEBUG    | functions:make_new_protocol:223 - scale: Весы настольные циферблатные РН-6Ц13У 8474-88
+2024-02-14 00:46:33.976 | DEBUG    | functions:make_new_protocol:223 - path: C:/Users/maina/PythonProjects/desktop/EI_Protocol
+2024-02-14 00:46:33.976 | DEBUG    | functions:make_new_protocol:223 - num_protocol: ЕИ-01-03-
+2024-02-14 00:46:33.977 | DEBUG    | functions:make_new_protocol:223 - num_scale: 
+2024-02-14 00:46:33.977 | DEBUG    | functions:make_new_protocol:223 - INN: INN
+2024-02-14 00:46:33.977 | DEBUG    | functions:make_new_protocol:223 - company: company
+2024-02-14 00:46:33.978 | DEBUG    | functions:make_new_protocol:223 - legal_address: place
+2024-02-14 00:46:33.978 | DEBUG    | functions:make_new_protocol:223 - inspection_address: place
+2024-02-14 00:46:33.978 | DEBUG    | functions:make_new_protocol:223 - temperature: temp
+2024-02-14 00:46:33.978 | DEBUG    | functions:make_new_protocol:223 - humidity: hum
+2024-02-14 00:46:33.979 | DEBUG    | functions:make_new_protocol:223 - pressure: press
+2024-02-14 00:46:33.979 | DEBUG    | functions:make_new_protocol:223 - verificationer: Стариков
+2024-02-14 00:46:33.979 | DEBUG    | functions:make_new_protocol:223 - unfit: True
+2024-02-14 00:46:33.979 | DEBUG    | functions:make_new_protocol:223 - use_excel: True
+2024-02-14 00:46:33.979 | DEBUG    | functions:make_new_protocol:223 - inspection_date: 07.02.2024
+2024-02-14 00:46:33.980 | DEBUG    | functions:make_new_protocol:223 - standarts: Набор гирь 1 мг-500 г F1 рег. № в ФИФ 58463-14, №PV156, 2 разряд;
+Гиря М1 500 г рег. № в ФИФ 58048-14 №796242, 4 разряд;
+Гиря М1 1 кг рег. № в ФИФ 58048-14 №796241, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796236, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796237, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №796238, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №812854, 4 разряд
+2024-02-14 00:46:33.991 | INFO     | functions:make_new_protocol:226 - File for protocol Open: Весы настольные циферблатные РН-6Ц13У 8474-88.docx
+2024-02-14 00:46:34.005 | DEBUG    | functions:make_new_protocol:259 - Protocol File was Save: C:/Users/maina/PythonProjects/desktop/EI_Protocol/Весы настольные циферблатные РН-6Ц13У 8474-88.docx
+2024-02-14 00:46:34.006 | INFO     | dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-02-14 00:46:35.678 | INFO     | __main__:verificationer_changed:523 - verificationer_changed

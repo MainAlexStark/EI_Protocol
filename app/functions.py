@@ -218,14 +218,11 @@ def make_new_protocol(args):
     try:
         logger.debug('CREATE PROTOCOL')
 
-        file_path = os.path.abspath(__file__)
-        main_path = os.path.dirname(os.path.dirname(file_path))
-
         for key in args.keys():
             argument = args[key]
             logger.debug(f"{key}: {argument}")
 
-        doc = Document(f'{main_path}\\templates\\{args['scale']}.docx')
+        doc = Document(f'templates\\{args['scale']}.docx')
         logger.info(f'File for protocol Open: {args['scale']}.docx')
 
         index = 0
@@ -252,15 +249,21 @@ def make_new_protocol(args):
                     paragraph.text = paragraph.text.replace('НАПРЯЖЕНИЕ_ПЕРЕМЕННАЯ', args['voltage']) \
                     .replace('ЧАСТОТА_ПЕРЕМЕННАЯ', args['frequency'])
 
+                if 'соответствует установленным в описании типа метрологическим требованиям' in paragraph.text and args['unfit'] == True:
+                    paragraph.text = paragraph.text.replace('соответствует','несоответствует')\
+                    .replace('пригодно','непригодно')
+
                 index += 1
 
         doc.save(f'{args['path']}/{args['scale']}.docx')
         logger.debug(f'Protocol File was Save: {args['path']}/{args['scale']}.docx')
 
+        if args['use_excel']:
+            ...
 
 
-
-
+        return f'{args['path']}/{args['scale']}.docx'
+    
     except Exception as e:
         logger.error(f'Error create protocol: {e}')
         return e
