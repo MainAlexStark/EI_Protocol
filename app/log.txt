@@ -3142,3 +3142,110 @@
 2024-02-14 00:46:34.005 | DEBUG    | functions:make_new_protocol:259 - Protocol File was Save: C:/Users/maina/PythonProjects/desktop/EI_Protocol/Весы настольные циферблатные РН-6Ц13У 8474-88.docx
 2024-02-14 00:46:34.006 | INFO     | dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
 2024-02-14 00:46:35.678 | INFO     | __main__:verificationer_changed:523 - verificationer_changed
+2024-02-14 14:09:58.305 | INFO     | __main__:initUI:75 - Start initUI
+2024-02-14 14:53:47.872 | INFO     | __main__:initUI:75 - Start initUI
+2024-02-14 14:54:10.740 | INFO     | __main__:initUI:75 - Start initUI
+2024-02-14 15:10:35.205 | INFO     | __main__:initUI:75 - Start initUI
+2024-02-14 15:10:40.170 | INFO     | __main__:settings:680 - settings
+2024-02-14 15:10:40.170 | INFO     | dialogs.SettingDialog:__init__:19 - SettingDialog(QDialog): __init__
+2024-02-14 15:10:44.022 | INFO     | __main__:create_protocol:537 - create_protocol
+2024-02-14 15:10:48.348 | INFO     | __main__:initUI:75 - Start initUI
+2024-02-14 15:10:49.876 | INFO     | __main__:use_data:586 - use_data
+2024-02-14 15:10:49.879 | INFO     | __main__:verificationer_changed:523 - verificationer_changed
+2024-02-14 15:10:49.880 | INFO     | __main__:scale_changed:483 - scale_changed
+2024-02-14 15:11:00.455 | INFO     | __main__:add_path:518 - add_path
+2024-02-14 15:11:08.029 | INFO     | __main__:create_protocol:537 - create_protocol
+2024-02-14 15:11:08.031 | DEBUG    | functions:make_new_protocol:219 - CREATE PROTOCOL
+2024-02-14 15:11:08.031 | DEBUG    | functions:make_new_protocol:223 - scale: Весы настольные циферблатные РН-6Ц13У 8474-88
+2024-02-14 15:11:08.032 | DEBUG    | functions:make_new_protocol:223 - path: C:/Users/maina/PythonProjects/desktop
+2024-02-14 15:11:08.032 | DEBUG    | functions:make_new_protocol:223 - num_protocol: ЕИ-01-03-1234
+2024-02-14 15:11:08.033 | DEBUG    | functions:make_new_protocol:223 - num_scale: 1234
+2024-02-14 15:11:08.033 | DEBUG    | functions:make_new_protocol:223 - INN: INN
+2024-02-14 15:11:08.033 | DEBUG    | functions:make_new_protocol:223 - company: company
+2024-02-14 15:11:08.033 | DEBUG    | functions:make_new_protocol:223 - legal_address: place
+2024-02-14 15:11:08.033 | DEBUG    | functions:make_new_protocol:223 - inspection_address: place
+2024-02-14 15:11:08.033 | DEBUG    | functions:make_new_protocol:223 - temperature: temp
+2024-02-14 15:11:08.034 | DEBUG    | functions:make_new_protocol:223 - humidity: hum
+2024-02-14 15:11:08.034 | DEBUG    | functions:make_new_protocol:223 - pressure: press
+2024-02-14 15:11:08.034 | DEBUG    | functions:make_new_protocol:223 - verificationer: Стариков
+2024-02-14 15:11:08.034 | DEBUG    | functions:make_new_protocol:223 - unfit: True
+2024-02-14 15:11:08.034 | DEBUG    | functions:make_new_protocol:223 - use_excel: True
+2024-02-14 15:11:08.035 | DEBUG    | functions:make_new_protocol:223 - inspection_date: 07.02.2024
+2024-02-14 15:11:08.035 | DEBUG    | functions:make_new_protocol:223 - standarts: Набор гирь 1 мг-500 г F1 рег. № в ФИФ 58463-14, №PV156, 2 разряд;
+Гиря М1 500 г рег. № в ФИФ 58048-14 №796242, 4 разряд;
+Гиря М1 1 кг рег. № в ФИФ 58048-14 №796241, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796236, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796237, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №796238, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №812854, 4 разряд
+2024-02-14 15:11:08.101 | INFO     | functions:make_new_protocol:226 - File for protocol Open: Весы настольные циферблатные РН-6Ц13У 8474-88.docx
+2024-02-14 15:11:08.115 | DEBUG    | functions:make_new_protocol:259 - Protocol File was Save: C:/Users/maina/PythonProjects/desktop/Весы настольные циферблатные РН-6Ц13У 8474-88.docx
+2024-02-14 15:11:08.115 | INFO     | dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-02-14 15:11:11.717 | INFO     | __main__:verificationer_changed:523 - verificationer_changed
+2024-02-14 15:19:07.724 | INFO     | __main__:initUI:75 - Start initUI
+2024-02-14 15:19:10.119 | INFO     | __main__:use_data:586 - use_data
+2024-02-14 15:19:10.126 | INFO     | __main__:verificationer_changed:523 - verificationer_changed
+2024-02-14 15:19:10.127 | INFO     | __main__:scale_changed:483 - scale_changed
+2024-02-14 15:19:12.671 | INFO     | __main__:add_path:518 - add_path
+2024-02-14 15:19:35.625 | INFO     | __main__:create_protocol:537 - create_protocol
+2024-02-14 15:19:35.626 | DEBUG    | functions:make_new_protocol:219 - CREATE PROTOCOL
+2024-02-14 15:19:35.626 | DEBUG    | functions:make_new_protocol:223 - scale: Весы настольные циферблатные РН-6Ц13У 8474-88
+2024-02-14 15:19:35.627 | DEBUG    | functions:make_new_protocol:223 - path: 
+2024-02-14 15:19:35.627 | DEBUG    | functions:make_new_protocol:223 - num_protocol: ЕИ-01-03-
+2024-02-14 15:19:35.628 | DEBUG    | functions:make_new_protocol:223 - num_scale: 
+2024-02-14 15:19:35.628 | DEBUG    | functions:make_new_protocol:223 - INN: INN
+2024-02-14 15:19:35.628 | DEBUG    | functions:make_new_protocol:223 - company: company
+2024-02-14 15:19:35.628 | DEBUG    | functions:make_new_protocol:223 - legal_address: place
+2024-02-14 15:19:35.629 | DEBUG    | functions:make_new_protocol:223 - inspection_address: place
+2024-02-14 15:19:35.629 | DEBUG    | functions:make_new_protocol:223 - temperature: temp
+2024-02-14 15:19:35.629 | DEBUG    | functions:make_new_protocol:223 - humidity: hum
+2024-02-14 15:19:35.629 | DEBUG    | functions:make_new_protocol:223 - pressure: press
+2024-02-14 15:19:35.629 | DEBUG    | functions:make_new_protocol:223 - verificationer: Стариков
+2024-02-14 15:19:35.629 | DEBUG    | functions:make_new_protocol:223 - unfit: True
+2024-02-14 15:19:35.630 | DEBUG    | functions:make_new_protocol:223 - use_excel: True
+2024-02-14 15:19:35.630 | DEBUG    | functions:make_new_protocol:223 - inspection_date: 07.02.2024
+2024-02-14 15:19:35.630 | DEBUG    | functions:make_new_protocol:223 - standarts: Набор гирь 1 мг-500 г F1 рег. № в ФИФ 58463-14, №PV156, 2 разряд;
+Гиря М1 500 г рег. № в ФИФ 58048-14 №796242, 4 разряд;
+Гиря М1 1 кг рег. № в ФИФ 58048-14 №796241, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796236, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796237, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №796238, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №812854, 4 разряд
+2024-02-14 15:19:35.639 | INFO     | functions:make_new_protocol:226 - File for protocol Open: Весы настольные циферблатные РН-6Ц13У 8474-88.docx
+2024-02-14 15:19:35.646 | ERROR    | functions:make_new_protocol:274 - Error create protocol: [Errno 13] Permission denied: '/ЕИ-01-03- Весы настольные циферблатные РН-6Ц13У № (8474-88).docx'
+2024-02-14 15:19:35.646 | INFO     | dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-02-14 15:19:35.647 | ERROR    | dialogs.CreateProtocolDialog:__init__:45 - Error init ChooseScaleDialog(QDialog) : setText(self, a0: Optional[str]): argument 1 has unexpected type 'PermissionError'
+2024-02-14 15:19:39.844 | INFO     | __main__:verificationer_changed:523 - verificationer_changed
+2024-02-14 15:20:07.844 | INFO     | __main__:initUI:75 - Start initUI
+2024-02-14 15:20:15.689 | INFO     | __main__:use_data:586 - use_data
+2024-02-14 15:20:15.696 | INFO     | __main__:verificationer_changed:523 - verificationer_changed
+2024-02-14 15:20:15.699 | INFO     | __main__:scale_changed:483 - scale_changed
+2024-02-14 15:20:20.417 | INFO     | __main__:add_path:518 - add_path
+2024-02-14 15:20:32.197 | INFO     | __main__:create_protocol:537 - create_protocol
+2024-02-14 15:20:32.198 | DEBUG    | functions:make_new_protocol:219 - CREATE PROTOCOL
+2024-02-14 15:20:32.198 | DEBUG    | functions:make_new_protocol:223 - scale: Весы настольные циферблатные РН-6Ц13У 8474-88
+2024-02-14 15:20:32.198 | DEBUG    | functions:make_new_protocol:223 - path: C:/Users/maina/PythonProjects/desktop
+2024-02-14 15:20:32.199 | DEBUG    | functions:make_new_protocol:223 - num_protocol: ЕИ-01-03-1234
+2024-02-14 15:20:32.199 | DEBUG    | functions:make_new_protocol:223 - num_scale: 1234
+2024-02-14 15:20:32.199 | DEBUG    | functions:make_new_protocol:223 - INN: INN
+2024-02-14 15:20:32.200 | DEBUG    | functions:make_new_protocol:223 - company: company
+2024-02-14 15:20:32.200 | DEBUG    | functions:make_new_protocol:223 - legal_address: place
+2024-02-14 15:20:32.200 | DEBUG    | functions:make_new_protocol:223 - inspection_address: place
+2024-02-14 15:20:32.200 | DEBUG    | functions:make_new_protocol:223 - temperature: temp
+2024-02-14 15:20:32.201 | DEBUG    | functions:make_new_protocol:223 - humidity: hum
+2024-02-14 15:20:32.201 | DEBUG    | functions:make_new_protocol:223 - pressure: press
+2024-02-14 15:20:32.201 | DEBUG    | functions:make_new_protocol:223 - verificationer: Стариков
+2024-02-14 15:20:32.201 | DEBUG    | functions:make_new_protocol:223 - unfit: True
+2024-02-14 15:20:32.202 | DEBUG    | functions:make_new_protocol:223 - use_excel: True
+2024-02-14 15:20:32.202 | DEBUG    | functions:make_new_protocol:223 - inspection_date: 07.02.2024
+2024-02-14 15:20:32.202 | DEBUG    | functions:make_new_protocol:223 - standarts: Набор гирь 1 мг-500 г F1 рег. № в ФИФ 58463-14, №PV156, 2 разряд;
+Гиря М1 500 г рег. № в ФИФ 58048-14 №796242, 4 разряд;
+Гиря М1 1 кг рег. № в ФИФ 58048-14 №796241, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796236, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796237, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №796238, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №812854, 4 разряд
+2024-02-14 15:20:32.211 | INFO     | functions:make_new_protocol:226 - File for protocol Open: Весы настольные циферблатные РН-6Ц13У 8474-88.docx
+2024-02-14 15:20:32.223 | DEBUG    | functions:make_new_protocol:265 - C:/Users/maina/PythonProjects/desktop/ЕИ-01-03-1234 Весы настольные циферблатные РН-6Ц13У №1234 (8474-88).docx
+2024-02-14 15:20:32.224 | INFO     | dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-02-14 15:20:38.172 | INFO     | __main__:verificationer_changed:523 - verificationer_changed

@@ -255,14 +255,20 @@ def make_new_protocol(args):
 
                 index += 1
 
-        doc.save(f'{args['path']}/{args['scale']}.docx')
-        logger.debug(f'Protocol File was Save: {args['path']}/{args['scale']}.docx')
+
+        scale = args['scale'].rsplit(' ',1)[0]
+        fif = args['scale'].rsplit(' ',1)[1]
+
+        full = f'{args['path']}/{args['num_protocol']} {scale} №{args['num_scale']} ({fif}).docx'
+
+        doc.save(full)
+        logger.debug(full)
 
         if args['use_excel']:
             ...
 
 
-        return f'{args['path']}/{args['scale']}.docx'
+        return full
     
     except Exception as e:
         logger.error(f'Error create protocol: {e}')
