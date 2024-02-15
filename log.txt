@@ -1,11 +1,821 @@
-2024-02-08 02:17:46.843 | INFO     | __main__:initUI:279 - Start initUI
-2024-02-08 04:25:13.444 | INFO     | __main__:initUI:278 - Start initUI
-2024-02-08 04:25:15.878 | INFO     | __main__:initUI:278 - Start initUI
-2024-02-08 04:25:31.653 | INFO     | __main__:initUI:278 - Start initUI
-2024-02-08 04:25:32.840 | INFO     | __main__:initUI:278 - Start initUI
-2024-02-08 04:25:34.200 | INFO     | __main__:initUI:278 - Start initUI
-2024-02-08 04:25:56.835 | INFO     | __main__:initUI:278 - Start initUI
-2024-02-08 04:26:17.541 | INFO     | __main__:initUI:278 - Start initUI
-2024-02-08 04:26:58.153 | INFO     | __main__:initUI:278 - Start initUI
-2024-02-08 04:29:41.308 | INFO     | __main__:initUI:278 - Start initUI
-2024-02-08 12:25:20.818 | INFO     | __main__:initUI:278 - Start initUI
+2024-02-15 21:51:41.152 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 21:51:41.153 | DEBUG    | app.main_window:initUI:75 - Program: EI_Protocol
+Version: alpha 2.0                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 21:52:07.898 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 21:52:07.898 | DEBUG    | app.main_window:initUI:75 - Program: EI_Protocol
+Version: alpha 2.0                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 21:52:55.141 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 21:52:55.142 | DEBUG    | app.main_window:initUI:75 - Program: EI_Protocol
+Version: alpha 2.0                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 21:53:33.862 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 21:53:33.862 | DEBUG    | app.main_window:initUI:75 - Program: EI_Protocol
+Version: alpha 2.0                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 21:53:55.475 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 21:53:55.475 | DEBUG    | app.main_window:initUI:75 - Program: EI_Protocol
+Version: alpha 2.0                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 21:54:17.758 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 21:54:17.758 | DEBUG    | app.main_window:initUI:75 - Program: EI_Protocol
+Version: alpha 2.0                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 21:54:33.259 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 21:54:33.260 | DEBUG    | app.main_window:initUI:75 - Program: EI_Protocol
+Version: alpha 2.0                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 21:55:42.611 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 21:55:42.611 | DEBUG    | app.main_window:initUI:75 - Program: EI_Protocol
+Version: alpha 2.0                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 21:56:52.117 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 21:56:52.118 | DEBUG    | app.main_window:initUI:75 - Program: EI_Protocol
+Version: alpha 2.0                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 21:58:00.534 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 21:58:00.534 | DEBUG    | app.main_window:initUI:75 - Program: EI_Protocol
+Version: alpha 2.0                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 21:58:03.594 | INFO     | app.main_window:choose_scale:459 - start
+2024-02-15 22:01:30.228 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 22:01:30.228 | DEBUG    | app.main_window:initUI:75 - Program: EI_Protocol
+Version: alpha 2.0                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 22:01:32.177 | INFO     | app.main_window:choose_scale:459 - start
+2024-02-15 22:01:32.178 | INFO     | app.tools.dialogs.ChooseScaleDialog:__init__:25 - ChooseScaleDialog(QDialog): __init__
+2024-02-15 22:01:32.179 | ERROR    | app.tools.dialogs.ChooseScaleDialog:__init__:75 - Error init ChooseScaleDialog(QDialog) : [WinError 3] Системе не удается найти указанный путь: 'templates'
+2024-02-15 22:01:34.992 | DEBUG    | app.main_window:choose_scale:463 - end
+2024-02-15 22:01:43.072 | INFO     | app.main_window:add_path:466 - start
+2024-02-15 22:01:44.331 | DEBUG    | app.main_window:add_path:471 - end
+2024-02-15 22:01:46.309 | DEBUG    | app.main_window:settings:474 - start
+2024-02-15 22:01:46.309 | INFO     | app.tools.dialogs.SettingDialog:__init__:19 - SettingDialog(QDialog): __init__
+2024-02-15 22:02:38.523 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 22:02:38.524 | DEBUG    | app.main_window:initUI:75 - Program: EI_Protocol
+Version: alpha 2.0                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 22:02:40.084 | DEBUG    | app.main_window:settings:474 - start
+2024-02-15 22:02:40.085 | INFO     | app.tools.dialogs.SettingDialog:__init__:19 - SettingDialog(QDialog): __init__
+2024-02-15 22:03:06.005 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 22:03:06.006 | DEBUG    | app.main_window:initUI:75 - Program: EI_Protocol
+Version: alpha 2.0                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 22:03:07.622 | DEBUG    | app.main_window:settings:474 - start
+2024-02-15 22:03:07.623 | INFO     | app.tools.dialogs.SettingDialog:__init__:19 - SettingDialog(QDialog): __init__
+2024-02-15 22:03:09.502 | DEBUG    | app.main_window:settings:478 - end
+2024-02-15 22:05:43.872 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 22:05:43.873 | DEBUG    | app.main_window:initUI:75 - Program: EI_Protocol
+Version: alpha 2.0                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 22:05:51.131 | INFO     | app.tools.main_window_functions:use_data:204 - start
+2024-02-15 22:05:51.135 | DEBUG    | app.tools.main_window_functions:verificationer_changed:126 - start
+2024-02-15 22:05:51.135 | DEBUG    | app.tools.main_window_functions:verificationer_changed:136 - end
+2024-02-15 22:05:51.136 | INFO     | app.tools.main_window_functions:scale_changed:72 - start
+2024-02-15 22:05:51.137 | DEBUG    | app.tools.main_window_functions:scale_changed:100 - end
+2024-02-15 22:05:51.140 | DEBUG    | app.tools.main_window_functions:use_data:279 - end
+2024-02-15 22:05:53.709 | INFO     | app.tools.main_window_functions:use_data:204 - start
+2024-02-15 22:05:53.710 | INFO     | app.tools.main_window_functions:scale_changed:72 - start
+2024-02-15 22:05:53.710 | DEBUG    | app.tools.main_window_functions:scale_changed:100 - end
+2024-02-15 22:05:53.711 | DEBUG    | app.tools.main_window_functions:use_data:279 - end
+2024-02-15 22:05:54.291 | INFO     | app.tools.main_window_functions:clean:290 - start
+2024-02-15 22:05:54.292 | INFO     | app.tools.main_window_functions:scale_changed:72 - start
+2024-02-15 22:05:54.293 | DEBUG    | app.tools.main_window_functions:scale_changed:100 - end
+2024-02-15 22:05:54.293 | DEBUG    | app.tools.main_window_functions:verificationer_changed:126 - start
+2024-02-15 22:05:54.293 | DEBUG    | app.tools.main_window_functions:verificationer_changed:136 - end
+2024-02-15 22:05:54.294 | DEBUG    | app.tools.main_window_functions:clean:300 - end
+2024-02-15 22:05:57.016 | DEBUG    | app.tools.main_window_functions:create_template:309 - start
+2024-02-15 22:06:04.045 | DEBUG    | app.tools.word.template:create_template:27 - start
+2024-02-15 22:06:04.056 | DEBUG    | app.tools.word.template:create_template:32 - File for Template Open (C:/Users/maina/PythonProjects/desktop/EI_Protocol/app/documents/test.docx)
+2024-02-15 22:06:04.157 | DEBUG    | app.tools.word.template:create_template:200 - номер протокола: ЕИ-03-02-01390
+2024-02-15 22:06:04.157 | DEBUG    | app.tools.word.template:create_template:200 - весы:  Весы test
+2024-02-15 22:06:04.158 | DEBUG    | app.tools.word.template:create_template:200 - номер весов: 158171
+2024-02-15 22:06:04.158 | DEBUG    | app.tools.word.template:create_template:200 - компания: ФКУ ЛИУ-6 УФСИН России по Пензенской области
+2024-02-15 22:06:04.184 | DEBUG    | app.tools.word.template:create_template:200 - инн: 5805000130
+2024-02-15 22:06:04.185 | DEBUG    | app.tools.word.template:create_template:200 - юридический адрес: 442890, Пензенская область, Сердобский район, город Сердобск, тер ЯК 7/6
+2024-02-15 22:06:04.235 | DEBUG    | app.tools.word.template:create_template:200 - место поверки: г. Сердобск, тер ЯК 7/6
+2024-02-15 22:06:04.283 | DEBUG    | app.tools.word.template:create_template:200 - фиф: 35315-07
+2024-02-15 22:06:04.284 | DEBUG    | app.tools.word.template:create_template:200 - температура: 21,3
+2024-02-15 22:06:04.330 | DEBUG    | app.tools.word.template:create_template:200 - влажность: 54,2
+2024-02-15 22:06:04.330 | DEBUG    | app.tools.word.template:create_template:200 - давление: 100,1
+2024-02-15 22:06:04.332 | DEBUG    | app.tools.word.template:create_template:200 - поверитель:   С.В. Стариков
+2024-02-15 22:06:04.333 | DEBUG    | app.tools.word.template:create_template:200 - дата поверки: 18 сентября 2023
+2024-02-15 22:06:04.345 | ERROR    | app.tools.word.template:create_template:218 - Error create tempalte: [Errno 2] No such file or directory: 'templates/ Весы test 35315-07.docx'
+2024-02-15 22:06:04.345 | DEBUG    | app.tools.word.template:create_template:220 - end
+2024-02-15 22:06:04.346 | DEBUG    | app.tools.main_window_functions:__init__:340 - Create_template_Dialog(QDialog): __init__
+2024-02-15 22:06:04.348 | DEBUG    | app.tools.main_window_functions:__init__:361 - __init__ end
+2024-02-15 22:06:16.372 | DEBUG    | app.tools.main_window_functions:create_template:365 - end
+2024-02-15 22:07:30.087 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 22:07:30.088 | DEBUG    | app.main_window:initUI:75 - Program: EI_Protocol
+Version: alpha 2.0                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 22:07:38.864 | DEBUG    | app.tools.main_window_functions:create_template:309 - start
+2024-02-15 22:07:53.239 | DEBUG    | app.tools.word.template:create_template:27 - start
+2024-02-15 22:07:53.249 | DEBUG    | app.tools.word.template:create_template:32 - File for Template Open (C:/Users/maina/PythonProjects/desktop/EI_Protocol/app/documents/test.docx)
+2024-02-15 22:07:53.336 | DEBUG    | app.tools.word.template:create_template:200 - номер протокола: ЕИ-03-02-01390
+2024-02-15 22:07:53.336 | DEBUG    | app.tools.word.template:create_template:200 - весы:  Весы test
+2024-02-15 22:07:53.337 | DEBUG    | app.tools.word.template:create_template:200 - номер весов: 158171
+2024-02-15 22:07:53.337 | DEBUG    | app.tools.word.template:create_template:200 - компания: ФКУ ЛИУ-6 УФСИН России по Пензенской области
+2024-02-15 22:07:53.337 | DEBUG    | app.tools.word.template:create_template:200 - инн: 5805000130
+2024-02-15 22:07:53.338 | DEBUG    | app.tools.word.template:create_template:200 - юридический адрес: 442890, Пензенская область, Сердобский район, город Сердобск, тер ЯК 7/6
+2024-02-15 22:07:53.338 | DEBUG    | app.tools.word.template:create_template:200 - место поверки: г. Сердобск, тер ЯК 7/6
+2024-02-15 22:07:53.338 | DEBUG    | app.tools.word.template:create_template:200 - фиф: 35315-07
+2024-02-15 22:07:53.339 | DEBUG    | app.tools.word.template:create_template:200 - температура: 21,3
+2024-02-15 22:07:53.339 | DEBUG    | app.tools.word.template:create_template:200 - влажность: 54,2
+2024-02-15 22:07:53.339 | DEBUG    | app.tools.word.template:create_template:200 - давление: 100,1
+2024-02-15 22:07:53.339 | DEBUG    | app.tools.word.template:create_template:200 - поверитель:   С.В. Стариков
+2024-02-15 22:07:53.340 | DEBUG    | app.tools.word.template:create_template:200 - дата поверки: 18 сентября 2023
+2024-02-15 22:07:53.346 | DEBUG    | app.tools.word.template:create_template:214 - File was save: app/templates/ Весы test 35315-07.docx
+2024-02-15 22:07:53.347 | DEBUG    | app.tools.main_window_functions:__init__:340 - Create_template_Dialog(QDialog): __init__
+2024-02-15 22:07:53.373 | DEBUG    | app.tools.main_window_functions:__init__:361 - __init__ end
+2024-02-15 22:07:55.021 | DEBUG    | app.tools.main_window_functions:create_template:365 - end
+2024-02-15 22:07:55.649 | INFO     | app.main_window:choose_scale:459 - start
+2024-02-15 22:07:55.649 | INFO     | app.tools.dialogs.ChooseScaleDialog:__init__:25 - ChooseScaleDialog(QDialog): __init__
+2024-02-15 22:08:05.777 | DEBUG    | app.main_window:choose_scale:463 - end
+2024-02-15 22:08:13.182 | INFO     | app.tools.main_window_functions:create_protocol:145 - start
+2024-02-15 22:08:13.182 | DEBUG    | app.tools.main_window_functions:get_selected_table:108 - start
+2024-02-15 22:08:13.183 | DEBUG    | app.tools.main_window_functions:get_selected_table:114 - end
+2024-02-15 22:08:20.270 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 22:08:20.270 | DEBUG    | app.main_window:initUI:75 - Program: EI_Protocol
+Version: alpha 2.0                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 22:09:03.664 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 22:09:03.665 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 22:09:26.198 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 22:09:26.198 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 22:09:28.561 | INFO     | app.tools.main_window_functions:use_data:204 - start
+2024-02-15 22:09:28.563 | DEBUG    | app.tools.main_window_functions:verificationer_changed:126 - start
+2024-02-15 22:09:28.564 | DEBUG    | app.tools.main_window_functions:verificationer_changed:136 - end
+2024-02-15 22:09:28.565 | INFO     | app.tools.main_window_functions:scale_changed:72 - start
+2024-02-15 22:09:28.565 | DEBUG    | app.tools.main_window_functions:scale_changed:100 - end
+2024-02-15 22:09:28.566 | DEBUG    | app.tools.main_window_functions:use_data:279 - end
+2024-02-15 22:09:44.258 | DEBUG    | app.tools.main_window_functions:search_company:24 - start
+2024-02-15 22:09:44.259 | DEBUG    | app.tools.parse.FNS_RUS:__init__:6 - start
+2024-02-15 22:09:44.259 | DEBUG    | app.tools.parse.FNS_RUS:get_company_data:10 - start
+2024-02-15 22:09:46.285 | DEBUG    | app.tools.main_window_functions:search_company:65 - end
+2024-02-15 22:10:00.298 | INFO     | app.main_window:add_path:466 - start
+2024-02-15 22:10:04.916 | DEBUG    | app.main_window:add_path:471 - end
+2024-02-15 22:10:06.776 | INFO     | app.tools.main_window_functions:create_protocol:145 - start
+2024-02-15 22:10:06.777 | DEBUG    | app.tools.main_window_functions:get_selected_table:108 - start
+2024-02-15 22:10:06.777 | DEBUG    | app.tools.main_window_functions:get_selected_table:114 - end
+2024-02-15 22:10:30.635 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 22:10:30.636 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 22:10:32.532 | INFO     | app.tools.main_window_functions:use_data:204 - start
+2024-02-15 22:10:32.533 | DEBUG    | app.tools.main_window_functions:verificationer_changed:126 - start
+2024-02-15 22:10:32.534 | DEBUG    | app.tools.main_window_functions:verificationer_changed:136 - end
+2024-02-15 22:10:32.535 | INFO     | app.tools.main_window_functions:scale_changed:72 - start
+2024-02-15 22:10:32.535 | DEBUG    | app.tools.main_window_functions:scale_changed:100 - end
+2024-02-15 22:10:32.536 | DEBUG    | app.tools.main_window_functions:use_data:279 - end
+2024-02-15 22:10:37.504 | INFO     | app.tools.main_window_functions:create_protocol:145 - start
+2024-02-15 22:10:37.504 | DEBUG    | app.tools.main_window_functions:get_selected_table:108 - start
+2024-02-15 22:10:37.504 | DEBUG    | app.tools.main_window_functions:get_selected_table:114 - end
+2024-02-15 22:13:38.020 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 22:13:38.020 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 22:13:39.675 | INFO     | app.tools.main_window_functions:use_data:211 - start
+2024-02-15 22:13:39.676 | DEBUG    | app.tools.main_window_functions:verificationer_changed:133 - start
+2024-02-15 22:13:39.677 | DEBUG    | app.tools.main_window_functions:verificationer_changed:143 - end
+2024-02-15 22:13:39.678 | INFO     | app.tools.main_window_functions:scale_changed:72 - start
+2024-02-15 22:13:39.678 | DEBUG    | app.tools.main_window_functions:scale_changed:100 - end
+2024-02-15 22:13:39.679 | DEBUG    | app.tools.main_window_functions:use_data:286 - end
+2024-02-15 22:13:40.038 | INFO     | app.tools.main_window_functions:create_protocol:152 - start
+2024-02-15 22:13:40.038 | DEBUG    | app.tools.main_window_functions:get_selected_table:108 - start
+2024-02-15 22:13:40.038 | DEBUG    | app.tools.main_window_functions:get_selected_table:121 - end
+2024-02-15 22:14:32.666 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 22:14:32.667 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 22:14:34.836 | INFO     | app.tools.main_window_functions:use_data:212 - start
+2024-02-15 22:14:34.838 | DEBUG    | app.tools.main_window_functions:verificationer_changed:134 - start
+2024-02-15 22:14:34.838 | DEBUG    | app.tools.main_window_functions:verificationer_changed:144 - end
+2024-02-15 22:14:34.839 | INFO     | app.tools.main_window_functions:scale_changed:72 - start
+2024-02-15 22:14:34.839 | DEBUG    | app.tools.main_window_functions:scale_changed:100 - end
+2024-02-15 22:14:34.840 | DEBUG    | app.tools.main_window_functions:use_data:287 - end
+2024-02-15 22:14:35.319 | INFO     | app.tools.main_window_functions:create_protocol:153 - start
+2024-02-15 22:14:35.320 | DEBUG    | app.tools.main_window_functions:get_selected_table:108 - start
+2024-02-15 22:14:35.320 | DEBUG    | app.tools.main_window_functions:get_selected_table:116 - <PyQt5.QtWidgets.QTableWidget object at 0x0000021A54C11AC0>
+2024-02-15 22:14:35.320 | DEBUG    | app.tools.main_window_functions:get_selected_table:118 - end
+2024-02-15 22:15:53.668 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 22:15:53.668 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 22:15:55.470 | INFO     | app.tools.main_window_functions:use_data:212 - start
+2024-02-15 22:15:55.472 | DEBUG    | app.tools.main_window_functions:verificationer_changed:134 - start
+2024-02-15 22:15:55.473 | DEBUG    | app.tools.main_window_functions:verificationer_changed:144 - end
+2024-02-15 22:15:55.474 | INFO     | app.tools.main_window_functions:scale_changed:72 - start
+2024-02-15 22:15:55.474 | DEBUG    | app.tools.main_window_functions:scale_changed:100 - end
+2024-02-15 22:15:55.475 | DEBUG    | app.tools.main_window_functions:use_data:287 - end
+2024-02-15 22:15:55.807 | INFO     | app.tools.main_window_functions:create_protocol:153 - start
+2024-02-15 22:15:55.807 | DEBUG    | app.tools.main_window_functions:get_selected_table:108 - start
+2024-02-15 22:15:55.808 | DEBUG    | app.tools.main_window_functions:get_selected_table:116 - <PyQt5.QtWidgets.QTableWidget object at 0x0000014242481AC0>
+2024-02-15 22:15:55.808 | DEBUG    | app.tools.main_window_functions:get_selected_table:118 - end
+2024-02-15 22:16:05.422 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 22:16:05.423 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 22:16:08.282 | INFO     | app.tools.main_window_functions:use_data:212 - start
+2024-02-15 22:16:08.284 | DEBUG    | app.tools.main_window_functions:verificationer_changed:134 - start
+2024-02-15 22:16:08.285 | DEBUG    | app.tools.main_window_functions:verificationer_changed:144 - end
+2024-02-15 22:16:08.286 | INFO     | app.tools.main_window_functions:scale_changed:72 - start
+2024-02-15 22:16:08.286 | DEBUG    | app.tools.main_window_functions:scale_changed:100 - end
+2024-02-15 22:16:08.286 | DEBUG    | app.tools.main_window_functions:use_data:287 - end
+2024-02-15 22:16:12.008 | INFO     | app.tools.main_window_functions:create_protocol:153 - start
+2024-02-15 22:16:12.009 | DEBUG    | app.tools.main_window_functions:get_selected_table:108 - start
+2024-02-15 22:16:12.009 | DEBUG    | app.tools.main_window_functions:get_selected_table:116 - <PyQt5.QtWidgets.QTableWidget object at 0x0000024353289910>
+2024-02-15 22:16:12.010 | DEBUG    | app.tools.main_window_functions:get_selected_table:118 - end
+2024-02-15 22:19:46.492 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 22:19:46.492 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 22:19:48.626 | INFO     | app.tools.main_window_functions:use_data:212 - start
+2024-02-15 22:19:48.627 | DEBUG    | app.tools.main_window_functions:verificationer_changed:134 - start
+2024-02-15 22:19:48.628 | DEBUG    | app.tools.main_window_functions:verificationer_changed:144 - end
+2024-02-15 22:19:48.629 | INFO     | app.tools.main_window_functions:scale_changed:72 - start
+2024-02-15 22:19:48.629 | DEBUG    | app.tools.main_window_functions:scale_changed:100 - end
+2024-02-15 22:19:48.630 | DEBUG    | app.tools.main_window_functions:use_data:287 - end
+2024-02-15 22:19:48.950 | INFO     | app.tools.main_window_functions:create_protocol:153 - start
+2024-02-15 22:20:28.997 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 22:20:28.998 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 22:20:31.018 | INFO     | app.tools.main_window_functions:use_data:212 - start
+2024-02-15 22:20:31.020 | DEBUG    | app.tools.main_window_functions:verificationer_changed:134 - start
+2024-02-15 22:20:31.021 | DEBUG    | app.tools.main_window_functions:verificationer_changed:144 - end
+2024-02-15 22:20:31.021 | INFO     | app.tools.main_window_functions:scale_changed:72 - start
+2024-02-15 22:20:31.022 | DEBUG    | app.tools.main_window_functions:scale_changed:100 - end
+2024-02-15 22:20:31.022 | DEBUG    | app.tools.main_window_functions:use_data:287 - end
+2024-02-15 22:20:31.366 | INFO     | app.tools.main_window_functions:create_protocol:153 - start
+2024-02-15 22:21:36.229 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 22:21:36.229 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 22:21:37.808 | INFO     | app.tools.main_window_functions:use_data:212 - start
+2024-02-15 22:21:37.809 | DEBUG    | app.tools.main_window_functions:verificationer_changed:134 - start
+2024-02-15 22:21:37.810 | DEBUG    | app.tools.main_window_functions:verificationer_changed:144 - end
+2024-02-15 22:21:37.812 | INFO     | app.tools.main_window_functions:scale_changed:72 - start
+2024-02-15 22:21:37.812 | DEBUG    | app.tools.main_window_functions:scale_changed:100 - end
+2024-02-15 22:21:37.812 | DEBUG    | app.tools.main_window_functions:use_data:287 - end
+2024-02-15 22:21:38.084 | INFO     | app.tools.main_window_functions:create_protocol:153 - start
+2024-02-15 22:21:38.085 | DEBUG    | app.tools.main_window_functions:get_selected_table:108 - start
+2024-02-15 22:21:38.085 | DEBUG    | app.tools.main_window_functions:get_selected_table:116 - <PyQt5.QtWidgets.QTableWidget object at 0x000001DBF03F1AC0>
+2024-02-15 22:21:38.085 | DEBUG    | app.tools.main_window_functions:get_selected_table:118 - end
+2024-02-15 22:21:38.086 | DEBUG    | app.tools.main_window_functions:get_selected_table:108 - start
+2024-02-15 22:21:38.086 | DEBUG    | app.tools.main_window_functions:get_selected_table:116 - <PyQt5.QtWidgets.QTableWidget object at 0x000001DBF03F1AC0>
+2024-02-15 22:21:38.086 | DEBUG    | app.tools.main_window_functions:get_selected_table:118 - end
+2024-02-15 22:22:59.940 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 22:22:59.941 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 22:23:01.782 | INFO     | app.tools.main_window_functions:use_data:212 - start
+2024-02-15 22:23:01.784 | DEBUG    | app.tools.main_window_functions:verificationer_changed:134 - start
+2024-02-15 22:23:01.784 | DEBUG    | app.tools.main_window_functions:verificationer_changed:144 - end
+2024-02-15 22:23:01.785 | INFO     | app.tools.main_window_functions:scale_changed:72 - start
+2024-02-15 22:23:01.786 | DEBUG    | app.tools.main_window_functions:scale_changed:100 - end
+2024-02-15 22:23:01.786 | DEBUG    | app.tools.main_window_functions:use_data:287 - end
+2024-02-15 22:23:03.990 | INFO     | app.main_window:add_path:466 - start
+2024-02-15 22:23:08.183 | DEBUG    | app.main_window:add_path:471 - end
+2024-02-15 22:23:09.700 | INFO     | app.tools.main_window_functions:create_protocol:153 - start
+2024-02-15 22:23:09.701 | DEBUG    | app.tools.main_window_functions:get_selected_table:108 - start
+2024-02-15 22:23:09.701 | DEBUG    | app.tools.main_window_functions:get_selected_table:116 - <PyQt5.QtWidgets.QTableWidget object at 0x0000026EFA9D9910>
+2024-02-15 22:23:09.702 | DEBUG    | app.tools.main_window_functions:get_selected_table:118 - end
+2024-02-15 22:23:48.212 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 22:23:48.213 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 22:23:50.128 | INFO     | app.tools.main_window_functions:use_data:212 - start
+2024-02-15 22:23:50.131 | DEBUG    | app.tools.main_window_functions:verificationer_changed:134 - start
+2024-02-15 22:23:50.131 | DEBUG    | app.tools.main_window_functions:verificationer_changed:144 - end
+2024-02-15 22:23:50.132 | INFO     | app.tools.main_window_functions:scale_changed:72 - start
+2024-02-15 22:23:50.132 | DEBUG    | app.tools.main_window_functions:scale_changed:100 - end
+2024-02-15 22:23:50.133 | DEBUG    | app.tools.main_window_functions:use_data:287 - end
+2024-02-15 22:23:50.776 | INFO     | app.tools.main_window_functions:create_protocol:153 - start
+2024-02-15 22:23:50.777 | DEBUG    | app.tools.main_window_functions:get_selected_table:108 - start
+2024-02-15 22:23:50.777 | DEBUG    | app.tools.main_window_functions:get_selected_table:116 - <PyQt5.QtWidgets.QTableWidget object at 0x000001A7519D9910>
+2024-02-15 22:23:50.778 | DEBUG    | app.tools.main_window_functions:get_selected_table:118 - end
+2024-02-15 22:23:50.778 | DEBUG    | app.tools.main_window_functions:get_selected_table:108 - start
+2024-02-15 22:23:50.778 | DEBUG    | app.tools.main_window_functions:get_selected_table:116 - <PyQt5.QtWidgets.QTableWidget object at 0x000001A7519D9910>
+2024-02-15 22:23:50.779 | DEBUG    | app.tools.main_window_functions:get_selected_table:118 - end
+2024-02-15 22:23:50.781 | DEBUG    | app.tools.word.protocol:make_new_protocol:26 - start
+2024-02-15 22:23:50.781 | DEBUG    | app.tools.word.protocol:make_new_protocol:30 - scale: Весы настольные циферблатные РН-6Ц13У 8474-88
+2024-02-15 22:23:50.782 | DEBUG    | app.tools.word.protocol:make_new_protocol:30 - path: C:/Users/maina/PythonProjects/desktop
+2024-02-15 22:23:50.782 | DEBUG    | app.tools.word.protocol:make_new_protocol:30 - num_protocol: ЕИ-01-03-
+2024-02-15 22:23:50.782 | DEBUG    | app.tools.word.protocol:make_new_protocol:30 - num_scale: 
+2024-02-15 22:23:50.782 | DEBUG    | app.tools.word.protocol:make_new_protocol:30 - INN: INN
+2024-02-15 22:23:50.783 | DEBUG    | app.tools.word.protocol:make_new_protocol:30 - company: company
+2024-02-15 22:23:50.783 | DEBUG    | app.tools.word.protocol:make_new_protocol:30 - legal_address: place
+2024-02-15 22:23:50.783 | DEBUG    | app.tools.word.protocol:make_new_protocol:30 - inspection_address: place
+2024-02-15 22:23:50.783 | DEBUG    | app.tools.word.protocol:make_new_protocol:30 - temperature: temp
+2024-02-15 22:23:50.784 | DEBUG    | app.tools.word.protocol:make_new_protocol:30 - humidity: hum
+2024-02-15 22:23:50.784 | DEBUG    | app.tools.word.protocol:make_new_protocol:30 - pressure: press
+2024-02-15 22:23:50.784 | DEBUG    | app.tools.word.protocol:make_new_protocol:30 - verificationer: Стариков
+2024-02-15 22:23:50.784 | DEBUG    | app.tools.word.protocol:make_new_protocol:30 - unfit: True
+2024-02-15 22:23:50.785 | DEBUG    | app.tools.word.protocol:make_new_protocol:30 - use_excel: True
+2024-02-15 22:23:50.785 | DEBUG    | app.tools.word.protocol:make_new_protocol:30 - inspection_date: 07.02.2024
+2024-02-15 22:23:50.785 | DEBUG    | app.tools.word.protocol:make_new_protocol:30 - standarts: Набор гирь 1 мг-500 г F1 рег. № в ФИФ 58463-14, №PV156, 2 разряд;
+Гиря М1 500 г рег. № в ФИФ 58048-14 №796242, 4 разряд;
+Гиря М1 1 кг рег. № в ФИФ 58048-14 №796241, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796236, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796237, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №796238, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №812854, 4 разряд
+2024-02-15 22:23:51.260 | INFO     | app.tools.word.protocol:make_new_protocol:33 - File for protocol Open: Весы настольные циферблатные РН-6Ц13У 8474-88.docx
+2024-02-15 22:23:51.274 | DEBUG    | app.tools.word.protocol:make_new_protocol:72 - C:/Users/maina/PythonProjects/desktop/ЕИ-01-03- Весы настольные циферблатные РН-6Ц13У № (8474-88).docx
+2024-02-15 22:23:51.275 | DEBUG    | app.tools.word.protocol:make_new_protocol:77 - end
+2024-02-15 22:24:47.035 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 22:24:47.035 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 22:24:50.308 | INFO     | app.tools.main_window_functions:use_data:212 - start
+2024-02-15 22:24:50.316 | DEBUG    | app.tools.main_window_functions:verificationer_changed:134 - start
+2024-02-15 22:24:50.317 | DEBUG    | app.tools.main_window_functions:verificationer_changed:144 - end
+2024-02-15 22:24:50.317 | INFO     | app.tools.main_window_functions:scale_changed:72 - start
+2024-02-15 22:24:50.318 | DEBUG    | app.tools.main_window_functions:scale_changed:100 - end
+2024-02-15 22:24:50.319 | DEBUG    | app.tools.main_window_functions:use_data:287 - end
+2024-02-15 22:24:51.520 | INFO     | app.main_window:add_path:466 - start
+2024-02-15 22:24:53.367 | DEBUG    | app.main_window:add_path:471 - end
+2024-02-15 22:24:54.668 | INFO     | app.tools.main_window_functions:create_protocol:153 - start
+2024-02-15 22:24:54.669 | DEBUG    | app.tools.main_window_functions:get_selected_table:108 - start
+2024-02-15 22:24:54.669 | DEBUG    | app.tools.main_window_functions:get_selected_table:116 - <PyQt5.QtWidgets.QTableWidget object at 0x0000022654C19910>
+2024-02-15 22:24:54.670 | DEBUG    | app.tools.main_window_functions:get_selected_table:118 - end
+2024-02-15 22:24:54.670 | DEBUG    | app.tools.main_window_functions:get_selected_table:108 - start
+2024-02-15 22:24:54.671 | DEBUG    | app.tools.main_window_functions:get_selected_table:116 - <PyQt5.QtWidgets.QTableWidget object at 0x0000022654C19910>
+2024-02-15 22:24:54.671 | DEBUG    | app.tools.main_window_functions:get_selected_table:118 - end
+2024-02-15 22:24:54.672 | DEBUG    | app.tools.word.protocol:make_new_protocol:26 - start
+2024-02-15 22:24:54.672 | DEBUG    | app.tools.word.protocol:make_new_protocol:30 - scale: Весы настольные циферблатные РН-6Ц13У 8474-88
+2024-02-15 22:24:54.673 | DEBUG    | app.tools.word.protocol:make_new_protocol:30 - path: C:/Users/maina/PythonProjects/desktop/EI_Protocol2_1
+2024-02-15 22:24:54.673 | DEBUG    | app.tools.word.protocol:make_new_protocol:30 - num_protocol: ЕИ-01-03-
+2024-02-15 22:24:54.673 | DEBUG    | app.tools.word.protocol:make_new_protocol:30 - num_scale: 
+2024-02-15 22:24:54.674 | DEBUG    | app.tools.word.protocol:make_new_protocol:30 - INN: INN
+2024-02-15 22:24:54.674 | DEBUG    | app.tools.word.protocol:make_new_protocol:30 - company: company
+2024-02-15 22:24:54.674 | DEBUG    | app.tools.word.protocol:make_new_protocol:30 - legal_address: place
+2024-02-15 22:24:54.674 | DEBUG    | app.tools.word.protocol:make_new_protocol:30 - inspection_address: place
+2024-02-15 22:24:54.675 | DEBUG    | app.tools.word.protocol:make_new_protocol:30 - temperature: temp
+2024-02-15 22:24:54.675 | DEBUG    | app.tools.word.protocol:make_new_protocol:30 - humidity: hum
+2024-02-15 22:24:54.675 | DEBUG    | app.tools.word.protocol:make_new_protocol:30 - pressure: press
+2024-02-15 22:24:54.675 | DEBUG    | app.tools.word.protocol:make_new_protocol:30 - verificationer: Стариков
+2024-02-15 22:24:54.676 | DEBUG    | app.tools.word.protocol:make_new_protocol:30 - unfit: True
+2024-02-15 22:24:54.676 | DEBUG    | app.tools.word.protocol:make_new_protocol:30 - use_excel: True
+2024-02-15 22:24:54.676 | DEBUG    | app.tools.word.protocol:make_new_protocol:30 - inspection_date: 07.02.2024
+2024-02-15 22:24:54.677 | DEBUG    | app.tools.word.protocol:make_new_protocol:30 - standarts: Набор гирь 1 мг-500 г F1 рег. № в ФИФ 58463-14, №PV156, 2 разряд;
+Гиря М1 500 г рег. № в ФИФ 58048-14 №796242, 4 разряд;
+Гиря М1 1 кг рег. № в ФИФ 58048-14 №796241, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796236, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796237, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №796238, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №812854, 4 разряд
+2024-02-15 22:24:54.687 | INFO     | app.tools.word.protocol:make_new_protocol:33 - File for protocol Open: Весы настольные циферблатные РН-6Ц13У 8474-88.docx
+2024-02-15 22:24:54.702 | DEBUG    | app.tools.word.protocol:make_new_protocol:72 - C:/Users/maina/PythonProjects/desktop/EI_Protocol2_1/ЕИ-01-03- Весы настольные циферблатные РН-6Ц13У № (8474-88).docx
+2024-02-15 22:24:54.703 | DEBUG    | app.tools.word.protocol:make_new_protocol:77 - end
+2024-02-15 22:24:54.703 | INFO     | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-02-15 22:24:58.858 | DEBUG    | app.tools.main_window_functions:verificationer_changed:134 - start
+2024-02-15 22:24:58.859 | DEBUG    | app.tools.main_window_functions:verificationer_changed:144 - end
+2024-02-15 22:24:58.859 | DEBUG    | app.tools.main_window_functions:create_protocol:202 - end
+2024-02-15 22:27:24.238 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 22:27:24.239 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 22:30:25.348 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 22:30:25.349 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 22:30:27.457 | INFO     | app.tools.main_window_functions:use_data:212 - start
+2024-02-15 22:30:27.466 | DEBUG    | app.tools.main_window_functions:verificationer_changed:134 - start
+2024-02-15 22:30:27.467 | DEBUG    | app.tools.main_window_functions:verificationer_changed:144 - end
+2024-02-15 22:30:27.468 | INFO     | app.tools.main_window_functions:scale_changed:72 - start
+2024-02-15 22:30:27.469 | DEBUG    | app.tools.main_window_functions:scale_changed:100 - end
+2024-02-15 22:30:27.472 | DEBUG    | app.tools.main_window_functions:use_data:287 - end
+2024-02-15 22:35:13.030 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 22:35:13.031 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 22:35:18.160 | DEBUG    | app.tools.main_window_functions:verificationer_changed:134 - start
+2024-02-15 22:35:18.161 | DEBUG    | app.tools.main_window_functions:verificationer_changed:144 - end
+2024-02-15 22:35:19.254 | DEBUG    | app.tools.main_window_functions:verificationer_changed:134 - start
+2024-02-15 22:35:19.255 | DEBUG    | app.tools.main_window_functions:verificationer_changed:144 - end
+2024-02-15 22:35:27.531 | DEBUG    | app.main_window:settings:474 - start
+2024-02-15 22:35:27.532 | INFO     | app.tools.dialogs.SettingDialog:__init__:19 - SettingDialog(QDialog): __init__
+2024-02-15 22:35:33.889 | ERROR    | app.tools.dialogs.SettingDialog:save:142 - Ошибка при сохранении в config.json: e
+2024-02-15 22:35:33.895 | DEBUG    | app.main_window:settings:478 - end
+2024-02-15 22:35:40.635 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 22:35:40.636 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 22:35:43.612 | DEBUG    | app.tools.main_window_functions:verificationer_changed:134 - start
+2024-02-15 22:35:43.613 | DEBUG    | app.tools.main_window_functions:verificationer_changed:144 - end
+2024-02-15 22:35:45.487 | DEBUG    | app.main_window:settings:474 - start
+2024-02-15 22:35:45.488 | INFO     | app.tools.dialogs.SettingDialog:__init__:19 - SettingDialog(QDialog): __init__
+2024-02-15 22:35:49.687 | DEBUG    | app.main_window:settings:478 - end
+2024-02-15 22:37:07.712 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 22:37:07.712 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 22:37:09.847 | DEBUG    | app.main_window:settings:474 - start
+2024-02-15 22:37:09.847 | INFO     | app.tools.dialogs.SettingDialog:__init__:19 - SettingDialog(QDialog): __init__
+2024-02-15 22:37:15.775 | DEBUG    | app.main_window:settings:478 - end
+2024-02-15 22:37:19.558 | DEBUG    | app.tools.main_window_functions:verificationer_changed:134 - start
+2024-02-15 22:37:19.564 | DEBUG    | app.tools.main_window_functions:verificationer_changed:144 - end
+2024-02-15 22:40:06.760 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 22:40:06.761 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 22:43:57.153 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 22:43:57.154 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 22:47:39.839 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 22:47:39.840 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 22:53:03.109 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 22:53:03.109 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 22:53:05.946 | INFO     | app.tools.main_window_functions:use_data:212 - start
+2024-02-15 22:53:05.954 | DEBUG    | app.tools.main_window_functions:verificationer_changed:134 - start
+2024-02-15 22:53:05.955 | DEBUG    | app.tools.main_window_functions:verificationer_changed:144 - end
+2024-02-15 22:53:05.956 | INFO     | app.tools.main_window_functions:scale_changed:72 - start
+2024-02-15 22:53:05.957 | DEBUG    | app.tools.main_window_functions:scale_changed:100 - end
+2024-02-15 22:53:05.957 | DEBUG    | app.tools.main_window_functions:use_data:287 - end
+2024-02-15 22:53:08.101 | INFO     | app.tools.main_window_functions:create_protocol:153 - start
+2024-02-15 22:53:08.102 | DEBUG    | app.tools.main_window_functions:get_selected_table:108 - start
+2024-02-15 22:53:08.102 | DEBUG    | app.tools.main_window_functions:get_selected_table:116 - <PyQt5.QtWidgets.QTableWidget object at 0x000001AEB7919C70>
+2024-02-15 22:53:08.102 | DEBUG    | app.tools.main_window_functions:get_selected_table:118 - end
+2024-02-15 22:53:08.103 | DEBUG    | app.tools.main_window_functions:get_selected_table:108 - start
+2024-02-15 22:53:08.103 | DEBUG    | app.tools.main_window_functions:get_selected_table:116 - <PyQt5.QtWidgets.QTableWidget object at 0x000001AEB7919C70>
+2024-02-15 22:53:08.103 | DEBUG    | app.tools.main_window_functions:get_selected_table:118 - end
+2024-02-15 22:53:08.105 | DEBUG    | app.tools.word.protocol:make_new_protocol:26 - start
+2024-02-15 22:53:08.105 | ERROR    | app.tools.word.protocol:make_new_protocol:84 - Error create protocol: 'list' object has no attribute 'strip'
+2024-02-15 22:53:08.105 | DEBUG    | app.tools.word.protocol:make_new_protocol:86 - end
+2024-02-15 22:53:08.106 | INFO     | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-02-15 22:53:08.106 | ERROR    | app.tools.dialogs.CreateProtocolDialog:__init__:45 - Error init ChooseScaleDialog(QDialog) : setText(self, a0: Optional[str]): argument 1 has unexpected type 'AttributeError'
+2024-02-15 22:53:28.140 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 22:53:28.141 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 22:53:29.916 | INFO     | app.tools.main_window_functions:use_data:212 - start
+2024-02-15 22:53:29.922 | DEBUG    | app.tools.main_window_functions:verificationer_changed:134 - start
+2024-02-15 22:53:29.923 | DEBUG    | app.tools.main_window_functions:verificationer_changed:144 - end
+2024-02-15 22:53:29.924 | INFO     | app.tools.main_window_functions:scale_changed:72 - start
+2024-02-15 22:53:29.924 | DEBUG    | app.tools.main_window_functions:scale_changed:100 - end
+2024-02-15 22:53:29.924 | DEBUG    | app.tools.main_window_functions:use_data:287 - end
+2024-02-15 22:53:42.071 | INFO     | app.tools.main_window_functions:create_protocol:153 - start
+2024-02-15 22:53:42.072 | DEBUG    | app.tools.main_window_functions:get_selected_table:108 - start
+2024-02-15 22:53:42.072 | DEBUG    | app.tools.main_window_functions:get_selected_table:116 - <PyQt5.QtWidgets.QTableWidget object at 0x0000023FF5899C70>
+2024-02-15 22:53:42.072 | DEBUG    | app.tools.main_window_functions:get_selected_table:118 - end
+2024-02-15 22:53:42.072 | DEBUG    | app.tools.main_window_functions:get_selected_table:108 - start
+2024-02-15 22:53:42.073 | DEBUG    | app.tools.main_window_functions:get_selected_table:116 - <PyQt5.QtWidgets.QTableWidget object at 0x0000023FF5899C70>
+2024-02-15 22:53:42.073 | DEBUG    | app.tools.main_window_functions:get_selected_table:118 - end
+2024-02-15 22:53:42.074 | DEBUG    | app.tools.word.protocol:make_new_protocol:26 - start
+2024-02-15 22:53:42.074 | ERROR    | app.tools.word.protocol:make_new_protocol:84 - Error create protocol: 'list' object has no attribute 'strip'
+2024-02-15 22:53:42.074 | DEBUG    | app.tools.word.protocol:make_new_protocol:86 - end
+2024-02-15 22:53:42.075 | INFO     | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-02-15 22:53:42.075 | ERROR    | app.tools.dialogs.CreateProtocolDialog:__init__:45 - Error init ChooseScaleDialog(QDialog) : setText(self, a0: Optional[str]): argument 1 has unexpected type 'AttributeError'
+2024-02-15 22:56:21.139 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 22:56:21.140 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 22:56:22.731 | INFO     | app.tools.main_window_functions:use_data:212 - start
+2024-02-15 22:56:22.738 | DEBUG    | app.tools.main_window_functions:verificationer_changed:134 - start
+2024-02-15 22:56:22.739 | DEBUG    | app.tools.main_window_functions:verificationer_changed:144 - end
+2024-02-15 22:56:22.740 | INFO     | app.tools.main_window_functions:scale_changed:72 - start
+2024-02-15 22:56:22.740 | DEBUG    | app.tools.main_window_functions:scale_changed:100 - end
+2024-02-15 22:56:22.741 | DEBUG    | app.tools.main_window_functions:use_data:287 - end
+2024-02-15 22:56:28.454 | DEBUG    | app.main_window:settings:500 - start
+2024-02-15 22:56:28.454 | INFO     | app.tools.dialogs.SettingDialog:__init__:19 - SettingDialog(QDialog): __init__
+2024-02-15 22:56:38.998 | DEBUG    | app.main_window:settings:504 - end
+2024-02-15 22:56:47.165 | INFO     | app.tools.main_window_functions:create_protocol:153 - start
+2024-02-15 22:56:47.166 | DEBUG    | app.tools.main_window_functions:get_selected_table:108 - start
+2024-02-15 22:56:47.166 | DEBUG    | app.tools.main_window_functions:get_selected_table:116 - <PyQt5.QtWidgets.QTableWidget object at 0x00000146E95A9C70>
+2024-02-15 22:56:47.166 | DEBUG    | app.tools.main_window_functions:get_selected_table:118 - end
+2024-02-15 22:56:47.167 | DEBUG    | app.tools.main_window_functions:get_selected_table:108 - start
+2024-02-15 22:56:47.167 | DEBUG    | app.tools.main_window_functions:get_selected_table:116 - <PyQt5.QtWidgets.QTableWidget object at 0x00000146E95A9C70>
+2024-02-15 22:56:47.167 | DEBUG    | app.tools.main_window_functions:get_selected_table:118 - end
+2024-02-15 22:56:47.168 | DEBUG    | app.tools.word.protocol:make_new_protocol:26 - start
+2024-02-15 22:56:47.168 | ERROR    | app.tools.word.protocol:make_new_protocol:84 - Error create protocol: 'list' object has no attribute 'strip'
+2024-02-15 22:56:47.169 | DEBUG    | app.tools.word.protocol:make_new_protocol:86 - end
+2024-02-15 22:56:47.169 | INFO     | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-02-15 22:56:47.170 | ERROR    | app.tools.dialogs.CreateProtocolDialog:__init__:45 - Error init ChooseScaleDialog(QDialog) : setText(self, a0: Optional[str]): argument 1 has unexpected type 'AttributeError'
+2024-02-15 22:59:33.113 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 22:59:33.113 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 22:59:34.956 | INFO     | app.tools.main_window_functions:use_data:212 - start
+2024-02-15 22:59:34.959 | DEBUG    | app.tools.main_window_functions:verificationer_changed:134 - start
+2024-02-15 22:59:34.960 | DEBUG    | app.tools.main_window_functions:verificationer_changed:144 - end
+2024-02-15 22:59:34.960 | INFO     | app.tools.main_window_functions:scale_changed:72 - start
+2024-02-15 22:59:34.960 | DEBUG    | app.tools.main_window_functions:scale_changed:100 - end
+2024-02-15 22:59:34.960 | DEBUG    | app.tools.main_window_functions:use_data:287 - end
+2024-02-15 22:59:42.686 | INFO     | app.tools.main_window_functions:create_protocol:153 - start
+2024-02-15 22:59:42.686 | DEBUG    | app.tools.main_window_functions:get_selected_table:108 - start
+2024-02-15 22:59:42.686 | DEBUG    | app.tools.main_window_functions:get_selected_table:116 - <PyQt5.QtWidgets.QTableWidget object at 0x000001C312DF9C70>
+2024-02-15 22:59:42.687 | DEBUG    | app.tools.main_window_functions:get_selected_table:118 - end
+2024-02-15 22:59:42.687 | DEBUG    | app.tools.main_window_functions:get_selected_table:108 - start
+2024-02-15 22:59:42.687 | DEBUG    | app.tools.main_window_functions:get_selected_table:116 - <PyQt5.QtWidgets.QTableWidget object at 0x000001C312DF9C70>
+2024-02-15 22:59:42.687 | DEBUG    | app.tools.main_window_functions:get_selected_table:118 - end
+2024-02-15 22:59:42.688 | DEBUG    | app.tools.word.protocol:make_new_protocol:26 - start
+2024-02-15 22:59:42.688 | ERROR    | app.tools.word.protocol:make_new_protocol:84 - Error create protocol: 'list' object has no attribute 'strip'
+2024-02-15 22:59:42.688 | DEBUG    | app.tools.word.protocol:make_new_protocol:86 - end
+2024-02-15 22:59:42.689 | INFO     | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-02-15 22:59:42.689 | ERROR    | app.tools.dialogs.CreateProtocolDialog:__init__:45 - Error init ChooseScaleDialog(QDialog) : setText(self, a0: Optional[str]): argument 1 has unexpected type 'AttributeError'
+2024-02-15 22:59:45.219 | DEBUG    | app.tools.main_window_functions:verificationer_changed:134 - start
+2024-02-15 22:59:45.220 | DEBUG    | app.tools.main_window_functions:verificationer_changed:144 - end
+2024-02-15 22:59:45.222 | DEBUG    | app.tools.main_window_functions:create_protocol:202 - end
+2024-02-15 23:00:49.252 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 23:00:49.252 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 23:00:50.891 | INFO     | app.tools.main_window_functions:use_data:212 - start
+2024-02-15 23:00:50.898 | DEBUG    | app.tools.main_window_functions:verificationer_changed:134 - start
+2024-02-15 23:00:50.899 | DEBUG    | app.tools.main_window_functions:verificationer_changed:144 - end
+2024-02-15 23:00:50.900 | INFO     | app.tools.main_window_functions:scale_changed:72 - start
+2024-02-15 23:00:50.900 | DEBUG    | app.tools.main_window_functions:scale_changed:100 - end
+2024-02-15 23:00:50.901 | DEBUG    | app.tools.main_window_functions:use_data:287 - end
+2024-02-15 23:00:51.299 | INFO     | app.tools.main_window_functions:create_protocol:153 - start
+2024-02-15 23:00:51.300 | DEBUG    | app.tools.main_window_functions:get_selected_table:108 - start
+2024-02-15 23:00:51.300 | DEBUG    | app.tools.main_window_functions:get_selected_table:116 - <PyQt5.QtWidgets.QTableWidget object at 0x00000140E81E9C70>
+2024-02-15 23:00:51.301 | DEBUG    | app.tools.main_window_functions:get_selected_table:118 - end
+2024-02-15 23:00:51.301 | DEBUG    | app.tools.main_window_functions:get_selected_table:108 - start
+2024-02-15 23:00:51.301 | DEBUG    | app.tools.main_window_functions:get_selected_table:116 - <PyQt5.QtWidgets.QTableWidget object at 0x00000140E81E9C70>
+2024-02-15 23:00:51.301 | DEBUG    | app.tools.main_window_functions:get_selected_table:118 - end
+2024-02-15 23:00:51.302 | DEBUG    | app.tools.word.protocol:make_new_protocol:26 - start
+2024-02-15 23:00:51.302 | ERROR    | app.tools.word.protocol:make_new_protocol:84 - Error create protocol: can only concatenate str (not "list") to str
+2024-02-15 23:00:51.302 | DEBUG    | app.tools.word.protocol:make_new_protocol:86 - end
+2024-02-15 23:00:51.303 | INFO     | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-02-15 23:00:51.303 | ERROR    | app.tools.dialogs.CreateProtocolDialog:__init__:45 - Error init ChooseScaleDialog(QDialog) : setText(self, a0: Optional[str]): argument 1 has unexpected type 'TypeError'
+2024-02-15 23:00:53.867 | DEBUG    | app.tools.main_window_functions:verificationer_changed:134 - start
+2024-02-15 23:00:53.868 | DEBUG    | app.tools.main_window_functions:verificationer_changed:144 - end
+2024-02-15 23:00:53.870 | DEBUG    | app.tools.main_window_functions:create_protocol:202 - end
+2024-02-15 23:02:08.035 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 23:02:08.036 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 23:02:09.921 | INFO     | app.tools.main_window_functions:use_data:212 - start
+2024-02-15 23:02:09.928 | DEBUG    | app.tools.main_window_functions:verificationer_changed:134 - start
+2024-02-15 23:02:09.929 | DEBUG    | app.tools.main_window_functions:verificationer_changed:144 - end
+2024-02-15 23:02:09.930 | INFO     | app.tools.main_window_functions:scale_changed:72 - start
+2024-02-15 23:02:09.930 | DEBUG    | app.tools.main_window_functions:scale_changed:100 - end
+2024-02-15 23:02:09.930 | DEBUG    | app.tools.main_window_functions:use_data:287 - end
+2024-02-15 23:02:11.642 | INFO     | app.tools.main_window_functions:create_protocol:153 - start
+2024-02-15 23:02:11.642 | DEBUG    | app.tools.main_window_functions:get_selected_table:108 - start
+2024-02-15 23:02:11.643 | DEBUG    | app.tools.main_window_functions:get_selected_table:116 - <PyQt5.QtWidgets.QTableWidget object at 0x000001C9BA569C70>
+2024-02-15 23:02:11.643 | DEBUG    | app.tools.main_window_functions:get_selected_table:118 - end
+2024-02-15 23:02:11.643 | DEBUG    | app.tools.main_window_functions:get_selected_table:108 - start
+2024-02-15 23:02:11.644 | DEBUG    | app.tools.main_window_functions:get_selected_table:116 - <PyQt5.QtWidgets.QTableWidget object at 0x000001C9BA569C70>
+2024-02-15 23:02:11.644 | DEBUG    | app.tools.main_window_functions:get_selected_table:118 - end
+2024-02-15 23:02:11.645 | DEBUG    | app.tools.word.protocol:make_new_protocol:26 - start
+2024-02-15 23:02:11.645 | ERROR    | app.tools.word.protocol:make_new_protocol:28 - 05 - Автоматические ВСУ
+2024-02-15 23:02:11.646 | ERROR    | app.tools.word.protocol:make_new_protocol:86 - Error create protocol: can only concatenate str (not "list") to str
+2024-02-15 23:02:11.646 | DEBUG    | app.tools.word.protocol:make_new_protocol:88 - end
+2024-02-15 23:02:11.646 | INFO     | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-02-15 23:02:11.646 | ERROR    | app.tools.dialogs.CreateProtocolDialog:__init__:45 - Error init ChooseScaleDialog(QDialog) : setText(self, a0: Optional[str]): argument 1 has unexpected type 'TypeError'
+2024-02-15 23:02:46.612 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 23:02:46.612 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 23:02:48.216 | INFO     | app.tools.main_window_functions:use_data:212 - start
+2024-02-15 23:02:48.218 | DEBUG    | app.tools.main_window_functions:verificationer_changed:134 - start
+2024-02-15 23:02:48.219 | DEBUG    | app.tools.main_window_functions:verificationer_changed:144 - end
+2024-02-15 23:02:48.220 | INFO     | app.tools.main_window_functions:scale_changed:72 - start
+2024-02-15 23:02:48.220 | DEBUG    | app.tools.main_window_functions:scale_changed:100 - end
+2024-02-15 23:02:48.221 | DEBUG    | app.tools.main_window_functions:use_data:287 - end
+2024-02-15 23:02:48.476 | INFO     | app.tools.main_window_functions:use_data:212 - start
+2024-02-15 23:02:48.477 | INFO     | app.tools.main_window_functions:scale_changed:72 - start
+2024-02-15 23:02:48.477 | DEBUG    | app.tools.main_window_functions:scale_changed:100 - end
+2024-02-15 23:02:48.477 | DEBUG    | app.tools.main_window_functions:use_data:287 - end
+2024-02-15 23:02:48.844 | INFO     | app.tools.main_window_functions:create_protocol:153 - start
+2024-02-15 23:02:48.844 | DEBUG    | app.tools.main_window_functions:get_selected_table:108 - start
+2024-02-15 23:02:48.845 | DEBUG    | app.tools.main_window_functions:get_selected_table:116 - <PyQt5.QtWidgets.QTableWidget object at 0x000002C27EF29C70>
+2024-02-15 23:02:48.845 | DEBUG    | app.tools.main_window_functions:get_selected_table:118 - end
+2024-02-15 23:02:48.845 | DEBUG    | app.tools.main_window_functions:get_selected_table:108 - start
+2024-02-15 23:02:48.845 | DEBUG    | app.tools.main_window_functions:get_selected_table:116 - <PyQt5.QtWidgets.QTableWidget object at 0x000002C27EF29C70>
+2024-02-15 23:02:48.845 | DEBUG    | app.tools.main_window_functions:get_selected_table:118 - end
+2024-02-15 23:02:48.846 | DEBUG    | app.tools.word.protocol:make_new_protocol:26 - start
+2024-02-15 23:02:48.846 | ERROR    | app.tools.word.protocol:make_new_protocol:84 - Error create protocol: can only concatenate str (not "list") to str
+2024-02-15 23:02:48.847 | DEBUG    | app.tools.word.protocol:make_new_protocol:86 - end
+2024-02-15 23:02:48.847 | INFO     | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-02-15 23:02:48.847 | ERROR    | app.tools.dialogs.CreateProtocolDialog:__init__:45 - Error init ChooseScaleDialog(QDialog) : setText(self, a0: Optional[str]): argument 1 has unexpected type 'TypeError'
+2024-02-15 23:05:38.330 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 23:05:38.330 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 23:05:40.018 | INFO     | app.tools.main_window_functions:use_data:212 - start
+2024-02-15 23:05:40.020 | DEBUG    | app.tools.main_window_functions:verificationer_changed:134 - start
+2024-02-15 23:05:40.021 | DEBUG    | app.tools.main_window_functions:verificationer_changed:144 - end
+2024-02-15 23:05:40.022 | INFO     | app.tools.main_window_functions:scale_changed:72 - start
+2024-02-15 23:05:40.022 | DEBUG    | app.tools.main_window_functions:scale_changed:100 - end
+2024-02-15 23:05:40.022 | DEBUG    | app.tools.main_window_functions:use_data:287 - end
+2024-02-15 23:05:50.013 | INFO     | app.tools.main_window_functions:create_protocol:153 - start
+2024-02-15 23:05:50.014 | DEBUG    | app.tools.main_window_functions:get_selected_table:108 - start
+2024-02-15 23:05:50.014 | DEBUG    | app.tools.main_window_functions:get_selected_table:116 - <PyQt5.QtWidgets.QTableWidget object at 0x0000013B71439C70>
+2024-02-15 23:05:50.014 | DEBUG    | app.tools.main_window_functions:get_selected_table:118 - end
+2024-02-15 23:05:50.015 | DEBUG    | app.tools.main_window_functions:get_selected_table:108 - start
+2024-02-15 23:05:50.015 | DEBUG    | app.tools.main_window_functions:get_selected_table:116 - <PyQt5.QtWidgets.QTableWidget object at 0x0000013B71439C70>
+2024-02-15 23:05:50.015 | DEBUG    | app.tools.main_window_functions:get_selected_table:118 - end
+2024-02-15 23:05:50.016 | DEBUG    | app.tools.word.protocol:make_new_protocol:26 - start
+2024-02-15 23:05:50.016 | DEBUG    | app.tools.word.protocol:make_new_protocol:32 - scale: Весы настольные циферблатные РН-6Ц13У 8474-88
+2024-02-15 23:05:50.017 | DEBUG    | app.tools.word.protocol:make_new_protocol:32 - path: C:/Users/maina/PythonProjects/desktop/EI_Protocol2_1
+2024-02-15 23:05:50.017 | DEBUG    | app.tools.word.protocol:make_new_protocol:32 - num_protocol: ЕИ-03-0000
+2024-02-15 23:05:50.017 | DEBUG    | app.tools.word.protocol:make_new_protocol:32 - num_scale: 
+2024-02-15 23:05:50.018 | DEBUG    | app.tools.word.protocol:make_new_protocol:32 - INN: INN
+2024-02-15 23:05:50.018 | DEBUG    | app.tools.word.protocol:make_new_protocol:32 - company: company
+2024-02-15 23:05:50.020 | DEBUG    | app.tools.word.protocol:make_new_protocol:32 - legal_address: place
+2024-02-15 23:05:50.020 | DEBUG    | app.tools.word.protocol:make_new_protocol:32 - inspection_address: place
+2024-02-15 23:05:50.020 | DEBUG    | app.tools.word.protocol:make_new_protocol:32 - temperature: temp
+2024-02-15 23:05:50.020 | DEBUG    | app.tools.word.protocol:make_new_protocol:32 - humidity: hum
+2024-02-15 23:05:50.021 | DEBUG    | app.tools.word.protocol:make_new_protocol:32 - pressure: press
+2024-02-15 23:05:50.021 | DEBUG    | app.tools.word.protocol:make_new_protocol:32 - work_place: 05 - Автоматические ВСУ
+2024-02-15 23:05:50.021 | DEBUG    | app.tools.word.protocol:make_new_protocol:32 - verificationer: Стариков
+2024-02-15 23:05:50.021 | DEBUG    | app.tools.word.protocol:make_new_protocol:32 - unfit: True
+2024-02-15 23:05:50.022 | DEBUG    | app.tools.word.protocol:make_new_protocol:32 - use_excel: True
+2024-02-15 23:05:50.022 | DEBUG    | app.tools.word.protocol:make_new_protocol:32 - inspection_date: 07.02.2024
+2024-02-15 23:05:50.022 | DEBUG    | app.tools.word.protocol:make_new_protocol:32 - standarts: Набор гирь 1 мг-500 г F1 рег. № в ФИФ 58463-14, №PV156, 2 разряд;
+Гиря М1 500 г рег. № в ФИФ 58048-14 №796242, 4 разряд;
+Гиря М1 1 кг рег. № в ФИФ 58048-14 №796241, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796236, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796237, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №796238, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №812854, 4 разряд
+2024-02-15 23:05:50.097 | INFO     | app.tools.word.protocol:make_new_protocol:35 - File for protocol Open: Весы настольные циферблатные РН-6Ц13У 8474-88.docx
+2024-02-15 23:05:50.110 | DEBUG    | app.tools.word.protocol:make_new_protocol:74 - C:/Users/maina/PythonProjects/desktop/EI_Protocol2_1/ЕИ-03-0000 Весы настольные циферблатные РН-6Ц13У № (8474-88).docx
+2024-02-15 23:05:50.111 | DEBUG    | app.tools.word.protocol:make_new_protocol:79 - end
+2024-02-15 23:05:50.111 | INFO     | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-02-15 23:05:51.680 | DEBUG    | app.tools.main_window_functions:verificationer_changed:134 - start
+2024-02-15 23:05:51.681 | DEBUG    | app.tools.main_window_functions:verificationer_changed:144 - end
+2024-02-15 23:05:51.682 | DEBUG    | app.tools.main_window_functions:create_protocol:202 - end
+2024-02-15 23:06:29.899 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-15 23:06:29.899 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-15 23:06:32.732 | INFO     | app.tools.main_window_functions:use_data:212 - start
+2024-02-15 23:06:32.734 | DEBUG    | app.tools.main_window_functions:verificationer_changed:134 - start
+2024-02-15 23:06:32.735 | DEBUG    | app.tools.main_window_functions:verificationer_changed:144 - end
+2024-02-15 23:06:32.736 | INFO     | app.tools.main_window_functions:scale_changed:72 - start
+2024-02-15 23:06:32.737 | DEBUG    | app.tools.main_window_functions:scale_changed:100 - end
+2024-02-15 23:06:32.737 | DEBUG    | app.tools.main_window_functions:use_data:287 - end
+2024-02-15 23:06:38.130 | INFO     | app.tools.main_window_functions:create_protocol:153 - start
+2024-02-15 23:06:38.131 | DEBUG    | app.tools.main_window_functions:get_selected_table:108 - start
+2024-02-15 23:06:38.131 | DEBUG    | app.tools.main_window_functions:get_selected_table:116 - <PyQt5.QtWidgets.QTableWidget object at 0x000002D24C149C70>
+2024-02-15 23:06:38.131 | DEBUG    | app.tools.main_window_functions:get_selected_table:118 - end
+2024-02-15 23:06:38.132 | DEBUG    | app.tools.main_window_functions:get_selected_table:108 - start
+2024-02-15 23:06:38.132 | DEBUG    | app.tools.main_window_functions:get_selected_table:116 - <PyQt5.QtWidgets.QTableWidget object at 0x000002D24C149C70>
+2024-02-15 23:06:38.132 | DEBUG    | app.tools.main_window_functions:get_selected_table:118 - end
+2024-02-15 23:06:38.133 | DEBUG    | app.tools.word.protocol:make_new_protocol:26 - start
+2024-02-15 23:06:38.133 | DEBUG    | app.tools.word.protocol:make_new_protocol:32 - scale: Весы настольные циферблатные РН-6Ц13У 8474-88
+2024-02-15 23:06:38.133 | DEBUG    | app.tools.word.protocol:make_new_protocol:32 - path: C:/Users/maina/PythonProjects/desktop/EI_Protocol2_1
+2024-02-15 23:06:38.134 | DEBUG    | app.tools.word.protocol:make_new_protocol:32 - num_protocol: ЕИ-03-0000
+2024-02-15 23:06:38.134 | DEBUG    | app.tools.word.protocol:make_new_protocol:32 - num_scale: 
+2024-02-15 23:06:38.134 | DEBUG    | app.tools.word.protocol:make_new_protocol:32 - INN: INN
+2024-02-15 23:06:38.134 | DEBUG    | app.tools.word.protocol:make_new_protocol:32 - company: company
+2024-02-15 23:06:38.135 | DEBUG    | app.tools.word.protocol:make_new_protocol:32 - legal_address: place
+2024-02-15 23:06:38.135 | DEBUG    | app.tools.word.protocol:make_new_protocol:32 - inspection_address: place
+2024-02-15 23:06:38.135 | DEBUG    | app.tools.word.protocol:make_new_protocol:32 - temperature: temp
+2024-02-15 23:06:38.136 | DEBUG    | app.tools.word.protocol:make_new_protocol:32 - humidity: hum
+2024-02-15 23:06:38.136 | DEBUG    | app.tools.word.protocol:make_new_protocol:32 - pressure: press
+2024-02-15 23:06:38.137 | DEBUG    | app.tools.word.protocol:make_new_protocol:32 - work_place: 05 - Автоматические ВСУ
+2024-02-15 23:06:38.137 | DEBUG    | app.tools.word.protocol:make_new_protocol:32 - verificationer: Стариков
+2024-02-15 23:06:38.137 | DEBUG    | app.tools.word.protocol:make_new_protocol:32 - unfit: True
+2024-02-15 23:06:38.138 | DEBUG    | app.tools.word.protocol:make_new_protocol:32 - use_excel: True
+2024-02-15 23:06:38.138 | DEBUG    | app.tools.word.protocol:make_new_protocol:32 - inspection_date: 07.02.2024
+2024-02-15 23:06:38.138 | DEBUG    | app.tools.word.protocol:make_new_protocol:32 - standarts: Набор гирь 1 мг-500 г F1 рег. № в ФИФ 58463-14, №PV156, 2 разряд;
+Гиря М1 500 г рег. № в ФИФ 58048-14 №796242, 4 разряд;
+Гиря М1 1 кг рег. № в ФИФ 58048-14 №796241, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796236, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796237, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №796238, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №812854, 4 разряд
+2024-02-15 23:06:38.143 | INFO     | app.tools.word.protocol:make_new_protocol:35 - File for protocol Open: Весы настольные циферблатные РН-6Ц13У 8474-88.docx
+2024-02-15 23:06:38.156 | DEBUG    | app.tools.word.protocol:make_new_protocol:74 - C:/Users/maina/PythonProjects/desktop/EI_Protocol2_1/ЕИ-03-0000 Весы настольные циферблатные РН-6Ц13У № (8474-88).docx
+2024-02-15 23:06:38.157 | DEBUG    | app.tools.word.protocol:make_new_protocol:79 - end
+2024-02-15 23:06:38.157 | INFO     | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-02-15 23:06:40.648 | DEBUG    | app.tools.main_window_functions:verificationer_changed:134 - start
+2024-02-15 23:06:40.649 | DEBUG    | app.tools.main_window_functions:verificationer_changed:144 - end
+2024-02-15 23:06:40.651 | DEBUG    | app.tools.main_window_functions:create_protocol:202 - end
