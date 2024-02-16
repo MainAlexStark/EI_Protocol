@@ -1,6 +1,0 @@
-{
-  "verificationers": {"\u0421\u0442\u0430\u0440\u0438\u043a\u043e\u0432": "\u0415\u0418-01-03-", "": ""},
-  "use_data": {"scale": true, "num_scale": false, "num_protocol": false, "path": true, "verificationer": true, "company": true, "INN": true, "legal_address": true, "inspection_address": true, "inspection_date": true, "standarts": true, "use_excel": true, "unfit": true},
-  "window_size": {"length": 1000, "width":  900},
-  "FNS_TOKEN": "64896380802060908bbb9d95b61b3fc71ff6ce83"
-}
