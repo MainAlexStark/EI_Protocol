@@ -156,6 +156,7 @@ def create_protocol(self):
 
     # Получаем standarts
     standarts = get_selected_table(self).item(get_selected_table(self).currentRow(), 1).text()
+    standarts_briefly = get_selected_table(self).item(get_selected_table(self).currentRow(), 4).text()
 
     # Определите имя файла хранилища
     file_name = 'app/tools/data/storage.json'
@@ -181,6 +182,7 @@ def create_protocol(self):
         # Внесите изменения в данные
         args['inspection_date'] = data['inspection_date'] = str(self.inspection_date.selectedDate().toString("dd.MM.yyyy")).strip()
         args['standarts'] = data['standarts'] = standarts
+        args['standarts_briefly'] = standarts_briefly
 
         # Запишите обновленные данные обратно в файл
         file.seek(0)  # Переместите курсор в начало файла

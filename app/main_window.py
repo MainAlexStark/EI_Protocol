@@ -4,7 +4,7 @@ from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QHBoxLayout, QPu
     QTabWidget, QAbstractItemView, QCheckBox
 from PyQt5.QtCore import QDate
 from PyQt5 import QtCore
-from PyQt5.QtWidgets import QMessageBox, QDialog
+from PyQt5.QtWidgets import QMessageBox, QDialog, QFrame
 
 import json
 import os
@@ -87,7 +87,8 @@ class App(QWidget):
         width_window = window_size['width']
 
         self.setWindowTitle(window_title)
-        self.setGeometry(0, 0, length_window, width_window)
+        #self.setGeometry(0, 0, length_window, width_window)
+        self.move(0,0)
 
         # Layouts
         # Создание layouts ( контейнеры в которые погружаются остальные элементы )
@@ -95,6 +96,9 @@ class App(QWidget):
         self.var_layout = QVBoxLayout()
         self.var_r_layout = QVBoxLayout()
         self.var_r2_layout = QVBoxLayout()
+
+        self.var_layout.setContentsMargins(0, 10, 0, 10)
+        self.var_r_layout.setContentsMargins(0, 10, 0, 10)
 
         # Variables
         class VarBoxes:
@@ -112,41 +116,33 @@ class App(QWidget):
 
         # Scale
 
-        self.label_text_scale = QLabel("Весы:")
         self.text_scale = QPlainTextEdit(self)
-        self.text_scale.setFixedSize(500, 40)
+        self.text_scale.setPlaceholderText('Весы')
 
         self.text_scale.textChanged.connect(self.scale_changed)
 
-        self.var_layout.addWidget(self.label_text_scale)
         self.var_layout.addWidget(self.text_scale)
 
         self.var_boxes.text_boxes['scale'] = self.text_scale
 
         # Надпись
         self.button_choose_scale = QPushButton('Выбрать весы', self)
-        self.button_choose_scale.setFixedSize(500, 40)
         self.button_choose_scale.clicked.connect(self.choose_scale)  # Привязываем функцию
         self.var_layout.addWidget(self.button_choose_scale)  # Добавляем в layout
 
         self.buttons.Buttons['choose_scale'] = self.button_choose_scale
 
         # path
-
-        # Надпись
-        self.label_text_path = QLabel("Выберите путь сохранения:")
         # Текстовое поле
         self.text_path = QPlainTextEdit(self)
-        self.text_path.setFixedSize(500, 40)  # Указывем размер
+        self.text_path.setPlaceholderText('Путь сохранения')
         # Добавляем элементы в layouts
-        self.var_layout.addWidget(self.label_text_path)
         self.var_layout.addWidget(self.text_path)
 
         self.var_boxes.text_boxes['path'] = self.text_path
         
         # Создаем кнопку
         self.button_path = QPushButton('Выбрать путь сохранения', self)
-        self.button_path.setFixedSize(500, 40)
         self.button_path.clicked.connect(self.add_path)  # Привязываем функцию
         self.var_layout.addWidget(self.button_path)  # Добавляем в layout
 
@@ -171,7 +167,6 @@ class App(QWidget):
         self.work_place_combo = QComboBox()
         self.work_place_combo.addItems(work_places)
         self.work_place_combo.setCurrentIndex(-1)
-        self.work_place_combo.setFixedSize(500, 40)
         self.var_layout.addWidget(self.label_work_place_combo)
         self.var_layout.addWidget(self.work_place_combo)
 
@@ -179,22 +174,18 @@ class App(QWidget):
         self.var_boxes.combo_boxes['work_place'] = self.work_place_combo
 
         # num_protocol
-        # Надпись
-        self.label_text_num_protocol = QLabel("Выберите номер протокола:")
-        self.text_num_protocol = QPlainTextEdit(self)
+
         # Текстовое поле
-        self.text_num_protocol.setFixedSize(500, 40)  # Указывем размер
+        self.text_num_protocol = QPlainTextEdit(self)
+        self.text_num_protocol.setPlaceholderText('Номер протокола')
         # Добавляем элементы в layouts
-        self.var_layout.addWidget(self.label_text_num_protocol)
         self.var_layout.addWidget(self.text_num_protocol)
 
         self.var_boxes.text_boxes['num_protocol'] = self.text_num_protocol
 
         # num_scale
-        self.label_text_num_scale = QLabel("Выберите номер весов:")
         self.text_num_scale = QPlainTextEdit(self)
-        self.text_num_scale.setFixedSize(500, 40)
-        self.var_layout.addWidget(self.label_text_num_scale)
+        self.text_num_scale.setPlaceholderText('Номер весов')
         self.var_layout.addWidget(self.text_num_scale)
 
         self.var_boxes.text_boxes['num_scale'] = self.text_num_scale
@@ -228,39 +219,40 @@ class App(QWidget):
         # Добавляем в словарь combo boxes
         self.var_boxes.combo_boxes['verificationer'] = self.verificationer_combo
 
-        # INN
 
-        self.label_text_INN = QLabel("Выберите ИНН компании:")
+        # Line
+
+        line = QFrame()
+        line.setFrameShape(QFrame.HLine)
+        line.setMinimumSize(300,2)
+        line.setMaximumSize(700,2)
+
+        self.var_layout.addWidget(line)
+
+        # INN
         self.text_INN = QPlainTextEdit(self)
-        self.text_INN.setFixedSize(500, 40)
-        self.var_layout.addWidget(self.label_text_INN)
+        self.text_INN.setPlaceholderText("ИНН")
         self.var_layout.addWidget(self.text_INN)
 
         self.var_boxes.text_boxes['INN'] = self.text_INN
 
         self.button_search_company = QPushButton('Найти', self)
-        self.button_search_company.setFixedSize(500, 40)
         self.button_search_company.clicked.connect(self.search_company)  # Привязываем функцию
         self.var_layout.addWidget(self.button_search_company)  # Добавляем в layout
 
-        self.buttons.Buttons['create_template'] = self.button_search_company
+        self.buttons.Buttons['search'] = self.button_search_company
 
         # Company
-
-        self.label_text_company = QLabel("Выберите компанию:")
         self.text_company = QPlainTextEdit(self)
-        self.text_company.setFixedSize(500, 40)
-        self.var_layout.addWidget(self.label_text_company)
+        self.text_company.setPlaceholderText("Компания")
         self.var_layout.addWidget(self.text_company)
 
         self.var_boxes.text_boxes['company'] = self.text_company
 
         # Legal address
 
-        self.label_text_legal_address = QLabel("Выберите юридический адрес компании:")
         self.text_legal_address = QPlainTextEdit(self)
-        self.text_legal_address.setFixedSize(500, 40)
-        self.var_layout.addWidget(self.label_text_legal_address)
+        self.text_legal_address.setPlaceholderText("Юридический адрес")
         self.var_layout.addWidget(self.text_legal_address)
 
         self.var_boxes.text_boxes['legal_address'] = self.text_legal_address
@@ -270,20 +262,16 @@ class App(QWidget):
 
         inspection_address_layout = QHBoxLayout()
 
-        self.label_text_inspection_address = QLabel("Выберите адрес поверки:")
         self.text_inspection_address = QPlainTextEdit(self)
-        self.text_inspection_address.setFixedSize(450, 40)
-        self.var_layout.addWidget(self.label_text_inspection_address)
+        self.text_inspection_address.setPlaceholderText('Адрес поверки')
         inspection_address_layout.addWidget(self.text_inspection_address)
 
         self.var_boxes.text_boxes['inspection_address'] = self.text_inspection_address
 
         self.button_inspection_address_setting = QPushButton('...', self)
-        self.button_inspection_address_setting.setFixedSize(40, 40)
+        self.button_inspection_address_setting.setFixedSize(50, 50)
         self.button_inspection_address_setting.clicked.connect(self.show_inspection_address_setting)  # Привязываем функцию
         inspection_address_layout.addWidget(self.button_inspection_address_setting)  # Добавляем в layout
-
-        self.buttons.Buttons['legal_address_setting'] = self.button_inspection_address_setting
 
         self.var_layout.addLayout(inspection_address_layout)
 
@@ -291,10 +279,45 @@ class App(QWidget):
 
         self.button_unfit = QPushButton('Несоответсвует', self)
         self.button_unfit.setCheckable(True)
-        self.button_unfit.setFixedSize(500, 40)
         self.var_layout.addWidget(self.button_unfit)  # Добавляем в layout
 
         self.buttons.CheckableButtons['unfit'] = self.button_unfit
+
+        # Line
+
+        line = QFrame()
+        line.setFrameShape(QFrame.HLine)
+        line.setMinimumSize(300,2)
+        line.setMaximumSize(700,2)
+
+        self.var_layout.addWidget(line)
+
+        # PAth to excel 
+
+        self.path_excel_layout = QHBoxLayout()
+
+        self.text_path_to_excel = QPlainTextEdit(self)
+        self.text_path_to_excel.setPlaceholderText("Путь к журналу excel")
+        self.path_excel_layout.addWidget(self.text_path_to_excel)
+
+        self.var_boxes.text_boxes['path_to_excel'] = self.text_path_to_excel
+
+        self.button_path_to_excel_dialog = QPushButton('...', self)
+        self.button_path_to_excel_dialog.setFixedSize(50, 50)
+        self.button_path_to_excel_dialog.clicked.connect(self.add_path_to_excel)  # Привязываем функцию
+        self.path_excel_layout.addWidget(self.button_path_to_excel_dialog)  # Добавляем в layout
+
+        self.var_layout.addLayout(self.path_excel_layout)
+
+        # Use excel
+
+        use_excel_layout = QHBoxLayout()
+
+        self.button_use_excel = QPushButton('Использовать Excel', self)
+        self.button_use_excel.setCheckable(True)
+        self.var_layout.addWidget(self.button_use_excel)  # Добавляем в layout
+
+        self.buttons.CheckableButtons['use_excel'] = self.button_use_excel
 
         ####### var_r_layout
 
@@ -304,38 +327,49 @@ class App(QWidget):
         self.inspection_date.setFixedSize(500, 300)
         self.var_r_layout.addWidget(self.inspection_date)
 
+        # interval
+
+        nums = ['1','2']
+
+        self.label_interval_combo = QLabel("Выберите интервал до следующей проверки:")
+        self.interval_combo = QComboBox()
+        self.interval_combo.addItems(nums)
+        self.interval_combo.setCurrentIndex(0)
+        self.var_r_layout.addWidget(self.label_interval_combo)
+        self.var_r_layout.addWidget(self.interval_combo)
+
+        # Добавляем в словарь combo boxes
+        self.var_boxes.combo_boxes['interval'] = self.interval_combo
+
+
         # weather
 
-        self.label_text_temperature = QLabel("Выберите температуру:")
         self.text_temperature = QPlainTextEdit(self)
-        self.text_temperature.setFixedSize(500, 40)
-        self.var_r_layout.addWidget(self.label_text_temperature)
+        self.text_temperature.setPlaceholderText("Температура")
+
         self.var_r_layout.addWidget(self.text_temperature)
 
         self.var_boxes.text_boxes['temperature'] = self.text_temperature
 
-        self.label_text_humidity = QLabel("Выберите влажность:")
         self.text_humidity = QPlainTextEdit(self)
-        self.text_humidity.setFixedSize(500, 40)
-        self.var_r_layout.addWidget(self.label_text_humidity)
+        self.text_humidity.setPlaceholderText("Влажность")
         self.var_r_layout.addWidget(self.text_humidity)
 
         self.var_boxes.text_boxes['humidity'] = self.text_humidity
 
-        self.label_text_pressure = QLabel("Выберите давление:")
         self.text_pressure = QPlainTextEdit(self)
-        self.text_pressure.setFixedSize(500, 40)
-        self.var_r_layout.addWidget(self.label_text_pressure)
+        self.text_pressure.setPlaceholderText("Давление")
         self.var_r_layout.addWidget(self.text_pressure)
 
         self.var_boxes.text_boxes['pressure'] = self.text_pressure
+
+    
 
         # Создаем кнопки
 
         # Create template
 
         self.button_create_template = QPushButton('Создать шаблон', self)
-        self.button_create_template.setFixedSize(500, 40)
         self.button_create_template.clicked.connect(self.create_template)  # Привязываем функцию
         self.var_r_layout.addWidget(self.button_create_template)  # Добавляем в layout
 
@@ -344,27 +378,23 @@ class App(QWidget):
         # Create protocol
 
         self.button_create_protocol = QPushButton('Создать протокол', self)
-        self.button_create_protocol.setFixedSize(500, 40)
         self.button_create_protocol.clicked.connect(self.create_protocol)  # Привязываем функцию
         self.var_r_layout.addWidget(self.button_create_protocol)  # Добавляем в layout
 
         self.buttons.Buttons['create_protocol'] = self.button_create_protocol
 
-        # Use excel
+        # Line
 
-        use_excel_layout = QHBoxLayout()
+        line = QFrame()
+        line.setFrameShape(QFrame.HLine)
+        line.setMinimumSize(300,2)
+        line.setMaximumSize(700,2)
 
-        self.button_use_excel = QPushButton('Использовать Excel', self)
-        self.button_use_excel.setCheckable(True)
-        self.button_use_excel.setFixedSize(500, 40)
-        self.var_layout.addWidget(self.button_use_excel)  # Добавляем в layout
-
-        self.buttons.CheckableButtons['use_excel'] = self.button_use_excel
+        self.var_r_layout.addWidget(line)
 
         # Use data
 
         self.button_use_data = QPushButton('Использовать преведущие данные', self)
-        self.button_use_data.setFixedSize(500, 40)
         self.button_use_data.clicked.connect(self.use_data)  # Привязываем функцию
         self.var_r_layout.addWidget(self.button_use_data)  # Добавляем в layout
 
@@ -373,7 +403,6 @@ class App(QWidget):
         # Clean
 
         self.button_clean = QPushButton('Очистить', self)
-        self.button_clean.setFixedSize(500, 40)
         self.button_clean.clicked.connect(self.clean)  # Привязываем функцию
         self.var_r_layout.addWidget(self.button_clean)  # Добавляем в layout
 
@@ -382,7 +411,6 @@ class App(QWidget):
         # Settings
 
         self.button_settings = QPushButton('Настройки', self)
-        self.button_settings.setFixedSize(500, 40)
         self.button_settings.clicked.connect(self.settings)  # Привязываем функцию
         self.var_r_layout.addWidget(self.button_settings)  # Добавляем в layout
 
@@ -393,7 +421,8 @@ class App(QWidget):
         # Standarts
 
         self.tab_widget = QTabWidget(self)
-        self.tab_widget.setFixedSize(850, 800)
+        self.tab_widget.setMaximumSize(900, 950)
+        self.tab_widget.setMinimumSize(850, 800)
 
         # Укажите путь к нужной папке
         folder_path = f'app/standarts'
@@ -435,6 +464,27 @@ class App(QWidget):
 
 
 
+
+        # Устнавливаем размеры
+        width = 40
+        max_length = 700
+        min_lenght = 300
+
+        for widget in self.var_boxes.text_boxes.values():
+            widget.setMaximumSize(max_length,width)
+            widget.setMinimumSize(min_lenght,width)
+
+        for widget in self.var_boxes.combo_boxes.values():
+            widget.setMaximumSize(max_length,width)
+            widget.setMinimumSize(min_lenght,width)
+
+        for widget in self.buttons.Buttons.values():
+            widget.setMaximumSize(max_length,width)
+            widget.setMinimumSize(min_lenght,width)
+
+        for widget in self.buttons.CheckableButtons.values():
+            widget.setMaximumSize(max_length,width)
+            widget.setMinimumSize(min_lenght,width)
 
         # Add layouts in main_layout
         main_layout.addLayout(self.var_layout)
@@ -502,3 +552,20 @@ class App(QWidget):
         dialogs.SettingDialog().exec_()
 
         logger.debug('end')
+
+    def add_path_to_excel(self):
+        logger.info('start')
+
+        options = QFileDialog.Options()
+        filePath, _ = QFileDialog.getOpenFileName(self, 'Выберите файл', '', 'All Files (*);;Text Files (*.txt)', options=options)
+
+        self.text_path_to_excel.setPlainText(filePath)
+
+        logger.debug('end')
+
+
+    # Events
+
+    def resizeEvent(self, event):
+        print("Window has been resized")
+        super().resizeEvent(event)

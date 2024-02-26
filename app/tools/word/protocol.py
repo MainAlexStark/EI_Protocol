@@ -6,6 +6,8 @@ import os
 
 from loguru import logger
 
+from ..excel import add
+
 
 def extract_value(text, start_text, end_text):
     if text.find(start_text) != -1:
@@ -61,6 +63,12 @@ def make_new_protocol(args):
                 if 'соответствует установленным в описании типа метрологическим требованиям' in paragraph.text and args['unfit'] == True:
                     paragraph.text = paragraph.text.replace('соответствует','несоответствует')\
                     .replace('пригодно','непригодно')
+                    
+                if 'Изменение температуры воздуха в помещении в течение ' in paragraph.text:
+                    args['change_temperature'] = 'Изменение' + ' ' + extract_value(paragraph.text,'Изменение','°C.') + '°C.'
+                    
+                if 'МЕТОДИКА ПОВЕРКИ' in paragraph.text or 'Методика поверки' in paragraph.text:
+                    args['method'] = doc.paragraphs[index + 1].text
 
                 index += 1
 
@@ -74,11 +82,41 @@ def make_new_protocol(args):
         logger.debug(full)
 
         if args['use_excel']:
-            ...
+            try:
+                
+                add.add_var_to_excel(args=args)
+
+            except Exception as e:
+                logger.error(f'Ошибка при редактировании Excel файла:{e}')
+                
+                
+        if args['unfit'] == False:
+                unfit = 'Пригодно'
+        else:
+                unfit = 'Непригодно'
+                
+                
+        result = ''
+        
+        result += full + '\n'
+        result += args['num_protocol'].split('-',1)[0] + '-' + args['work_place'].split('-')[0].strip() + '-' + args['num_protocol'].split('-',1)[1] + '\n'
+        result += args['scale'] + '\n'
+        result += args['num_scale'] + '\n'
+        result += args['inspection_date'] + '\n'
+        result += args['method'] + '\n'
+        result += args['temperature'] + '\n'
+        result += args['pressure'] + '\n'
+        result += args['humidity'] + '\n'
+        result += args['standarts'] + '\n'
+        result += args['company'] + '\n'
+        result += args['verificationer'] + '\n'
+        result += args['legal_address'] + '\n'
+        result += args['inspection_address'] + '\n'
+        result += unfit
 
         logger.debug('end')
 
-        return full
+        return result
     
     except Exception as e:
         logger.error(f'Error create protocol: {e}')

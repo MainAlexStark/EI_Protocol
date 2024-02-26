@@ -57,13 +57,12 @@ def create_template(path:str):
         var = {}
 
         index = 0
+        element_index = 0
         for element in doc.element.body:
             # Проверяем, является ли элемент абзацем
             if isinstance(element, docx.oxml.text.paragraph.CT_P):
                 # Получаем абзац
                 paragraph = docx.text.paragraph.Paragraph(element, doc)
-
-
 
                 if 'УСЛОВИЯ ПРОВЕДЕНИЯ ПОВЕРКИ' in paragraph.text:
                     paragraph.text += '\n' + cell_text
@@ -184,6 +183,7 @@ def create_template(path:str):
 
 
                 index += 1
+            element_index += 1
 
         # Loop through paragraphs and tables
         for element in doc.element.body:
