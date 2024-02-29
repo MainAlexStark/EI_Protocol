@@ -3344,3 +3344,1482 @@ The rights to the program belong to the company: ООО "Единица Изме
 2024-02-26 17:04:36.502 | DEBUG    | app.tools.main_window_functions:verificationer_changed:134 - start
 2024-02-26 17:04:36.502 | DEBUG    | app.tools.main_window_functions:verificationer_changed:144 - end
 2024-02-26 17:04:36.503 | DEBUG    | app.tools.main_window_functions:clean:310 - end
+2024-02-26 17:17:28.390 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-26 17:17:28.391 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-26 17:19:38.904 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-26 17:19:38.904 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-26 17:28:56.321 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-26 17:28:56.321 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-26 17:28:58.614 | INFO     | app.tools.main_window_functions:use_data:214 - start
+2024-02-26 17:28:58.616 | DEBUG    | app.tools.main_window_functions:verificationer_changed:134 - start
+2024-02-26 17:28:58.617 | DEBUG    | app.tools.main_window_functions:verificationer_changed:144 - end
+2024-02-26 17:28:58.617 | INFO     | app.tools.main_window_functions:scale_changed:72 - start
+2024-02-26 17:28:58.618 | DEBUG    | app.tools.main_window_functions:scale_changed:100 - end
+2024-02-26 17:28:58.619 | DEBUG    | app.tools.main_window_functions:use_data:289 - end
+2024-02-26 17:28:58.819 | INFO     | app.tools.main_window_functions:use_data:214 - start
+2024-02-26 17:28:58.820 | INFO     | app.tools.main_window_functions:scale_changed:72 - start
+2024-02-26 17:28:58.820 | DEBUG    | app.tools.main_window_functions:scale_changed:100 - end
+2024-02-26 17:28:58.821 | DEBUG    | app.tools.main_window_functions:use_data:289 - end
+2024-02-26 17:28:59.426 | INFO     | app.tools.main_window_functions:clean:300 - start
+2024-02-26 17:28:59.427 | INFO     | app.tools.main_window_functions:scale_changed:72 - start
+2024-02-26 17:28:59.428 | DEBUG    | app.tools.main_window_functions:scale_changed:100 - end
+2024-02-26 17:28:59.428 | DEBUG    | app.tools.main_window_functions:verificationer_changed:134 - start
+2024-02-26 17:28:59.428 | DEBUG    | app.tools.main_window_functions:verificationer_changed:144 - end
+2024-02-26 17:28:59.429 | DEBUG    | app.tools.main_window_functions:clean:310 - end
+2024-02-26 22:27:24.138 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-26 22:27:24.139 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-26 22:27:26.364 | DEBUG    | app.tools.main_window_functions:create_template:361 - start
+2024-02-26 22:27:44.002 | DEBUG    | app.tools.word.Word:create_template:154 - start
+2024-02-26 22:27:44.003 | ERROR    | app.tools.word.Word:create_template:344 - Ошибка при создании шаблона: Word.open_document() missing 1 required positional argument: 'path'
+2024-02-26 22:27:44.003 | DEBUG    | app.tools.word.Word:create_template:346 - end
+2024-02-26 22:27:44.003 | DEBUG    | app.tools.main_window_functions:__init__:392 - Create_template_Dialog(QDialog): __init__
+2024-02-26 22:27:44.005 | DEBUG    | app.tools.main_window_functions:__init__:413 - __init__ end
+2024-02-26 22:27:58.207 | DEBUG    | app.tools.main_window_functions:create_template:417 - end
+2024-02-26 22:29:40.908 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-26 22:29:40.908 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-26 22:29:42.433 | DEBUG    | app.tools.main_window_functions:create_template:361 - start
+2024-02-26 22:29:51.957 | DEBUG    | app.tools.word.Word:create_template:154 - start
+2024-02-26 22:29:51.957 | ERROR    | app.tools.word.Word:create_template:344 - Ошибка при создании шаблона: Word.open_document() missing 1 required positional argument: 'path'
+2024-02-26 22:29:51.958 | DEBUG    | app.tools.word.Word:create_template:346 - end
+2024-02-26 22:29:51.958 | DEBUG    | app.tools.main_window_functions:__init__:392 - Create_template_Dialog(QDialog): __init__
+2024-02-26 22:29:51.959 | DEBUG    | app.tools.main_window_functions:__init__:413 - __init__ end
+2024-02-26 22:30:48.170 | DEBUG    | app.tools.main_window_functions:create_template:417 - end
+2024-02-26 22:30:53.564 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-26 22:30:53.565 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-26 22:30:55.945 | INFO     | app.tools.main_window_functions:create_protocol:156 - start
+2024-02-26 22:30:55.945 | DEBUG    | app.tools.main_window_functions:get_selected_table:111 - start
+2024-02-26 22:30:55.947 | DEBUG    | app.tools.main_window_functions:get_selected_table:119 - <PyQt5.QtWidgets.QTableWidget object at 0x000001F72A438D40>
+2024-02-26 22:30:55.947 | DEBUG    | app.tools.main_window_functions:get_selected_table:121 - end
+2024-02-26 22:30:55.947 | DEBUG    | app.tools.main_window_functions:get_selected_table:111 - start
+2024-02-26 22:30:55.947 | DEBUG    | app.tools.main_window_functions:get_selected_table:119 - <PyQt5.QtWidgets.QTableWidget object at 0x000001F72A438D40>
+2024-02-26 22:30:55.947 | DEBUG    | app.tools.main_window_functions:get_selected_table:121 - end
+2024-02-26 22:31:04.300 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-26 22:31:04.301 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-26 22:31:06.344 | DEBUG    | app.tools.main_window_functions:create_template:361 - start
+2024-02-26 22:42:26.372 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-26 22:42:26.372 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-26 22:42:34.486 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-26 22:42:34.487 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-26 22:42:38.696 | DEBUG    | app.tools.main_window_functions:create_template:361 - start
+2024-02-26 22:43:03.110 | DEBUG    | app.tools.word.Word:create_template:154 - start
+2024-02-26 22:43:52.714 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-26 22:43:52.714 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-26 22:43:54.851 | DEBUG    | app.tools.main_window_functions:create_template:361 - start
+2024-02-26 22:43:56.352 | DEBUG    | app.tools.main_window_functions:__init__:392 - Create_template_Dialog(QDialog): __init__
+2024-02-26 22:43:56.353 | DEBUG    | app.tools.main_window_functions:__init__:413 - __init__ end
+2024-02-26 22:43:57.357 | DEBUG    | app.tools.main_window_functions:create_template:417 - end
+2024-02-26 22:43:58.449 | INFO     | app.tools.main_window_functions:use_data:256 - start
+2024-02-26 22:43:58.451 | DEBUG    | app.tools.main_window_functions:verificationer_changed:137 - start
+2024-02-26 22:43:58.452 | DEBUG    | app.tools.main_window_functions:verificationer_changed:147 - end
+2024-02-26 22:43:58.453 | INFO     | app.tools.main_window_functions:scale_changed:75 - start
+2024-02-26 22:43:58.454 | DEBUG    | app.tools.main_window_functions:scale_changed:103 - end
+2024-02-26 22:43:58.457 | DEBUG    | app.tools.main_window_functions:use_data:331 - end
+2024-02-26 22:43:59.990 | INFO     | app.tools.main_window_functions:clean:342 - start
+2024-02-26 22:43:59.990 | INFO     | app.tools.main_window_functions:scale_changed:75 - start
+2024-02-26 22:43:59.990 | DEBUG    | app.tools.main_window_functions:scale_changed:103 - end
+2024-02-26 22:43:59.991 | DEBUG    | app.tools.main_window_functions:verificationer_changed:137 - start
+2024-02-26 22:43:59.991 | DEBUG    | app.tools.main_window_functions:verificationer_changed:147 - end
+2024-02-26 22:43:59.991 | DEBUG    | app.tools.main_window_functions:clean:352 - end
+2024-02-26 22:44:00.490 | DEBUG    | app.tools.main_window_functions:create_template:361 - start
+2024-02-26 22:44:03.566 | DEBUG    | app.tools.word.Word:create_template:154 - start
+2024-02-26 22:44:03.566 | DEBUG    | app.tools.word.Word:open_document:33 - Open Word Document: C:/Programming/EI_protocols/app/documents/ЕИ-03-02-01362 МТ 15 ВЖА №172283 (35821-07).docx
+2024-02-26 22:44:03.575 | DEBUG    | app.tools.word.Word:open_document:38 - Документ Word открыт
+2024-02-26 22:44:03.635 | DEBUG    | app.tools.word.Word:create_template:326 - номер протокола: ЕИ-03-02-01362
+2024-02-26 22:44:03.636 | DEBUG    | app.tools.word.Word:create_template:326 - весы: Весы электронные тензометрические для статического взвешивания МТ 15 ВЖА
+2024-02-26 22:44:03.637 | DEBUG    | app.tools.word.Word:create_template:326 - номер весов: 172283
+2024-02-26 22:44:03.643 | DEBUG    | app.tools.word.Word:create_template:326 - компания: ФКУ ИК-33 УФСИН России по Кировской области
+2024-02-26 22:44:03.644 | DEBUG    | app.tools.word.Word:create_template:326 - инн: 4342001519
+2024-02-26 22:44:03.644 | DEBUG    | app.tools.word.Word:create_template:326 - юридический адрес: 612607, Кировская область, Котельничский район, город Котельнич, Даровская ул.
+2024-02-26 22:44:03.644 | DEBUG    | app.tools.word.Word:create_template:326 - место поверки: город Котельнич, Даровская ул
+2024-02-26 22:44:03.645 | DEBUG    | app.tools.word.Word:create_template:326 - фиф: 35821-07
+2024-02-26 22:44:03.645 | DEBUG    | app.tools.word.Word:create_template:326 - температура: в начале поверки: ТЕМПЕРАТУРА_ПЕРЕМЕННАЯ
+2024-02-26 22:44:03.645 | DEBUG    | app.tools.word.Word:create_template:326 - влажность: 46,4
+2024-02-26 22:44:03.646 | DEBUG    | app.tools.word.Word:create_template:326 - давление: 99,5
+2024-02-26 22:44:03.646 | DEBUG    | app.tools.word.Word:create_template:326 - поверитель:     С.В. Стариков
+2024-02-26 22:44:03.646 | DEBUG    | app.tools.word.Word:create_template:326 - дата поверки: 25 августа 2023
+2024-02-26 22:44:03.663 | DEBUG    | app.tools.word.Word:create_template:340 - Файл шаблона сохранен: app/templates/Весы электронные тензометрические для статического взвешивания МТ 15 ВЖА 35821-07.docx
+2024-02-26 22:44:03.664 | DEBUG    | app.tools.main_window_functions:__init__:392 - Create_template_Dialog(QDialog): __init__
+2024-02-26 22:44:03.664 | DEBUG    | app.tools.main_window_functions:__init__:413 - __init__ end
+2024-02-26 22:44:05.220 | DEBUG    | app.tools.main_window_functions:create_template:417 - end
+2024-02-26 22:44:06.756 | INFO     | app.tools.main_window_functions:use_data:256 - start
+2024-02-26 22:44:06.756 | DEBUG    | app.tools.main_window_functions:verificationer_changed:137 - start
+2024-02-26 22:44:06.757 | DEBUG    | app.tools.main_window_functions:verificationer_changed:147 - end
+2024-02-26 22:44:06.759 | INFO     | app.tools.main_window_functions:scale_changed:75 - start
+2024-02-26 22:44:06.760 | DEBUG    | app.tools.main_window_functions:scale_changed:103 - end
+2024-02-26 22:44:06.761 | DEBUG    | app.tools.main_window_functions:use_data:331 - end
+2024-02-26 22:44:13.310 | INFO     | app.tools.main_window_functions:create_protocol:156 - start
+2024-02-26 22:44:13.310 | DEBUG    | app.tools.main_window_functions:get_selected_table:111 - start
+2024-02-26 22:44:13.311 | DEBUG    | app.tools.main_window_functions:get_selected_table:119 - <PyQt5.QtWidgets.QTableWidget object at 0x000002027F8B8D40>
+2024-02-26 22:44:13.311 | DEBUG    | app.tools.main_window_functions:get_selected_table:121 - end
+2024-02-26 22:44:13.313 | DEBUG    | app.tools.main_window_functions:get_selected_table:111 - start
+2024-02-26 22:44:13.313 | DEBUG    | app.tools.main_window_functions:get_selected_table:119 - <PyQt5.QtWidgets.QTableWidget object at 0x000002027F8B8D40>
+2024-02-26 22:44:13.314 | DEBUG    | app.tools.main_window_functions:get_selected_table:121 - end
+2024-02-26 22:44:13.314 | DEBUG    | app.tools.main_window_functions:get_selected_table:111 - start
+2024-02-26 22:44:13.315 | DEBUG    | app.tools.main_window_functions:get_selected_table:119 - <PyQt5.QtWidgets.QTableWidget object at 0x000002027F8B8D40>
+2024-02-26 22:44:13.315 | DEBUG    | app.tools.main_window_functions:get_selected_table:121 - end
+2024-02-26 22:44:13.315 | DEBUG    | app.tools.main_window_functions:get_selected_table:111 - start
+2024-02-26 22:44:13.316 | DEBUG    | app.tools.main_window_functions:get_selected_table:119 - <PyQt5.QtWidgets.QTableWidget object at 0x000002027F8B8D40>
+2024-02-26 22:44:13.316 | DEBUG    | app.tools.main_window_functions:get_selected_table:121 - end
+2024-02-26 22:44:13.318 | DEBUG    | app.tools.word.Word:make_new_protocol:49 - start
+2024-02-26 22:44:13.318 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - scale: Весы настольные циферблатные РН-6Ц13У 8474-88
+2024-02-26 22:44:13.319 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - path: C:/Users/maina/PythonProjects/desktop
+2024-02-26 22:44:13.321 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - num_protocol: ЕИ-03-0000
+2024-02-26 22:44:13.322 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - num_scale: 1234
+2024-02-26 22:44:13.322 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - INN: INN
+2024-02-26 22:44:13.322 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - company: company
+2024-02-26 22:44:13.323 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - legal_address: place
+2024-02-26 22:44:13.323 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - inspection_address: place
+2024-02-26 22:44:13.323 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - path_to_excel: C:/Users/maina/PythonProjects/desktop/Журнал учета поверочных работ Бурков 20.08.2023.xlsx
+2024-02-26 22:44:13.323 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - temperature: temp
+2024-02-26 22:44:13.324 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - humidity: hum
+2024-02-26 22:44:13.324 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - pressure: press
+2024-02-26 22:44:13.324 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - work_place: 05 - Автоматические ВСУ
+2024-02-26 22:44:13.325 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - verificationer: Стариков
+2024-02-26 22:44:13.325 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - interval: 2
+2024-02-26 22:44:13.325 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - unfit: True
+2024-02-26 22:44:13.325 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - use_excel: True
+2024-02-26 22:44:13.326 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - inspection_date: 07.02.2024
+2024-02-26 22:44:13.326 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - standarts: Набор гирь 1 мг-500 г F1 рег. № в ФИФ 58463-14, №PV156, 2 разряд;
+Гиря М1 500 г рег. № в ФИФ 58048-14 №796242, 4 разряд;
+Гиря М1 1 кг рег. № в ФИФ 58048-14 №796241, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796236, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796237, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №796238, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №812854, 4 разряд
+2024-02-26 22:44:13.326 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - standarts_briefly: 58463.14.2Р.00869664|58048.14.4Р.00740372|58048.14.4Р.00740373|58048.14.4Р.00740374|58048.14.4Р.00740375|58048.14.4Р.00690618
+2024-02-26 22:44:13.327 | ERROR    | app.tools.word.Word:make_new_protocol:145 - Error create protocol: Word.open_document() missing 1 required positional argument: 'path'
+2024-02-26 22:44:13.327 | DEBUG    | app.tools.word.Word:make_new_protocol:147 - end
+2024-02-26 22:44:13.327 | INFO     | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-02-26 22:44:13.328 | ERROR    | app.tools.dialogs.CreateProtocolDialog:__init__:45 - Error init ChooseScaleDialog(QDialog) : setText(self, a0: Optional[str]): argument 1 has unexpected type 'TypeError'
+2024-02-26 22:49:40.271 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-26 22:49:40.272 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-26 22:49:42.399 | INFO     | app.tools.main_window_functions:use_data:256 - start
+2024-02-26 22:49:42.401 | DEBUG    | app.tools.main_window_functions:verificationer_changed:137 - start
+2024-02-26 22:49:42.402 | DEBUG    | app.tools.main_window_functions:verificationer_changed:147 - end
+2024-02-26 22:49:42.402 | INFO     | app.tools.main_window_functions:scale_changed:75 - start
+2024-02-26 22:49:42.403 | DEBUG    | app.tools.main_window_functions:scale_changed:103 - end
+2024-02-26 22:49:42.403 | DEBUG    | app.tools.main_window_functions:use_data:331 - end
+2024-02-26 22:49:42.695 | INFO     | app.tools.main_window_functions:create_protocol:156 - start
+2024-02-26 22:49:42.695 | DEBUG    | app.tools.main_window_functions:get_selected_table:111 - start
+2024-02-26 22:49:42.695 | DEBUG    | app.tools.main_window_functions:get_selected_table:119 - <PyQt5.QtWidgets.QTableWidget object at 0x00000255EA668D40>
+2024-02-26 22:49:42.696 | DEBUG    | app.tools.main_window_functions:get_selected_table:121 - end
+2024-02-26 22:49:42.696 | DEBUG    | app.tools.main_window_functions:get_selected_table:111 - start
+2024-02-26 22:49:42.696 | DEBUG    | app.tools.main_window_functions:get_selected_table:119 - <PyQt5.QtWidgets.QTableWidget object at 0x00000255EA668D40>
+2024-02-26 22:49:42.696 | DEBUG    | app.tools.main_window_functions:get_selected_table:121 - end
+2024-02-26 22:49:42.696 | DEBUG    | app.tools.main_window_functions:get_selected_table:111 - start
+2024-02-26 22:49:42.697 | DEBUG    | app.tools.main_window_functions:get_selected_table:119 - <PyQt5.QtWidgets.QTableWidget object at 0x00000255EA668D40>
+2024-02-26 22:49:42.697 | DEBUG    | app.tools.main_window_functions:get_selected_table:121 - end
+2024-02-26 22:49:42.697 | DEBUG    | app.tools.main_window_functions:get_selected_table:111 - start
+2024-02-26 22:49:42.697 | DEBUG    | app.tools.main_window_functions:get_selected_table:119 - <PyQt5.QtWidgets.QTableWidget object at 0x00000255EA668D40>
+2024-02-26 22:49:42.698 | DEBUG    | app.tools.main_window_functions:get_selected_table:121 - end
+2024-02-26 22:49:42.699 | DEBUG    | app.tools.word.Word:make_new_protocol:49 - start
+2024-02-26 22:49:42.699 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - scale: Весы настольные циферблатные РН-6Ц13У 8474-88
+2024-02-26 22:49:42.699 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - path: C:/Users/maina/PythonProjects/desktop
+2024-02-26 22:49:42.699 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - num_protocol: ЕИ-03-0000
+2024-02-26 22:49:42.700 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - num_scale: 1234
+2024-02-26 22:49:42.700 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - INN: INN
+2024-02-26 22:49:42.700 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - company: company
+2024-02-26 22:49:42.700 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - legal_address: place
+2024-02-26 22:49:42.701 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - inspection_address: place
+2024-02-26 22:49:42.701 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - path_to_excel: C:/Users/maina/PythonProjects/desktop/Журнал учета поверочных работ Бурков 20.08.2023.xlsx
+2024-02-26 22:49:42.701 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - temperature: temp
+2024-02-26 22:49:42.702 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - humidity: hum
+2024-02-26 22:49:42.702 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - pressure: press
+2024-02-26 22:49:42.703 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - work_place: 05 - Автоматические ВСУ
+2024-02-26 22:49:42.703 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - verificationer: Стариков
+2024-02-26 22:49:42.703 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - interval: 2
+2024-02-26 22:49:42.704 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - unfit: True
+2024-02-26 22:49:42.704 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - use_excel: True
+2024-02-26 22:49:42.704 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - inspection_date: 07.02.2024
+2024-02-26 22:49:42.704 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - standarts: Набор гирь 1 мг-500 г F1 рег. № в ФИФ 58463-14, №PV156, 2 разряд;
+Гиря М1 500 г рег. № в ФИФ 58048-14 №796242, 4 разряд;
+Гиря М1 1 кг рег. № в ФИФ 58048-14 №796241, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796236, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796237, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №796238, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №812854, 4 разряд
+2024-02-26 22:49:42.705 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - standarts_briefly: 58463.14.2Р.00869664|58048.14.4Р.00740372|58048.14.4Р.00740373|58048.14.4Р.00740374|58048.14.4Р.00740375|58048.14.4Р.00690618
+2024-02-26 22:49:42.705 | DEBUG    | app.tools.word.Word:open_document:33 - Open Word Document: app\templates\Весы настольные циферблатные РН-6Ц13У 8474-88.docx
+2024-02-26 22:49:42.774 | DEBUG    | app.tools.word.Word:open_document:38 - Документ Word открыт
+2024-02-26 22:49:42.790 | DEBUG    | app.tools.word.Word:make_new_protocol:105 - C:/Users/maina/PythonProjects/desktop/ЕИ-03-0000 Весы настольные циферблатные РН-6Ц13У №1234 (8474-88).docx
+2024-02-26 22:49:42.791 | DEBUG    | app.tools.excel.add:add_var_to_excel:13 - start
+2024-02-26 22:49:42.791 | DEBUG    | app.tools.excel.add:add_var_to_excel:15 - {'scale': 'Весы настольные циферблатные РН-6Ц13У 8474-88', 'path': 'C:/Users/maina/PythonProjects/desktop', 'num_protocol': 'ЕИ-03-0000', 'num_scale': '1234', 'INN': 'INN', 'company': 'company', 'legal_address': 'place', 'inspection_address': 'place', 'path_to_excel': 'C:/Users/maina/PythonProjects/desktop/Журнал учета поверочных работ Бурков 20.08.2023.xlsx', 'temperature': 'temp', 'humidity': 'hum', 'pressure': 'press', 'work_place': '05 - Автоматические ВСУ', 'verificationer': 'Стариков', 'interval': '2', 'unfit': True, 'use_excel': True, 'inspection_date': '07.02.2024', 'standarts': 'Набор гирь 1 мг-500 г F1 рег. № в ФИФ 58463-14, №PV156, 2 разряд;\nГиря М1 500 г рег. № в ФИФ 58048-14 №796242, 4 разряд;\nГиря М1 1 кг рег. № в ФИФ 58048-14 №796241, 4 разряд;\nГиря М1 2 кг рег. № в ФИФ 58048-14 №796236, 4 разряд;\nГиря М1 2 кг рег. № в ФИФ 58048-14 №796237, 4 разряд;\nГиря М1 5 кг рег. № в ФИФ 58048-14 №796238, 4 разряд;\nГиря М1 5 кг рег. № в ФИФ 58048-14 №812854, 4 разряд', 'standarts_briefly': '58463.14.2Р.00869664|58048.14.4Р.00740372|58048.14.4Р.00740373|58048.14.4Р.00740374|58048.14.4Р.00740375|58048.14.4Р.00690618', 'change_temperature': 'Изменение температуры воздуха в помещении в течение 1 часа не превышает 2,0°C.', 'method': '«ГСИ. Весы для статического взвешивания. Методы и средства поверки» ГОСТ 8.453-82'}
+2024-02-26 22:49:44.420 | ERROR    | app.tools.word.Word:make_new_protocol:113 - Ошибка при редактировании Excel файла:cannot access local variable 'word' where it is not associated with a value
+2024-02-26 22:49:44.420 | DEBUG    | app.tools.word.Word:make_new_protocol:140 - end
+2024-02-26 22:49:44.422 | INFO     | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-02-26 22:49:48.048 | DEBUG    | app.tools.main_window_functions:verificationer_changed:137 - start
+2024-02-26 22:49:48.049 | DEBUG    | app.tools.main_window_functions:verificationer_changed:147 - end
+2024-02-26 22:49:48.051 | DEBUG    | app.tools.main_window_functions:create_protocol:243 - end
+2024-02-26 22:49:48.052 | DEBUG    | app.tools.main_window_functions:create_protocol:246 - end
+2024-02-26 22:49:58.223 | INFO     | app.tools.main_window_functions:clean:342 - start
+2024-02-26 22:49:58.223 | INFO     | app.tools.main_window_functions:scale_changed:75 - start
+2024-02-26 22:49:58.224 | DEBUG    | app.tools.main_window_functions:scale_changed:103 - end
+2024-02-26 22:49:58.225 | DEBUG    | app.tools.main_window_functions:verificationer_changed:137 - start
+2024-02-26 22:49:58.227 | DEBUG    | app.tools.main_window_functions:verificationer_changed:147 - end
+2024-02-26 22:49:58.227 | DEBUG    | app.tools.main_window_functions:clean:352 - end
+2024-02-26 22:49:58.763 | INFO     | app.tools.main_window_functions:create_protocol:156 - start
+2024-02-26 22:49:58.764 | DEBUG    | app.tools.main_window_functions:get_selected_table:111 - start
+2024-02-26 22:49:58.764 | DEBUG    | app.tools.main_window_functions:get_selected_table:119 - <PyQt5.QtWidgets.QTableWidget object at 0x00000255EA668D40>
+2024-02-26 22:49:58.767 | DEBUG    | app.tools.main_window_functions:get_selected_table:121 - end
+2024-02-26 22:49:58.767 | DEBUG    | app.tools.main_window_functions:get_selected_table:111 - start
+2024-02-26 22:49:58.768 | DEBUG    | app.tools.main_window_functions:get_selected_table:119 - <PyQt5.QtWidgets.QTableWidget object at 0x00000255EA668D40>
+2024-02-26 22:49:58.768 | DEBUG    | app.tools.main_window_functions:get_selected_table:121 - end
+2024-02-26 22:49:58.768 | DEBUG    | app.tools.main_window_functions:get_selected_table:111 - start
+2024-02-26 22:49:58.769 | DEBUG    | app.tools.main_window_functions:get_selected_table:119 - <PyQt5.QtWidgets.QTableWidget object at 0x00000255EA668D40>
+2024-02-26 22:49:58.769 | DEBUG    | app.tools.main_window_functions:get_selected_table:121 - end
+2024-02-26 22:49:58.770 | DEBUG    | app.tools.main_window_functions:get_selected_table:111 - start
+2024-02-26 22:49:58.770 | DEBUG    | app.tools.main_window_functions:get_selected_table:119 - <PyQt5.QtWidgets.QTableWidget object at 0x00000255EA668D40>
+2024-02-26 22:49:58.770 | DEBUG    | app.tools.main_window_functions:get_selected_table:121 - end
+2024-02-26 22:50:18.544 | DEBUG    | app.tools.main_window_functions:create_protocol:246 - end
+2024-02-26 22:54:55.222 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-26 22:54:55.223 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-26 22:55:01.076 | DEBUG    | app.main_window:show_inspection_address_setting:528 - start
+2024-02-26 22:55:01.077 | INFO     | app.tools.dialogs.ChooseInspectionAddressDialog:__init__:24 - ChooseInspectionAddressDialog(QDialog): __init__
+2024-02-26 22:55:05.444 | DEBUG    | app.main_window:show_inspection_address_setting:532 - end
+2024-02-26 22:55:06.540 | INFO     | app.main_window:add_path_to_excel:557 - start
+2024-02-26 22:55:08.048 | DEBUG    | app.main_window:add_path_to_excel:564 - end
+2024-02-26 22:55:08.956 | DEBUG    | app.main_window:show_inspection_address_setting:528 - start
+2024-02-26 22:55:08.956 | INFO     | app.tools.dialogs.ChooseInspectionAddressDialog:__init__:24 - ChooseInspectionAddressDialog(QDialog): __init__
+2024-02-26 22:55:09.701 | DEBUG    | app.tools.dialogs.ChooseInspectionAddressDialog:item_changed:67 - item_changed
+2024-02-26 22:55:11.691 | DEBUG    | app.tools.dialogs.ChooseInspectionAddressDialog:item_changed:67 - item_changed
+2024-02-26 22:55:11.698 | DEBUG    | app.main_window:show_inspection_address_setting:532 - end
+2024-02-26 22:55:27.087 | INFO     | app.tools.main_window_functions:use_data:256 - start
+2024-02-26 22:55:27.094 | DEBUG    | app.tools.main_window_functions:verificationer_changed:137 - start
+2024-02-26 22:55:27.095 | DEBUG    | app.tools.main_window_functions:verificationer_changed:147 - end
+2024-02-26 22:55:27.096 | INFO     | app.tools.main_window_functions:scale_changed:75 - start
+2024-02-26 22:55:27.096 | DEBUG    | app.tools.main_window_functions:scale_changed:103 - end
+2024-02-26 22:55:27.097 | DEBUG    | app.tools.main_window_functions:use_data:331 - end
+2024-02-26 22:55:29.013 | INFO     | app.tools.main_window_functions:clean:342 - start
+2024-02-26 22:55:29.014 | INFO     | app.tools.main_window_functions:scale_changed:75 - start
+2024-02-26 22:55:29.014 | DEBUG    | app.tools.main_window_functions:scale_changed:103 - end
+2024-02-26 22:55:29.014 | DEBUG    | app.tools.main_window_functions:verificationer_changed:137 - start
+2024-02-26 22:55:29.015 | DEBUG    | app.tools.main_window_functions:verificationer_changed:147 - end
+2024-02-26 22:55:29.015 | DEBUG    | app.tools.main_window_functions:clean:352 - end
+2024-02-26 22:55:30.081 | INFO     | app.tools.main_window_functions:use_data:256 - start
+2024-02-26 22:55:30.082 | DEBUG    | app.tools.main_window_functions:verificationer_changed:137 - start
+2024-02-26 22:55:30.083 | DEBUG    | app.tools.main_window_functions:verificationer_changed:147 - end
+2024-02-26 22:55:30.083 | INFO     | app.tools.main_window_functions:scale_changed:75 - start
+2024-02-26 22:55:30.086 | DEBUG    | app.tools.main_window_functions:scale_changed:103 - end
+2024-02-26 22:55:30.087 | DEBUG    | app.tools.main_window_functions:use_data:331 - end
+2024-02-26 22:55:31.717 | INFO     | app.tools.main_window_functions:clean:342 - start
+2024-02-26 22:55:31.717 | INFO     | app.tools.main_window_functions:scale_changed:75 - start
+2024-02-26 22:55:31.718 | DEBUG    | app.tools.main_window_functions:scale_changed:103 - end
+2024-02-26 22:55:31.719 | DEBUG    | app.tools.main_window_functions:verificationer_changed:137 - start
+2024-02-26 22:55:31.721 | DEBUG    | app.tools.main_window_functions:verificationer_changed:147 - end
+2024-02-26 22:55:31.721 | DEBUG    | app.tools.main_window_functions:clean:352 - end
+2024-02-26 22:55:32.926 | INFO     | app.tools.main_window_functions:use_data:256 - start
+2024-02-26 22:55:32.927 | DEBUG    | app.tools.main_window_functions:verificationer_changed:137 - start
+2024-02-26 22:55:32.927 | DEBUG    | app.tools.main_window_functions:verificationer_changed:147 - end
+2024-02-26 22:55:32.928 | INFO     | app.tools.main_window_functions:scale_changed:75 - start
+2024-02-26 22:55:32.930 | DEBUG    | app.tools.main_window_functions:scale_changed:103 - end
+2024-02-26 22:55:32.931 | DEBUG    | app.tools.main_window_functions:use_data:331 - end
+2024-02-26 22:55:33.860 | INFO     | app.tools.main_window_functions:clean:342 - start
+2024-02-26 22:55:33.861 | INFO     | app.tools.main_window_functions:scale_changed:75 - start
+2024-02-26 22:55:33.862 | DEBUG    | app.tools.main_window_functions:scale_changed:103 - end
+2024-02-26 22:55:33.862 | DEBUG    | app.tools.main_window_functions:verificationer_changed:137 - start
+2024-02-26 22:55:33.865 | DEBUG    | app.tools.main_window_functions:verificationer_changed:147 - end
+2024-02-26 22:55:33.865 | DEBUG    | app.tools.main_window_functions:clean:352 - end
+2024-02-26 22:55:34.685 | INFO     | app.tools.main_window_functions:use_data:256 - start
+2024-02-26 22:55:34.687 | DEBUG    | app.tools.main_window_functions:verificationer_changed:137 - start
+2024-02-26 22:55:34.687 | DEBUG    | app.tools.main_window_functions:verificationer_changed:147 - end
+2024-02-26 22:55:34.688 | INFO     | app.tools.main_window_functions:scale_changed:75 - start
+2024-02-26 22:55:34.689 | DEBUG    | app.tools.main_window_functions:scale_changed:103 - end
+2024-02-26 22:55:34.690 | DEBUG    | app.tools.main_window_functions:use_data:331 - end
+2024-02-26 22:55:35.691 | INFO     | app.tools.main_window_functions:clean:342 - start
+2024-02-26 22:55:35.692 | INFO     | app.tools.main_window_functions:scale_changed:75 - start
+2024-02-26 22:55:35.693 | DEBUG    | app.tools.main_window_functions:scale_changed:103 - end
+2024-02-26 22:55:35.694 | DEBUG    | app.tools.main_window_functions:verificationer_changed:137 - start
+2024-02-26 22:55:35.695 | DEBUG    | app.tools.main_window_functions:verificationer_changed:147 - end
+2024-02-26 22:55:35.695 | DEBUG    | app.tools.main_window_functions:clean:352 - end
+2024-02-26 22:55:36.547 | INFO     | app.tools.main_window_functions:use_data:256 - start
+2024-02-26 22:55:36.548 | DEBUG    | app.tools.main_window_functions:verificationer_changed:137 - start
+2024-02-26 22:55:36.549 | DEBUG    | app.tools.main_window_functions:verificationer_changed:147 - end
+2024-02-26 22:55:36.549 | INFO     | app.tools.main_window_functions:scale_changed:75 - start
+2024-02-26 22:55:36.551 | DEBUG    | app.tools.main_window_functions:scale_changed:103 - end
+2024-02-26 22:55:36.552 | DEBUG    | app.tools.main_window_functions:use_data:331 - end
+2024-02-26 22:55:36.799 | INFO     | app.tools.main_window_functions:clean:342 - start
+2024-02-26 22:55:36.800 | INFO     | app.tools.main_window_functions:scale_changed:75 - start
+2024-02-26 22:55:36.801 | DEBUG    | app.tools.main_window_functions:scale_changed:103 - end
+2024-02-26 22:55:36.801 | DEBUG    | app.tools.main_window_functions:verificationer_changed:137 - start
+2024-02-26 22:55:36.804 | DEBUG    | app.tools.main_window_functions:verificationer_changed:147 - end
+2024-02-26 22:55:36.804 | DEBUG    | app.tools.main_window_functions:clean:352 - end
+2024-02-28 17:31:45.308 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 17:31:45.308 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 17:32:39.539 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 17:32:39.540 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 17:33:05.599 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 17:33:05.600 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 17:33:14.580 | INFO     | app.tools.main_window_functions:use_data:256 - start
+2024-02-28 17:33:14.587 | DEBUG    | app.tools.main_window_functions:verificationer_changed:137 - start
+2024-02-28 17:33:14.588 | DEBUG    | app.tools.main_window_functions:verificationer_changed:147 - end
+2024-02-28 17:33:14.589 | INFO     | app.tools.main_window_functions:scale_changed:75 - start
+2024-02-28 17:33:14.589 | DEBUG    | app.tools.main_window_functions:scale_changed:103 - end
+2024-02-28 17:33:14.592 | DEBUG    | app.tools.main_window_functions:use_data:331 - end
+2024-02-28 17:33:14.943 | INFO     | app.tools.main_window_functions:use_data:256 - start
+2024-02-28 17:33:14.944 | INFO     | app.tools.main_window_functions:scale_changed:75 - start
+2024-02-28 17:33:14.944 | DEBUG    | app.tools.main_window_functions:scale_changed:103 - end
+2024-02-28 17:33:14.945 | DEBUG    | app.tools.main_window_functions:use_data:331 - end
+2024-02-28 17:33:15.967 | INFO     | app.tools.main_window_functions:clean:342 - start
+2024-02-28 17:33:15.968 | INFO     | app.tools.main_window_functions:scale_changed:75 - start
+2024-02-28 17:33:15.968 | DEBUG    | app.tools.main_window_functions:scale_changed:103 - end
+2024-02-28 17:33:15.968 | DEBUG    | app.tools.main_window_functions:verificationer_changed:137 - start
+2024-02-28 17:33:15.969 | DEBUG    | app.tools.main_window_functions:verificationer_changed:147 - end
+2024-02-28 17:33:15.969 | DEBUG    | app.tools.main_window_functions:clean:352 - end
+2024-02-28 17:33:16.231 | INFO     | app.tools.main_window_functions:use_data:256 - start
+2024-02-28 17:33:16.232 | DEBUG    | app.tools.main_window_functions:verificationer_changed:137 - start
+2024-02-28 17:33:16.232 | DEBUG    | app.tools.main_window_functions:verificationer_changed:147 - end
+2024-02-28 17:33:16.233 | INFO     | app.tools.main_window_functions:scale_changed:75 - start
+2024-02-28 17:33:16.233 | DEBUG    | app.tools.main_window_functions:scale_changed:103 - end
+2024-02-28 17:33:16.234 | DEBUG    | app.tools.main_window_functions:use_data:331 - end
+2024-02-28 17:33:16.528 | INFO     | app.tools.main_window_functions:clean:342 - start
+2024-02-28 17:33:16.528 | INFO     | app.tools.main_window_functions:scale_changed:75 - start
+2024-02-28 17:33:16.529 | DEBUG    | app.tools.main_window_functions:scale_changed:103 - end
+2024-02-28 17:33:16.529 | DEBUG    | app.tools.main_window_functions:verificationer_changed:137 - start
+2024-02-28 17:33:16.532 | DEBUG    | app.tools.main_window_functions:verificationer_changed:147 - end
+2024-02-28 17:33:16.532 | DEBUG    | app.tools.main_window_functions:clean:352 - end
+2024-02-28 17:33:16.800 | INFO     | app.tools.main_window_functions:use_data:256 - start
+2024-02-28 17:33:16.800 | DEBUG    | app.tools.main_window_functions:verificationer_changed:137 - start
+2024-02-28 17:33:16.801 | DEBUG    | app.tools.main_window_functions:verificationer_changed:147 - end
+2024-02-28 17:33:16.801 | INFO     | app.tools.main_window_functions:scale_changed:75 - start
+2024-02-28 17:33:16.803 | DEBUG    | app.tools.main_window_functions:scale_changed:103 - end
+2024-02-28 17:33:16.804 | DEBUG    | app.tools.main_window_functions:use_data:331 - end
+2024-02-28 17:33:17.031 | INFO     | app.tools.main_window_functions:clean:342 - start
+2024-02-28 17:33:17.032 | INFO     | app.tools.main_window_functions:scale_changed:75 - start
+2024-02-28 17:33:17.033 | DEBUG    | app.tools.main_window_functions:scale_changed:103 - end
+2024-02-28 17:33:17.034 | DEBUG    | app.tools.main_window_functions:verificationer_changed:137 - start
+2024-02-28 17:33:17.036 | DEBUG    | app.tools.main_window_functions:verificationer_changed:147 - end
+2024-02-28 17:33:17.036 | DEBUG    | app.tools.main_window_functions:clean:352 - end
+2024-02-28 17:33:17.283 | INFO     | app.tools.main_window_functions:use_data:256 - start
+2024-02-28 17:33:17.284 | DEBUG    | app.tools.main_window_functions:verificationer_changed:137 - start
+2024-02-28 17:33:17.285 | DEBUG    | app.tools.main_window_functions:verificationer_changed:147 - end
+2024-02-28 17:33:17.285 | INFO     | app.tools.main_window_functions:scale_changed:75 - start
+2024-02-28 17:33:17.287 | DEBUG    | app.tools.main_window_functions:scale_changed:103 - end
+2024-02-28 17:33:17.288 | DEBUG    | app.tools.main_window_functions:use_data:331 - end
+2024-02-28 17:33:18.003 | INFO     | app.tools.main_window_functions:clean:342 - start
+2024-02-28 17:33:18.004 | INFO     | app.tools.main_window_functions:scale_changed:75 - start
+2024-02-28 17:33:18.005 | DEBUG    | app.tools.main_window_functions:scale_changed:103 - end
+2024-02-28 17:33:18.005 | DEBUG    | app.tools.main_window_functions:verificationer_changed:137 - start
+2024-02-28 17:33:18.008 | DEBUG    | app.tools.main_window_functions:verificationer_changed:147 - end
+2024-02-28 17:33:18.008 | DEBUG    | app.tools.main_window_functions:clean:352 - end
+2024-02-28 17:33:19.803 | INFO     | app.tools.main_window_functions:use_data:256 - start
+2024-02-28 17:33:19.804 | DEBUG    | app.tools.main_window_functions:verificationer_changed:137 - start
+2024-02-28 17:33:19.806 | DEBUG    | app.tools.main_window_functions:verificationer_changed:147 - end
+2024-02-28 17:33:19.807 | INFO     | app.tools.main_window_functions:scale_changed:75 - start
+2024-02-28 17:33:19.807 | DEBUG    | app.tools.main_window_functions:scale_changed:103 - end
+2024-02-28 17:33:19.808 | DEBUG    | app.tools.main_window_functions:use_data:331 - end
+2024-02-28 17:33:20.575 | INFO     | app.tools.main_window_functions:clean:342 - start
+2024-02-28 17:33:20.576 | INFO     | app.tools.main_window_functions:scale_changed:75 - start
+2024-02-28 17:33:20.577 | DEBUG    | app.tools.main_window_functions:scale_changed:103 - end
+2024-02-28 17:33:20.577 | DEBUG    | app.tools.main_window_functions:verificationer_changed:137 - start
+2024-02-28 17:33:20.579 | DEBUG    | app.tools.main_window_functions:verificationer_changed:147 - end
+2024-02-28 17:33:20.579 | DEBUG    | app.tools.main_window_functions:clean:352 - end
+2024-02-28 17:33:23.521 | INFO     | app.tools.main_window_functions:use_data:256 - start
+2024-02-28 17:33:23.522 | DEBUG    | app.tools.main_window_functions:verificationer_changed:137 - start
+2024-02-28 17:33:23.522 | DEBUG    | app.tools.main_window_functions:verificationer_changed:147 - end
+2024-02-28 17:33:23.524 | INFO     | app.tools.main_window_functions:scale_changed:75 - start
+2024-02-28 17:33:23.524 | DEBUG    | app.tools.main_window_functions:scale_changed:103 - end
+2024-02-28 17:33:23.525 | DEBUG    | app.tools.main_window_functions:use_data:331 - end
+2024-02-28 17:43:28.630 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 17:43:28.630 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 17:46:05.561 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 17:46:05.562 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 17:46:07.599 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 17:52:54.043 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 17:52:54.044 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 17:52:56.076 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 17:53:40.214 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 17:53:40.214 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 17:53:42.107 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 17:53:42.108 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:23 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-02-28 17:53:42.109 | ERROR    | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:53 - Error init ChooseScaleDialog(QDialog) : 'CreateProtocolFromExcelDialog' object has no attribute 'var_boxes'
+2024-02-28 17:53:48.045 | DEBUG    | app.main_window:create_protocol_from_excel:541 - stop
+2024-02-28 17:54:06.542 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 17:54:06.542 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 17:54:07.951 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 17:54:07.951 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:23 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-02-28 17:54:07.952 | ERROR    | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:53 - Error init ChooseScaleDialog(QDialog) : 'CreateProtocolFromExcelDialog' object has no attribute 'var_boxes'
+2024-02-28 17:54:09.788 | DEBUG    | app.main_window:create_protocol_from_excel:541 - stop
+2024-02-28 17:55:42.597 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 17:55:42.598 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 17:55:43.881 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 17:55:43.882 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:23 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-02-28 17:55:53.110 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:add_path_to_excel:57 - start
+2024-02-28 17:55:55.492 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:add_path_to_excel:64 - end
+2024-02-28 17:55:57.808 | DEBUG    | app.main_window:create_protocol_from_excel:541 - stop
+2024-02-28 17:58:09.485 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 17:58:09.485 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 17:58:11.333 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 17:58:11.334 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:23 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-02-28 17:58:11.335 | ERROR    | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:70 - Error init ChooseScaleDialog(QDialog) : 'CreateProtocolFromExcelDialog' object has no attribute 'text_path_to_text_num_rowexcel'
+2024-02-28 17:58:14.922 | DEBUG    | app.main_window:create_protocol_from_excel:541 - stop
+2024-02-28 17:58:27.624 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 17:58:27.624 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 17:58:29.218 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 17:58:29.218 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:23 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-02-28 17:58:29.219 | ERROR    | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:70 - Error init ChooseScaleDialog(QDialog) : 'CreateProtocolFromExcelDialog' object has no attribute 'text_path_to_text_num_rowexcel'
+2024-02-28 17:58:32.794 | DEBUG    | app.main_window:create_protocol_from_excel:541 - stop
+2024-02-28 17:59:13.055 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 17:59:13.055 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 17:59:14.433 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 17:59:14.434 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:23 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-02-28 17:59:21.108 | DEBUG    | app.main_window:create_protocol_from_excel:541 - stop
+2024-02-28 18:01:01.283 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 18:01:01.283 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 18:01:03.951 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 18:01:03.952 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:23 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-02-28 18:04:32.724 | DEBUG    | app.main_window:create_protocol_from_excel:541 - stop
+2024-02-28 18:05:26.317 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 18:05:26.318 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 18:05:31.882 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 18:05:31.883 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:23 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-02-28 18:05:37.223 | DEBUG    | app.main_window:create_protocol_from_excel:541 - stop
+2024-02-28 18:09:39.647 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 18:09:39.647 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 18:09:41.138 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 18:09:41.139 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:23 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-02-28 18:09:49.638 | DEBUG    | app.main_window:create_protocol_from_excel:541 - stop
+2024-02-28 18:10:05.098 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 18:10:05.098 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 18:10:19.071 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 18:10:19.071 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 18:10:20.581 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 18:10:20.581 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:23 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-02-28 18:10:28.525 | DEBUG    | app.main_window:create_protocol_from_excel:541 - stop
+2024-02-28 18:11:59.905 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 18:11:59.905 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 18:12:01.469 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 18:12:01.470 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:23 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-02-28 18:12:08.891 | DEBUG    | app.main_window:create_protocol_from_excel:541 - stop
+2024-02-28 18:20:03.180 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 18:20:03.181 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 18:20:04.821 | INFO     | app.tools.main_window_functions:use_data:250 - start
+2024-02-28 18:20:04.823 | DEBUG    | app.tools.main_window_functions:verificationer_changed:137 - start
+2024-02-28 18:20:04.823 | DEBUG    | app.tools.main_window_functions:verificationer_changed:147 - end
+2024-02-28 18:20:04.824 | INFO     | app.tools.main_window_functions:scale_changed:75 - start
+2024-02-28 18:20:04.824 | DEBUG    | app.tools.main_window_functions:scale_changed:103 - end
+2024-02-28 18:20:04.825 | DEBUG    | app.tools.main_window_functions:use_data:325 - end
+2024-02-28 18:20:21.672 | INFO     | app.tools.main_window_functions:use_data:250 - start
+2024-02-28 18:20:21.674 | INFO     | app.tools.main_window_functions:scale_changed:75 - start
+2024-02-28 18:20:21.674 | DEBUG    | app.tools.main_window_functions:scale_changed:103 - end
+2024-02-28 18:20:21.675 | DEBUG    | app.tools.main_window_functions:use_data:325 - end
+2024-02-28 18:20:25.947 | INFO     | app.main_window:add_path_to_excel:574 - start
+2024-02-28 18:20:29.432 | DEBUG    | app.main_window:add_path_to_excel:581 - end
+2024-02-28 18:20:32.894 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 18:20:32.896 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:23 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-02-28 18:20:32.898 | ERROR    | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:91 - Error init ChooseScaleDialog(QDialog) : 'CreateProtocolFromExcelDialog' object has no attribute 'create_protcol'
+2024-02-28 18:20:35.231 | DEBUG    | app.main_window:create_protocol_from_excel:541 - stop
+2024-02-28 18:20:36.133 | INFO     | app.tools.main_window_functions:create_protocol:156 - start
+2024-02-28 18:20:36.133 | DEBUG    | app.tools.main_window_functions:get_selected_table:111 - start
+2024-02-28 18:20:36.134 | DEBUG    | app.tools.main_window_functions:get_selected_table:119 - <PyQt5.QtWidgets.QTableWidget object at 0x0000019B8D20CEF0>
+2024-02-28 18:20:36.135 | DEBUG    | app.tools.main_window_functions:get_selected_table:121 - end
+2024-02-28 18:20:36.137 | DEBUG    | app.tools.main_window_functions:get_selected_table:111 - start
+2024-02-28 18:20:36.137 | DEBUG    | app.tools.main_window_functions:get_selected_table:119 - <PyQt5.QtWidgets.QTableWidget object at 0x0000019B8D20CEF0>
+2024-02-28 18:20:36.137 | DEBUG    | app.tools.main_window_functions:get_selected_table:121 - end
+2024-02-28 18:20:36.138 | DEBUG    | app.tools.main_window_functions:get_selected_table:111 - start
+2024-02-28 18:20:36.138 | DEBUG    | app.tools.main_window_functions:get_selected_table:119 - <PyQt5.QtWidgets.QTableWidget object at 0x0000019B8D20CEF0>
+2024-02-28 18:20:36.138 | DEBUG    | app.tools.main_window_functions:get_selected_table:121 - end
+2024-02-28 18:20:36.139 | DEBUG    | app.tools.main_window_functions:get_selected_table:111 - start
+2024-02-28 18:20:36.139 | DEBUG    | app.tools.main_window_functions:get_selected_table:119 - <PyQt5.QtWidgets.QTableWidget object at 0x0000019B8D20CEF0>
+2024-02-28 18:20:36.139 | DEBUG    | app.tools.main_window_functions:get_selected_table:121 - end
+2024-02-28 18:20:36.140 | DEBUG    | app.tools.word.Word:make_new_protocol:49 - start
+2024-02-28 18:20:36.141 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - scale: Весы настольные циферблатные РН-6Ц13У 8474-88
+2024-02-28 18:20:36.141 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - path: C:/Users/maina/PythonProjects/desktop
+2024-02-28 18:20:36.142 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - num_protocol: ЕИ-03-0000
+2024-02-28 18:20:36.142 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - num_scale: 1234
+2024-02-28 18:20:36.142 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - INN: INN
+2024-02-28 18:20:36.143 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - company: company
+2024-02-28 18:20:36.143 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - legal_address: place
+2024-02-28 18:20:36.143 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - inspection_address: place
+2024-02-28 18:20:36.144 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - path_to_excel: C:/Users/maina/PythonProjects/desktop/Журнал учета поверочных работ Бурков 20.08.2023.xlsx
+2024-02-28 18:20:36.147 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - temperature: temp
+2024-02-28 18:20:36.147 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - humidity: hum
+2024-02-28 18:20:36.148 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - pressure: press
+2024-02-28 18:20:36.148 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - work_place: 05 - Автоматические ВСУ
+2024-02-28 18:20:36.148 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - verificationer: Стариков
+2024-02-28 18:20:36.149 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - interval: 2
+2024-02-28 18:20:36.149 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - unfit: False
+2024-02-28 18:20:36.149 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - use_excel: True
+2024-02-28 18:20:36.150 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - inspection_date: 07.02.2024
+2024-02-28 18:20:36.150 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - standarts: Набор гирь 1 мг-500 г F1 рег. № в ФИФ 58463-14, №PV156, 2 разряд;
+Гиря М1 500 г рег. № в ФИФ 58048-14 №796242, 4 разряд;
+Гиря М1 1 кг рег. № в ФИФ 58048-14 №796241, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796236, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796237, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №796238, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №812854, 4 разряд
+2024-02-28 18:20:36.151 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - standarts_briefly: 58463.14.2Р.00869664|58048.14.4Р.00740372|58048.14.4Р.00740373|58048.14.4Р.00740374|58048.14.4Р.00740375|58048.14.4Р.00690618
+2024-02-28 18:20:36.151 | DEBUG    | app.tools.word.Word:open_document:33 - Open Word Document: app\templates\Весы настольные циферблатные РН-6Ц13У 8474-88.docx
+2024-02-28 18:20:36.206 | DEBUG    | app.tools.word.Word:open_document:38 - Документ Word открыт
+2024-02-28 18:20:36.222 | DEBUG    | app.tools.word.Word:make_new_protocol:105 - C:/Users/maina/PythonProjects/desktop/ЕИ-03-0000 Весы настольные циферблатные РН-6Ц13У №1234 (8474-88).docx
+2024-02-28 18:20:36.223 | DEBUG    | app.tools.excel.add:add_var_to_excel:13 - start
+2024-02-28 18:20:36.223 | DEBUG    | app.tools.excel.add:add_var_to_excel:15 - {'scale': 'Весы настольные циферблатные РН-6Ц13У 8474-88', 'path': 'C:/Users/maina/PythonProjects/desktop', 'num_protocol': 'ЕИ-03-0000', 'num_scale': '1234', 'INN': 'INN', 'company': 'company', 'legal_address': 'place', 'inspection_address': 'place', 'path_to_excel': 'C:/Users/maina/PythonProjects/desktop/Журнал учета поверочных работ Бурков 20.08.2023.xlsx', 'temperature': 'temp', 'humidity': 'hum', 'pressure': 'press', 'work_place': '05 - Автоматические ВСУ', 'verificationer': 'Стариков', 'interval': '2', 'unfit': False, 'use_excel': True, 'inspection_date': '07.02.2024', 'standarts': 'Набор гирь 1 мг-500 г F1 рег. № в ФИФ 58463-14, №PV156, 2 разряд;\nГиря М1 500 г рег. № в ФИФ 58048-14 №796242, 4 разряд;\nГиря М1 1 кг рег. № в ФИФ 58048-14 №796241, 4 разряд;\nГиря М1 2 кг рег. № в ФИФ 58048-14 №796236, 4 разряд;\nГиря М1 2 кг рег. № в ФИФ 58048-14 №796237, 4 разряд;\nГиря М1 5 кг рег. № в ФИФ 58048-14 №796238, 4 разряд;\nГиря М1 5 кг рег. № в ФИФ 58048-14 №812854, 4 разряд', 'standarts_briefly': '58463.14.2Р.00869664|58048.14.4Р.00740372|58048.14.4Р.00740373|58048.14.4Р.00740374|58048.14.4Р.00740375|58048.14.4Р.00690618', 'change_temperature': 'Изменение температуры воздуха в помещении в течение 1 часа не превышает 2,0°C.', 'method': '«ГСИ. Весы для статического взвешивания. Методы и средства поверки» ГОСТ 8.453-82'}
+2024-02-28 18:20:37.889 | ERROR    | app.tools.word.Word:make_new_protocol:113 - Ошибка при редактировании Excel файла:cannot access local variable 'word' where it is not associated with a value
+2024-02-28 18:20:37.890 | DEBUG    | app.tools.word.Word:make_new_protocol:140 - end
+2024-02-28 18:20:37.891 | INFO     | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-02-28 18:20:40.868 | DEBUG    | app.tools.main_window_functions:verificationer_changed:137 - start
+2024-02-28 18:20:40.869 | DEBUG    | app.tools.main_window_functions:verificationer_changed:147 - end
+2024-02-28 18:20:40.871 | DEBUG    | app.tools.main_window_functions:create_protocol:243 - end
+2024-02-28 18:20:40.884 | DEBUG    | app.tools.main_window_functions:create_protocol:246 - end
+2024-02-28 18:22:38.974 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 18:22:38.975 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 18:22:40.698 | INFO     | app.tools.main_window_functions:use_data:250 - start
+2024-02-28 18:22:40.705 | DEBUG    | app.tools.main_window_functions:verificationer_changed:137 - start
+2024-02-28 18:22:40.705 | DEBUG    | app.tools.main_window_functions:verificationer_changed:147 - end
+2024-02-28 18:22:40.706 | INFO     | app.tools.main_window_functions:scale_changed:75 - start
+2024-02-28 18:22:40.706 | DEBUG    | app.tools.main_window_functions:scale_changed:103 - end
+2024-02-28 18:22:40.707 | DEBUG    | app.tools.main_window_functions:use_data:325 - end
+2024-02-28 18:22:46.193 | INFO     | app.tools.main_window_functions:create_protocol:156 - start
+2024-02-28 18:22:46.193 | DEBUG    | app.tools.main_window_functions:get_selected_table:111 - start
+2024-02-28 18:22:46.193 | DEBUG    | app.tools.main_window_functions:get_selected_table:119 - <PyQt5.QtWidgets.QTableWidget object at 0x0000020497E28F80>
+2024-02-28 18:22:46.194 | DEBUG    | app.tools.main_window_functions:get_selected_table:121 - end
+2024-02-28 18:22:46.194 | DEBUG    | app.tools.main_window_functions:get_selected_table:111 - start
+2024-02-28 18:22:46.194 | DEBUG    | app.tools.main_window_functions:get_selected_table:119 - <PyQt5.QtWidgets.QTableWidget object at 0x0000020497E28F80>
+2024-02-28 18:22:46.194 | DEBUG    | app.tools.main_window_functions:get_selected_table:121 - end
+2024-02-28 18:22:46.194 | DEBUG    | app.tools.main_window_functions:get_selected_table:111 - start
+2024-02-28 18:22:46.195 | DEBUG    | app.tools.main_window_functions:get_selected_table:119 - <PyQt5.QtWidgets.QTableWidget object at 0x0000020497E28F80>
+2024-02-28 18:22:46.195 | DEBUG    | app.tools.main_window_functions:get_selected_table:121 - end
+2024-02-28 18:22:46.195 | DEBUG    | app.tools.main_window_functions:get_selected_table:111 - start
+2024-02-28 18:22:46.195 | DEBUG    | app.tools.main_window_functions:get_selected_table:119 - <PyQt5.QtWidgets.QTableWidget object at 0x0000020497E28F80>
+2024-02-28 18:22:46.196 | DEBUG    | app.tools.main_window_functions:get_selected_table:121 - end
+2024-02-28 18:22:46.196 | DEBUG    | app.tools.word.Word:make_new_protocol:49 - start
+2024-02-28 18:22:46.197 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - scale: Весы настольные циферблатные РН-6Ц13У 8474-88
+2024-02-28 18:22:46.197 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - path: C:/Users/maina/PythonProjects/desktop
+2024-02-28 18:22:46.197 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - num_protocol: ЕИ-03-0000
+2024-02-28 18:22:46.198 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - num_scale: 1234
+2024-02-28 18:22:46.198 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - INN: INN
+2024-02-28 18:22:46.198 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - company: company
+2024-02-28 18:22:46.199 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - legal_address: place
+2024-02-28 18:22:46.199 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - inspection_address: place
+2024-02-28 18:22:46.199 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - path_to_excel: C:/Users/maina/PythonProjects/desktop/Журнал учета поверочных работ Бурков 20.08.2023.xlsx
+2024-02-28 18:22:46.200 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - temperature: temp
+2024-02-28 18:22:46.200 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - humidity: hum
+2024-02-28 18:22:46.201 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - pressure: press
+2024-02-28 18:22:46.201 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - work_place: 05 - Автоматические ВСУ
+2024-02-28 18:22:46.201 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - verificationer: Стариков
+2024-02-28 18:22:46.201 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - interval: 2
+2024-02-28 18:22:46.202 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - unfit: True
+2024-02-28 18:22:46.202 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - use_excel: True
+2024-02-28 18:22:46.203 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - inspection_date: 07.02.2024
+2024-02-28 18:22:46.203 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - standarts: Набор гирь 1 мг-500 г F1 рег. № в ФИФ 58463-14, №PV156, 2 разряд;
+Гиря М1 500 г рег. № в ФИФ 58048-14 №796242, 4 разряд;
+Гиря М1 1 кг рег. № в ФИФ 58048-14 №796241, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796236, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796237, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №796238, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №812854, 4 разряд
+2024-02-28 18:22:46.203 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - standarts_briefly: 58463.14.2Р.00869664|58048.14.4Р.00740372|58048.14.4Р.00740373|58048.14.4Р.00740374|58048.14.4Р.00740375|58048.14.4Р.00690618
+2024-02-28 18:22:46.203 | DEBUG    | app.tools.word.Word:open_document:33 - Open Word Document: app\templates\Весы настольные циферблатные РН-6Ц13У 8474-88.docx
+2024-02-28 18:22:46.212 | DEBUG    | app.tools.word.Word:open_document:38 - Документ Word открыт
+2024-02-28 18:22:46.228 | DEBUG    | app.tools.word.Word:make_new_protocol:105 - C:/Users/maina/PythonProjects/desktop/ЕИ-03-0000 Весы настольные циферблатные РН-6Ц13У №1234 (8474-88).docx
+2024-02-28 18:22:46.229 | DEBUG    | app.tools.excel.add:add_var_to_excel:13 - start
+2024-02-28 18:22:46.230 | DEBUG    | app.tools.excel.add:add_var_to_excel:15 - {'scale': 'Весы настольные циферблатные РН-6Ц13У 8474-88', 'path': 'C:/Users/maina/PythonProjects/desktop', 'num_protocol': 'ЕИ-03-0000', 'num_scale': '1234', 'INN': 'INN', 'company': 'company', 'legal_address': 'place', 'inspection_address': 'place', 'path_to_excel': 'C:/Users/maina/PythonProjects/desktop/Журнал учета поверочных работ Бурков 20.08.2023.xlsx', 'temperature': 'temp', 'humidity': 'hum', 'pressure': 'press', 'work_place': '05 - Автоматические ВСУ', 'verificationer': 'Стариков', 'interval': '2', 'unfit': True, 'use_excel': True, 'inspection_date': '07.02.2024', 'standarts': 'Набор гирь 1 мг-500 г F1 рег. № в ФИФ 58463-14, №PV156, 2 разряд;\nГиря М1 500 г рег. № в ФИФ 58048-14 №796242, 4 разряд;\nГиря М1 1 кг рег. № в ФИФ 58048-14 №796241, 4 разряд;\nГиря М1 2 кг рег. № в ФИФ 58048-14 №796236, 4 разряд;\nГиря М1 2 кг рег. № в ФИФ 58048-14 №796237, 4 разряд;\nГиря М1 5 кг рег. № в ФИФ 58048-14 №796238, 4 разряд;\nГиря М1 5 кг рег. № в ФИФ 58048-14 №812854, 4 разряд', 'standarts_briefly': '58463.14.2Р.00869664|58048.14.4Р.00740372|58048.14.4Р.00740373|58048.14.4Р.00740374|58048.14.4Р.00740375|58048.14.4Р.00690618', 'change_temperature': 'Изменение температуры воздуха в помещении в течение 1 часа не превышает 2,0°C.', 'method': '«ГСИ. Весы для статического взвешивания. Методы и средства поверки» ГОСТ 8.453-82'}
+2024-02-28 18:22:48.447 | DEBUG    | app.tools.word.Word:make_new_protocol:140 - end
+2024-02-28 18:22:48.447 | INFO     | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-02-28 18:23:24.541 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 18:23:24.542 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 18:23:26.434 | INFO     | app.tools.main_window_functions:use_data:250 - start
+2024-02-28 18:23:26.441 | DEBUG    | app.tools.main_window_functions:verificationer_changed:137 - start
+2024-02-28 18:23:26.442 | DEBUG    | app.tools.main_window_functions:verificationer_changed:147 - end
+2024-02-28 18:23:26.442 | INFO     | app.tools.main_window_functions:scale_changed:75 - start
+2024-02-28 18:23:26.443 | DEBUG    | app.tools.main_window_functions:scale_changed:103 - end
+2024-02-28 18:23:26.444 | DEBUG    | app.tools.main_window_functions:use_data:325 - end
+2024-02-28 18:23:27.578 | INFO     | app.tools.main_window_functions:create_protocol:156 - start
+2024-02-28 18:23:27.579 | DEBUG    | app.tools.main_window_functions:get_selected_table:111 - start
+2024-02-28 18:23:27.579 | DEBUG    | app.tools.main_window_functions:get_selected_table:119 - <PyQt5.QtWidgets.QTableWidget object at 0x000001EEA1E58F80>
+2024-02-28 18:23:27.579 | DEBUG    | app.tools.main_window_functions:get_selected_table:121 - end
+2024-02-28 18:23:27.579 | DEBUG    | app.tools.main_window_functions:get_selected_table:111 - start
+2024-02-28 18:23:27.580 | DEBUG    | app.tools.main_window_functions:get_selected_table:119 - <PyQt5.QtWidgets.QTableWidget object at 0x000001EEA1E58F80>
+2024-02-28 18:23:27.580 | DEBUG    | app.tools.main_window_functions:get_selected_table:121 - end
+2024-02-28 18:23:27.580 | DEBUG    | app.tools.main_window_functions:get_selected_table:111 - start
+2024-02-28 18:23:27.580 | DEBUG    | app.tools.main_window_functions:get_selected_table:119 - <PyQt5.QtWidgets.QTableWidget object at 0x000001EEA1E58F80>
+2024-02-28 18:23:27.580 | DEBUG    | app.tools.main_window_functions:get_selected_table:121 - end
+2024-02-28 18:23:27.580 | DEBUG    | app.tools.main_window_functions:get_selected_table:111 - start
+2024-02-28 18:23:27.581 | DEBUG    | app.tools.main_window_functions:get_selected_table:119 - <PyQt5.QtWidgets.QTableWidget object at 0x000001EEA1E58F80>
+2024-02-28 18:23:27.581 | DEBUG    | app.tools.main_window_functions:get_selected_table:121 - end
+2024-02-28 18:23:27.582 | DEBUG    | app.tools.word.Word:make_new_protocol:49 - start
+2024-02-28 18:23:27.582 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - scale: Весы настольные циферблатные РН-6Ц13У 8474-88
+2024-02-28 18:23:27.583 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - path: C:/Users/maina/PythonProjects/desktop
+2024-02-28 18:23:27.583 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - num_protocol: ЕИ-03-0000
+2024-02-28 18:23:27.583 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - num_scale: 1234
+2024-02-28 18:23:27.584 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - INN: INN
+2024-02-28 18:23:27.584 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - company: company
+2024-02-28 18:23:27.584 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - legal_address: place
+2024-02-28 18:23:27.584 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - inspection_address: place
+2024-02-28 18:23:27.585 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - path_to_excel: C:/Users/maina/PythonProjects/desktop/Журнал учета поверочных работ Бурков 20.08.2023.xlsx
+2024-02-28 18:23:27.585 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - temperature: temp
+2024-02-28 18:23:27.585 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - humidity: hum
+2024-02-28 18:23:27.585 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - pressure: press
+2024-02-28 18:23:27.586 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - work_place: 05 - Автоматические ВСУ
+2024-02-28 18:23:27.586 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - verificationer: Стариков
+2024-02-28 18:23:27.586 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - interval: 2
+2024-02-28 18:23:27.587 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - unfit: True
+2024-02-28 18:23:27.587 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - use_excel: True
+2024-02-28 18:23:27.587 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - inspection_date: 07.02.2024
+2024-02-28 18:23:27.587 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - standarts: Набор гирь 1 мг-500 г F1 рег. № в ФИФ 58463-14, №PV156, 2 разряд;
+Гиря М1 500 г рег. № в ФИФ 58048-14 №796242, 4 разряд;
+Гиря М1 1 кг рег. № в ФИФ 58048-14 №796241, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796236, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796237, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №796238, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №812854, 4 разряд
+2024-02-28 18:23:27.588 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - standarts_briefly: 58463.14.2Р.00869664|58048.14.4Р.00740372|58048.14.4Р.00740373|58048.14.4Р.00740374|58048.14.4Р.00740375|58048.14.4Р.00690618
+2024-02-28 18:23:27.588 | DEBUG    | app.tools.word.Word:open_document:33 - Open Word Document: app\templates\Весы настольные циферблатные РН-6Ц13У 8474-88.docx
+2024-02-28 18:23:27.598 | DEBUG    | app.tools.word.Word:open_document:38 - Документ Word открыт
+2024-02-28 18:23:27.613 | DEBUG    | app.tools.word.Word:make_new_protocol:105 - C:/Users/maina/PythonProjects/desktop/ЕИ-03-0000 Весы настольные циферблатные РН-6Ц13У №1234 (8474-88).docx
+2024-02-28 18:23:27.614 | DEBUG    | app.tools.excel.add:add_var_to_excel:13 - start
+2024-02-28 18:23:27.614 | DEBUG    | app.tools.excel.add:add_var_to_excel:15 - {'scale': 'Весы настольные циферблатные РН-6Ц13У 8474-88', 'path': 'C:/Users/maina/PythonProjects/desktop', 'num_protocol': 'ЕИ-03-0000', 'num_scale': '1234', 'INN': 'INN', 'company': 'company', 'legal_address': 'place', 'inspection_address': 'place', 'path_to_excel': 'C:/Users/maina/PythonProjects/desktop/Журнал учета поверочных работ Бурков 20.08.2023.xlsx', 'temperature': 'temp', 'humidity': 'hum', 'pressure': 'press', 'work_place': '05 - Автоматические ВСУ', 'verificationer': 'Стариков', 'interval': '2', 'unfit': True, 'use_excel': True, 'inspection_date': '07.02.2024', 'standarts': 'Набор гирь 1 мг-500 г F1 рег. № в ФИФ 58463-14, №PV156, 2 разряд;\nГиря М1 500 г рег. № в ФИФ 58048-14 №796242, 4 разряд;\nГиря М1 1 кг рег. № в ФИФ 58048-14 №796241, 4 разряд;\nГиря М1 2 кг рег. № в ФИФ 58048-14 №796236, 4 разряд;\nГиря М1 2 кг рег. № в ФИФ 58048-14 №796237, 4 разряд;\nГиря М1 5 кг рег. № в ФИФ 58048-14 №796238, 4 разряд;\nГиря М1 5 кг рег. № в ФИФ 58048-14 №812854, 4 разряд', 'standarts_briefly': '58463.14.2Р.00869664|58048.14.4Р.00740372|58048.14.4Р.00740373|58048.14.4Р.00740374|58048.14.4Р.00740375|58048.14.4Р.00690618', 'change_temperature': 'Изменение температуры воздуха в помещении в течение 1 часа не превышает 2,0°C.', 'method': '«ГСИ. Весы для статического взвешивания. Методы и средства поверки» ГОСТ 8.453-82'}
+2024-02-28 18:23:30.454 | DEBUG    | app.tools.word.Word:make_new_protocol:140 - end
+2024-02-28 18:23:30.454 | INFO     | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-02-28 18:23:32.690 | DEBUG    | app.tools.main_window_functions:verificationer_changed:137 - start
+2024-02-28 18:23:32.691 | DEBUG    | app.tools.main_window_functions:verificationer_changed:147 - end
+2024-02-28 18:23:32.692 | DEBUG    | app.tools.main_window_functions:create_protocol:243 - end
+2024-02-28 18:23:32.700 | DEBUG    | app.tools.main_window_functions:create_protocol:246 - end
+2024-02-28 18:53:38.923 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 18:53:38.924 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 18:53:40.922 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 18:53:40.922 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:32 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-02-28 18:53:42.959 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:add_path_to_excel:110 - start
+2024-02-28 18:53:44.114 | ERROR    | app.tools.excel.get:get_from_excel:59 - Ошибка при получении значений из excel файла: expected str, bytes or os.PathLike object, not builtin_function_or_method
+2024-02-28 18:53:44.115 | ERROR    | app.tools.dialogs.CreateProtocolFromExcelDialog:add_path_to_excel:118 - Не хватает значений в excel файле
+2024-02-28 18:53:54.882 | DEBUG    | app.main_window:create_protocol_from_excel:541 - stop
+2024-02-28 18:54:56.376 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 18:54:56.377 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 18:55:01.185 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 18:55:01.185 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:32 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-02-28 18:55:02.545 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:add_path_to_excel:110 - start
+2024-02-28 18:55:05.977 | ERROR    | app.tools.excel.get:get_from_excel:59 - Ошибка при получении значений из excel файла: expected str, bytes or os.PathLike object, not builtin_function_or_method
+2024-02-28 18:55:05.977 | ERROR    | app.tools.dialogs.CreateProtocolFromExcelDialog:add_path_to_excel:118 - Не хватает значений в excel файле
+2024-02-28 18:55:07.503 | DEBUG    | app.main_window:create_protocol_from_excel:541 - stop
+2024-02-28 18:55:12.983 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 18:55:12.984 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 18:55:15.024 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 18:55:15.024 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:32 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-02-28 18:55:15.716 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:add_path_to_excel:110 - start
+2024-02-28 18:55:17.349 | ERROR    | app.tools.excel.get:get_from_excel:59 - Ошибка при получении значений из excel файла: expected str, bytes or os.PathLike object, not builtin_function_or_method
+2024-02-28 18:55:17.350 | ERROR    | app.tools.dialogs.CreateProtocolFromExcelDialog:add_path_to_excel:118 - Не хватает значений в excel файле
+2024-02-28 18:55:25.435 | DEBUG    | app.main_window:create_protocol_from_excel:541 - stop
+2024-02-28 18:56:05.132 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 18:56:05.133 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 18:56:06.698 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 18:56:06.698 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:32 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-02-28 18:56:07.338 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:add_path_to_excel:129 - start
+2024-02-28 18:56:09.855 | DEBUG    | app.main_window:create_protocol_from_excel:541 - stop
+2024-02-28 18:57:19.064 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 18:57:19.064 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 18:57:20.798 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 18:57:20.798 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:32 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-02-28 18:57:22.510 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:add_path_to_excel:129 - start
+2024-02-28 18:57:30.733 | DEBUG    | app.main_window:create_protocol_from_excel:541 - stop
+2024-02-28 19:01:46.234 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 19:01:46.235 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 19:01:48.091 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 19:01:48.091 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:33 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-02-28 19:01:55.116 | DEBUG    | app.main_window:create_protocol_from_excel:541 - stop
+2024-02-28 19:02:01.367 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 19:02:01.367 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 19:02:02.938 | INFO     | app.tools.main_window_functions:use_data:250 - start
+2024-02-28 19:02:02.939 | DEBUG    | app.tools.main_window_functions:verificationer_changed:137 - start
+2024-02-28 19:02:02.940 | DEBUG    | app.tools.main_window_functions:verificationer_changed:147 - end
+2024-02-28 19:02:02.941 | INFO     | app.tools.main_window_functions:scale_changed:75 - start
+2024-02-28 19:02:02.941 | DEBUG    | app.tools.main_window_functions:scale_changed:103 - end
+2024-02-28 19:02:02.942 | DEBUG    | app.tools.main_window_functions:use_data:325 - end
+2024-02-28 19:02:46.111 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 19:02:46.111 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 19:02:47.478 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 19:02:47.478 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:33 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-02-28 19:03:04.075 | DEBUG    | app.main_window:create_protocol_from_excel:541 - stop
+2024-02-28 19:25:27.442 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 19:25:27.442 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 19:25:58.117 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 19:25:58.118 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 19:25:59.637 | INFO     | app.tools.main_window_functions:use_data:250 - start
+2024-02-28 19:25:59.640 | DEBUG    | app.tools.main_window_functions:verificationer_changed:137 - start
+2024-02-28 19:25:59.641 | DEBUG    | app.tools.main_window_functions:verificationer_changed:147 - end
+2024-02-28 19:25:59.642 | INFO     | app.tools.main_window_functions:scale_changed:75 - start
+2024-02-28 19:25:59.642 | DEBUG    | app.tools.main_window_functions:scale_changed:103 - end
+2024-02-28 19:25:59.643 | DEBUG    | app.tools.main_window_functions:use_data:325 - end
+2024-02-28 19:26:21.477 | INFO     | app.tools.main_window_functions:create_protocol:156 - start
+2024-02-28 19:26:21.478 | DEBUG    | app.tools.main_window_functions:get_selected_table:111 - start
+2024-02-28 19:26:21.478 | DEBUG    | app.tools.main_window_functions:get_selected_table:119 - <PyQt5.QtWidgets.QTableWidget object at 0x0000022EEC148F80>
+2024-02-28 19:26:21.478 | DEBUG    | app.tools.main_window_functions:get_selected_table:121 - end
+2024-02-28 19:26:21.479 | DEBUG    | app.tools.main_window_functions:get_selected_table:111 - start
+2024-02-28 19:26:21.479 | DEBUG    | app.tools.main_window_functions:get_selected_table:119 - <PyQt5.QtWidgets.QTableWidget object at 0x0000022EEC148F80>
+2024-02-28 19:26:21.479 | DEBUG    | app.tools.main_window_functions:get_selected_table:121 - end
+2024-02-28 19:26:21.479 | DEBUG    | app.tools.main_window_functions:get_selected_table:111 - start
+2024-02-28 19:26:21.479 | DEBUG    | app.tools.main_window_functions:get_selected_table:119 - <PyQt5.QtWidgets.QTableWidget object at 0x0000022EEC148F80>
+2024-02-28 19:26:21.480 | DEBUG    | app.tools.main_window_functions:get_selected_table:121 - end
+2024-02-28 19:26:21.480 | DEBUG    | app.tools.main_window_functions:get_selected_table:111 - start
+2024-02-28 19:26:21.480 | DEBUG    | app.tools.main_window_functions:get_selected_table:119 - <PyQt5.QtWidgets.QTableWidget object at 0x0000022EEC148F80>
+2024-02-28 19:26:21.481 | DEBUG    | app.tools.main_window_functions:get_selected_table:121 - end
+2024-02-28 19:26:21.482 | DEBUG    | app.tools.word.Word:make_new_protocol:49 - start
+2024-02-28 19:26:21.483 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - scale: Весы настольные циферблатные РН-6Ц13У 8474-88
+2024-02-28 19:26:21.483 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - path: C:/Users/maina/PythonProjects/desktop
+2024-02-28 19:26:21.483 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - num_protocol: ЕИ-03-9999
+2024-02-28 19:26:21.483 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - num_scale: 1234
+2024-02-28 19:26:21.484 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - INN: INN
+2024-02-28 19:26:21.484 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - company: company
+2024-02-28 19:26:21.484 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - legal_address: place
+2024-02-28 19:26:21.484 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - inspection_address: place
+2024-02-28 19:26:21.485 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - path_to_excel: C:/Users/maina/PythonProjects/desktop/Журнал учета поверочных работ Бурков 20.08.2023.xlsx
+2024-02-28 19:26:21.485 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - temperature: temp
+2024-02-28 19:26:21.485 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - humidity: hum
+2024-02-28 19:26:21.486 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - pressure: press
+2024-02-28 19:26:21.486 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - work_place: 05 - Автоматические ВСУ
+2024-02-28 19:26:21.486 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - verificationer: Стариков
+2024-02-28 19:26:21.486 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - interval: 2
+2024-02-28 19:26:21.487 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - unfit: True
+2024-02-28 19:26:21.487 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - use_excel: True
+2024-02-28 19:26:21.487 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - inspection_date: 28.02.2024
+2024-02-28 19:26:21.487 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - standarts: Набор гирь 1 мг-500 г F1 рег. № в ФИФ 58463-14, №PV156, 2 разряд;
+Гиря М1 500 г рег. № в ФИФ 58048-14 №796242, 4 разряд;
+Гиря М1 1 кг рег. № в ФИФ 58048-14 №796241, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796236, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796237, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №796238, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №812854, 4 разряд
+2024-02-28 19:26:21.488 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - standarts_briefly: 58463.14.2Р.00869664|58048.14.4Р.00740372|58048.14.4Р.00740373|58048.14.4Р.00740374|58048.14.4Р.00740375|58048.14.4Р.00690618
+2024-02-28 19:26:21.488 | DEBUG    | app.tools.word.Word:open_document:33 - Open Word Document: app\templates\Весы настольные циферблатные РН-6Ц13У 8474-88.docx
+2024-02-28 19:26:21.552 | DEBUG    | app.tools.word.Word:open_document:38 - Документ Word открыт
+2024-02-28 19:26:21.569 | DEBUG    | app.tools.word.Word:make_new_protocol:105 - C:/Users/maina/PythonProjects/desktop/ЕИ-03-9999 Весы настольные циферблатные РН-6Ц13У №1234 (8474-88).docx
+2024-02-28 19:26:21.569 | DEBUG    | app.tools.excel.add:add_var_to_excel:13 - start
+2024-02-28 19:26:21.570 | DEBUG    | app.tools.excel.add:add_var_to_excel:15 - {'scale': 'Весы настольные циферблатные РН-6Ц13У 8474-88', 'path': 'C:/Users/maina/PythonProjects/desktop', 'num_protocol': 'ЕИ-03-9999', 'num_scale': '1234', 'INN': 'INN', 'company': 'company', 'legal_address': 'place', 'inspection_address': 'place', 'path_to_excel': 'C:/Users/maina/PythonProjects/desktop/Журнал учета поверочных работ Бурков 20.08.2023.xlsx', 'temperature': 'temp', 'humidity': 'hum', 'pressure': 'press', 'work_place': '05 - Автоматические ВСУ', 'verificationer': 'Стариков', 'interval': '2', 'unfit': True, 'use_excel': True, 'inspection_date': '28.02.2024', 'standarts': 'Набор гирь 1 мг-500 г F1 рег. № в ФИФ 58463-14, №PV156, 2 разряд;\nГиря М1 500 г рег. № в ФИФ 58048-14 №796242, 4 разряд;\nГиря М1 1 кг рег. № в ФИФ 58048-14 №796241, 4 разряд;\nГиря М1 2 кг рег. № в ФИФ 58048-14 №796236, 4 разряд;\nГиря М1 2 кг рег. № в ФИФ 58048-14 №796237, 4 разряд;\nГиря М1 5 кг рег. № в ФИФ 58048-14 №796238, 4 разряд;\nГиря М1 5 кг рег. № в ФИФ 58048-14 №812854, 4 разряд', 'standarts_briefly': '58463.14.2Р.00869664|58048.14.4Р.00740372|58048.14.4Р.00740373|58048.14.4Р.00740374|58048.14.4Р.00740375|58048.14.4Р.00690618', 'change_temperature': 'Изменение температуры воздуха в помещении в течение 1 часа не превышает 2,0°C.', 'method': '«ГСИ. Весы для статического взвешивания. Методы и средства поверки» ГОСТ 8.453-82'}
+2024-02-28 19:26:24.347 | DEBUG    | app.tools.word.Word:make_new_protocol:140 - end
+2024-02-28 19:26:24.348 | INFO     | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-02-28 19:26:26.948 | DEBUG    | app.tools.main_window_functions:verificationer_changed:137 - start
+2024-02-28 19:26:26.949 | DEBUG    | app.tools.main_window_functions:verificationer_changed:147 - end
+2024-02-28 19:26:26.951 | DEBUG    | app.tools.main_window_functions:create_protocol:243 - end
+2024-02-28 19:26:26.951 | DEBUG    | app.tools.main_window_functions:create_protocol:246 - end
+2024-02-28 19:26:30.265 | INFO     | app.tools.main_window_functions:use_data:250 - start
+2024-02-28 19:26:30.266 | INFO     | app.tools.main_window_functions:scale_changed:75 - start
+2024-02-28 19:26:30.266 | DEBUG    | app.tools.main_window_functions:scale_changed:103 - end
+2024-02-28 19:26:30.267 | DEBUG    | app.tools.main_window_functions:use_data:325 - end
+2024-02-28 19:26:32.169 | INFO     | app.tools.main_window_functions:create_protocol:156 - start
+2024-02-28 19:26:32.170 | DEBUG    | app.tools.main_window_functions:get_selected_table:111 - start
+2024-02-28 19:26:32.171 | DEBUG    | app.tools.main_window_functions:get_selected_table:119 - <PyQt5.QtWidgets.QTableWidget object at 0x0000022EEC148F80>
+2024-02-28 19:26:32.172 | DEBUG    | app.tools.main_window_functions:get_selected_table:121 - end
+2024-02-28 19:26:32.173 | DEBUG    | app.tools.main_window_functions:get_selected_table:111 - start
+2024-02-28 19:26:32.173 | DEBUG    | app.tools.main_window_functions:get_selected_table:119 - <PyQt5.QtWidgets.QTableWidget object at 0x0000022EEC148F80>
+2024-02-28 19:26:32.174 | DEBUG    | app.tools.main_window_functions:get_selected_table:121 - end
+2024-02-28 19:26:32.174 | DEBUG    | app.tools.main_window_functions:get_selected_table:111 - start
+2024-02-28 19:26:32.174 | DEBUG    | app.tools.main_window_functions:get_selected_table:119 - <PyQt5.QtWidgets.QTableWidget object at 0x0000022EEC148F80>
+2024-02-28 19:26:32.175 | DEBUG    | app.tools.main_window_functions:get_selected_table:121 - end
+2024-02-28 19:26:32.175 | DEBUG    | app.tools.main_window_functions:get_selected_table:111 - start
+2024-02-28 19:26:32.175 | DEBUG    | app.tools.main_window_functions:get_selected_table:119 - <PyQt5.QtWidgets.QTableWidget object at 0x0000022EEC148F80>
+2024-02-28 19:26:32.176 | DEBUG    | app.tools.main_window_functions:get_selected_table:121 - end
+2024-02-28 19:26:32.176 | DEBUG    | app.tools.word.Word:make_new_protocol:49 - start
+2024-02-28 19:26:32.177 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - scale: Весы настольные циферблатные РН-6Ц13У 8474-88
+2024-02-28 19:26:32.177 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - path: C:/Users/maina/PythonProjects/desktop
+2024-02-28 19:26:32.177 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - num_protocol: ЕИ-03-9999
+2024-02-28 19:26:32.177 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - num_scale: 1234
+2024-02-28 19:26:32.178 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - INN: INN
+2024-02-28 19:26:32.178 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - company: company
+2024-02-28 19:26:32.179 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - legal_address: place
+2024-02-28 19:26:32.179 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - inspection_address: place
+2024-02-28 19:26:32.179 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - path_to_excel: C:/Users/maina/PythonProjects/desktop/Журнал учета поверочных работ Бурков 20.08.2023.xlsx
+2024-02-28 19:26:32.179 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - temperature: temp
+2024-02-28 19:26:32.180 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - humidity: hum
+2024-02-28 19:26:32.180 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - pressure: press
+2024-02-28 19:26:32.180 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - work_place: 05 - Автоматические ВСУ
+2024-02-28 19:26:32.181 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - verificationer: Стариков
+2024-02-28 19:26:32.181 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - interval: 2
+2024-02-28 19:26:32.181 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - unfit: True
+2024-02-28 19:26:32.181 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - use_excel: True
+2024-02-28 19:26:32.182 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - inspection_date: 28.02.2024
+2024-02-28 19:26:32.182 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - standarts: Набор гирь 1 мг-500 г F1 рег. № в ФИФ 58463-14, №PV156, 2 разряд;
+Гиря М1 500 г рег. № в ФИФ 58048-14 №796242, 4 разряд;
+Гиря М1 1 кг рег. № в ФИФ 58048-14 №796241, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796236, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796237, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №796238, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №812854, 4 разряд
+2024-02-28 19:26:32.182 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - standarts_briefly: 58463.14.2Р.00869664|58048.14.4Р.00740372|58048.14.4Р.00740373|58048.14.4Р.00740374|58048.14.4Р.00740375|58048.14.4Р.00690618
+2024-02-28 19:26:32.182 | DEBUG    | app.tools.word.Word:open_document:33 - Open Word Document: app\templates\Весы настольные циферблатные РН-6Ц13У 8474-88.docx
+2024-02-28 19:26:32.187 | DEBUG    | app.tools.word.Word:open_document:38 - Документ Word открыт
+2024-02-28 19:26:32.202 | DEBUG    | app.tools.word.Word:make_new_protocol:105 - C:/Users/maina/PythonProjects/desktop/ЕИ-03-9999 Весы настольные циферблатные РН-6Ц13У №1234 (8474-88).docx
+2024-02-28 19:26:32.203 | DEBUG    | app.tools.excel.add:add_var_to_excel:13 - start
+2024-02-28 19:26:32.203 | DEBUG    | app.tools.excel.add:add_var_to_excel:15 - {'scale': 'Весы настольные циферблатные РН-6Ц13У 8474-88', 'path': 'C:/Users/maina/PythonProjects/desktop', 'num_protocol': 'ЕИ-03-9999', 'num_scale': '1234', 'INN': 'INN', 'company': 'company', 'legal_address': 'place', 'inspection_address': 'place', 'path_to_excel': 'C:/Users/maina/PythonProjects/desktop/Журнал учета поверочных работ Бурков 20.08.2023.xlsx', 'temperature': 'temp', 'humidity': 'hum', 'pressure': 'press', 'work_place': '05 - Автоматические ВСУ', 'verificationer': 'Стариков', 'interval': '2', 'unfit': True, 'use_excel': True, 'inspection_date': '28.02.2024', 'standarts': 'Набор гирь 1 мг-500 г F1 рег. № в ФИФ 58463-14, №PV156, 2 разряд;\nГиря М1 500 г рег. № в ФИФ 58048-14 №796242, 4 разряд;\nГиря М1 1 кг рег. № в ФИФ 58048-14 №796241, 4 разряд;\nГиря М1 2 кг рег. № в ФИФ 58048-14 №796236, 4 разряд;\nГиря М1 2 кг рег. № в ФИФ 58048-14 №796237, 4 разряд;\nГиря М1 5 кг рег. № в ФИФ 58048-14 №796238, 4 разряд;\nГиря М1 5 кг рег. № в ФИФ 58048-14 №812854, 4 разряд', 'standarts_briefly': '58463.14.2Р.00869664|58048.14.4Р.00740372|58048.14.4Р.00740373|58048.14.4Р.00740374|58048.14.4Р.00740375|58048.14.4Р.00690618', 'change_temperature': 'Изменение температуры воздуха в помещении в течение 1 часа не превышает 2,0°C.', 'method': '«ГСИ. Весы для статического взвешивания. Методы и средства поверки» ГОСТ 8.453-82'}
+2024-02-28 19:26:35.146 | DEBUG    | app.tools.word.Word:make_new_protocol:140 - end
+2024-02-28 19:26:35.146 | INFO     | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-02-28 19:26:37.829 | DEBUG    | app.tools.main_window_functions:verificationer_changed:137 - start
+2024-02-28 19:26:37.830 | DEBUG    | app.tools.main_window_functions:verificationer_changed:147 - end
+2024-02-28 19:26:37.831 | DEBUG    | app.tools.main_window_functions:create_protocol:243 - end
+2024-02-28 19:26:37.847 | DEBUG    | app.tools.main_window_functions:create_protocol:246 - end
+2024-02-28 19:29:20.517 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 19:29:20.518 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 19:29:24.503 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 19:29:24.504 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:33 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-02-28 19:29:59.213 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:create_protocol:110 - start
+2024-02-28 19:31:18.916 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 19:31:18.916 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 19:31:21.487 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 19:31:21.488 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:33 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-02-28 19:31:50.587 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:create_protocol:110 - start
+2024-02-28 19:31:50.588 | ERROR    | app.tools.excel.get:get_from_excel:61 - Ошибка при получении значений из excel файла: expected str, bytes or os.PathLike object, not builtin_function_or_method
+2024-02-28 19:31:52.567 | ERROR    | app.tools.excel.get:get_from_excel:61 - Ошибка при получении значений из excel файла: expected str, bytes or os.PathLike object, not builtin_function_or_method
+2024-02-28 19:32:23.401 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:create_protocol:110 - start
+2024-02-28 19:32:23.401 | ERROR    | app.tools.excel.get:get_from_excel:61 - Ошибка при получении значений из excel файла: expected str, bytes or os.PathLike object, not builtin_function_or_method
+2024-02-28 19:32:24.639 | ERROR    | app.tools.excel.get:get_from_excel:61 - Ошибка при получении значений из excel файла: expected str, bytes or os.PathLike object, not builtin_function_or_method
+2024-02-28 19:34:45.157 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 19:34:45.157 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 19:34:47.175 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 19:34:47.176 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:33 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-02-28 19:35:07.449 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:create_protocol:110 - start
+2024-02-28 19:35:07.450 | ERROR    | app.tools.excel.get:get_from_excel:60 - Ошибка при получении значений из excel файла: expected str, bytes or os.PathLike object, not builtin_function_or_method
+2024-02-28 19:35:08.539 | ERROR    | app.tools.excel.get:get_from_excel:60 - Ошибка при получении значений из excel файла: expected str, bytes or os.PathLike object, not builtin_function_or_method
+2024-02-28 19:35:11.934 | DEBUG    | app.main_window:create_protocol_from_excel:541 - stop
+2024-02-28 19:35:16.444 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 19:35:16.445 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 19:35:19.639 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 19:35:19.639 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:33 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-02-28 19:35:29.579 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:create_protocol:110 - start
+2024-02-28 19:35:57.518 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 19:35:57.518 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 19:35:59.487 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 19:35:59.487 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:33 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-02-28 19:36:04.854 | DEBUG    | app.main_window:create_protocol_from_excel:541 - stop
+2024-02-28 19:37:06.733 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 19:37:06.733 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 19:37:08.568 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 19:37:08.569 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:33 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-02-28 19:37:14.602 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:create_protocol:110 - start
+2024-02-28 19:37:25.605 | ERROR    | app.tools.excel.get:get_from_excel:60 - Ошибка при получении значений из excel файла: expected str, bytes or os.PathLike object, not builtin_function_or_method
+2024-02-28 19:45:11.435 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 19:45:11.436 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 19:45:14.516 | INFO     | app.tools.main_window_functions:use_data:250 - start
+2024-02-28 19:45:14.518 | DEBUG    | app.tools.main_window_functions:verificationer_changed:137 - start
+2024-02-28 19:45:14.518 | DEBUG    | app.tools.main_window_functions:verificationer_changed:147 - end
+2024-02-28 19:45:14.519 | INFO     | app.tools.main_window_functions:scale_changed:75 - start
+2024-02-28 19:45:14.519 | DEBUG    | app.tools.main_window_functions:scale_changed:103 - end
+2024-02-28 19:45:14.520 | DEBUG    | app.tools.main_window_functions:use_data:325 - end
+2024-02-28 19:52:24.566 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 19:52:24.567 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 19:52:26.586 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 19:52:26.587 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:33 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-02-28 19:52:28.907 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:add_path_to_excel:148 - start
+2024-02-28 19:52:44.239 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:create_protocol:110 - start
+2024-02-28 19:52:44.240 | ERROR    | app.tools.excel.get:get_from_excel:60 - Ошибка при получении значений из excel файла: expected str, bytes or os.PathLike object, not builtin_function_or_method
+2024-02-28 19:52:45.302 | ERROR    | app.tools.excel.get:get_from_excel:60 - Ошибка при получении значений из excel файла: expected str, bytes or os.PathLike object, not builtin_function_or_method
+2024-02-28 19:53:25.637 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 19:53:25.637 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 19:53:29.128 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 19:53:29.129 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 19:53:31.534 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 19:53:31.535 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:33 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-02-28 19:53:38.192 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:create_protocol:110 - start
+2024-02-28 19:54:21.274 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 19:54:21.275 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 19:54:23.273 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 19:54:23.274 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:33 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-02-28 19:54:30.000 | DEBUG    | app.main_window:create_protocol_from_excel:541 - stop
+2024-02-28 19:59:10.998 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 19:59:10.998 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 19:59:12.992 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 19:59:12.993 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:33 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-02-28 19:59:15.593 | DEBUG    | app.main_window:create_protocol_from_excel:541 - stop
+2024-02-28 20:00:35.288 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 20:00:35.288 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 20:00:37.286 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 20:00:37.287 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:33 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-02-28 20:00:38.927 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:add_path_to_excel:167 - start
+2024-02-28 20:00:56.970 | DEBUG    | app.main_window:create_protocol_from_excel:541 - stop
+2024-02-28 20:03:20.531 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 20:03:20.531 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 20:03:21.894 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 20:03:21.895 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:33 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-02-28 20:03:22.952 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:add_path:190 - start
+2024-02-28 20:03:24.973 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:add_path:195 - end
+2024-02-28 20:03:26.185 | DEBUG    | app.main_window:create_protocol_from_excel:541 - stop
+2024-02-28 20:06:05.627 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 20:06:05.627 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 20:06:07.612 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 20:06:07.613 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:33 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-02-28 20:06:09.889 | DEBUG    | app.main_window:create_protocol_from_excel:541 - stop
+2024-02-28 20:06:22.050 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 20:06:22.051 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 20:06:23.432 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 20:06:23.433 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:33 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-02-28 20:06:30.826 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:create_protocol:128 - start
+2024-02-28 20:06:43.441 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 20:06:43.442 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 20:06:45.247 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 20:06:45.247 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:33 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-02-28 20:06:51.157 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:create_protocol:128 - start
+2024-02-28 20:06:52.207 | DEBUG    | app.tools.word.Word:make_new_protocol:49 - start
+2024-02-28 20:06:52.208 | ERROR    | app.tools.word.Word:make_new_protocol:145 - Error create protocol: 'work_place'
+2024-02-28 20:06:52.208 | DEBUG    | app.tools.word.Word:make_new_protocol:147 - end
+2024-02-28 20:06:52.209 | INFO     | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-02-28 20:06:52.209 | ERROR    | app.tools.dialogs.CreateProtocolDialog:__init__:45 - Error init ChooseScaleDialog(QDialog) : setText(self, a0: Optional[str]): argument 1 has unexpected type 'KeyError'
+2024-02-28 20:06:55.452 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:create_protocol:154 - end
+2024-02-28 20:06:56.599 | DEBUG    | app.tools.word.Word:make_new_protocol:49 - start
+2024-02-28 20:06:56.600 | ERROR    | app.tools.word.Word:make_new_protocol:145 - Error create protocol: 'work_place'
+2024-02-28 20:06:56.600 | DEBUG    | app.tools.word.Word:make_new_protocol:147 - end
+2024-02-28 20:06:56.600 | INFO     | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-02-28 20:06:56.601 | ERROR    | app.tools.dialogs.CreateProtocolDialog:__init__:45 - Error init ChooseScaleDialog(QDialog) : setText(self, a0: Optional[str]): argument 1 has unexpected type 'KeyError'
+2024-02-28 20:10:03.432 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 20:10:03.433 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 20:10:05.049 | INFO     | app.tools.main_window_functions:use_data:250 - start
+2024-02-28 20:10:05.050 | DEBUG    | app.tools.main_window_functions:verificationer_changed:137 - start
+2024-02-28 20:10:05.051 | DEBUG    | app.tools.main_window_functions:verificationer_changed:147 - end
+2024-02-28 20:10:05.052 | INFO     | app.tools.main_window_functions:scale_changed:75 - start
+2024-02-28 20:10:05.052 | DEBUG    | app.tools.main_window_functions:scale_changed:103 - end
+2024-02-28 20:10:05.053 | DEBUG    | app.tools.main_window_functions:use_data:325 - end
+2024-02-28 20:10:05.812 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 20:10:05.813 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:33 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-02-28 20:10:07.282 | DEBUG    | app.main_window:create_protocol_from_excel:541 - stop
+2024-02-28 20:10:13.358 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 20:10:13.359 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:33 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-02-28 20:10:20.585 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:create_protocol:128 - start
+2024-02-28 20:10:21.621 | DEBUG    | app.tools.word.Word:make_new_protocol:49 - start
+2024-02-28 20:10:21.621 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - num_protocol: ЕИ-05-03-9999
+2024-02-28 20:10:21.621 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - FIF: 8474-88
+2024-02-28 20:10:21.622 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - scale: Весы настольные циферблатные РН-6Ц13У 8474-88
+2024-02-28 20:10:21.622 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - num_scale: 1234
+2024-02-28 20:10:21.622 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - inspection_date: 28.02.2024
+2024-02-28 20:10:21.623 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - temperature: temp °C
+2024-02-28 20:10:21.623 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - pressure: press кПа
+2024-02-28 20:10:21.623 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - humidity: hum %
+2024-02-28 20:10:21.624 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - standarts: 58463.14.2Р.00869664|58048.14.4Р.00740372|58048.14.4Р.00740373|58048.14.4Р.00740374|58048.14.4Р.00740375|58048.14.4Р.00690618
+2024-02-28 20:10:21.624 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - company: company
+2024-02-28 20:10:21.624 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - verificationer: Стариков
+2024-02-28 20:10:21.625 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - INN: INN
+2024-02-28 20:10:21.625 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - legal_address: place
+2024-02-28 20:10:21.625 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - inspection_address: place
+2024-02-28 20:10:21.625 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - work_place: 05-
+2024-02-28 20:10:21.626 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - unfit: True
+2024-02-28 20:10:21.626 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - path: C:/Users/maina/PythonProjects/desktop
+2024-02-28 20:10:21.626 | DEBUG    | app.tools.word.Word:open_document:33 - Open Word Document: app\templates\Весы настольные циферблатные РН-6Ц13У 8474-88.docx
+2024-02-28 20:10:21.631 | DEBUG    | app.tools.word.Word:open_document:38 - Документ Word открыт
+2024-02-28 20:10:21.649 | DEBUG    | app.tools.word.Word:make_new_protocol:105 - C:/Users/maina/PythonProjects/desktop/ЕИ-05-03-9999 Весы настольные циферблатные РН-6Ц13У №1234 (8474-88).docx
+2024-02-28 20:10:21.649 | ERROR    | app.tools.word.Word:make_new_protocol:145 - Error create protocol: 'use_excel'
+2024-02-28 20:10:21.649 | DEBUG    | app.tools.word.Word:make_new_protocol:147 - end
+2024-02-28 20:10:21.650 | INFO     | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-02-28 20:10:21.650 | ERROR    | app.tools.dialogs.CreateProtocolDialog:__init__:45 - Error init ChooseScaleDialog(QDialog) : setText(self, a0: Optional[str]): argument 1 has unexpected type 'KeyError'
+2024-02-28 20:11:13.344 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 20:11:13.344 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 20:11:15.352 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 20:11:15.352 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:33 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-02-28 20:11:24.702 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:create_protocol:128 - start
+2024-02-28 20:11:25.730 | ERROR    | app.tools.excel.get:get_from_excel:64 - Ошибка при получении значений из excel файла: object of type 'bool' has no len()
+2024-02-28 20:11:28.414 | ERROR    | app.tools.excel.get:get_from_excel:64 - Ошибка при получении значений из excel файла: object of type 'bool' has no len()
+2024-02-28 20:11:54.244 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 20:11:54.245 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 20:11:56.686 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-02-28 20:11:56.686 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:33 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-02-28 20:12:04.539 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:create_protocol:128 - start
+2024-02-28 20:12:05.585 | DEBUG    | app.tools.word.Word:make_new_protocol:49 - start
+2024-02-28 20:12:05.586 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - num_protocol: ЕИ-05-03-9999
+2024-02-28 20:12:05.586 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - FIF: 8474-88
+2024-02-28 20:12:05.586 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - scale: Весы настольные циферблатные РН-6Ц13У 8474-88
+2024-02-28 20:12:05.587 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - num_scale: 1234
+2024-02-28 20:12:05.587 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - inspection_date: 28.02.2024
+2024-02-28 20:12:05.588 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - temperature: temp °C
+2024-02-28 20:12:05.588 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - pressure: press кПа
+2024-02-28 20:12:05.588 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - humidity: hum %
+2024-02-28 20:12:05.588 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - standarts: 58463.14.2Р.00869664|58048.14.4Р.00740372|58048.14.4Р.00740373|58048.14.4Р.00740374|58048.14.4Р.00740375|58048.14.4Р.00690618
+2024-02-28 20:12:05.589 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - company: company
+2024-02-28 20:12:05.589 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - verificationer: Стариков
+2024-02-28 20:12:05.590 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - INN: INN
+2024-02-28 20:12:05.590 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - legal_address: place
+2024-02-28 20:12:05.590 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - inspection_address: place
+2024-02-28 20:12:05.592 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - work_place: 05-
+2024-02-28 20:12:05.592 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - use_excel: False
+2024-02-28 20:12:05.592 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - unfit: True
+2024-02-28 20:12:05.593 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - path: C:/Users/maina/PythonProjects/desktop
+2024-02-28 20:12:05.593 | DEBUG    | app.tools.word.Word:open_document:33 - Open Word Document: app\templates\Весы настольные циферблатные РН-6Ц13У 8474-88.docx
+2024-02-28 20:12:05.598 | DEBUG    | app.tools.word.Word:open_document:38 - Документ Word открыт
+2024-02-28 20:12:05.614 | DEBUG    | app.tools.word.Word:make_new_protocol:105 - C:/Users/maina/PythonProjects/desktop/ЕИ-05-03-9999 Весы настольные циферблатные РН-6Ц13У №1234 (8474-88).docx
+2024-02-28 20:12:05.614 | DEBUG    | app.tools.word.Word:make_new_protocol:140 - end
+2024-02-28 20:12:05.615 | INFO     | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-02-28 20:12:09.932 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:create_protocol:154 - end
+2024-02-28 20:12:11.101 | DEBUG    | app.tools.word.Word:make_new_protocol:49 - start
+2024-02-28 20:12:11.102 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - num_protocol: ЕИ-05-03-9999
+2024-02-28 20:12:11.103 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - FIF: 8474-88
+2024-02-28 20:12:11.105 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - scale: Весы настольные циферблатные РН-6Ц13У 8474-88
+2024-02-28 20:12:11.105 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - num_scale: 1234
+2024-02-28 20:12:11.106 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - inspection_date: 28.02.2024
+2024-02-28 20:12:11.106 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - temperature: temp °C
+2024-02-28 20:12:11.106 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - pressure: press кПа
+2024-02-28 20:12:11.107 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - humidity: hum %
+2024-02-28 20:12:11.107 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - standarts: 58463.14.2Р.00869664|58048.14.4Р.00740372|58048.14.4Р.00740373|58048.14.4Р.00740374|58048.14.4Р.00740375|58048.14.4Р.00690618
+2024-02-28 20:12:11.107 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - company: company
+2024-02-28 20:12:11.108 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - verificationer: Стариков
+2024-02-28 20:12:11.108 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - INN: INN
+2024-02-28 20:12:11.108 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - legal_address: place
+2024-02-28 20:12:11.108 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - inspection_address: place
+2024-02-28 20:12:11.109 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - work_place: 05-
+2024-02-28 20:12:11.109 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - use_excel: False
+2024-02-28 20:12:11.109 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - unfit: True
+2024-02-28 20:12:11.109 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - path: C:/Users/maina/PythonProjects/desktop
+2024-02-28 20:12:11.110 | DEBUG    | app.tools.word.Word:open_document:33 - Open Word Document: app\templates\Весы настольные циферблатные РН-6Ц13У 8474-88.docx
+2024-02-28 20:12:11.114 | DEBUG    | app.tools.word.Word:open_document:38 - Документ Word открыт
+2024-02-28 20:12:11.131 | DEBUG    | app.tools.word.Word:make_new_protocol:105 - C:/Users/maina/PythonProjects/desktop/ЕИ-05-03-9999 Весы настольные циферблатные РН-6Ц13У №1234 (8474-88).docx
+2024-02-28 20:12:11.132 | DEBUG    | app.tools.word.Word:make_new_protocol:140 - end
+2024-02-28 20:12:11.134 | INFO     | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-02-28 20:12:15.957 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:create_protocol:154 - end
+2024-02-28 20:12:42.820 | DEBUG    | app.main_window:create_protocol_from_excel:541 - stop
+2024-02-28 21:58:49.743 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 21:58:49.744 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 21:59:01.007 | DEBUG    | app.tools.main_window_functions:search_company:27 - start
+2024-02-28 21:59:01.008 | DEBUG    | app.tools.parse.FNS_RUS:__init__:6 - start
+2024-02-28 21:59:01.009 | DEBUG    | app.tools.parse.FNS_RUS:get_company_data:10 - start
+2024-02-28 21:59:01.585 | ERROR    | app.tools.main_window_functions:search_company:81 - Ошибка при работе с List-org.ru
+2024-02-28 21:59:03.456 | DEBUG    | app.tools.main_window_functions:search_company:91 - end
+2024-02-28 22:01:21.056 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 22:01:21.056 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 22:01:32.048 | DEBUG    | app.tools.main_window_functions:search_company:27 - start
+2024-02-28 22:01:32.048 | DEBUG    | app.tools.parse.FNS_RUS:__init__:6 - start
+2024-02-28 22:01:32.049 | DEBUG    | app.tools.parse.FNS_RUS:get_company_data:10 - start
+2024-02-28 22:01:32.531 | ERROR    | app.tools.main_window_functions:search_company:81 - Ошибка при работе с List-org.ru
+2024-02-28 22:01:33.854 | DEBUG    | app.tools.main_window_functions:search_company:91 - end
+2024-02-28 22:02:40.325 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 22:02:40.326 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 22:03:01.540 | DEBUG    | app.tools.main_window_functions:search_company:27 - start
+2024-02-28 22:03:01.540 | DEBUG    | app.tools.parse.FNS_RUS:__init__:6 - start
+2024-02-28 22:03:01.541 | DEBUG    | app.tools.parse.FNS_RUS:get_company_data:10 - start
+2024-02-28 22:03:02.032 | ERROR    | app.tools.main_window_functions:search_company:81 - Ошибка при работе с List-org.ru
+2024-02-28 22:03:03.292 | DEBUG    | app.tools.main_window_functions:search_company:91 - end
+2024-02-28 22:03:09.303 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 22:03:09.303 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 22:03:12.424 | DEBUG    | app.tools.main_window_functions:search_company:27 - start
+2024-02-28 22:03:12.424 | DEBUG    | app.tools.parse.FNS_RUS:__init__:6 - start
+2024-02-28 22:03:12.425 | DEBUG    | app.tools.parse.FNS_RUS:get_company_data:10 - start
+2024-02-28 22:03:12.851 | ERROR    | app.tools.main_window_functions:search_company:81 - Ошибка при работе с List-org.ru
+2024-02-28 22:03:13.996 | DEBUG    | app.tools.main_window_functions:search_company:91 - end
+2024-02-28 22:07:02.662 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 22:07:02.662 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 22:07:13.500 | DEBUG    | app.tools.main_window_functions:search_company:27 - start
+2024-02-28 22:07:13.501 | DEBUG    | app.tools.parse.FNS_RUS:__init__:6 - start
+2024-02-28 22:07:13.501 | DEBUG    | app.tools.parse.FNS_RUS:get_company_data:10 - start
+2024-02-28 22:12:39.500 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 22:12:39.501 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 22:12:45.309 | DEBUG    | app.tools.main_window_functions:search_company:27 - start
+2024-02-28 22:12:45.310 | DEBUG    | app.tools.parse.FNS_RUS:__init__:6 - start
+2024-02-28 22:12:45.310 | DEBUG    | app.tools.parse.FNS_RUS:get_company_data:10 - start
+2024-02-28 22:13:21.207 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 22:13:21.207 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 22:13:24.520 | DEBUG    | app.tools.main_window_functions:search_company:27 - start
+2024-02-28 22:13:24.521 | DEBUG    | app.tools.parse.FNS_RUS:__init__:6 - start
+2024-02-28 22:13:24.521 | DEBUG    | app.tools.parse.FNS_RUS:get_company_data:10 - start
+2024-02-28 22:13:24.941 | DEBUG    | app.tools.parse.LIST_ORG:get_company_name_by_inn:23 - Получение названия компании из list-org
+2024-02-28 22:13:32.799 | INFO     | app.tools.main_window_functions:clean:356 - start
+2024-02-28 22:13:32.800 | INFO     | app.tools.main_window_functions:scale_changed:95 - start
+2024-02-28 22:13:32.800 | DEBUG    | app.tools.main_window_functions:scale_changed:123 - end
+2024-02-28 22:13:32.801 | DEBUG    | app.tools.main_window_functions:clean:366 - end
+2024-02-28 22:13:37.071 | DEBUG    | app.tools.main_window_functions:search_company:27 - start
+2024-02-28 22:13:37.071 | DEBUG    | app.tools.parse.FNS_RUS:__init__:6 - start
+2024-02-28 22:13:37.072 | DEBUG    | app.tools.parse.FNS_RUS:get_company_data:10 - start
+2024-02-28 22:15:31.898 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 22:15:31.898 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 22:15:33.495 | DEBUG    | app.tools.main_window_functions:search_company:27 - start
+2024-02-28 22:15:44.683 | DEBUG    | app.tools.main_window_functions:search_company:27 - start
+2024-02-28 22:15:44.684 | DEBUG    | app.tools.parse.FNS_RUS:__init__:6 - start
+2024-02-28 22:15:44.685 | DEBUG    | app.tools.parse.FNS_RUS:get_company_data:10 - start
+2024-02-28 22:15:45.172 | DEBUG    | app.tools.parse.LIST_ORG:get_company_name_by_inn:23 - Получение названия компании из list-org
+2024-02-28 22:16:37.557 | INFO     | app.main_window:choose_scale:552 - start
+2024-02-28 22:16:37.558 | INFO     | app.tools.dialogs.ChooseScaleDialog:__init__:25 - ChooseScaleDialog(QDialog): __init__
+2024-02-28 22:16:41.940 | DEBUG    | app.main_window:choose_scale:556 - end
+2024-02-28 22:16:58.087 | INFO     | app.tools.main_window_functions:clean:365 - start
+2024-02-28 22:16:58.087 | INFO     | app.tools.main_window_functions:scale_changed:104 - start
+2024-02-28 22:16:58.088 | DEBUG    | app.tools.main_window_functions:scale_changed:132 - end
+2024-02-28 22:16:58.088 | DEBUG    | app.tools.main_window_functions:clean:375 - end
+2024-02-28 22:17:01.112 | DEBUG    | app.tools.main_window_functions:search_company:27 - start
+2024-02-28 22:17:03.659 | DEBUG    | app.tools.main_window_functions:search_company:27 - start
+2024-02-28 22:17:03.659 | DEBUG    | app.tools.parse.FNS_RUS:__init__:6 - start
+2024-02-28 22:17:03.660 | DEBUG    | app.tools.parse.FNS_RUS:get_company_data:10 - start
+2024-02-28 22:17:04.071 | DEBUG    | app.tools.parse.LIST_ORG:get_company_name_by_inn:23 - Получение названия компании из list-org
+2024-02-28 22:17:04.777 | DEBUG    | app.main_window:show_inspection_address_setting:545 - start
+2024-02-28 22:17:04.781 | INFO     | app.tools.dialogs.ChooseInspectionAddressDialog:__init__:24 - ChooseInspectionAddressDialog(QDialog): __init__
+2024-02-28 22:17:05.831 | DEBUG    | app.tools.dialogs.ChooseInspectionAddressDialog:item_changed:67 - item_changed
+2024-02-28 22:17:05.832 | DEBUG    | app.tools.dialogs.ChooseInspectionAddressDialog:item_changed:72 - Use data from FNS
+2024-02-28 22:17:05.833 | DEBUG    | app.tools.parse.FNS_RUS:__init__:6 - start
+2024-02-28 22:17:05.833 | DEBUG    | app.tools.parse.FNS_RUS:get_company_data:10 - start
+2024-02-28 22:17:21.043 | DEBUG    | app.main_window:show_inspection_address_setting:549 - end
+2024-02-28 22:20:13.560 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 22:20:13.561 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 22:20:16.075 | DEBUG    | app.tools.main_window_functions:search_company:27 - start
+2024-02-28 22:21:34.589 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-02-28 22:21:34.589 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-02-28 22:21:36.589 | DEBUG    | app.main_window:show_inspection_address_setting:545 - start
+2024-02-28 22:21:36.589 | INFO     | app.tools.dialogs.ChooseInspectionAddressDialog:__init__:24 - ChooseInspectionAddressDialog(QDialog): __init__
+2024-02-28 22:21:37.202 | DEBUG    | app.tools.dialogs.ChooseInspectionAddressDialog:item_changed:67 - item_changed
+2024-02-28 22:21:38.828 | DEBUG    | app.main_window:show_inspection_address_setting:549 - end
+2024-02-28 22:21:40.308 | DEBUG    | app.tools.main_window_functions:search_company:27 - start
+2024-02-28 22:21:42.411 | DEBUG    | app.tools.main_window_functions:search_company:27 - start
+2024-02-28 22:21:42.412 | DEBUG    | app.tools.parse.FNS_RUS:__init__:6 - start
+2024-02-28 22:21:42.412 | DEBUG    | app.tools.parse.FNS_RUS:get_company_data:10 - start
+2024-02-28 22:21:42.891 | DEBUG    | app.tools.parse.LIST_ORG:get_company_name_by_inn:23 - Получение названия компании из list-org
+2024-02-28 22:21:43.242 | ERROR    | app.tools.main_window_functions:search_company:80 - Ошибка при работе с List-org.ru
+2024-02-28 22:21:44.182 | DEBUG    | app.tools.main_window_functions:search_company:90 - end
+2024-02-28 22:21:50.277 | DEBUG    | app.tools.main_window_functions:search_company:27 - start
+2024-02-28 22:21:50.277 | DEBUG    | app.tools.parse.FNS_RUS:__init__:6 - start
+2024-02-28 22:21:50.278 | DEBUG    | app.tools.parse.FNS_RUS:get_company_data:10 - start
+2024-02-28 22:21:50.751 | DEBUG    | app.tools.parse.LIST_ORG:get_company_name_by_inn:23 - Получение названия компании из list-org
+2024-02-28 22:21:52.217 | DEBUG    | app.main_window:show_inspection_address_setting:545 - start
+2024-02-28 22:21:52.217 | INFO     | app.tools.dialogs.ChooseInspectionAddressDialog:__init__:24 - ChooseInspectionAddressDialog(QDialog): __init__
+2024-02-28 22:21:52.816 | DEBUG    | app.tools.dialogs.ChooseInspectionAddressDialog:item_changed:67 - item_changed
+2024-02-28 22:21:54.064 | DEBUG    | app.main_window:show_inspection_address_setting:549 - end

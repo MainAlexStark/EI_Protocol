@@ -32,7 +32,7 @@ class ChooseInspectionAddressDialog(QDialog):
             self.main_layout = QVBoxLayout()
 
             self.var = [
-                'Использовать юр.адрес компании из базы ФНС',
+                'Использовать введенный юр.адрес',
                 'Использовать юр.адрес ООО \"ЕДИНИЦА ИЗМЕРЕНИЯ\"'
             ]
 
@@ -68,48 +68,13 @@ class ChooseInspectionAddressDialog(QDialog):
         
 
         if self.table.currentRow() == 0:
-            if len(self.main_window.text_INN.toPlainText()) > 0:
-                logger.debug('Use data from FNS')
-                # Определите имя файла хранилища
-                file_name = 'app/tools/data/config.json'
-
-                # Откройте файл хранилища
-                with open(file_name, 'r+') as file:
-                    # Загрузите данные из файла
-                    data = json.load(file)
-
-                    FNS_TOKEN = data.get('FNS_TOKEN', [])
-
-                # Создаем обьект компании
-                company = FNS_API(FNS_TOKEN)
-
-                # Получаем INN
-                INN = self.main_window.text_INN.toPlainText()
-                
-                # Получаем данные о компании по INN
-                data = company.get_company_data(INN)
-
-                if data is not True and len(data['items']) > 0:
-
-                    # Получаем данные о юр.адресе компании
-                    legal_address = data['items'][0]['ЮЛ']['АдресПолн']
-
-                    # Устанавливаем
-                    self.main_window.text_inspection_address.setPlainText(legal_address)
-
-                    self.close()
-
-                else:
-                    message_box = QMessageBox()
-                    message_box.setIcon(QMessageBox.Critical)
-                    message_box.setText("Не удалось получить данные о компании!\nПроверьте введенный ИНН")
-                    message_box.setWindowTitle("Ошибка")
-                    message_box.setStandardButtons(QMessageBox.Ok)
-                    message_box.exec_()
+            text = self.main_window.text_legal_address.toPlainText()
+            if len(text) > 0:
+                self.main_window.text_inspection_address.setPlainText(text)
             else:
                 message_box = QMessageBox()
                 message_box.setIcon(QMessageBox.Critical)
-                message_box.setText("Введите ИНН!")
+                message_box.setText("Введите юр.адрес!")
                 message_box.setWindowTitle("Ошибка")
                 message_box.setStandardButtons(QMessageBox.Ok)
                 message_box.exec_()

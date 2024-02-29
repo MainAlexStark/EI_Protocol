@@ -31,7 +31,7 @@ class CreateProtocolDialog(QDialog):
             self.main_layout = QVBoxLayout()
 
             # Label
-            self.label = QLabel("Поиск:")
+            self.label = QLabel()
             self.main_layout.addWidget(self.label)
 
             if result:

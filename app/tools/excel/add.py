@@ -6,6 +6,9 @@ from loguru import logger
 from datetime import datetime, timedelta
 
 
+
+
+
 def add_var_to_excel(args):
         logger.debug('start')
         
@@ -60,49 +63,23 @@ def add_var_to_excel(args):
         worksheet['AG' + str(empty_row)] = args['company']
         worksheet['AI' + str(empty_row)] = '1'
         worksheet['AJ' + str(empty_row)] = args['verificationer']
+        worksheet['AS' + str(empty_row)] = args['INN']
+        worksheet['AT' + str(empty_row)] = args['legal_address']
+        worksheet['AU' + str(empty_row)] = args['inspection_address']
         
+        
+        words = ['A','B','C','F','H','J','K','M','N','Q','P','O','R','V','AG','AI','AJ','AS','AT','AU','AV']
 
         # Настраиваем шрифт и выравнивание
 
         font = Font(name='Times New Roman', size=8, bold=False, italic=False, color='000000')
         alignment = Alignment(horizontal='center', vertical='center', wrap_text=True)
+        
 
         # Присвяиваем шрифт и выравнивание клеткам
-        worksheet['A' + str(empty_row)].font = font
-        worksheet['B' + str(empty_row)].font = font
-        worksheet['C' + str(empty_row)].font = font
-        worksheet['F' + str(empty_row)].font = font
-        worksheet['H' + str(empty_row)].font = font
-        worksheet['J' + str(empty_row)].font = font
-        worksheet['K' + str(empty_row)].font = font
-        worksheet['M' + str(empty_row)].font = font
-        worksheet['N' + str(empty_row)].font = font
-        worksheet['O' + str(empty_row)].font = font
-        worksheet['P' + str(empty_row)].font = font
-        worksheet['Q' + str(empty_row)].font = font
-        worksheet['R' + str(empty_row)].font = font
-        worksheet['V' + str(empty_row)].font = font
-        worksheet['AG' + str(empty_row)].font = font
-        worksheet['AI' + str(empty_row)].font = font
-        worksheet['AJ' + str(empty_row)].font = font
-
-        worksheet['A' + str(empty_row)].alignment = alignment
-        worksheet['B' + str(empty_row)].alignment = alignment
-        worksheet['C' + str(empty_row)].alignment = alignment
-        worksheet['F' + str(empty_row)].alignment = alignment
-        worksheet['H' + str(empty_row)].alignment = alignment
-        worksheet['J' + str(empty_row)].alignment = alignment
-        worksheet['K' + str(empty_row)].alignment = alignment
-        worksheet['M' + str(empty_row)].alignment = alignment
-        worksheet['N' + str(empty_row)].alignment = alignment
-        worksheet['O' + str(empty_row)].alignment = alignment
-        worksheet['P' + str(empty_row)].alignment = alignment
-        worksheet['Q' + str(empty_row)].alignment = alignment
-        worksheet['R' + str(empty_row)].alignment = alignment
-        worksheet['V' + str(empty_row)].alignment = alignment
-        worksheet['AG' + str(empty_row)].alignment = alignment
-        worksheet['AI' + str(empty_row)].alignment = alignment
-        worksheet['AJ' + str(empty_row)].alignment = alignment
+        for word in words:
+                worksheet[word + str(empty_row)].font = font
+                worksheet[word + str(empty_row)].alignment = alignment
 
         # Сохраняем изменения в файле Excel
         workbook.save(filename=args['path_to_excel'])

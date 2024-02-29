@@ -383,6 +383,15 @@ class App(QWidget):
 
         self.buttons.Buttons['create_protocol'] = self.button_create_protocol
 
+
+        # Create protocol from excel
+
+        self.button_create_protocol_from_excel = QPushButton('Создать протокол из excel', self)
+        self.button_create_protocol_from_excel.clicked.connect(self.create_protocol_from_excel)  # Привязываем функцию
+        self.var_r_layout.addWidget(self.button_create_protocol_from_excel)  # Добавляем в layout
+
+        self.buttons.Buttons['create_protocol_from_excel'] = self.button_create_protocol_from_excel
+
         # Line
 
         line = QFrame()
@@ -523,6 +532,14 @@ class App(QWidget):
 
 
     # Dialogs:
+        
+    def create_protocol_from_excel(self):
+        logger.debug('Создание протокола из excel (funct)')
+
+        dialogs.CreateProtocolFromExcelDialog(self).exec_()
+
+        logger.debug('stop')
+        
         
     def show_inspection_address_setting(self):
         logger.debug('start')

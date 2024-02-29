@@ -15,55 +15,87 @@ from .db import get_data
  
 from . import dialogs
 
-from .parse.__init__ import FNS_API
-from .word.__init__ import protocol, template
+from .parse.__init__ import FNS_API, List_org
+
+from .word.Word import Word
+
+WORD = Word()
 
 
 
 def search_company(self):
     logger.debug('start')
 
-    # Определите имя файла хранилища
-    file_name = 'app/tools/data/config.json'
-    data = get_data(file_name=file_name)
+    if len(self.text_INN.toPlainText()) > 0:
 
-    FNS_TOKEN = data.get('FNS_TOKEN', [])
+        # Определите имя файла хранилища
+        file_name = 'app/tools/data/config.json'
+        data = get_data(file_name=file_name)
 
-    # Создаем обьект компании
-    company = FNS_API(FNS_TOKEN)
+        FNS_TOKEN = data.get('FNS_TOKEN', [])
 
-    # Получаем INN
-    INN = self.text_INN.toPlainText()
-    
-    # Получаем данные о компании по INN
-    data = company.get_company_data(INN)
+        # Создаем обьект компании
+        company = FNS_API(FNS_TOKEN)
 
-    if data is not True and len(data['items']) > 0:
+        # Получаем INN
+        INN = self.text_INN.toPlainText()
+        
+        # Получаем данные о компании по INN
+        data = company.get_company_data(INN)
 
-        # Получаем данные о названии комании
-        company_name = data['items'][0]['ЮЛ']['НаимСокрЮЛ']
+        if data is not True and len(data['items']) > 0:
 
-        # Устанавливаем в QPlainTextEdit
-        self.text_company.setPlainText(company_name)
+            # Получаем данные о названии комании
+            company_name = data['items'][0]['ЮЛ']['НаимСокрЮЛ']
 
-        # Получаем данные о юр.адресе компании
-        legal_address = data['items'][0]['ЮЛ']['АдресПолн']
+            # Устанавливаем в QPlainTextEdit
+            self.text_company.setPlainText(company_name)
 
-        # Устанавливаем в QPlainTextEdit
-        self.text_legal_address.setPlainText(legal_address)
+            # Получаем данные о юр.адресе компании
+            legal_address = data['items'][0]['ЮЛ']['АдресПолн']
 
-        logger.debug('end')
+            # Устанавливаем в QPlainTextEdit
+            self.text_legal_address.setPlainText(legal_address)
+
+            logger.debug('end')
+
+        else:
+
+            LIST_ORG = List_org()
+
+            try:
+
+                data = LIST_ORG.get_company_name_by_inn(INN)
+
+                name = data['name']
+                address = data['address']
+
+                # Устанавливаем в QPlainTextEdit
+                self.text_company.setPlainText(name)
+
+                # Устанавливаем в QPlainTextEdit
+                self.text_legal_address.setPlainText(address)
+
+            except Exception as e:
+                logger.error('Ошибка при работе с List-org.ru')
+
+
+                message_box = QMessageBox()
+                message_box.setIcon(QMessageBox.Critical)
+                message_box.setText("Не удалось получить данные о компании!\nПроверьте введенный ИНН")
+                message_box.setWindowTitle("Ошибка")
+                message_box.setStandardButtons(QMessageBox.Ok)
+                message_box.exec_()
+
+                logger.debug('end')
 
     else:
         message_box = QMessageBox()
         message_box.setIcon(QMessageBox.Critical)
-        message_box.setText("Не удалось получить данные о компании!\nПроверьте введенный ИНН")
+        message_box.setText(f"Введите ИНН!")
         message_box.setWindowTitle("Ошибка")
         message_box.setStandardButtons(QMessageBox.Ok)
         message_box.exec_()
-
-        logger.debug('end')
-
 
 
 
@@ -157,6 +189,9 @@ def create_protocol(self):
     # Получаем standarts
     standarts = get_selected_table(self).item(get_selected_table(self).currentRow(), 1).text()
     standarts_briefly = get_selected_table(self).item(get_selected_table(self).currentRow(), 4).text()
+    
+    # Флаг если какая либо переменная не заполнена
+    var_flag = False
 
     # Определите имя файла хранилища
     file_name = 'app/tools/data/storage.json'
@@ -173,9 +208,41 @@ def create_protocol(self):
         data = json.load(file)
 
         for text_widget_name in self.var_boxes.text_boxes.keys():
-            args[text_widget_name] = data[text_widget_name] = str(self.var_boxes.text_boxes[text_widget_name].toPlainText()).strip()
+            
+            text = str(self.var_boxes.text_boxes[text_widget_name].toPlainText()).strip()
+            
+            PlaceHolderText = self.var_boxes.text_boxes[text_widget_name].placeholderText
+            
+            if len(text) > 0:
+                args[text_widget_name] = data[text_widget_name] = text
+            else:
+                message_box = QMessageBox()
+                message_box.setIcon(QMessageBox.Critical)
+                message_box.setText(f"Введите {PlaceHolderText}!")
+                message_box.setWindowTitle("Ошибка")
+                message_box.setStandardButtons(QMessageBox.Ok)
+                message_box.exec_()
+                
+                var_flag = True
+            
         for combo_widget_name in self.var_boxes.combo_boxes.keys():
-            args[combo_widget_name] =data[combo_widget_name] = str(self.var_boxes.combo_boxes[combo_widget_name].currentText()).strip()
+            
+            text = str(self.var_boxes.combo_boxes[combo_widget_name].currentText()).strip()
+            
+            if not self.var_boxes.combo_boxes[combo_widget_name].currentIndex() == -1:
+                
+                args[combo_widget_name] =data[combo_widget_name] = text
+                
+            else:
+                message_box = QMessageBox()
+                message_box.setIcon(QMessageBox.Critical)
+                message_box.setText(f"Не выбранно значение в одном из выпадающих списков!")
+                message_box.setWindowTitle("Ошибка")
+                message_box.setStandardButtons(QMessageBox.Ok)
+                message_box.exec_()
+                
+                var_flag = True
+
         for button_widget_name in self.buttons.CheckableButtons.keys():
             args[button_widget_name] =data[button_widget_name] = self.buttons.CheckableButtons[button_widget_name].isChecked()
 
@@ -189,25 +256,23 @@ def create_protocol(self):
         json.dump(data, file)
         file.truncate()  # Обрежьте файл, если новые данные занимают меньше места, чем предыдущие
 
-    # Создаем протокол
-    result = protocol.make_new_protocol(args)
+    if not var_flag:
+        # Создаем протокол
+        result = WORD.make_new_protocol(args)
 
-    dialogs.CreateProtocolDialog(self, result=result).exec_()
+        dialogs.CreateProtocolDialog(self, result=result).exec_()
 
-    # Очищаем
-    self.text_num_protocol.clear()
-    self.text_num_scale.clear()
+        # Очищаем
+        self.text_num_protocol.clear()
+        self.text_num_scale.clear()
 
-    self.verificationer_changed()
+        self.verificationer_changed()
 
 
+        logger.debug('end')
+        
+        
     logger.debug('end')
-
-
-
-
-
-
 
 
 def use_data(self):
@@ -331,7 +396,7 @@ def create_template(self):
         selected_files = file_dialog.selectedFiles()
         for file in selected_files:
 
-            result = template.create_template(file)
+            result = WORD.create_template(file)
             if result == False:
                 files[file] = 'Успешно'
             else:
