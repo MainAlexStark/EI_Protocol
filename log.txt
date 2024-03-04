@@ -4823,3 +4823,211 @@ The rights to the program belong to the company: ООО "Единица Изме
 2024-02-28 22:21:52.217 | INFO     | app.tools.dialogs.ChooseInspectionAddressDialog:__init__:24 - ChooseInspectionAddressDialog(QDialog): __init__
 2024-02-28 22:21:52.816 | DEBUG    | app.tools.dialogs.ChooseInspectionAddressDialog:item_changed:67 - item_changed
 2024-02-28 22:21:54.064 | DEBUG    | app.main_window:show_inspection_address_setting:549 - end
+2024-03-04 00:13:04.571 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-03-04 00:13:04.571 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-04 00:13:11.036 | INFO     | app.tools.main_window_functions:use_data:279 - start
+2024-03-04 00:13:11.044 | DEBUG    | app.tools.main_window_functions:verificationer_changed:166 - start
+2024-03-04 00:13:11.045 | DEBUG    | app.tools.main_window_functions:verificationer_changed:176 - end
+2024-03-04 00:13:11.048 | INFO     | app.tools.main_window_functions:scale_changed:104 - start
+2024-03-04 00:13:11.048 | DEBUG    | app.tools.main_window_functions:scale_changed:132 - end
+2024-03-04 00:13:11.053 | DEBUG    | app.tools.main_window_functions:use_data:354 - end
+2024-03-04 00:13:12.048 | INFO     | app.tools.main_window_functions:clean:365 - start
+2024-03-04 00:13:12.049 | INFO     | app.tools.main_window_functions:scale_changed:104 - start
+2024-03-04 00:13:12.049 | DEBUG    | app.tools.main_window_functions:scale_changed:132 - end
+2024-03-04 00:13:12.050 | DEBUG    | app.tools.main_window_functions:verificationer_changed:166 - start
+2024-03-04 00:13:12.051 | DEBUG    | app.tools.main_window_functions:verificationer_changed:176 - end
+2024-03-04 00:13:12.051 | DEBUG    | app.tools.main_window_functions:clean:375 - end
+2024-03-04 00:14:17.773 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-03-04 00:14:17.774 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-04 00:14:19.954 | INFO     | app.tools.main_window_functions:use_data:279 - start
+2024-03-04 00:14:19.956 | DEBUG    | app.tools.main_window_functions:verificationer_changed:166 - start
+2024-03-04 00:14:19.956 | DEBUG    | app.tools.main_window_functions:verificationer_changed:176 - end
+2024-03-04 00:14:19.958 | INFO     | app.tools.main_window_functions:scale_changed:104 - start
+2024-03-04 00:14:19.959 | DEBUG    | app.tools.main_window_functions:scale_changed:132 - end
+2024-03-04 00:14:19.961 | DEBUG    | app.tools.main_window_functions:use_data:354 - end
+2024-03-04 00:14:21.950 | INFO     | app.tools.main_window_functions:clean:365 - start
+2024-03-04 00:14:21.951 | INFO     | app.tools.main_window_functions:scale_changed:104 - start
+2024-03-04 00:14:21.952 | DEBUG    | app.tools.main_window_functions:scale_changed:132 - end
+2024-03-04 00:14:21.953 | DEBUG    | app.tools.main_window_functions:verificationer_changed:166 - start
+2024-03-04 00:14:21.954 | DEBUG    | app.tools.main_window_functions:verificationer_changed:176 - end
+2024-03-04 00:14:21.954 | DEBUG    | app.tools.main_window_functions:clean:375 - end
+2024-03-04 00:14:22.379 | INFO     | app.tools.main_window_functions:use_data:279 - start
+2024-03-04 00:14:22.380 | DEBUG    | app.tools.main_window_functions:verificationer_changed:166 - start
+2024-03-04 00:14:22.381 | DEBUG    | app.tools.main_window_functions:verificationer_changed:176 - end
+2024-03-04 00:14:22.382 | INFO     | app.tools.main_window_functions:scale_changed:104 - start
+2024-03-04 00:14:22.382 | DEBUG    | app.tools.main_window_functions:scale_changed:132 - end
+2024-03-04 00:14:22.383 | DEBUG    | app.tools.main_window_functions:use_data:354 - end
+2024-03-04 00:14:23.138 | INFO     | app.tools.main_window_functions:clean:365 - start
+2024-03-04 00:14:23.139 | INFO     | app.tools.main_window_functions:scale_changed:104 - start
+2024-03-04 00:14:23.139 | DEBUG    | app.tools.main_window_functions:scale_changed:132 - end
+2024-03-04 00:14:23.140 | DEBUG    | app.tools.main_window_functions:verificationer_changed:166 - start
+2024-03-04 00:14:23.141 | DEBUG    | app.tools.main_window_functions:verificationer_changed:176 - end
+2024-03-04 00:14:23.141 | DEBUG    | app.tools.main_window_functions:clean:375 - end
+2024-03-04 00:14:23.476 | INFO     | app.tools.main_window_functions:use_data:279 - start
+2024-03-04 00:14:23.477 | DEBUG    | app.tools.main_window_functions:verificationer_changed:166 - start
+2024-03-04 00:14:23.478 | DEBUG    | app.tools.main_window_functions:verificationer_changed:176 - end
+2024-03-04 00:14:23.479 | INFO     | app.tools.main_window_functions:scale_changed:104 - start
+2024-03-04 00:14:23.480 | DEBUG    | app.tools.main_window_functions:scale_changed:132 - end
+2024-03-04 00:14:23.481 | DEBUG    | app.tools.main_window_functions:use_data:354 - end
+2024-03-04 00:14:26.824 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-03-04 00:14:26.826 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:33 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-03-04 00:14:29.038 | DEBUG    | app.main_window:create_protocol_from_excel:541 - stop
+2024-03-04 01:42:05.591 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-03-04 01:42:05.591 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-04 01:42:08.675 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-03-04 01:42:08.676 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:33 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-03-04 01:42:11.700 | DEBUG    | app.main_window:create_protocol_from_excel:541 - stop
+2024-03-04 01:49:26.362 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-03-04 01:49:26.362 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-04 01:49:51.517 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-03-04 01:49:51.518 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:34 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-03-04 01:50:01.631 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:create_protocol:129 - start
+2024-03-04 01:50:06.332 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:create_protocol:129 - start
+2024-03-04 01:50:07.542 | DEBUG    | app.main_window:create_protocol_from_excel:541 - stop
+2024-03-04 01:53:58.285 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-03-04 01:53:58.286 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-04 01:54:00.120 | DEBUG    | app.main_window:create_protocol_from_excel:537 - Создание протокола из excel (funct)
+2024-03-04 01:54:00.121 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:34 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-03-04 01:54:04.749 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:create_protocol:129 - start
+2024-03-04 01:54:07.001 | DEBUG    | app.tools.word.Word:make_new_protocol:49 - start
+2024-03-04 01:54:07.001 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - num_protocol: ЕИ-05-03-9999
+2024-03-04 01:54:07.001 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - FIF: 8474-88
+2024-03-04 01:54:07.002 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - scale: Весы настольные циферблатные РН-6Ц13У 8474-88
+2024-03-04 01:54:07.003 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - num_scale: 1234
+2024-03-04 01:54:07.003 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - inspection_date: 28.02.2024
+2024-03-04 01:54:07.003 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - temperature: temp 
+2024-03-04 01:54:07.003 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - pressure: press 
+2024-03-04 01:54:07.004 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - humidity: hum 
+2024-03-04 01:54:07.004 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - standarts: 58463.14.2Р.00869664|58048.14.4Р.00740372|58048.14.4Р.00740373|58048.14.4Р.00740374|58048.14.4Р.00740375|58048.14.4Р.00690618
+2024-03-04 01:54:07.004 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - company: company
+2024-03-04 01:54:07.005 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - verificationer: Стариков
+2024-03-04 01:54:07.005 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - INN: INN
+2024-03-04 01:54:07.005 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - legal_address: place
+2024-03-04 01:54:07.005 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - inspection_address: place
+2024-03-04 01:54:07.006 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - work_place: 05-
+2024-03-04 01:54:07.006 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - use_excel: False
+2024-03-04 01:54:07.006 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - unfit: True
+2024-03-04 01:54:07.007 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - path: C:/Users/maina/PythonProjects/desktop
+2024-03-04 01:54:07.007 | DEBUG    | app.tools.word.Word:open_document:33 - Open Word Document: app\templates\Весы настольные циферблатные РН-6Ц13У 8474-88.docx
+2024-03-04 01:54:07.072 | DEBUG    | app.tools.word.Word:open_document:38 - Документ Word открыт
+2024-03-04 01:54:07.090 | DEBUG    | app.tools.word.Word:make_new_protocol:105 - C:/Users/maina/PythonProjects/desktop/ЕИ-05-03-9999 Весы настольные циферблатные РН-6Ц13У №1234 (8474-88).docx
+2024-03-04 01:54:07.091 | DEBUG    | app.tools.word.Word:make_new_protocol:140 - end
+2024-03-04 01:54:07.091 | INFO     | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-03-04 01:54:10.081 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:create_protocol:160 - end
+2024-03-04 01:54:11.255 | DEBUG    | app.tools.word.Word:make_new_protocol:49 - start
+2024-03-04 01:54:11.256 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - num_protocol: ЕИ-05-03-9999
+2024-03-04 01:54:11.256 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - FIF: 8474-88
+2024-03-04 01:54:11.257 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - scale: Весы настольные циферблатные РН-6Ц13У 8474-88
+2024-03-04 01:54:11.257 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - num_scale: 1234
+2024-03-04 01:54:11.259 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - inspection_date: 28.02.2024
+2024-03-04 01:54:11.259 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - temperature: temp 
+2024-03-04 01:54:11.260 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - pressure: press 
+2024-03-04 01:54:11.260 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - humidity: hum 
+2024-03-04 01:54:11.260 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - standarts: 58463.14.2Р.00869664|58048.14.4Р.00740372|58048.14.4Р.00740373|58048.14.4Р.00740374|58048.14.4Р.00740375|58048.14.4Р.00690618
+2024-03-04 01:54:11.260 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - company: company
+2024-03-04 01:54:11.261 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - verificationer: Стариков
+2024-03-04 01:54:11.261 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - INN: INN
+2024-03-04 01:54:11.261 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - legal_address: place
+2024-03-04 01:54:11.262 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - inspection_address: place
+2024-03-04 01:54:11.262 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - work_place: 05-
+2024-03-04 01:54:11.262 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - use_excel: False
+2024-03-04 01:54:11.263 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - unfit: True
+2024-03-04 01:54:11.263 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - path: C:/Users/maina/PythonProjects/desktop
+2024-03-04 01:54:11.263 | DEBUG    | app.tools.word.Word:open_document:33 - Open Word Document: app\templates\Весы настольные циферблатные РН-6Ц13У 8474-88.docx
+2024-03-04 01:54:11.268 | DEBUG    | app.tools.word.Word:open_document:38 - Документ Word открыт
+2024-03-04 01:54:11.284 | DEBUG    | app.tools.word.Word:make_new_protocol:105 - C:/Users/maina/PythonProjects/desktop/ЕИ-05-03-9999 Весы настольные циферблатные РН-6Ц13У №1234 (8474-88).docx
+2024-03-04 01:54:11.284 | DEBUG    | app.tools.word.Word:make_new_protocol:140 - end
+2024-03-04 01:54:11.285 | INFO     | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-03-04 01:54:13.199 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:create_protocol:160 - end
+2024-03-04 01:54:16.008 | DEBUG    | app.main_window:create_protocol_from_excel:541 - stop
+2024-03-04 01:57:38.146 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-03-04 01:57:38.146 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-04 01:58:03.005 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-03-04 01:58:03.005 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-04 01:59:27.198 | INFO     | app.main_window:initUI:88 - Start initUI
+2024-03-04 01:59:27.198 | DEBUG    | app.main_window:initUI:89 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-04 01:59:45.283 | INFO     | app.main_window:initUI:88 - Start initUI
+2024-03-04 01:59:45.284 | DEBUG    | app.main_window:initUI:89 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-04 02:00:34.107 | INFO     | app.main_window:initUI:88 - Start initUI
+2024-03-04 02:00:34.108 | DEBUG    | app.main_window:initUI:89 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-04 02:00:53.250 | INFO     | app.main_window:initUI:88 - Start initUI
+2024-03-04 02:00:53.250 | DEBUG    | app.main_window:initUI:89 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-04 02:01:43.548 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-03-04 02:01:43.548 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-04 02:03:16.752 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-03-04 02:03:16.753 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-04 02:03:18.986 | INFO     | app.main_window:choose_scale:551 - start
+2024-03-04 02:03:18.987 | INFO     | app.tools.dialogs.ChooseScaleDialog:__init__:25 - ChooseScaleDialog(QDialog): __init__
+2024-03-04 02:03:19.987 | DEBUG    | app.main_window:choose_scale:555 - end
+2024-03-04 02:11:44.472 | INFO     | app.main_window:initUI:74 - Start initUI
+2024-03-04 02:11:44.472 | DEBUG    | app.main_window:initUI:75 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+

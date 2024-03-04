@@ -14,6 +14,7 @@ from loguru import logger
 from .CreateProtocolDialog import CreateProtocolDialog
 
 from ..excel.get import get_from_excel
+from ..excel.get_row_num import get_row_num
 
 from ..db import get_data
 
@@ -127,40 +128,82 @@ class CreateProtocolFromExcelDialog(QDialog):
     def create_protocol(self):
         logger.debug('start')
 
-        for row in range(int(self.text_num_row.toPlainText()),int(self.text_num_row2.toPlainText()) + 1):
 
-            try:
+        if self.CheckBox_use_date.isChecked():
+            date = str(self.inspection_date.selectedDate().toString("dd.MM.yyyy")).strip()
+            path = self.text_path_to_excel.toPlainText()
+            rows = get_row_num(path=path ,date_to_find=date)
 
-                result_get = get_from_excel(self.text_path_to_excel.toPlainText(),row=str(row))
+            if len(rows) > 0:
+                for row in rows:
+                    
+                    result_get = get_from_excel(self.text_path_to_excel.toPlainText(),row=str(row))
 
-                if not result_get:
+                    if not result_get:
 
-                    message_box = QMessageBox()
-                    message_box.setIcon(QMessageBox.Critical)
-                    message_box.setText(f"Ошибка при работе с Excel (Журналом)")
-                    message_box.setWindowTitle("Ошибка")
-                    message_box.setStandardButtons(QMessageBox.Ok)
-                    message_box.exec_()
-                else:
-                    args = result_get
+                        message_box = QMessageBox()
+                        message_box.setIcon(QMessageBox.Critical)
+                        message_box.setText(f"Ошибка при работе с Excel (Журналом)")
+                        message_box.setWindowTitle("Ошибка")
+                        message_box.setStandardButtons(QMessageBox.Ok)
+                        message_box.exec_()
+                    else:
+                        args = result_get
 
-                    args['path'] = self.text_path.toPlainText()
+                        args['path'] = self.text_path.toPlainText()
 
-                    # Создаем протокол
-                    result = WORD.make_new_protocol(args)
+                        # Создаем протокол
+                        result = WORD.make_new_protocol(args)
 
-                    CreateProtocolDialog(self, result=result).exec_()
+                        CreateProtocolDialog(self, result=result).exec_()
 
-                    logger.debug('end')
-
-            except Exception as e:
-                logger.error('Ошибка при создании протколов')
+                        logger.debug('end')
+            else:
                 message_box = QMessageBox()
                 message_box.setIcon(QMessageBox.Critical)
-                message_box.setText(f"Ошибка при создании протколов")
+                message_box.setText(f"Нет выбранной даты!")
                 message_box.setWindowTitle("Ошибка")
                 message_box.setStandardButtons(QMessageBox.Ok)
                 message_box.exec_()
+
+                logger.error("Нет выбранной даты!")
+
+        else:
+
+            for row in range(int(self.text_num_row.toPlainText()),int(self.text_num_row2.toPlainText()) + 1):
+
+                try:
+
+                    result_get = get_from_excel(self.text_path_to_excel.toPlainText(),row=str(row))
+
+                    if not result_get:
+
+                        message_box = QMessageBox()
+                        message_box.setIcon(QMessageBox.Critical)
+                        message_box.setText(f"Ошибка при работе с Excel (Журналом)")
+                        message_box.setWindowTitle("Ошибка")
+                        message_box.setStandardButtons(QMessageBox.Ok)
+                        message_box.exec_()
+                    else:
+                        args = result_get
+
+                        args['path'] = self.text_path.toPlainText()
+
+                        # Создаем протокол
+                        result = WORD.make_new_protocol(args)
+
+                        CreateProtocolDialog(self, result=result).exec_()
+
+                        logger.debug('end')
+
+                except Exception as e:
+                    logger.error('Ошибка при создании протколов')
+                    message_box = QMessageBox()
+                    message_box.setIcon(QMessageBox.Critical)
+                    message_box.setText(f"Ошибка при создании протколов")
+                    message_box.setWindowTitle("Ошибка")
+                    message_box.setStandardButtons(QMessageBox.Ok)
+                    message_box.exec_()
 
 
 

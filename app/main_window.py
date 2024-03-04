@@ -4,7 +4,7 @@ from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QHBoxLayout, QPu
     QTabWidget, QAbstractItemView, QCheckBox
 from PyQt5.QtCore import QDate
 from PyQt5 import QtCore
-from PyQt5.QtWidgets import QMessageBox, QDialog, QFrame
+from PyQt5.QtWidgets import QMessageBox, QDialog, QFrame, QAction, QMenu
 
 import json
 import os
@@ -111,7 +111,6 @@ class App(QWidget):
 
         self.var_boxes = VarBoxes()
         self.buttons = Buttons()
-
         # Инициализируем элементы ввода
 
         # Scale

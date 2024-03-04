@@ -49,7 +49,8 @@ class SettingDialog(QDialog):
                                      'inspection_date': QCheckBox('Дата'),
                                      'standarts': QCheckBox('Набор эталонов (Может работать неккоректно)'),
                                      'use_excel': QCheckBox('Использовать excel'),
-                                     'unfit': QCheckBox('Соответсвует/Несоответсвует')
+                                     'unfit': QCheckBox('Соответсвует/Несоответсвует'),
+                                     'interval': QCheckBox('Интервал')
                                      }
 
         for widget in self.use_data_check_boxes.values():
