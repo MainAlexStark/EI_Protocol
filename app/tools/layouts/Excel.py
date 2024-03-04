@@ -11,22 +11,26 @@ from PyQt5.QtWidgets import QMessageBox, QDialog, QFrame, QAction, QMenu
 def get_layout(self):
     main_layout = QHBoxLayout()
 
+    first_layout = QVBoxLayout()
+
     # Scale
-    self.text_scale = QPlainTextEdit(self)
-    self.text_scale.setPlaceholderText('Весы')
+    self.text_scale_excel = QPlainTextEdit(self)
+    self.text_scale_excel.setPlaceholderText('Весы')
 
-    self.text_scale.textChanged.connect(self.scale_changed)
+    self.text_scale_excel.textChanged.connect(self.scale_changed)
 
-    self.var_layout.addWidget(self.text_scale)
+    first_layout.addWidget(self.text_scale_excel)
 
-    self.var_boxes.text_boxes['scale'] = self.text_scale
+    self.var_boxes.text_boxes['scale_excel'] = self.text_scale_excel
 
     # Надпись
-    self.button_choose_scale = QPushButton('Выбрать весы', self)
-    self.button_choose_scale.clicked.connect(self.choose_scale)  # Привязываем функцию
-    self.var_layout.addWidget(self.button_choose_scale)  # Добавляем в layout
+    self.button_choose_scale_excel = QPushButton('Выбрать весы', self)
+    self.button_choose_scale_excel.clicked.connect(self.choose_scale)  # Привязываем функцию
+    first_layout.addWidget(self.button_choose_scale_excel)  # Добавляем в layout
 
-    self.buttons.Buttons['choose_scale'] = self.button_choose_scale
+    self.buttons.Buttons['choose_scale_excel'] = self.button_choose_scale_excel
 
+
+    main_layout.addLayout(first_layout)
     return main_layout
     

@@ -5174,3 +5174,196 @@ Version: alpha 2.1
 This program is created for commercial use                     
 The rights to the program belong to the company: ООО "Единица Измерения"
 
+2024-03-04 13:57:41.375 | INFO     | app.main_window:__init__:40 - Start initUI
+2024-03-04 13:57:41.376 | DEBUG    | app.main_window:__init__:41 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-04 13:58:02.178 | INFO     | app.main_window:__init__:40 - Start initUI
+2024-03-04 13:58:02.179 | DEBUG    | app.main_window:__init__:41 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-04 13:58:17.309 | INFO     | app.main_window:__init__:40 - Start initUI
+2024-03-04 13:58:17.309 | DEBUG    | app.main_window:__init__:41 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-04 14:14:16.916 | INFO     | app.main_window:__init__:40 - Start initUI
+2024-03-04 14:14:16.917 | DEBUG    | app.main_window:__init__:41 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-04 14:14:38.347 | INFO     | app.main_window:choose_scale:164 - start
+2024-03-04 14:14:38.348 | INFO     | app.tools.dialogs.ChooseScaleDialog:__init__:25 - ChooseScaleDialog(QDialog): __init__
+2024-03-04 14:14:40.038 | DEBUG    | app.main_window:choose_scale:168 - end
+2024-03-04 14:14:51.260 | INFO     | app.main_window:choose_scale:164 - start
+2024-03-04 14:14:51.261 | INFO     | app.tools.dialogs.ChooseScaleDialog:__init__:25 - ChooseScaleDialog(QDialog): __init__
+2024-03-04 14:14:54.131 | DEBUG    | app.main_window:choose_scale:168 - end
+2024-03-04 14:15:01.854 | INFO     | app.main_window:choose_scale:164 - start
+2024-03-04 14:15:01.854 | INFO     | app.tools.dialogs.ChooseScaleDialog:__init__:25 - ChooseScaleDialog(QDialog): __init__
+2024-03-04 14:15:03.720 | DEBUG    | app.main_window:choose_scale:168 - end
+2024-03-04 14:16:17.199 | INFO     | app.main_window:__init__:40 - Start initUI
+2024-03-04 14:16:17.199 | DEBUG    | app.main_window:__init__:41 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-04 14:17:17.586 | INFO     | app.main_window:__init__:40 - Start initUI
+2024-03-04 14:17:17.586 | DEBUG    | app.main_window:__init__:41 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-04 14:18:26.370 | INFO     | app.main_window:__init__:40 - Start initUI
+2024-03-04 14:18:26.370 | DEBUG    | app.main_window:__init__:41 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-04 14:18:40.090 | INFO     | app.main_window:__init__:40 - Start initUI
+2024-03-04 14:18:40.091 | DEBUG    | app.main_window:__init__:41 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-04 14:19:10.501 | DEBUG    | app.main_window:create_protocol_from_excel:149 - Создание протокола из excel (funct)
+2024-03-04 14:19:10.502 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:34 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-03-04 14:19:21.096 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:create_protocol:129 - start
+2024-03-04 14:19:22.143 | DEBUG    | app.tools.word.Word:make_new_protocol:49 - start
+2024-03-04 14:19:22.143 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - num_protocol: ЕИ-05-03-9999
+2024-03-04 14:19:22.144 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - FIF: 8474-88
+2024-03-04 14:19:22.144 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - scale: РН-6Ц13У 8474-88
+2024-03-04 14:19:22.145 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - num_scale: 1234
+2024-03-04 14:19:22.145 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - inspection_date: 28.02.2024
+2024-03-04 14:19:22.146 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - temperature: temp 
+2024-03-04 14:19:22.146 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - pressure: press 
+2024-03-04 14:19:22.146 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - humidity: hum 
+2024-03-04 14:19:22.146 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - standarts: 58463.14.2Р.00869664|58048.14.4Р.00740372|58048.14.4Р.00740373|58048.14.4Р.00740374|58048.14.4Р.00740375|58048.14.4Р.00690618
+2024-03-04 14:19:22.146 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - company: company
+2024-03-04 14:19:22.147 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - verificationer: Стариков
+2024-03-04 14:19:22.147 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - INN: INN
+2024-03-04 14:19:22.147 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - legal_address: place
+2024-03-04 14:19:22.147 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - inspection_address: place
+2024-03-04 14:19:22.148 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - work_place: 05-
+2024-03-04 14:19:22.148 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - use_excel: False
+2024-03-04 14:19:22.148 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - unfit: True
+2024-03-04 14:19:22.149 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - path: C:/Users/maina/PythonProjects/desktop
+2024-03-04 14:19:22.149 | DEBUG    | app.tools.word.Word:open_document:33 - Open Word Document: app\templates\Word\РН-6Ц13У 8474-88.docx
+2024-03-04 14:19:22.149 | ERROR    | app.tools.word.Word:open_document:43 - Ошибка при открытии Word документа: Package not found at 'app\templates\Word\РН-6Ц13У 8474-88.docx'
+2024-03-04 14:19:22.150 | ERROR    | app.tools.word.Word:make_new_protocol:145 - Error create protocol: 'NoneType' object has no attribute 'element'
+2024-03-04 14:19:22.150 | DEBUG    | app.tools.word.Word:make_new_protocol:147 - end
+2024-03-04 14:19:22.151 | INFO     | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-03-04 14:19:22.151 | ERROR    | app.tools.dialogs.CreateProtocolDialog:__init__:45 - Error init ChooseScaleDialog(QDialog) : setText(self, a0: Optional[str]): argument 1 has unexpected type 'AttributeError'
+2024-03-04 14:19:24.059 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:create_protocol:210 - end
+2024-03-04 14:19:25.319 | DEBUG    | app.tools.word.Word:make_new_protocol:49 - start
+2024-03-04 14:19:25.319 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - num_protocol: ЕИ-05-03-9999
+2024-03-04 14:19:25.321 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - FIF: 8474-88
+2024-03-04 14:19:25.321 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - scale: РН-6Ц13У 8474-88
+2024-03-04 14:19:25.323 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - num_scale: 1234
+2024-03-04 14:19:25.324 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - inspection_date: 28.02.2024
+2024-03-04 14:19:25.324 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - temperature: temp 
+2024-03-04 14:19:25.324 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - pressure: press 
+2024-03-04 14:19:25.325 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - humidity: hum 
+2024-03-04 14:19:25.329 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - standarts: 58463.14.2Р.00869664|58048.14.4Р.00740372|58048.14.4Р.00740373|58048.14.4Р.00740374|58048.14.4Р.00740375|58048.14.4Р.00690618
+2024-03-04 14:19:25.330 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - company: company
+2024-03-04 14:19:25.330 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - verificationer: Стариков
+2024-03-04 14:19:25.330 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - INN: INN
+2024-03-04 14:19:25.331 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - legal_address: place
+2024-03-04 14:19:25.331 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - inspection_address: place
+2024-03-04 14:19:25.335 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - work_place: 05-
+2024-03-04 14:19:25.336 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - use_excel: False
+2024-03-04 14:19:25.336 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - unfit: True
+2024-03-04 14:19:25.336 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - path: C:/Users/maina/PythonProjects/desktop
+2024-03-04 14:19:25.337 | DEBUG    | app.tools.word.Word:open_document:33 - Open Word Document: app\templates\Word\РН-6Ц13У 8474-88.docx
+2024-03-04 14:19:25.337 | ERROR    | app.tools.word.Word:open_document:43 - Ошибка при открытии Word документа: Package not found at 'app\templates\Word\РН-6Ц13У 8474-88.docx'
+2024-03-04 14:19:25.337 | ERROR    | app.tools.word.Word:make_new_protocol:145 - Error create protocol: 'NoneType' object has no attribute 'element'
+2024-03-04 14:19:25.338 | DEBUG    | app.tools.word.Word:make_new_protocol:147 - end
+2024-03-04 14:19:25.338 | INFO     | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-03-04 14:19:25.341 | ERROR    | app.tools.dialogs.CreateProtocolDialog:__init__:45 - Error init ChooseScaleDialog(QDialog) : setText(self, a0: Optional[str]): argument 1 has unexpected type 'AttributeError'
+2024-03-04 14:19:26.662 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:create_protocol:210 - end
+2024-03-04 14:26:15.126 | INFO     | app.main_window:__init__:40 - Start initUI
+2024-03-04 14:26:15.127 | DEBUG    | app.main_window:__init__:41 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-04 14:26:18.910 | DEBUG    | app.main_window:create_protocol_from_excel:149 - Создание протокола из excel (funct)
+2024-03-04 14:26:18.911 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:34 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-03-04 14:26:25.203 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:create_protocol:129 - start
+2024-03-04 14:26:26.354 | DEBUG    | app.tools.word.Word:make_new_protocol:49 - start
+2024-03-04 14:26:26.355 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - num_protocol: ЕИ-05-03-9999
+2024-03-04 14:26:26.355 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - FIF: 8474-88
+2024-03-04 14:26:26.355 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - scale: РН-6Ц13У 8474-88
+2024-03-04 14:26:26.356 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - num_scale: 1234
+2024-03-04 14:26:26.356 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - inspection_date: 28.02.2024
+2024-03-04 14:26:26.356 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - temperature: temp 
+2024-03-04 14:26:26.357 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - pressure: press 
+2024-03-04 14:26:26.357 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - humidity: hum 
+2024-03-04 14:26:26.357 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - standarts: 58463.14.2Р.00869664|58048.14.4Р.00740372|58048.14.4Р.00740373|58048.14.4Р.00740374|58048.14.4Р.00740375|58048.14.4Р.00690618
+2024-03-04 14:26:26.358 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - company: company
+2024-03-04 14:26:26.358 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - verificationer: Стариков
+2024-03-04 14:26:26.358 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - INN: INN
+2024-03-04 14:26:26.358 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - legal_address: place
+2024-03-04 14:26:26.358 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - inspection_address: place
+2024-03-04 14:26:26.359 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - work_place: 05-
+2024-03-04 14:26:26.359 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - use_excel: False
+2024-03-04 14:26:26.360 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - unfit: True
+2024-03-04 14:26:26.360 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - path: C:/Users/maina/PythonProjects/desktop
+2024-03-04 14:26:26.360 | DEBUG    | app.tools.word.Word:open_document:33 - Open Word Document: app\templates\Word\РН-6Ц13У 8474-88.docx
+2024-03-04 14:26:26.361 | ERROR    | app.tools.word.Word:open_document:43 - Ошибка при открытии Word документа: Package not found at 'app\templates\Word\РН-6Ц13У 8474-88.docx'
+2024-03-04 14:26:26.361 | ERROR    | app.tools.word.Word:make_new_protocol:145 - Error create protocol: 'NoneType' object has no attribute 'element'
+2024-03-04 14:26:26.361 | DEBUG    | app.tools.word.Word:make_new_protocol:147 - end
+2024-03-04 14:26:26.362 | INFO     | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-03-04 14:26:26.362 | ERROR    | app.tools.dialogs.CreateProtocolDialog:__init__:45 - Error init ChooseScaleDialog(QDialog) : setText(self, a0: Optional[str]): argument 1 has unexpected type 'AttributeError'
+2024-03-04 14:26:29.752 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:create_protocol:211 - end
+2024-03-04 14:26:30.895 | DEBUG    | app.tools.word.Word:make_new_protocol:49 - start
+2024-03-04 14:26:30.896 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - num_protocol: ЕИ-05-03-9999
+2024-03-04 14:26:30.897 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - FIF: 8474-88
+2024-03-04 14:26:30.899 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - scale: РН-6Ц13У 8474-88
+2024-03-04 14:26:30.899 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - num_scale: 1234
+2024-03-04 14:26:30.900 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - inspection_date: 28.02.2024
+2024-03-04 14:26:30.900 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - temperature: temp 
+2024-03-04 14:26:30.900 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - pressure: press 
+2024-03-04 14:26:30.902 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - humidity: hum 
+2024-03-04 14:26:30.902 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - standarts: 58463.14.2Р.00869664|58048.14.4Р.00740372|58048.14.4Р.00740373|58048.14.4Р.00740374|58048.14.4Р.00740375|58048.14.4Р.00690618
+2024-03-04 14:26:30.903 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - company: company
+2024-03-04 14:26:30.903 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - verificationer: Стариков
+2024-03-04 14:26:30.903 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - INN: INN
+2024-03-04 14:26:30.904 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - legal_address: place
+2024-03-04 14:26:30.904 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - inspection_address: place
+2024-03-04 14:26:30.904 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - work_place: 05-
+2024-03-04 14:26:30.904 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - use_excel: False
+2024-03-04 14:26:30.905 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - unfit: True
+2024-03-04 14:26:30.905 | DEBUG    | app.tools.word.Word:make_new_protocol:55 - path: C:/Users/maina/PythonProjects/desktop
+2024-03-04 14:26:30.905 | DEBUG    | app.tools.word.Word:open_document:33 - Open Word Document: app\templates\Word\РН-6Ц13У 8474-88.docx
+2024-03-04 14:26:30.906 | ERROR    | app.tools.word.Word:open_document:43 - Ошибка при открытии Word документа: Package not found at 'app\templates\Word\РН-6Ц13У 8474-88.docx'
+2024-03-04 14:26:30.906 | ERROR    | app.tools.word.Word:make_new_protocol:145 - Error create protocol: 'NoneType' object has no attribute 'element'
+2024-03-04 14:26:30.906 | DEBUG    | app.tools.word.Word:make_new_protocol:147 - end
+2024-03-04 14:26:30.907 | INFO     | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-03-04 14:26:30.907 | ERROR    | app.tools.dialogs.CreateProtocolDialog:__init__:45 - Error init ChooseScaleDialog(QDialog) : setText(self, a0: Optional[str]): argument 1 has unexpected type 'AttributeError'
+2024-03-04 14:26:32.347 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:create_protocol:211 - end
+2024-03-04 14:28:35.136 | INFO     | app.main_window:__init__:40 - Start initUI
+2024-03-04 14:28:35.136 | DEBUG    | app.main_window:__init__:41 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-04 14:28:36.814 | DEBUG    | app.main_window:create_protocol_from_excel:149 - Создание протокола из excel (funct)
+2024-03-04 14:28:36.815 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:34 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-03-04 14:28:42.319 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:create_protocol:129 - start
+2024-03-04 14:28:51.055 | DEBUG    | app.main_window:create_protocol_from_excel:153 - stop

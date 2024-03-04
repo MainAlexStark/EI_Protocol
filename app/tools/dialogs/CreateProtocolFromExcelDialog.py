@@ -152,12 +152,24 @@ class CreateProtocolFromExcelDialog(QDialog):
 
                         args['path'] = self.text_path.toPlainText()
 
-                        # Создаем протокол
-                        result = WORD.make_new_protocol(args)
+                        template_path = 'app\\templates\\Word\\' + args['scale'] + ' ' + args['FIF'] + '.docx'
 
-                        CreateProtocolDialog(self, result=result).exec_()
+                        if os.path.exists(template_path):
+                            # Создаем протокол
+                            result = WORD.make_new_protocol(args)
 
-                        logger.debug('end')
+                            CreateProtocolDialog(self, result=result).exec_()
+
+                            logger.debug('end')
+                        else:
+                            message_box = QMessageBox()
+                            message_box.setIcon(QMessageBox.Critical)
+                            message_box.setText(f"Нет нужного шаблона проткола")
+                            message_box.setWindowTitle("Ошибка")
+                            message_box.setStandardButtons(QMessageBox.Ok)
+                            message_box.exec_()
+
+                        
             else:
                 message_box = QMessageBox()
                 message_box.setIcon(QMessageBox.Critical)
@@ -189,15 +201,25 @@ class CreateProtocolFromExcelDialog(QDialog):
 
                         args['path'] = self.text_path.toPlainText()
 
-                        # Создаем протокол
-                        result = WORD.make_new_protocol(args)
+                        template_path = 'app\\templates\\Word\\' + args['scale'] + ' ' + args['FIF'] + '.docx'
 
-                        CreateProtocolDialog(self, result=result).exec_()
+                        if os.path.exists(template_path):
+                            # Создаем протокол
+                            result = WORD.make_new_protocol(args)
 
-                        logger.debug('end')
+                            CreateProtocolDialog(self, result=result).exec_()
+
+                            logger.debug('end')
+                        else:
+                            message_box = QMessageBox()
+                            message_box.setIcon(QMessageBox.Critical)
+                            message_box.setText(f"Нет нужного шаблона проткола")
+                            message_box.setWindowTitle("Ошибка")
+                            message_box.setStandardButtons(QMessageBox.Ok)
+                            message_box.exec_()
 
                 except Exception as e:
-                    logger.error('Ошибка при создании протколов')
+                    logger.error(f'Ошибка при создании протколов {e}')
                     message_box = QMessageBox()
                     message_box.setIcon(QMessageBox.Critical)
                     message_box.setText(f"Ошибка при создании протколов")
