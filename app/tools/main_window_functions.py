@@ -103,27 +103,23 @@ def search_company(self):
 def scale_changed(self):
     logger.info('start')
 
-    if 'Влагомеры' in self.text_scale.toPlainText() and self.label_text_voltage is None:
-        self.label_text_voltage = QLabel("Выберите напряжение:")
+    if 'Влагомеры' in self.text_scale.toPlainText() and self.text_voltage is None:
         self.text_voltage = QPlainTextEdit(self)
+        self.text_voltage.setPlaceholderText("Выберите напряжение:")
         self.text_voltage.setFixedSize(500, 40)
-        self.var_r_layout.addWidget(self.label_text_voltage)
         self.var_r_layout.addWidget(self.text_voltage)
 
         self.var_boxes.text_boxes['voltage'] = self.text_voltage
 
-        self.label_text_frequency = QLabel("Выберите частоту:")
         self.text_frequency = QPlainTextEdit(self)
+        self.text_frequency.setPlaceholderText("Выберите частоту:")
         self.text_frequency.setFixedSize(500, 40)
-        self.var_r_layout.addWidget(self.label_text_frequency)
         self.var_r_layout.addWidget(self.text_frequency)
 
         self.var_boxes.text_boxes['frequency'] = self.text_frequency
     else:
-        if self.label_text_voltage is not None:
-            self.label_text_voltage.close()
+        if self.text_voltage is not None:
             self.text_voltage.close()
-            self.label_text_frequency.close()
             self.text_frequency.close()
 
             del self.var_boxes.text_boxes['frequency']

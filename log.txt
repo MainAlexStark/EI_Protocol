@@ -5031,3 +5031,146 @@ Version: alpha 2.1
 This program is created for commercial use                     
 The rights to the program belong to the company: ООО "Единица Измерения"
 
+2024-03-04 13:02:53.361 | INFO     | app.main_window:__init__:32 - Start initUI
+2024-03-04 13:02:53.362 | DEBUG    | app.main_window:__init__:33 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-04 13:03:15.367 | INFO     | app.main_window:__init__:32 - Start initUI
+2024-03-04 13:03:15.368 | DEBUG    | app.main_window:__init__:33 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-04 13:06:48.839 | INFO     | app.main_window:__init__:32 - Start initUI
+2024-03-04 13:06:48.839 | DEBUG    | app.main_window:__init__:33 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-04 13:07:01.450 | INFO     | app.main_window:__init__:32 - Start initUI
+2024-03-04 13:07:01.450 | DEBUG    | app.main_window:__init__:33 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-04 13:07:06.844 | INFO     | app.tools.main_window_functions:use_data:279 - start
+2024-03-04 13:07:06.846 | DEBUG    | app.tools.main_window_functions:verificationer_changed:166 - start
+2024-03-04 13:07:06.846 | DEBUG    | app.tools.main_window_functions:verificationer_changed:176 - end
+2024-03-04 13:07:06.849 | INFO     | app.tools.main_window_functions:scale_changed:104 - start
+2024-03-04 13:07:20.675 | INFO     | app.main_window:__init__:32 - Start initUI
+2024-03-04 13:07:20.675 | DEBUG    | app.main_window:__init__:33 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-04 13:07:23.260 | INFO     | app.tools.main_window_functions:use_data:279 - start
+2024-03-04 13:07:23.262 | DEBUG    | app.tools.main_window_functions:verificationer_changed:166 - start
+2024-03-04 13:07:23.263 | DEBUG    | app.tools.main_window_functions:verificationer_changed:176 - end
+2024-03-04 13:07:23.264 | INFO     | app.tools.main_window_functions:scale_changed:104 - start
+2024-03-04 13:10:22.704 | INFO     | app.main_window:__init__:32 - Start initUI
+2024-03-04 13:10:22.704 | DEBUG    | app.main_window:__init__:33 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-04 13:10:24.467 | INFO     | app.tools.main_window_functions:use_data:275 - start
+2024-03-04 13:10:24.469 | DEBUG    | app.tools.main_window_functions:verificationer_changed:162 - start
+2024-03-04 13:10:24.470 | DEBUG    | app.tools.main_window_functions:verificationer_changed:172 - end
+2024-03-04 13:10:24.471 | INFO     | app.tools.main_window_functions:scale_changed:104 - start
+2024-03-04 13:10:24.472 | DEBUG    | app.tools.main_window_functions:scale_changed:128 - end
+2024-03-04 13:10:24.475 | DEBUG    | app.tools.main_window_functions:use_data:350 - end
+2024-03-04 13:10:26.162 | INFO     | app.tools.main_window_functions:clean:361 - start
+2024-03-04 13:10:26.162 | INFO     | app.tools.main_window_functions:scale_changed:104 - start
+2024-03-04 13:10:26.163 | DEBUG    | app.tools.main_window_functions:scale_changed:128 - end
+2024-03-04 13:10:26.163 | DEBUG    | app.tools.main_window_functions:verificationer_changed:162 - start
+2024-03-04 13:10:26.164 | DEBUG    | app.tools.main_window_functions:verificationer_changed:172 - end
+2024-03-04 13:10:26.165 | DEBUG    | app.tools.main_window_functions:clean:371 - end
+2024-03-04 13:10:27.242 | INFO     | app.main_window:choose_scale:528 - start
+2024-03-04 13:10:27.243 | INFO     | app.tools.dialogs.ChooseScaleDialog:__init__:25 - ChooseScaleDialog(QDialog): __init__
+2024-03-04 13:10:28.096 | INFO     | app.tools.main_window_functions:scale_changed:104 - start
+2024-03-04 13:10:43.768 | INFO     | app.main_window:__init__:32 - Start initUI
+2024-03-04 13:10:43.768 | DEBUG    | app.main_window:__init__:33 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-04 13:10:45.675 | INFO     | app.main_window:choose_scale:528 - start
+2024-03-04 13:10:45.675 | INFO     | app.tools.dialogs.ChooseScaleDialog:__init__:25 - ChooseScaleDialog(QDialog): __init__
+2024-03-04 13:10:46.884 | INFO     | app.tools.main_window_functions:scale_changed:104 - start
+2024-03-04 13:10:46.885 | DEBUG    | app.tools.main_window_functions:scale_changed:128 - end
+2024-03-04 13:10:48.759 | INFO     | app.tools.main_window_functions:scale_changed:104 - start
+2024-03-04 13:10:48.760 | DEBUG    | app.tools.main_window_functions:scale_changed:128 - end
+2024-03-04 13:10:49.261 | INFO     | app.tools.main_window_functions:scale_changed:104 - start
+2024-03-04 13:11:27.394 | INFO     | app.main_window:__init__:32 - Start initUI
+2024-03-04 13:11:27.395 | DEBUG    | app.main_window:__init__:33 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-04 13:21:48.959 | INFO     | app.main_window:__init__:33 - Start initUI
+2024-03-04 13:21:48.959 | DEBUG    | app.main_window:__init__:34 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-04 13:21:51.630 | INFO     | app.main_window:choose_scale:534 - start
+2024-03-04 13:21:51.630 | INFO     | app.tools.dialogs.ChooseScaleDialog:__init__:25 - ChooseScaleDialog(QDialog): __init__
+2024-03-04 13:21:54.728 | INFO     | app.tools.main_window_functions:scale_changed:104 - start
+2024-03-04 13:21:54.729 | DEBUG    | app.tools.main_window_functions:scale_changed:128 - end
+2024-03-04 13:21:57.522 | DEBUG    | app.main_window:choose_scale:538 - end
+2024-03-04 13:47:43.845 | INFO     | app.main_window:__init__:33 - Start initUI
+2024-03-04 13:47:43.846 | DEBUG    | app.main_window:__init__:34 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-04 13:49:08.821 | INFO     | app.main_window:__init__:33 - Start initUI
+2024-03-04 13:49:08.822 | DEBUG    | app.main_window:__init__:34 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-04 13:49:41.440 | INFO     | app.main_window:__init__:33 - Start initUI
+2024-03-04 13:49:41.440 | DEBUG    | app.main_window:__init__:34 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-04 13:49:43.207 | INFO     | app.main_window:choose_scale:170 - start
+2024-03-04 13:49:43.207 | INFO     | app.tools.dialogs.ChooseScaleDialog:__init__:25 - ChooseScaleDialog(QDialog): __init__
+2024-03-04 13:49:44.045 | DEBUG    | app.main_window:choose_scale:174 - end
+2024-03-04 13:52:48.757 | INFO     | app.main_window:__init__:40 - Start initUI
+2024-03-04 13:52:48.757 | DEBUG    | app.main_window:__init__:41 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-04 13:53:30.318 | INFO     | app.main_window:__init__:40 - Start initUI
+2024-03-04 13:53:30.318 | DEBUG    | app.main_window:__init__:41 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-04 13:53:53.352 | INFO     | app.main_window:__init__:40 - Start initUI
+2024-03-04 13:53:53.353 | DEBUG    | app.main_window:__init__:41 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+

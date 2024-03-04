@@ -55,7 +55,7 @@ class Word():
                 logger.debug(f"{key}: {argument}")
                 
                 
-            path_to_word_file = f'app\\templates\\{args['scale']}.docx'
+            path_to_word_file = f'app\\templates\\Word\\{args['scale']}.docx'
                 
             doc = Word.open_document(self,path_to_word_file)
 
@@ -333,7 +333,7 @@ class Word():
 
             # Сохраняем файл
 
-            full = f"app/templates/{var["весы"]} {var['фиф']}.docx"
+            full = f"app\\templates\\Word\\{var["весы"]} {var['фиф']}.docx"
 
             doc.save(full)
 

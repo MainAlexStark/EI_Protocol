@@ -34,7 +34,7 @@ class ChooseScaleDialog(QDialog):
 
             # Достаем все имена файлов шаблонов и добавляем в выпадающий список
             self.files = []
-            for file in os.listdir('app/templates'):
+            for file in os.listdir('app\\templates\\Word'):
                 self.files.append(file.replace('.docx', ''))
 
             # Поиск
