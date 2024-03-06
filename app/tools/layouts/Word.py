@@ -53,7 +53,7 @@ def get_layout(self):
     self.button_path.clicked.connect(self.add_path)  # Привязываем функцию
     self.var_layout.addWidget(self.button_path)  # Добавляем в layout
 
-    self.buttons.Buttons['path'] = self.button_path
+    self.buttons.Buttons['button_path'] = self.button_path
     
     
     # Work place num
@@ -199,7 +199,7 @@ def get_layout(self):
 
     self.var_layout.addWidget(line)
 
-    # PAth to excel 
+    # PAth to excel
 
     self.path_excel_layout = QHBoxLayout()
 
@@ -289,6 +289,12 @@ def get_layout(self):
     self.var_r_layout.addWidget(self.button_create_protocol)  # Добавляем в layout
 
     self.buttons.Buttons['create_protocol'] = self.button_create_protocol
+
+    # Create Excel 
+    self.create_excel_check_box = QCheckBox('Создавать excel шаблон/протокол')
+    self.var_r_layout.addWidget(self.create_excel_check_box)  # Добавляем в layout
+
+    self.buttons.CheckableButtons['create_excel'] = self.create_excel_check_box
 
 
     # Create protocol from excel

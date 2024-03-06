@@ -253,8 +253,11 @@ def create_protocol(self):
         file.truncate()  # Обрежьте файл, если новые данные занимают меньше места, чем предыдущие
 
     if not var_flag:
-        # Создаем протокол
-        result = WORD.make_new_protocol(args)
+        if args['create_excel'].isChecked():
+            ...
+        else:
+            # Создаем протокол
+            result = WORD.make_new_protocol(args)
 
         dialogs.CreateProtocolDialog(self, result=result).exec_()
 

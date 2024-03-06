@@ -37,20 +37,21 @@ class SettingDialog(QDialog):
         self.label_use_data = QLabel("Использовать преведущие данные:")
         use_data_layout.addWidget(self.label_use_data)
 
-        self.use_data_check_boxes = {'scale': QCheckBox("Весы"),
-                                     'num_scale': QCheckBox("Номер весов"),
-                                     'num_protocol': QCheckBox("Номер протокола"),
-                                     'path': QCheckBox("Путь сохранения"),
-                                     'verificationer': QCheckBox('Поверитель'),
-                                     'company': QCheckBox('Компания'),
-                                     'INN': QCheckBox('ИНН'),
-                                     'legal_address': QCheckBox('Юридический адрес'),
-                                     'inspection_address': QCheckBox('Адрес поверки'),
-                                     'inspection_date': QCheckBox('Дата'),
-                                     'standarts': QCheckBox('Набор эталонов (Может работать неккоректно)'),
-                                     'use_excel': QCheckBox('Использовать excel'),
-                                     'unfit': QCheckBox('Соответсвует/Несоответсвует'),
-                                     'interval': QCheckBox('Интервал')
+        self.use_data_check_boxes = {'scale_excel': QCheckBox("Весы"),
+                                     'num_scale_excel': QCheckBox("Номер весов"),
+                                     'num_protocol_excel': QCheckBox("Номер протокола"),
+                                     'path_excel': QCheckBox("Путь сохранения"),
+                                     'verificationer_excel': QCheckBox('Поверитель'),
+                                     'company_excel': QCheckBox('Компания'),
+                                     'INN_excel': QCheckBox('ИНН'),
+                                     'legal_address_excel': QCheckBox('Юридический адрес'),
+                                     'inspection_address_excel': QCheckBox('Адрес поверки'),
+                                     'inspection_date_excel': QCheckBox('Дата'),
+                                     'standarts_excel': QCheckBox('Набор эталонов (Может работать неккоректно)'),
+                                     'use_excel_excel': QCheckBox('Использовать excel'),
+                                     'unfit_excel': QCheckBox('Соответсвует/Несоответсвует'),
+                                     'interval_excel': QCheckBox('Интервал'),
+                                     'create_excel_excel': QCheckBox('Создавать excel шаблон/протокол')
                                      }
 
         for widget in self.use_data_check_boxes.values():

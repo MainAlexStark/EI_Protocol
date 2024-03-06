@@ -15,9 +15,10 @@ from loguru import logger
 
 
 from .tools.db import get_data
-from .tools import main_window_functions
+from .tools import main_window_functions, main_window_functions_excel
 
 from .tools import dialogs
+from .tools.dialogs import Excel
 from .tools import layouts
 
 from . import strings
@@ -59,6 +60,9 @@ class App(QWidget):
         self.var_boxes = VarBoxes()
         self.buttons = Buttons()
 
+        self.var_boxes_excel = VarBoxes()
+        self.buttons_excel = Buttons()
+
         self.text_voltage = None
         self.text_frequency = None
 
@@ -93,24 +97,23 @@ class App(QWidget):
             widget.setMaximumSize(max_length,width)
             widget.setMinimumSize(min_lenght,width)
 
+        # Создаем Tab Widget
+        MainTab = QTabWidget()
 
-        # Создаем TabWidget
-        self.MainTabWidget = QTabWidget(self)
+        # Создаем tabs
+        word_tab = QWidget()
+        excel_tab = QWidget()
 
-        # Создаем вкладки
-        self.WordTab = QWidget()
-        self.ExcelTab = QWidget()
+        # Добавляем layouts в tab
+        word_tab.setLayout(self.WordLayout)
+        excel_tab.setLayout(self.ExcelLayout)
 
-        # Добавляем layouts с виджетами в вкладки
-        self.WordTab.setLayout(self.WordLayout)
-        self.ExcelTab.setLayout(self.ExcelLayout)
-
-        # Добавляем вкладки в TabWidget
-        self.MainTabWidget.addTab(self.WordTab, 'Создание протокола word')
-        self.MainTabWidget.addTab(self.ExcelTab, 'Создание протокола excel')
+        # Добавляем tabs в Tab Widget
+        MainTab.addTab(word_tab,'Создание протокола Word')
+        MainTab.addTab(excel_tab,'Создание протокола Excel')
 
         # Добавляем TabWidget в main layout
-        self.main_layout.addWidget(self.MainTabWidget)
+        self.main_layout.addWidget(MainTab)
 
         # Добавляем main_layout в окно
         self.setLayout(self.main_layout)
@@ -183,6 +186,80 @@ class App(QWidget):
         logger.debug('end')
 
     def add_path_to_excel(self):
+        logger.info('start')
+
+        options = QFileDialog.Options()
+        filePath, _ = QFileDialog.getOpenFileName(self, 'Выберите файл', '', 'All Files (*);;Text Files (*.txt)', options=options)
+
+        self.text_path_to_excel.setPlainText(filePath)
+
+        logger.debug('end')
+
+
+    # Excel Protocol
+        
+    def search_company_excel(self):
+        main_window_functions_excel.search_company(self=self)
+
+    def get_selected_table_excel(self):
+        main_window_functions_excel.get_selected_table(self=self)
+
+    def verificationer_changed_excel(self):
+        main_window_functions_excel.verificationer_changed(self=self)
+
+    def create_protocol_excel(self):
+        main_window_functions_excel.create_protocol(self=self)
+
+    def use_data_excel(self):
+        main_window_functions_excel.use_data(self=self)
+
+    def clean_excel(self):
+        main_window_functions_excel.clean(self=self)
+
+    def create_template_excel(self):
+        main_window_functions_excel.create_template(self=self)
+
+
+    # Dialogs:
+        
+    def create_protocol_from_excel_excel(self):
+        logger.debug('Создание протокола из excel (funct)')
+
+        Excel.CreateProtocolFromExcelDialog(self).exec_()
+
+        logger.debug('stop')
+        
+        
+    def show_inspection_address_setting_excel(self):
+        logger.debug('start')
+
+        Excel.ChooseInspectionAddressDialog(self).exec_()
+
+        logger.debug('end')
+        
+    def choose_scale_excel(self):
+        logger.info('start')
+
+        Excel.ChooseScaleDialog(self).exec_()
+
+        logger.debug('end')
+        
+    def add_path_excel(self):
+        logger.info('start')
+
+        dialog = QDialog()
+        self.text_path.setPlainText(QFileDialog.getExistingDirectory(dialog, "Выберите папку"))
+
+        logger.debug('end')
+        
+    def settings_excel(self):
+        logger.debug('start')
+
+        Excel.SettingDialog().exec_()
+
+        logger.debug('end')
+
+    def add_path_to_excel_excel(self):
         logger.info('start')
 
         options = QFileDialog.Options()

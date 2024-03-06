@@ -1,1 +1,1 @@
-from . import Excel, Word
+from . import Word, Excel
