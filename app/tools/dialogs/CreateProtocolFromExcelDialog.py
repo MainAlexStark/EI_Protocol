@@ -13,21 +13,21 @@ from loguru import logger
 
 from .CreateProtocolDialog import CreateProtocolDialog
 
-from ..excel.get import get_from_excel
-from ..excel.get_row_num import get_row_num
-
 from ..db import get_data
 
-from ..word.Word import Word
+from ..office import Word
+from ..office import Excel
 
 WORD = Word()
-
+EXCEL = Excel()
 
 class CreateProtocolFromExcelDialog(QDialog):
 
-    def __init__(self, main_window):
+    def __init__(self, main_window, word):
         try:
             super().__init__()
+            
+            self.word = word
 
             self.main_window = main_window
 
@@ -109,7 +109,7 @@ class CreateProtocolFromExcelDialog(QDialog):
             self.inspection_date.setEnabled(False)
             self.main_layout.addWidget(self.inspection_date)
 
-             # Botton
+            # Botton
 
             self.button_create_protocol = QPushButton('Создать протокол', self)
             self.button_create_protocol.clicked.connect(self.create_protocol)  # Привязываем функцию
@@ -118,26 +118,23 @@ class CreateProtocolFromExcelDialog(QDialog):
 
             self.setLayout(self.main_layout)
 
-
-           
-
         except Exception as e:
             logger.error(f'Error init ChooseScaleDialog(QDialog) : {e}')
 
 
-    def create_protocol(self):
+    def create_protocol(self, word):
         logger.debug('start')
 
 
         if self.CheckBox_use_date.isChecked():
             date = str(self.inspection_date.selectedDate().toString("dd.MM.yyyy")).strip()
             path = self.text_path_to_excel.toPlainText()
-            rows = get_row_num(path=path ,date_to_find=date)
+            rows = EXCEL.get_row_num(path=path ,date_to_find=date)
 
             if len(rows) > 0:
                 for row in rows:
                     
-                    result_get = get_from_excel(self.text_path_to_excel.toPlainText(),row=str(row))
+                    result_get = EXCEL.get_from_excel(self.text_path_to_excel.toPlainText(),row=str(row))
 
                     if not result_get:
 
@@ -186,7 +183,7 @@ class CreateProtocolFromExcelDialog(QDialog):
 
                 try:
 
-                    result_get = get_from_excel(self.text_path_to_excel.toPlainText(),row=str(row))
+                    result_get = EXCEL.get_from_excel(self.text_path_to_excel.toPlainText(),row=str(row))
 
                     if not result_get:
 
@@ -205,7 +202,11 @@ class CreateProtocolFromExcelDialog(QDialog):
 
                         if os.path.exists(template_path):
                             # Создаем протокол
-                            result = WORD.make_new_protocol(args)
+                            
+                            if self.word:
+                                result = WORD.make_new_protocol(args=args)
+                            else:
+                                result = EXCEL.make_new_protocol(args=args)
 
                             CreateProtocolDialog(self, result=result).exec_()
 

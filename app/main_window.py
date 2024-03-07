@@ -15,10 +15,9 @@ from loguru import logger
 
 
 from .tools.db import get_data
-from .tools import main_window_functions, main_window_functions_excel
+from .tools import main_window_functions
 
 from .tools import dialogs
-from .tools.dialogs import Excel
 from .tools import layouts
 
 from . import strings
@@ -122,28 +121,80 @@ class App(QWidget):
     # Functions
     
     def search_company(self):
-        main_window_functions.search_company(self=self)
+        company_name, legal_address = main_window_functions.search_company(self=self)
+        
+        # Устанавливаем в QPlainTextEdit
+        self.text_company.setPlainText(company_name)
+        
+        # Устанавливаем в QPlainTextEdit
+        self.text_legal_address.setPlainText(legal_address)
+        
+    def search_company_excel(self):
+        company_name, legal_address = main_window_functions.search_company(self=self)
+        
+        # Устанавливаем в QPlainTextEdit
+        self.text_company_excel.setPlainText(company_name)
 
     def scale_changed(self):
         main_window_functions.scale_changed(self=self)
 
-    def get_selected_table(self):
-        main_window_functions.get_selected_table(self=self)
-
     def verificationer_changed(self):
-        main_window_functions.verificationer_changed(self=self)
+        result = main_window_functions.verificationer_changed(self=self, verificationer_combo=self.verificationer_combo)
+        self.text_num_protocol.setPlainText = result
+        
+    def verificationer_changed_excel(self):
+        result = main_window_functions.verificationer_changed(self=self, verificationer_combo=self.verificationer_combo_excel)
+        self.text_num_protocol_excel.setPlainText = result
 
     def create_protocol(self):
-        main_window_functions.create_protocol(self=self)
+        word = True
+        
+        main_window_functions.create_protocol(self=self, 
+                                                word=word, 
+                                                var_boxes=self.var_boxes, 
+                                                buttons=self.buttons, 
+                                                inspection_date=self.inspection_date)
+        
+    def create_protocol_excel(self):
+        word = False
+        
+        main_window_functions.create_protocol(self=self, 
+                                                word=word, 
+                                                var_boxes=self.var_boxes_excel, 
+                                                buttons=self.buttons_excel, 
+                                                inspection_date=self.inspection_date_excel)
 
     def use_data(self):
-        main_window_functions.use_data(self=self)
+        main_window_functions.use_data(self=self,
+                                        tab_widget=self.tab_standarts, 
+                                        var_boxes=self.var_boxes, 
+                                        buttons=self.buttons, 
+                                        inspection_date=self.inspection_date)
+        
+    def use_data_excel(self):
+        main_window_functions.use_data(self=self,
+                                        tab_widget=self.tab_standarts_excel, 
+                                        var_boxes=self.var_boxes_excel, 
+                                        buttons=self.buttons_excel, 
+                                        inspection_date=self.inspection_date_excel)
 
     def clean(self):
-        main_window_functions.clean(self=self)
+        main_window_functions.clean(self=self,
+                                    var_boxes=self.var_boxes, 
+                                    buttons=self.buttons)
+        
+    def clean_excel(self):
+        main_window_functions.clean(self=self,
+                                    var_boxes=self.var_boxes_excel, 
+                                    buttons=self.buttons_excel)
 
     def create_template(self):
-        main_window_functions.create_template(self=self)
+        main_window_functions.create_template(self=self,
+                                                word=True)
+        
+    def create_template_excel(self):
+        main_window_functions.create_template(self=self,
+                                                word=False)
 
 
     # Dialogs:
@@ -151,22 +202,42 @@ class App(QWidget):
     def create_protocol_from_excel(self):
         logger.debug('Создание протокола из excel (funct)')
 
-        dialogs.CreateProtocolFromExcelDialog(self).exec_()
+        dialogs.CreateProtocolFromExcelDialog(self, word=True).exec_()
 
         logger.debug('stop')
         
+    def create_protocol_from_excel_excel(self):
+        logger.debug('Создание протокола из excel (funct)')
+
+        dialogs.CreateProtocolFromExcelDialog(self, word=False).exec_()
+
+        logger.debug('stop')
         
     def show_inspection_address_setting(self):
         logger.debug('start')
 
-        dialogs.ChooseInspectionAddressDialog(self).exec_()
+        dialogs.ChooseInspectionAddressDialog(self,inspection=self.text_inspection_address, legal=self.text_legal_address, word=True).exec_()
+
+        logger.debug('end')
+        
+    def show_inspection_address_setting_excel(self):
+        logger.debug('start')
+
+        dialogs.ChooseInspectionAddressDialog(self,inspection=self.text_inspection_address_excel, legal=self.text_legal_address_excel, word=False).exec_()
 
         logger.debug('end')
         
     def choose_scale(self):
         logger.info('start')
 
-        dialogs.ChooseScaleDialog(self).exec_()
+        dialogs.ChooseScaleDialog(text_scale_widget=self.text_scale,word=True).exec_()
+
+        logger.debug('end')
+        
+    def choose_scale_excel(self):
+        logger.info('start')
+
+        dialogs.ChooseScaleDialog(text_scale_widget=self.text_scale_excel,word=False).exec_()
 
         logger.debug('end')
         
@@ -175,6 +246,14 @@ class App(QWidget):
 
         dialog = QDialog()
         self.text_path.setPlainText(QFileDialog.getExistingDirectory(dialog, "Выберите папку"))
+
+        logger.debug('end')
+        
+    def add_path_excel(self):
+        logger.info('start')
+
+        dialog = QDialog()
+        self.text_path_excel.setPlainText(QFileDialog.getExistingDirectory(dialog, "Выберите папку"))
 
         logger.debug('end')
         
@@ -194,81 +273,16 @@ class App(QWidget):
         self.text_path_to_excel.setPlainText(filePath)
 
         logger.debug('end')
-
-
-    # Excel Protocol
         
-    def search_company_excel(self):
-        main_window_functions_excel.search_company(self=self)
-
-    def get_selected_table_excel(self):
-        main_window_functions_excel.get_selected_table(self=self)
-
-    def verificationer_changed_excel(self):
-        main_window_functions_excel.verificationer_changed(self=self)
-
-    def create_protocol_excel(self):
-        main_window_functions_excel.create_protocol(self=self)
-
-    def use_data_excel(self):
-        main_window_functions_excel.use_data(self=self)
-
-    def clean_excel(self):
-        main_window_functions_excel.clean(self=self)
-
-    def create_template_excel(self):
-        main_window_functions_excel.create_template(self=self)
-
-
-    # Dialogs:
-        
-    def create_protocol_from_excel_excel(self):
-        logger.debug('Создание протокола из excel (funct)')
-
-        Excel.CreateProtocolFromExcelDialog(self).exec_()
-
-        logger.debug('stop')
-        
-        
-    def show_inspection_address_setting_excel(self):
-        logger.debug('start')
-
-        Excel.ChooseInspectionAddressDialog(self).exec_()
-
-        logger.debug('end')
-        
-    def choose_scale_excel(self):
-        logger.info('start')
-
-        Excel.ChooseScaleDialog(self).exec_()
-
-        logger.debug('end')
-        
-    def add_path_excel(self):
-        logger.info('start')
-
-        dialog = QDialog()
-        self.text_path.setPlainText(QFileDialog.getExistingDirectory(dialog, "Выберите папку"))
-
-        logger.debug('end')
-        
-    def settings_excel(self):
-        logger.debug('start')
-
-        Excel.SettingDialog().exec_()
-
-        logger.debug('end')
-
     def add_path_to_excel_excel(self):
         logger.info('start')
 
         options = QFileDialog.Options()
         filePath, _ = QFileDialog.getOpenFileName(self, 'Выберите файл', '', 'All Files (*);;Text Files (*.txt)', options=options)
 
-        self.text_path_to_excel.setPlainText(filePath)
+        self.text_path_to_excel_journal_excel.setPlainText(filePath)
 
         logger.debug('end')
-
 
     # Events
 

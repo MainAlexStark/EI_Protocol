@@ -6,7 +6,9 @@ import os
 
 from loguru import logger
 
-from ..excel import add
+from . import Excel
+
+EXCEL = Excel
 
 
 def extract_value(text, start_text, end_text):
@@ -106,9 +108,7 @@ class Word():
 
             if args['use_excel']:
                 try:
-                    
-                    add.add_var_to_excel(args=args)
-
+                    Excel.add_args_to_excel_journal(args=args)
                 except Exception as e:
                     logger.error(f'Ошибка при редактировании Excel файла:{e}')
                     

@@ -5693,3 +5693,123 @@ The rights to the program belong to the company: ООО "Единица Изме
 2024-03-06 15:45:37.012 | INFO     | app.tools.main_window_functions:scale_changed:104 - start
 2024-03-06 15:45:37.013 | DEBUG    | app.tools.main_window_functions:scale_changed:128 - end
 2024-03-06 15:45:37.015 | DEBUG    | app.tools.main_window_functions_excel:use_data:322 - end
+2024-03-07 01:39:03.322 | INFO     | app.main_window:__init__:40 - Start initUI
+2024-03-07 01:39:03.323 | DEBUG    | app.main_window:__init__:41 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-07 01:39:42.640 | INFO     | app.main_window:__init__:40 - Start initUI
+2024-03-07 01:39:42.641 | DEBUG    | app.main_window:__init__:41 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-07 01:40:25.207 | INFO     | app.main_window:__init__:40 - Start initUI
+2024-03-07 01:40:25.208 | DEBUG    | app.main_window:__init__:41 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-07 01:41:54.153 | INFO     | app.main_window:__init__:40 - Start initUI
+2024-03-07 01:41:54.154 | DEBUG    | app.main_window:__init__:41 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-07 01:43:02.658 | INFO     | app.main_window:__init__:40 - Start initUI
+2024-03-07 01:43:02.658 | DEBUG    | app.main_window:__init__:41 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-07 01:43:34.895 | INFO     | app.main_window:__init__:40 - Start initUI
+2024-03-07 01:43:34.895 | DEBUG    | app.main_window:__init__:41 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-07 01:44:28.763 | INFO     | app.main_window:__init__:40 - Start initUI
+2024-03-07 01:44:28.763 | DEBUG    | app.main_window:__init__:41 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-07 01:44:42.579 | INFO     | app.main_window:__init__:40 - Start initUI
+2024-03-07 01:44:42.579 | DEBUG    | app.main_window:__init__:41 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-07 01:45:26.650 | INFO     | app.main_window:__init__:40 - Start initUI
+2024-03-07 01:45:26.651 | DEBUG    | app.main_window:__init__:41 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-07 03:06:56.437 | INFO     | app.main_window:__init__:40 - Start initUI
+2024-03-07 03:06:56.438 | DEBUG    | app.main_window:__init__:41 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-07 03:07:17.861 | DEBUG    | app.main_window:show_inspection_address_setting_excel:227 - start
+2024-03-07 03:07:37.793 | INFO     | app.main_window:__init__:40 - Start initUI
+2024-03-07 03:07:37.793 | DEBUG    | app.main_window:__init__:41 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-07 03:20:46.548 | INFO     | app.main_window:__init__:40 - Start initUI
+2024-03-07 03:20:46.549 | DEBUG    | app.main_window:__init__:41 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-07 03:21:25.645 | INFO     | app.main_window:__init__:40 - Start initUI
+2024-03-07 03:21:25.645 | DEBUG    | app.main_window:__init__:41 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-07 03:21:51.778 | INFO     | app.main_window:__init__:40 - Start initUI
+2024-03-07 03:21:51.778 | DEBUG    | app.main_window:__init__:41 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-07 03:23:01.617 | INFO     | app.main_window:__init__:40 - Start initUI
+2024-03-07 03:23:01.618 | DEBUG    | app.main_window:__init__:41 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-07 03:28:05.807 | INFO     | app.main_window:__init__:40 - Start initUI
+2024-03-07 03:28:05.807 | DEBUG    | app.main_window:__init__:41 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-07 03:32:06.799 | INFO     | app.main_window:__init__:40 - Start initUI
+2024-03-07 03:32:06.800 | DEBUG    | app.main_window:__init__:41 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+

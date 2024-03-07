@@ -15,11 +15,14 @@ from ..parse.__init__ import FNS_API
 
 
 class ChooseInspectionAddressDialog(QDialog):
-    def __init__(self, main_window):
+    def __init__(self, inspection, legal, word: bool):
         try:
             super().__init__()
+            
+            self.word = word
 
-            self.main_window = main_window
+            self.inspection_address = inspection
+            self.legal_address = legal
 
             logger.info('ChooseInspectionAddressDialog(QDialog): __init__')
 
@@ -65,12 +68,12 @@ class ChooseInspectionAddressDialog(QDialog):
 
     def item_changed(self):
         logger.debug(f'item_changed')
-        
+        3
 
         if self.table.currentRow() == 0:
-            text = self.main_window.text_legal_address.toPlainText()
+            text = self.text_legal_address.toPlainText()
             if len(text) > 0:
-                self.main_window.text_inspection_address.setPlainText(text)
+                self.inspection_address.setPlainText(text)
             else:
                 message_box = QMessageBox()
                 message_box.setIcon(QMessageBox.Critical)
@@ -81,6 +84,6 @@ class ChooseInspectionAddressDialog(QDialog):
 
         else:
             # Устанавливаем
-            self.main_window.text_inspection_address.setPlainText('610027, Россия, Кировская область, город Киров, улица Красноармейская, дом 43А, кв. помещение 1,21')
+            self.inspection_address.setPlainText('610027, Россия, Кировская область, город Киров, улица Красноармейская, дом 43А, кв. помещение 1,21')
 
             self.close()

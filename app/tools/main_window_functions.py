@@ -17,9 +17,10 @@ from . import dialogs
 
 from .parse.__init__ import FNS_API, List_org
 
-from .word.Word import Word
+from .office import Word, Excel
 
 WORD = Word()
+EXCEL = Excel()
 
 
 
@@ -48,16 +49,13 @@ def search_company(self):
             # Получаем данные о названии комании
             company_name = data['items'][0]['ЮЛ']['НаимСокрЮЛ']
 
-            # Устанавливаем в QPlainTextEdit
-            self.text_company.setPlainText(company_name)
-
             # Получаем данные о юр.адресе компании
             legal_address = data['items'][0]['ЮЛ']['АдресПолн']
-
-            # Устанавливаем в QPlainTextEdit
-            self.text_legal_address.setPlainText(legal_address)
-
+            
             logger.debug('end')
+            
+            return company_name, legal_address
+
 
         else:
 
@@ -67,14 +65,10 @@ def search_company(self):
 
                 data = LIST_ORG.get_company_name_by_inn(INN)
 
-                name = data['name']
-                address = data['address']
-
-                # Устанавливаем в QPlainTextEdit
-                self.text_company.setPlainText(name)
-
-                # Устанавливаем в QPlainTextEdit
-                self.text_legal_address.setPlainText(address)
+                company_name = data['name']
+                legal_address = data['address']
+                
+                return company_name, legal_address
 
             except Exception as e:
                 logger.error('Ошибка при работе с List-org.ru')
@@ -132,7 +126,7 @@ def scale_changed(self):
 
 
 
-def get_selected_table(self):
+def get_selected_table(self, tab_widget):
     logger.debug('start')
     
     try:
@@ -158,7 +152,7 @@ def get_selected_table(self):
 
 
 
-def verificationer_changed(self):
+def verificationer_changed(self, verificationer_combo):
     logger.debug('start')
 
     # Определите имя файла хранилища
@@ -167,9 +161,9 @@ def verificationer_changed(self):
 
     verificationers = data['verificationers']
 
-    self.text_num_protocol.setPlainText(verificationers[self.verificationer_combo.currentText()])
-
     logger.debug('end')
+    
+    return verificationers[verificationer_combo.currentText()]
 
 
 
@@ -177,14 +171,21 @@ def verificationer_changed(self):
 
 
 
-def create_protocol(self):
+def create_protocol(self, word:bool, var_boxes, buttons, inspection_date):
     logger.info('start')
 
     args = {}
+    
+    if word:
+        selected_table = get_selected_table(self, tab_widget=self.tab_standarts)
+    else:
+        selected_table = get_selected_table(self, tab_widget=self.tab_standarts_excel)
+        
+    current_row = selected_table.currentRow()
 
     # Получаем standarts
-    standarts = get_selected_table(self).item(get_selected_table(self).currentRow(), 1).text()
-    standarts_briefly = get_selected_table(self).item(get_selected_table(self).currentRow(), 4).text()
+    standarts = selected_table.item(current_row, 1).text()
+    standarts_briefly = selected_table.item(current_row, 4).text()
     
     # Флаг если какая либо переменная не заполнена
     var_flag = False
@@ -203,11 +204,11 @@ def create_protocol(self):
         # Загрузите данные из файла
         data = json.load(file)
 
-        for text_widget_name in self.var_boxes.text_boxes.keys():
+        for text_widget_name in var_boxes.text_boxes.keys():
             
-            text = str(self.var_boxes.text_boxes[text_widget_name].toPlainText()).strip()
+            text = str(var_boxes.text_boxes[text_widget_name].toPlainText()).strip()
             
-            PlaceHolderText = self.var_boxes.text_boxes[text_widget_name].placeholderText
+            PlaceHolderText = var_boxes.text_boxes[text_widget_name].placeholderText
             
             if len(text) > 0:
                 args[text_widget_name] = data[text_widget_name] = text
@@ -221,11 +222,11 @@ def create_protocol(self):
                 
                 var_flag = True
             
-        for combo_widget_name in self.var_boxes.combo_boxes.keys():
+        for combo_widget_name in var_boxes.combo_boxes.keys():
             
-            text = str(self.var_boxes.combo_boxes[combo_widget_name].currentText()).strip()
+            text = str(var_boxes.combo_boxes[combo_widget_name].currentText()).strip()
             
-            if not self.var_boxes.combo_boxes[combo_widget_name].currentIndex() == -1:
+            if not var_boxes.combo_boxes[combo_widget_name].currentIndex() == -1:
                 
                 args[combo_widget_name] =data[combo_widget_name] = text
                 
@@ -239,11 +240,11 @@ def create_protocol(self):
                 
                 var_flag = True
 
-        for button_widget_name in self.buttons.CheckableButtons.keys():
-            args[button_widget_name] =data[button_widget_name] = self.buttons.CheckableButtons[button_widget_name].isChecked()
+        for button_widget_name in buttons.CheckableButtons.keys():
+            args[button_widget_name] =data[button_widget_name] = buttons.CheckableButtons[button_widget_name].isChecked()
 
         # Внесите изменения в данные
-        args['inspection_date'] = data['inspection_date'] = str(self.inspection_date.selectedDate().toString("dd.MM.yyyy")).strip()
+        args['inspection_date'] = data['inspection_date'] = str(inspection_date.selectedDate().toString("dd.MM.yyyy")).strip()
         args['standarts'] = data['standarts'] = standarts
         args['standarts_briefly'] = standarts_briefly
 
@@ -253,11 +254,11 @@ def create_protocol(self):
         file.truncate()  # Обрежьте файл, если новые данные занимают меньше места, чем предыдущие
 
     if not var_flag:
-        if args['create_excel'].isChecked():
-            ...
-        else:
+        if word:
             # Создаем протокол
-            result = WORD.make_new_protocol(args)
+            result = WORD.make_new_protocol(args=args)
+        else:
+            result = EXCEL.make_new_protocol(args=args)
 
         dialogs.CreateProtocolDialog(self, result=result).exec_()
 
@@ -274,7 +275,7 @@ def create_protocol(self):
     logger.debug('end')
 
 
-def use_data(self):
+def use_data(self, tab_widget, var_boxes, buttons, inspection_date):
     logger.info('start')
 
     # Определите имя файла хранилища
@@ -295,33 +296,33 @@ def use_data(self):
             if not use_data[name]: continue
         try:
             # Перебираем все key текстовых виджетов
-            for widget_name in self.var_boxes.text_boxes.keys():
+            for widget_name in var_boxes.text_boxes.keys():
                 # Если названия сходятся
                 if name == widget_name:
                     # Устанавливаем значение из storage.json в текст виджета
-                    self.var_boxes.text_boxes[widget_name].setPlainText(data[name])
+                    var_boxes.text_boxes[widget_name].setPlainText(data[name])
         except:
-            logger.error('Ошибка при установлении значений в self.var_boxes.text_boxes')
+            logger.error('Ошибка при установлении значений в var_boxes.text_boxes')
 
         try:
             # Перебираем все key комбо виджетов
-            for widget_name in self.var_boxes.combo_boxes.keys():
+            for widget_name in var_boxes.combo_boxes.keys():
                 # Если названия сходятся
                 if name == widget_name:
                     # Устанавливаем значение из storage.json в текст виджета
-                    self.var_boxes.combo_boxes[widget_name].setCurrentText(data[name])
+                    var_boxes.combo_boxes[widget_name].setCurrentText(data[name])
         except:
-            logger.error('Ошибка при установлении значений в self.var_boxes.combo_boxes')
+            logger.error('Ошибка при установлении значений в var_boxes.combo_boxes')
 
         try:
             # Перебираем все key комбо виджетов
-            for widget_name in self.buttons.CheckableButtons.keys():
+            for widget_name in buttons.CheckableButtons.keys():
                 # Если названия сходятся
                 if name == widget_name:
                     # Устанавливаем значение из storage.json в текст виджета
-                    self.buttons.CheckableButtons[widget_name].setChecked(data[name])
+                    buttons.CheckableButtons[widget_name].setChecked(data[name])
         except:
-            logger.error('Ошибка при установлении значений в self.buttons.CheckableButtons')
+            logger.error('Ошибка при установлении значений в buttons.CheckableButtons')
 
 
     if use_data['inspection_date']:
@@ -332,20 +333,20 @@ def use_data(self):
                 day = int(inspection_date_parts[0])
                 month = int(inspection_date_parts[1])
                 year = int(inspection_date_parts[2])
-                self.inspection_date.setSelectedDate(QDate(year, month, day))
+                inspection_date.setSelectedDate(QDate(year, month, day))
 
     if use_data['standarts']:
         # Перебор всех вкладок
-        for index in range(self.tab_widget.count()):
+        for index in range(tab_widget.count()):
 
-            current_tab = self.tab_widget.widget(index)  # Получить виджет текущей вкладки
+            current_tab = tab_widget.widget(index)  # Получить виджет текущей вкладки
 
             table = current_tab.findChild(QTableWidget)
 
             for row in range(table.rowCount()):
                 item = table.item(row, 1)
                 if item.text() == data['standarts']:
-                    self.tab_widget.setCurrentIndex(index)  # Установить текущую вкладку
+                    tab_widget.setCurrentIndex(index)  # Установить текущую вкладку
                     # Выделяем найденную строку
                     table.selectRow(row)
 
@@ -353,21 +354,14 @@ def use_data(self):
     logger.debug('end')
 
 
-
-
-
-
-
-
-
-def clean(self):
+def clean(self,var_boxes, buttons):
     logger.info('start')
 
-    for text_widget in self.var_boxes.text_boxes.values():
+    for text_widget in var_boxes.text_boxes.values():
         text_widget.clear()
-    for combo_widget in self.var_boxes.combo_boxes.values():
+    for combo_widget in var_boxes.combo_boxes.values():
         combo_widget.setCurrentIndex(-1)
-    for button_widget in self.buttons.CheckableButtons.values():
+    for button_widget in buttons.CheckableButtons.values():
         button_widget.setChecked(False)
 
 
@@ -379,7 +373,7 @@ def clean(self):
 
 
 
-def create_template(self):
+def create_template(self, word):
     logger.debug('start')
 
     # Открываем диалоговое окно проводника
@@ -394,16 +388,30 @@ def create_template(self):
         # Получаем выбранные файлы
         selected_files = file_dialog.selectedFiles()
         for file in selected_files:
-
-            result = WORD.create_template(file)
+            
+            if word:
+                
+                # Дополнительная проверка на формат
+                if not (os.path.splitext(file)[1]) == '.docx':
+                    files[file] = 'Неверный формат файла (Нужен .docx)'
+                else:
+                    result = WORD.create_template(file)
+            else:
+                
+                # Дополнительная проверка на формат
+                if not (os.path.splitext(file)[1]) == '.xlsx':
+                    files[file] = 'Неверный формат файла (Нужен .xlsx)'
+                else:
+                    result = EXCEL.create_template(file)
+                
             if result == False:
                 files[file] = 'Успешно'
             else:
                 files[file] = result
+                
+            
 
-            # Дополнительная проверка на формат
-            if os.path.splitext(file)[1] == '.doc':
-                files[file] = 'Неверный формат файла (Нужен .docx)'
+            
 
     class Create_template_Dialog(QDialog):
         def __init__(self):

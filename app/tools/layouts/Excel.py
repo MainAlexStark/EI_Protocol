@@ -33,7 +33,7 @@ def get_layout(self):
     self.button_choose_scale_excel.clicked.connect(self.choose_scale_excel)  # Привязываем функцию
     var_layout.addWidget(self.button_choose_scale_excel)  # Добавляем в layout
 
-    self.buttons_excel.Buttons['choose_scale_excel'] = self.button_choose_scale_excel
+    self.buttons_excel.Buttons['choose_scale'] = self.button_choose_scale_excel
 
     # path
     # Текстовое поле
@@ -49,7 +49,7 @@ def get_layout(self):
     self.button_path_excel.clicked.connect(self.add_path_excel)  # Привязываем функцию
     var_layout.addWidget(self.button_path_excel)  # Добавляем в layout
 
-    self.buttons_excel.Buttons['button_path_excel'] = self.button_path_excel
+    self.buttons_excel.Buttons['button_path'] = self.button_path_excel
 
     # Work place num
     
@@ -73,7 +73,7 @@ def get_layout(self):
     var_layout.addWidget(self.work_place_combo_excel)
 
     # Добавляем в словарь combo boxes
-    self.var_boxes_excel.combo_boxes['work_place_excel'] = self.work_place_combo_excel
+    self.var_boxes_excel.combo_boxes['work_place'] = self.work_place_combo_excel
 
     # num_protocol
 
@@ -83,14 +83,14 @@ def get_layout(self):
     # Добавляем элементы в layouts
     var_layout.addWidget(self.text_num_protocol_excel)
 
-    self.var_boxes_excel.text_boxes['num_protocol_excel'] = self.text_num_protocol_excel
+    self.var_boxes_excel.text_boxes['num_protocol'] = self.text_num_protocol_excel
 
     # num_scale
     self.text_num_scale_excel = QPlainTextEdit(self)
     self.text_num_scale_excel.setPlaceholderText('Номер весов')
     var_layout.addWidget(self.text_num_scale_excel)
 
-    self.var_boxes_excel.text_boxes['num_scale_excel'] = self.text_num_scale_excel
+    self.var_boxes_excel.text_boxes['num_scale'] = self.text_num_scale_excel
 
     # Verificationer
     data = get_data('app/tools/data/config.json')
@@ -117,14 +117,36 @@ def get_layout(self):
     var_layout.addWidget(self.verificationer_combo_excel)
 
     # Добавляем в словарь combo boxes
-    self.var_boxes_excel.combo_boxes['verificationer_excel'] = self.verificationer_combo_excel
+    self.var_boxes_excel.combo_boxes['verificationer'] = self.verificationer_combo_excel
+    
+    # INN
+    self.text_INN_excel = QPlainTextEdit(self)
+    self.text_INN_excel.setPlaceholderText("ИНН")
+    var_layout.addWidget(self.text_INN_excel)
+
+    self.var_boxes.text_boxes['INN_excel'] = self.text_INN_excel
+
+    self.button_search_company_excel = QPushButton('Найти', self)
+    self.button_search_company_excel.clicked.connect(self.search_company)  # Привязываем функцию
+    var_layout.addWidget(self.button_search_company_excel)  # Добавляем в layout
+
+    self.buttons.Buttons['search'] = self.button_search_company
 
     # Company
     self.text_company_excel = QPlainTextEdit(self)
     self.text_company_excel.setPlaceholderText("Компания")
     var_layout.addWidget(self.text_company_excel)
 
-    self.var_boxes_excel.text_boxes['company_excel'] = self.text_company_excel
+    self.var_boxes_excel.text_boxes['company'] = self.text_company_excel
+    
+    # Legal address
+
+    self.text_legal_address_excel = QPlainTextEdit(self)
+    self.text_legal_address_excel.setPlaceholderText("Юридический адрес")
+    var_layout.addWidget(self.text_legal_address_excel)
+
+    self.var_boxes_excel.text_boxes['legal_address'] = self.text_legal_address_excel
+
 
     # inspection address
 
@@ -134,7 +156,7 @@ def get_layout(self):
     self.text_inspection_address_excel.setPlaceholderText('Адрес поверки')
     inspection_address_layout.addWidget(self.text_inspection_address_excel)
 
-    self.var_boxes_excel.text_boxes['inspection_address_excel'] = self.text_inspection_address_excel
+    self.var_boxes_excel.text_boxes['inspection_address'] = self.text_inspection_address_excel
 
     self.button_inspection_address_setting_excel = QPushButton('...', self)
     self.button_inspection_address_setting_excel.setFixedSize(50, 50)
@@ -154,28 +176,28 @@ def get_layout(self):
 
     # PAth to excel 
 
-    self.path_excel_layout = QHBoxLayout()
+    path_excel_layout = QHBoxLayout()
 
-    self.text_path_to_excel_excel = QPlainTextEdit(self)
-    self.text_path_to_excel_excel.setPlaceholderText("Путь к журналу excel")
-    self.path_excel_layout.addWidget(self.text_path_to_excel_excel)
+    self.text_path_to_excel_journal_excel = QPlainTextEdit(self)
+    self.text_path_to_excel_journal_excel.setPlaceholderText("Путь к журналу excel")
+    path_excel_layout.addWidget(self.text_path_to_excel_journal_excel)
 
-    self.var_boxes_excel.text_boxes['path_to_excel_excel'] = self.text_path_to_excel_excel
+    self.var_boxes_excel.text_boxes['path_to_excel_jounal'] = self.text_path_to_excel_journal_excel
 
     self.button_path_to_excel_dialog_excel = QPushButton('...', self)
     self.button_path_to_excel_dialog_excel.setFixedSize(50, 50)
     self.button_path_to_excel_dialog_excel.clicked.connect(self.add_path_to_excel_excel)  # Привязываем функцию
-    self.path_excel_layout.addWidget(self.button_path_to_excel_dialog_excel)  # Добавляем в layout
+    path_excel_layout.addWidget(self.button_path_to_excel_dialog_excel)  # Добавляем в layout
 
-    var_layout.addLayout(self.path_excel_layout)
+    var_layout.addLayout(path_excel_layout)
 
     # Use excel
 
-    self.button_use_excel_excel = QPushButton('Использовать Excel', self)
+    self.button_use_excel_excel = QPushButton('Добавить протокол в Excel', self)
     self.button_use_excel_excel.setCheckable(True)
     var_layout.addWidget(self.button_use_excel_excel)  # Добавляем в layout
 
-    self.buttons_excel.CheckableButtons['use_excel_excel'] = self.button_use_excel_excel
+    self.buttons_excel.CheckableButtons['use_excel'] = self.button_use_excel_excel
 
     
     ####### var_r_layout
@@ -185,6 +207,24 @@ def get_layout(self):
     self.inspection_date_excel = QCalendarWidget(self)
     self.inspection_date_excel.setFixedSize(500, 300)
     var_r_layout.addWidget(self.inspection_date_excel)
+    
+    # Показания
+    
+    self.text_readings_excel = QPlainTextEdit(self)
+    self.text_readings_excel.setPlaceholderText("Показания на начало поверки, м3")
+
+    var_r_layout.addWidget(self.text_readings_excel)
+
+    self.var_boxes_excel.text_boxes['readings'] = self.text_readings_excel
+    
+    # температура жидкости
+    
+    self.text_temperature_liquid_excel = QPlainTextEdit(self)
+    self.text_temperature_liquid_excel.setPlaceholderText("t пов-й жидкости")
+
+    var_r_layout.addWidget(self.text_temperature_liquid_excel)
+
+    self.var_boxes_excel.text_boxes['temperature_liquid'] = self.text_temperature_liquid_excel
 
     # weather
 
@@ -193,19 +233,19 @@ def get_layout(self):
 
     var_r_layout.addWidget(self.text_temperature_excel)
 
-    self.var_boxes_excel.text_boxes['temperature_excel'] = self.text_temperature_excel
+    self.var_boxes_excel.text_boxes['temperature'] = self.text_temperature_excel
 
     self.text_humidity_excel = QPlainTextEdit(self)
     self.text_humidity_excel.setPlaceholderText("Влажность")
     var_r_layout.addWidget(self.text_humidity_excel)
 
-    self.var_boxes_excel.text_boxes['humidity_excel'] = self.text_humidity_excel
+    self.var_boxes_excel.text_boxes['humidity'] = self.text_humidity_excel
 
     self.text_pressure_excel = QPlainTextEdit(self)
     self.text_pressure_excel.setPlaceholderText("Давление")
     var_r_layout.addWidget(self.text_pressure_excel)
 
-    self.var_boxes_excel.text_boxes['pressure_excel'] = self.text_pressure_excel
+    self.var_boxes_excel.text_boxes['pressure'] = self.text_pressure_excel
 
     ##############################################
 
@@ -215,7 +255,7 @@ def get_layout(self):
     self.button_create_template_excel.clicked.connect(self.create_template_excel)  # Привязываем функцию
     var_r_layout.addWidget(self.button_create_template_excel)  # Добавляем в layout
 
-    self.buttons_excel.Buttons['create_template_excel'] = self.button_create_template_excel
+    self.buttons_excel.Buttons['create_template'] = self.button_create_template_excel
 
     # Create protocol
 
@@ -223,14 +263,7 @@ def get_layout(self):
     self.button_create_protocol_excel.clicked.connect(self.create_protocol_excel)  # Привязываем функцию
     var_r_layout.addWidget(self.button_create_protocol_excel)  # Добавляем в layout
 
-    self.buttons_excel.Buttons['create_protocol_excel'] = self.button_create_protocol_excel
-
-    # Create Excel 
-    self.create_excel_check_box_excel = QCheckBox('Создавать excel шаблон/протокол')
-    var_r_layout.addWidget(self.create_excel_check_box_excel)  # Добавляем в layout
-
-    self.buttons_excel.CheckableButtons['create_excel_excel'] = self.create_excel_check_box_excel
-
+    self.buttons_excel.Buttons['create_protocol'] = self.button_create_protocol_excel
 
     # Create protocol from excel
 
@@ -238,7 +271,7 @@ def get_layout(self):
     self.button_create_protocol_from_excel_excel.clicked.connect(self.create_protocol_from_excel_excel)  # Привязываем функцию
     var_r_layout.addWidget(self.button_create_protocol_from_excel_excel)  # Добавляем в layout
 
-    self.buttons_excel.Buttons['create_protocol_from_excel_excel'] = self.button_create_protocol_from_excel_excel
+    self.buttons_excel.Buttons['create_protocol_from_excel'] = self.button_create_protocol_from_excel_excel
 
     # Line
 
@@ -255,7 +288,7 @@ def get_layout(self):
     self.button_use_data_excel.clicked.connect(self.use_data_excel)  # Привязываем функцию
     var_r_layout.addWidget(self.button_use_data_excel)  # Добавляем в layout
 
-    self.buttons_excel.Buttons['use_data_excel'] = self.button_use_data_excel
+    self.buttons_excel.Buttons['use_data'] = self.button_use_data_excel
 
     # Clean
 
@@ -263,23 +296,23 @@ def get_layout(self):
     self.button_clean_excel.clicked.connect(self.clean_excel)  # Привязываем функцию
     var_r_layout.addWidget(self.button_clean_excel)  # Добавляем в layout
 
-    self.buttons_excel.Buttons['clean_excel'] = self.button_clean_excel
+    self.buttons_excel.Buttons['clean'] = self.button_clean_excel
 
     # Settings
 
     self.button_settings_excel = QPushButton('Настройки', self)
-    self.button_settings_excel.clicked.connect(self.settings_excel)  # Привязываем функцию
+    self.button_settings_excel.clicked.connect(self.settings)  # Привязываем функцию
     var_r_layout.addWidget(self.button_settings_excel)  # Добавляем в layout
 
-    self.buttons_excel.Buttons['settings_excel'] = self.button_settings_excel
+    self.buttons_excel.Buttons['settings'] = self.button_settings_excel
 
     # 2 layout
 
     # Standarts
 
-    self.tab_widget_excel = QTabWidget(self)
-    self.tab_widget_excel.setMaximumSize(900, 950)
-    self.tab_widget_excel.setMinimumSize(850, 800)
+    self.tab_standarts_excel = QTabWidget(self)
+    self.tab_standarts_excel.setMaximumSize(900, 950)
+    self.tab_standarts_excel.setMinimumSize(850, 800)
 
     # Укажите путь к нужной папке
     folder_path = f'app/standarts'
@@ -315,9 +348,9 @@ def get_layout(self):
         layout.addWidget(Qtable)
         tab.setLayout(layout)
 
-        self.tab_widget_excel.addTab(tab, file_name)
+        self.tab_standarts_excel.addTab(tab, file_name)
 
-    var_r2_layout.addWidget(self.tab_widget_excel)
+    var_r2_layout.addWidget(self.tab_standarts_excel)
 
     # Add layouts in main_layout
     main_layout.addLayout(var_layout)

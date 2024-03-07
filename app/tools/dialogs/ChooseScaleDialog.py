@@ -16,11 +16,13 @@ class ChooseScaleDialog(QDialog):
 
     selected_scale = ''
 
-    def __init__(self, main_window):
+    def __init__(self, text_scale_widget, word):
         try:
             super().__init__()
+            
+            self.word = word
 
-            self.main_window = main_window
+            self.text_scale_widget = text_scale_widget
 
             logger.info('ChooseScaleDialog(QDialog): __init__')
 
@@ -34,8 +36,12 @@ class ChooseScaleDialog(QDialog):
 
             # Достаем все имена файлов шаблонов и добавляем в выпадающий список
             self.files = []
-            for file in os.listdir('app\\templates\\Word'):
-                self.files.append(file.replace('.docx', ''))
+            if word:
+                for file in os.listdir('app\\templates\\Word'):
+                    self.files.append(file.replace('.docx', ''))
+            else:
+                for file in os.listdir('app\\templates\\Excel'):
+                    self.files.append(file.replace('.xlsx', ''))
 
             # Поиск
 
@@ -68,7 +74,6 @@ class ChooseScaleDialog(QDialog):
             self.main_layout.addWidget(self.label_text_table_scales)
             self.main_layout.addWidget(self.table_scales)
 
-
             self.setLayout(self.main_layout)
 
         except Exception as e:
@@ -86,8 +91,6 @@ class ChooseScaleDialog(QDialog):
 
 
     def item_changed(self):
-
-        self.main_window.text_scale.setPlainText(self.table_scales.currentItem().text())
-
-
+        
+        self.text_scale_widget.setPlainText(self.table_scales.currentItem().text())
 

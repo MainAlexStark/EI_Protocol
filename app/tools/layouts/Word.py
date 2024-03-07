@@ -15,9 +15,9 @@ import os
 def get_layout(self):
     main_layout = QHBoxLayout()
 
-    self.var_layout = QVBoxLayout()
-    self.var_r_layout = QVBoxLayout()
-    self.var_r2_layout = QVBoxLayout()
+    var_layout = QVBoxLayout()
+    var_r_layout = QVBoxLayout()
+    var_r2_layout = QVBoxLayout()
 
     # Инициализируем элементы ввода
 
@@ -28,14 +28,14 @@ def get_layout(self):
 
     self.text_scale.textChanged.connect(self.scale_changed)
 
-    self.var_layout.addWidget(self.text_scale)
+    var_layout.addWidget(self.text_scale)
 
     self.var_boxes.text_boxes['scale'] = self.text_scale
 
     # Надпись
     self.button_choose_scale = QPushButton('Выбрать весы', self)
     self.button_choose_scale.clicked.connect(self.choose_scale)  # Привязываем функцию
-    self.var_layout.addWidget(self.button_choose_scale)  # Добавляем в layout
+    var_layout.addWidget(self.button_choose_scale)  # Добавляем в layout
 
     self.buttons.Buttons['choose_scale'] = self.button_choose_scale
 
@@ -44,14 +44,14 @@ def get_layout(self):
     self.text_path = QPlainTextEdit(self)
     self.text_path.setPlaceholderText('Путь сохранения')
     # Добавляем элементы в layouts
-    self.var_layout.addWidget(self.text_path)
+    var_layout.addWidget(self.text_path)
 
     self.var_boxes.text_boxes['path'] = self.text_path
     
     # Создаем кнопку
     self.button_path = QPushButton('Выбрать путь сохранения', self)
     self.button_path.clicked.connect(self.add_path)  # Привязываем функцию
-    self.var_layout.addWidget(self.button_path)  # Добавляем в layout
+    var_layout.addWidget(self.button_path)  # Добавляем в layout
 
     self.buttons.Buttons['button_path'] = self.button_path
     
@@ -74,8 +74,8 @@ def get_layout(self):
     self.work_place_combo = QComboBox()
     self.work_place_combo.addItems(work_places)
     self.work_place_combo.setCurrentIndex(-1)
-    self.var_layout.addWidget(self.label_work_place_combo)
-    self.var_layout.addWidget(self.work_place_combo)
+    var_layout.addWidget(self.label_work_place_combo)
+    var_layout.addWidget(self.work_place_combo)
 
     # Добавляем в словарь combo boxes
     self.var_boxes.combo_boxes['work_place'] = self.work_place_combo
@@ -86,14 +86,14 @@ def get_layout(self):
     self.text_num_protocol = QPlainTextEdit(self)
     self.text_num_protocol.setPlaceholderText('Номер протокола')
     # Добавляем элементы в layouts
-    self.var_layout.addWidget(self.text_num_protocol)
+    var_layout.addWidget(self.text_num_protocol)
 
     self.var_boxes.text_boxes['num_protocol'] = self.text_num_protocol
 
     # num_scale
     self.text_num_scale = QPlainTextEdit(self)
     self.text_num_scale.setPlaceholderText('Номер весов')
-    self.var_layout.addWidget(self.text_num_scale)
+    var_layout.addWidget(self.text_num_scale)
 
     self.var_boxes.text_boxes['num_scale'] = self.text_num_scale
 
@@ -120,8 +120,8 @@ def get_layout(self):
     self.verificationer_combo.setCurrentIndex(-1)
     self.verificationer_combo.setFixedSize(500, 40)
     self.verificationer_combo.currentTextChanged.connect(self.verificationer_changed)
-    self.var_layout.addWidget(self.label_verificationer_combo)
-    self.var_layout.addWidget(self.verificationer_combo)
+    var_layout.addWidget(self.label_verificationer_combo)
+    var_layout.addWidget(self.verificationer_combo)
 
     # Добавляем в словарь combo boxes
     self.var_boxes.combo_boxes['verificationer'] = self.verificationer_combo
@@ -134,25 +134,25 @@ def get_layout(self):
     line.setMinimumSize(300,2)
     line.setMaximumSize(700,2)
 
-    self.var_layout.addWidget(line)
+    var_layout.addWidget(line)
 
     # INN
     self.text_INN = QPlainTextEdit(self)
     self.text_INN.setPlaceholderText("ИНН")
-    self.var_layout.addWidget(self.text_INN)
+    var_layout.addWidget(self.text_INN)
 
     self.var_boxes.text_boxes['INN'] = self.text_INN
 
     self.button_search_company = QPushButton('Найти', self)
     self.button_search_company.clicked.connect(self.search_company)  # Привязываем функцию
-    self.var_layout.addWidget(self.button_search_company)  # Добавляем в layout
+    var_layout.addWidget(self.button_search_company)  # Добавляем в layout
 
     self.buttons.Buttons['search'] = self.button_search_company
 
     # Company
     self.text_company = QPlainTextEdit(self)
     self.text_company.setPlaceholderText("Компания")
-    self.var_layout.addWidget(self.text_company)
+    var_layout.addWidget(self.text_company)
 
     self.var_boxes.text_boxes['company'] = self.text_company
 
@@ -160,7 +160,7 @@ def get_layout(self):
 
     self.text_legal_address = QPlainTextEdit(self)
     self.text_legal_address.setPlaceholderText("Юридический адрес")
-    self.var_layout.addWidget(self.text_legal_address)
+    var_layout.addWidget(self.text_legal_address)
 
     self.var_boxes.text_boxes['legal_address'] = self.text_legal_address
 
@@ -180,13 +180,13 @@ def get_layout(self):
     self.button_inspection_address_setting.clicked.connect(self.show_inspection_address_setting)  # Привязываем функцию
     inspection_address_layout.addWidget(self.button_inspection_address_setting)  # Добавляем в layout
 
-    self.var_layout.addLayout(inspection_address_layout)
+    var_layout.addLayout(inspection_address_layout)
 
     # Unfit
 
     self.button_unfit = QPushButton('Несоответсвует', self)
     self.button_unfit.setCheckable(True)
-    self.var_layout.addWidget(self.button_unfit)  # Добавляем в layout
+    var_layout.addWidget(self.button_unfit)  # Добавляем в layout
 
     self.buttons.CheckableButtons['unfit'] = self.button_unfit
 
@@ -197,7 +197,7 @@ def get_layout(self):
     line.setMinimumSize(300,2)
     line.setMaximumSize(700,2)
 
-    self.var_layout.addWidget(line)
+    var_layout.addWidget(line)
 
     # PAth to excel
 
@@ -214,15 +214,13 @@ def get_layout(self):
     self.button_path_to_excel_dialog.clicked.connect(self.add_path_to_excel)  # Привязываем функцию
     self.path_excel_layout.addWidget(self.button_path_to_excel_dialog)  # Добавляем в layout
 
-    self.var_layout.addLayout(self.path_excel_layout)
+    var_layout.addLayout(self.path_excel_layout)
 
     # Use excel
 
-    use_excel_layout = QHBoxLayout()
-
-    self.button_use_excel = QPushButton('Использовать Excel', self)
+    self.button_use_excel = QPushButton('Добавить протокол в Excel', self)
     self.button_use_excel.setCheckable(True)
-    self.var_layout.addWidget(self.button_use_excel)  # Добавляем в layout
+    var_layout.addWidget(self.button_use_excel)  # Добавляем в layout
 
     self.buttons.CheckableButtons['use_excel'] = self.button_use_excel
 
@@ -232,7 +230,7 @@ def get_layout(self):
 
     self.inspection_date = QCalendarWidget(self)
     self.inspection_date.setFixedSize(500, 300)
-    self.var_r_layout.addWidget(self.inspection_date)
+    var_r_layout.addWidget(self.inspection_date)
 
     # interval
 
@@ -242,8 +240,8 @@ def get_layout(self):
     self.interval_combo = QComboBox()
     self.interval_combo.addItems(nums)
     self.interval_combo.setCurrentIndex(0)
-    self.var_r_layout.addWidget(self.label_interval_combo)
-    self.var_r_layout.addWidget(self.interval_combo)
+    var_r_layout.addWidget(self.label_interval_combo)
+    var_r_layout.addWidget(self.interval_combo)
 
     # Добавляем в словарь combo boxes
     self.var_boxes.combo_boxes['interval'] = self.interval_combo
@@ -254,19 +252,19 @@ def get_layout(self):
     self.text_temperature = QPlainTextEdit(self)
     self.text_temperature.setPlaceholderText("Температура")
 
-    self.var_r_layout.addWidget(self.text_temperature)
+    var_r_layout.addWidget(self.text_temperature)
 
     self.var_boxes.text_boxes['temperature'] = self.text_temperature
 
     self.text_humidity = QPlainTextEdit(self)
     self.text_humidity.setPlaceholderText("Влажность")
-    self.var_r_layout.addWidget(self.text_humidity)
+    var_r_layout.addWidget(self.text_humidity)
 
     self.var_boxes.text_boxes['humidity'] = self.text_humidity
 
     self.text_pressure = QPlainTextEdit(self)
     self.text_pressure.setPlaceholderText("Давление")
-    self.var_r_layout.addWidget(self.text_pressure)
+    var_r_layout.addWidget(self.text_pressure)
 
     self.var_boxes.text_boxes['pressure'] = self.text_pressure
 
@@ -278,7 +276,7 @@ def get_layout(self):
 
     self.button_create_template = QPushButton('Создать шаблон', self)
     self.button_create_template.clicked.connect(self.create_template)  # Привязываем функцию
-    self.var_r_layout.addWidget(self.button_create_template)  # Добавляем в layout
+    var_r_layout.addWidget(self.button_create_template)  # Добавляем в layout
 
     self.buttons.Buttons['create_template'] = self.button_create_template
 
@@ -286,22 +284,15 @@ def get_layout(self):
 
     self.button_create_protocol = QPushButton('Создать протокол', self)
     self.button_create_protocol.clicked.connect(self.create_protocol)  # Привязываем функцию
-    self.var_r_layout.addWidget(self.button_create_protocol)  # Добавляем в layout
+    var_r_layout.addWidget(self.button_create_protocol)  # Добавляем в layout
 
     self.buttons.Buttons['create_protocol'] = self.button_create_protocol
-
-    # Create Excel 
-    self.create_excel_check_box = QCheckBox('Создавать excel шаблон/протокол')
-    self.var_r_layout.addWidget(self.create_excel_check_box)  # Добавляем в layout
-
-    self.buttons.CheckableButtons['create_excel'] = self.create_excel_check_box
-
 
     # Create protocol from excel
 
     self.button_create_protocol_from_excel = QPushButton('Создать протокол из excel', self)
     self.button_create_protocol_from_excel.clicked.connect(self.create_protocol_from_excel)  # Привязываем функцию
-    self.var_r_layout.addWidget(self.button_create_protocol_from_excel)  # Добавляем в layout
+    var_r_layout.addWidget(self.button_create_protocol_from_excel)  # Добавляем в layout
 
     self.buttons.Buttons['create_protocol_from_excel'] = self.button_create_protocol_from_excel
 
@@ -312,13 +303,13 @@ def get_layout(self):
     line.setMinimumSize(300,2)
     line.setMaximumSize(700,2)
 
-    self.var_r_layout.addWidget(line)
+    var_r_layout.addWidget(line)
 
     # Use data
 
     self.button_use_data = QPushButton('Использовать преведущие данные', self)
     self.button_use_data.clicked.connect(self.use_data)  # Привязываем функцию
-    self.var_r_layout.addWidget(self.button_use_data)  # Добавляем в layout
+    var_r_layout.addWidget(self.button_use_data)  # Добавляем в layout
 
     self.buttons.Buttons['use_data'] = self.button_use_data
 
@@ -326,7 +317,7 @@ def get_layout(self):
 
     self.button_clean = QPushButton('Очистить', self)
     self.button_clean.clicked.connect(self.clean)  # Привязываем функцию
-    self.var_r_layout.addWidget(self.button_clean)  # Добавляем в layout
+    var_r_layout.addWidget(self.button_clean)  # Добавляем в layout
 
     self.buttons.Buttons['clean'] = self.button_clean
 
@@ -334,7 +325,7 @@ def get_layout(self):
 
     self.button_settings = QPushButton('Настройки', self)
     self.button_settings.clicked.connect(self.settings)  # Привязываем функцию
-    self.var_r_layout.addWidget(self.button_settings)  # Добавляем в layout
+    var_r_layout.addWidget(self.button_settings)  # Добавляем в layout
 
     self.buttons.Buttons['settings'] = self.button_settings
 
@@ -342,9 +333,9 @@ def get_layout(self):
 
     # Standarts
 
-    self.tab_widget = QTabWidget(self)
-    self.tab_widget.setMaximumSize(900, 950)
-    self.tab_widget.setMinimumSize(850, 800)
+    self.tab_standarts = QTabWidget(self)
+    self.tab_standarts.setMaximumSize(900, 950)
+    self.tab_standarts.setMinimumSize(850, 800)
 
     # Укажите путь к нужной папке
     folder_path = f'app/standarts'
@@ -380,13 +371,13 @@ def get_layout(self):
         layout.addWidget(Qtable)
         tab.setLayout(layout)
 
-        self.tab_widget.addTab(tab, file_name)
+        self.tab_standarts.addTab(tab, file_name)
 
-    self.var_r2_layout.addWidget(self.tab_widget)
+    var_r2_layout.addWidget(self.tab_standarts)
 
     # Add layouts in main_layout
-    main_layout.addLayout(self.var_layout)
-    main_layout.addLayout(self.var_r_layout)
-    main_layout.addLayout(self.var_r2_layout)
+    main_layout.addLayout(var_layout)
+    main_layout.addLayout(var_r_layout)
+    main_layout.addLayout(var_r2_layout)
 
     return main_layout
