@@ -5813,3 +5813,353 @@ Version: alpha 2.1
 This program is created for commercial use                     
 The rights to the program belong to the company: ООО "Единица Измерения"
 
+2024-03-10 20:04:20.572 | INFO     | app.main_window:__init__:40 - Start initUI
+2024-03-10 20:04:20.572 | DEBUG    | app.main_window:__init__:41 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-10 20:09:12.467 | INFO     | app.main_window:__init__:40 - Start initUI
+2024-03-10 20:09:12.468 | DEBUG    | app.main_window:__init__:41 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-10 20:15:57.009 | INFO     | app.main_window:__init__:40 - Start initUI
+2024-03-10 20:15:57.010 | DEBUG    | app.main_window:__init__:41 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-10 20:16:49.059 | INFO     | app.main_window:__init__:40 - Start initUI
+2024-03-10 20:16:49.060 | DEBUG    | app.main_window:__init__:41 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-10 20:17:26.086 | INFO     | app.main_window:__init__:40 - Start initUI
+2024-03-10 20:17:26.087 | DEBUG    | app.main_window:__init__:41 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-10 20:18:43.610 | INFO     | app.main_window:__init__:40 - Start initUI
+2024-03-10 20:18:43.611 | DEBUG    | app.main_window:__init__:41 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-10 20:19:22.809 | INFO     | app.main_window:__init__:40 - Start initUI
+2024-03-10 20:19:22.809 | DEBUG    | app.main_window:__init__:41 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-10 20:20:12.795 | INFO     | app.main_window:__init__:40 - Start initUI
+2024-03-10 20:20:12.796 | DEBUG    | app.main_window:__init__:41 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-10 20:22:53.022 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-10 20:22:53.023 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-10 20:23:45.641 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-10 20:23:45.641 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-10 20:25:32.052 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-10 20:25:32.052 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-10 20:26:57.504 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-10 20:26:57.505 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-10 20:28:21.135 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-10 20:28:21.135 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-10 20:28:46.502 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-10 20:28:46.503 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-10 20:29:37.040 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-10 20:29:37.040 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-10 20:29:58.524 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-10 20:29:58.524 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-10 20:30:23.828 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-10 20:30:23.829 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-10 20:31:01.610 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-10 20:31:01.611 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-10 20:32:03.007 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-10 20:32:03.008 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-10 23:45:47.317 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-10 23:45:47.318 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-10 23:46:01.315 | DEBUG    | app.tools.main_window_functions:create_template:377 - start
+2024-03-10 23:51:10.314 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-10 23:51:10.315 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-10 23:51:12.710 | DEBUG    | app.tools.main_window_functions:create_template:377 - start
+2024-03-10 23:51:13.970 | DEBUG    | app.tools.main_window_functions:__init__:422 - Create_template_Dialog(QDialog): __init__
+2024-03-10 23:51:13.971 | DEBUG    | app.tools.main_window_functions:__init__:443 - __init__ end
+2024-03-10 23:51:15.093 | DEBUG    | app.tools.main_window_functions:create_template:447 - end
+2024-03-10 23:51:17.992 | DEBUG    | app.tools.main_window_functions:create_template:377 - start
+2024-03-10 23:54:17.583 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-10 23:54:17.584 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-10 23:54:21.844 | DEBUG    | app.tools.main_window_functions:create_template:377 - start
+2024-03-10 23:54:26.721 | DEBUG    | app.tools.main_window_functions:__init__:424 - Create_template_Dialog(QDialog): __init__
+2024-03-10 23:54:26.723 | DEBUG    | app.tools.main_window_functions:__init__:445 - __init__ end
+2024-03-10 23:54:44.652 | DEBUG    | app.tools.main_window_functions:create_template:449 - end
+2024-03-10 23:56:03.278 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-10 23:56:03.279 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-10 23:56:10.530 | DEBUG    | app.tools.main_window_functions:create_template:377 - start
+2024-03-10 23:56:13.361 | DEBUG    | app.tools.main_window_functions:__init__:424 - Create_template_Dialog(QDialog): __init__
+2024-03-10 23:56:13.363 | DEBUG    | app.tools.main_window_functions:__init__:445 - __init__ end
+2024-03-10 23:59:23.683 | DEBUG    | app.tools.main_window_functions:create_template:449 - end
+2024-03-10 23:59:27.840 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-10 23:59:27.840 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-10 23:59:33.969 | DEBUG    | app.tools.main_window_functions:create_template:377 - start
+2024-03-10 23:59:36.754 | DEBUG    | app.tools.main_window_functions:__init__:425 - Create_template_Dialog(QDialog): __init__
+2024-03-10 23:59:36.754 | DEBUG    | app.tools.main_window_functions:__init__:446 - __init__ end
+2024-03-10 23:59:47.322 | DEBUG    | app.tools.main_window_functions:create_template:450 - end
+2024-03-11 00:00:29.731 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-11 00:00:29.731 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-11 00:00:33.473 | DEBUG    | app.tools.main_window_functions:create_template:377 - start
+2024-03-11 00:00:37.729 | DEBUG    | app.tools.main_window_functions:__init__:425 - Create_template_Dialog(QDialog): __init__
+2024-03-11 00:00:37.730 | DEBUG    | app.tools.main_window_functions:__init__:446 - __init__ end
+2024-03-11 00:00:49.037 | DEBUG    | app.tools.main_window_functions:create_template:450 - end
+2024-03-11 00:02:40.504 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-11 00:02:40.504 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-11 00:07:08.692 | DEBUG    | app.main_window:create_protocol_from_excel_excel:194 - Создание протокола из excel (funct)
+2024-03-11 00:07:08.692 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:34 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-03-11 00:07:09.934 | DEBUG    | app.main_window:create_protocol_from_excel_excel:198 - stop
+2024-03-11 00:07:11.233 | DEBUG    | app.tools.main_window_functions:create_template:377 - start
+2024-03-11 00:07:15.811 | DEBUG    | app.tools.main_window_functions:__init__:424 - Create_template_Dialog(QDialog): __init__
+2024-03-11 00:07:15.812 | DEBUG    | app.tools.main_window_functions:__init__:445 - __init__ end
+2024-03-11 00:07:44.365 | DEBUG    | app.tools.main_window_functions:create_template:449 - end
+2024-03-11 00:08:54.895 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-11 00:08:54.896 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-11 00:08:59.109 | DEBUG    | app.main_window:create_protocol_from_excel_excel:194 - Создание протокола из excel (funct)
+2024-03-11 00:08:59.110 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:34 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-03-11 00:09:00.391 | DEBUG    | app.main_window:create_protocol_from_excel_excel:198 - stop
+2024-03-11 00:09:01.776 | DEBUG    | app.tools.main_window_functions:create_template:377 - Создание шаблона начальная функция
+2024-03-11 00:09:01.776 | DEBUG    | app.tools.main_window_functions:create_template:378 - Word: False
+2024-03-11 00:09:12.170 | DEBUG    | app.tools.main_window_functions:__init__:425 - Create_template_Dialog(QDialog): __init__
+2024-03-11 00:09:12.171 | DEBUG    | app.tools.main_window_functions:__init__:446 - __init__ end
+2024-03-11 00:09:24.603 | DEBUG    | app.tools.main_window_functions:create_template:450 - end
+2024-03-11 00:10:12.869 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-11 00:10:12.870 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-11 00:10:17.427 | DEBUG    | app.tools.main_window_functions:create_template:377 - Создание шаблона начальная функция
+2024-03-11 00:10:17.428 | DEBUG    | app.tools.main_window_functions:create_template:378 - Word: False
+2024-03-11 00:10:22.091 | DEBUG    | app.tools.main_window_functions:create_template:403 - Проверка на формат .xlsx
+2024-03-11 00:10:22.091 | DEBUG    | app.tools.main_window_functions:__init__:425 - Create_template_Dialog(QDialog): __init__
+2024-03-11 00:10:22.092 | DEBUG    | app.tools.main_window_functions:__init__:446 - __init__ end
+2024-03-11 00:10:29.057 | DEBUG    | app.tools.main_window_functions:create_template:450 - end
+2024-03-11 00:11:12.243 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-11 00:11:12.243 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-11 00:11:16.444 | DEBUG    | app.main_window:create_protocol_from_excel_excel:194 - Создание протокола из excel (funct)
+2024-03-11 00:11:16.444 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:34 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-03-11 00:11:18.306 | DEBUG    | app.main_window:create_protocol_from_excel_excel:198 - stop
+2024-03-11 00:11:18.984 | DEBUG    | app.tools.main_window_functions:create_template:377 - Создание шаблона начальная функция
+2024-03-11 00:11:18.984 | DEBUG    | app.tools.main_window_functions:create_template:378 - Word: False
+2024-03-11 00:11:23.843 | DEBUG    | app.tools.main_window_functions:create_template:403 - Проверка на формат .xlsx
+2024-03-11 00:11:23.844 | DEBUG    | app.tools.main_window_functions:__init__:426 - Create_template_Dialog(QDialog): __init__
+2024-03-11 00:11:23.844 | DEBUG    | app.tools.main_window_functions:__init__:447 - __init__ end
+2024-03-11 00:11:29.694 | DEBUG    | app.tools.main_window_functions:create_template:451 - end
+2024-03-11 00:12:00.879 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-11 00:12:00.880 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-11 00:12:04.035 | DEBUG    | app.tools.main_window_functions:create_template:377 - Создание шаблона начальная функция
+2024-03-11 00:12:04.036 | DEBUG    | app.tools.main_window_functions:create_template:378 - Word: False
+2024-03-11 00:12:14.605 | DEBUG    | app.tools.main_window_functions:create_template:403 - Проверка на формат .xlsx. result=xlsm
+2024-03-11 00:12:14.605 | DEBUG    | app.tools.main_window_functions:__init__:426 - Create_template_Dialog(QDialog): __init__
+2024-03-11 00:12:14.606 | DEBUG    | app.tools.main_window_functions:__init__:447 - __init__ end
+2024-03-11 00:12:27.432 | DEBUG    | app.tools.main_window_functions:create_template:451 - end
+2024-03-11 00:15:04.233 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-11 00:15:04.234 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-11 00:15:07.877 | DEBUG    | app.main_window:create_protocol_from_excel_excel:194 - Создание протокола из excel (funct)
+2024-03-11 00:15:07.878 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:34 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-03-11 00:15:08.993 | DEBUG    | app.main_window:create_protocol_from_excel_excel:198 - stop
+2024-03-11 00:15:09.782 | DEBUG    | app.tools.main_window_functions:create_template:377 - Создание шаблона начальная функция
+2024-03-11 00:15:09.782 | DEBUG    | app.tools.main_window_functions:create_template:378 - Word: False
+2024-03-11 00:15:14.050 | DEBUG    | app.tools.main_window_functions:create_template:403 - Проверка на формат .xlsx. result=xlsm
+2024-03-11 00:15:14.050 | DEBUG    | app.tools.main_window_functions:__init__:426 - Create_template_Dialog(QDialog): __init__
+2024-03-11 00:15:14.051 | DEBUG    | app.tools.main_window_functions:__init__:447 - __init__ end
+2024-03-11 00:15:19.707 | DEBUG    | app.tools.main_window_functions:create_template:451 - end
+2024-03-11 00:16:23.169 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-11 00:16:23.169 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-11 00:16:26.028 | DEBUG    | app.main_window:create_protocol_from_excel_excel:194 - Создание протокола из excel (funct)
+2024-03-11 00:16:26.029 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:34 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-03-11 00:16:27.062 | DEBUG    | app.main_window:create_protocol_from_excel_excel:198 - stop
+2024-03-11 00:16:27.928 | DEBUG    | app.tools.main_window_functions:create_template:377 - Создание шаблона начальная функция
+2024-03-11 00:16:27.928 | DEBUG    | app.tools.main_window_functions:create_template:378 - Word: False
+2024-03-11 00:16:31.322 | DEBUG    | app.tools.main_window_functions:create_template:404 - Проверка на формат .xlsx. result=xlsm
+2024-03-11 00:16:31.323 | ERROR    | app.tools.main_window_functions:create_template:410 - Неверный формат файла (Нужен .xlsx)
+2024-03-11 00:16:31.323 | DEBUG    | app.tools.main_window_functions:__init__:428 - Create_template_Dialog(QDialog): __init__
+2024-03-11 00:16:31.324 | DEBUG    | app.tools.main_window_functions:__init__:449 - __init__ end
+2024-03-11 00:16:58.067 | DEBUG    | app.tools.main_window_functions:create_template:453 - end
+2024-03-11 00:17:02.953 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-11 00:17:02.953 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-11 00:17:07.118 | DEBUG    | app.tools.main_window_functions:create_template:377 - Создание шаблона начальная функция
+2024-03-11 00:17:07.118 | DEBUG    | app.tools.main_window_functions:create_template:378 - Word: False
+2024-03-11 00:17:10.302 | DEBUG    | app.tools.main_window_functions:create_template:404 - Проверка на формат .xlsx. result=xlsm
+2024-03-11 00:17:10.302 | ERROR    | app.tools.main_window_functions:create_template:410 - Неверный формат файла (Нужен .xlsx)
+2024-03-11 00:17:10.303 | DEBUG    | app.tools.main_window_functions:__init__:426 - Create_template_Dialog(QDialog): __init__
+2024-03-11 00:17:10.303 | DEBUG    | app.tools.main_window_functions:__init__:447 - __init__ end
+2024-03-11 00:17:15.198 | DEBUG    | app.tools.main_window_functions:create_template:451 - end
+2024-03-11 00:21:15.031 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-11 00:21:15.032 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-11 00:21:18.770 | DEBUG    | app.tools.main_window_functions:create_template:377 - Создание шаблона начальная функция
+2024-03-11 00:21:18.770 | DEBUG    | app.tools.main_window_functions:create_template:378 - Word: False
+2024-03-11 00:21:29.570 | DEBUG    | app.tools.main_window_functions:create_template:404 - Проверка на формат .xlsx. result=xlsx
+2024-03-11 00:21:29.570 | DEBUG    | app.tools.office.Excel:create_template:44 - Создание шаблона протокола Excel
+2024-03-11 00:21:29.572 | INFO     | app.tools.office.Excel:create_template:57 - Шаблон Excel создан
+2024-03-11 00:21:29.572 | DEBUG    | app.tools.main_window_functions:__init__:430 - Create_template_Dialog(QDialog): __init__
+2024-03-11 00:21:29.573 | DEBUG    | app.tools.main_window_functions:__init__:451 - __init__ end
+2024-03-11 00:21:33.243 | DEBUG    | app.tools.main_window_functions:create_template:455 - end
+2024-03-11 00:51:55.595 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-11 00:51:55.596 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-11 00:52:00.479 | DEBUG    | app.main_window:create_protocol_from_excel_excel:194 - Создание протокола из excel (funct)
+2024-03-11 00:52:00.480 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:34 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-03-11 00:52:01.438 | DEBUG    | app.main_window:create_protocol_from_excel_excel:198 - stop
+2024-03-11 00:52:02.437 | DEBUG    | app.tools.main_window_functions:create_template:377 - Создание шаблона начальная функция
+2024-03-11 00:52:02.437 | DEBUG    | app.tools.main_window_functions:create_template:378 - Word: False
+2024-03-11 00:52:07.369 | DEBUG    | app.tools.main_window_functions:create_template:404 - Проверка на формат .xlsx. result=xlsx
+2024-03-11 00:52:07.369 | DEBUG    | app.tools.office.Excel:create_template:44 - Создание шаблона протокола Excel
+2024-03-11 00:52:07.371 | DEBUG    | app.tools.office.Excel:create_template:70 - 
+app/templates/Excel\Счетчик воды УВС-15Х  47204-11.xlsx
+2024-03-11 00:52:07.371 | SUCCESS  | app.tools.office.Excel:create_template:75 - Шаблон Excel создан
+2024-03-11 00:52:07.371 | DEBUG    | app.tools.main_window_functions:__init__:429 - Create_template_Dialog(QDialog): __init__
+2024-03-11 00:52:07.373 | DEBUG    | app.tools.main_window_functions:__init__:450 - __init__ end
+2024-03-11 00:52:17.827 | DEBUG    | app.tools.main_window_functions:create_template:454 - end

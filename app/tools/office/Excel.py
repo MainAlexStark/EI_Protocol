@@ -1,13 +1,13 @@
 from openpyxl import load_workbook
 from openpyxl.styles import Font, Alignment
 
+import os
+
 from loguru import logger
 
 from datetime import datetime, timedelta
 
 import shutil
-
-from loguru import logger
 
 def extract_value(text, start_text, end_text):
     try:
@@ -41,19 +41,44 @@ class Excel():
             logger.error(f'Ошибка при открытии шаблона')
 
     def create_template(self, path: str):
-        logger.info('Создание Excel шаблона')
+        logger.debug('Создание шаблона протокола Excel')
 
-        # Путь к исходному файлу
-        source_file = path
+        try:
 
-        # Путь к папке, в которую нужно скопировать файл
-        destination_folder = "app/templates/Excel"
+            # Путь к исходному файлу
+            source_file = path
+            # Путь к папке, в которую нужно скопировать файл
+            destination_folder = "app/templates/Excel"
 
-        # Копируем файл в целевую папку
-        shutil.copy(source_file, destination_folder)
+            # Название файла
+            file_name = os.path.basename(source_file).rsplit('.',1)[0]
+            scale = file_name.split(' ',1)[1].split('№')[0]
+            FIF = file_name.rsplit('(',1)[1].split(')')[0]
 
-        logger.info('Шаблон Excel создан')
+            # Копируем файл в целевую папку
+            shutil.copy(source_file, destination_folder)
 
+            # Получаем полный путь к скопированному файлу
+            new_file_path = os.path.join(destination_folder, os.path.basename(source_file))
+
+            # Новое название файла
+            new_file_name = f"{scale} {FIF}.xlsx"
+
+            # Полный путь к файлу с новым названием
+            new_file_path_with_name = os.path.join(destination_folder, new_file_name)
+
+            logger.debug(f'\n{new_file_path_with_name}')
+
+            # Переименовываем файл
+            os.rename(new_file_path, new_file_path_with_name)
+
+            logger.success('Шаблон Excel создан')
+
+            return True
+        
+        except Exception as e:
+            logger.error('Ошибка при создании Excel шаблона')
+            return e
 
 
     def make_new_protocol(self, path_template: str, args):
@@ -84,7 +109,7 @@ class Excel():
             
             worksheet['D8'] = args['standarts']
 
-            logger.info("Протокол Excel создан")
+            logger.success("Протокол Excel создан")
             
             return args
 
@@ -167,7 +192,7 @@ class Excel():
         
         
     def get_date_rows_from_excel_journal(self, path: str, date_to_find: str):
-    # Загрузка существующего файла
+        # Загрузка существующего файла
         workbook = self.open_document(path=path)
         
         if workbook is not None:

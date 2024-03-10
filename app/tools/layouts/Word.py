@@ -78,6 +78,7 @@ def get_layout(self):
     var_layout.addWidget(self.work_place_combo)
 
     # Добавляем в словарь combo boxes
+    self.var_boxes.labels['work_place'] = self.label_work_place_combo
     self.var_boxes.combo_boxes['work_place'] = self.work_place_combo
 
     # num_protocol
@@ -124,6 +125,7 @@ def get_layout(self):
     var_layout.addWidget(self.verificationer_combo)
 
     # Добавляем в словарь combo boxes
+    self.var_boxes.labels['verificationer'] = self.label_verificationer_combo
     self.var_boxes.combo_boxes['verificationer'] = self.verificationer_combo
 
 
@@ -244,6 +246,7 @@ def get_layout(self):
     var_r_layout.addWidget(self.interval_combo)
 
     # Добавляем в словарь combo boxes
+    self.var_boxes.labels['interval'] = self.label_interval_combo
     self.var_boxes.combo_boxes['interval'] = self.interval_combo
 
 
@@ -374,6 +377,31 @@ def get_layout(self):
         self.tab_standarts.addTab(tab, file_name)
 
     var_r2_layout.addWidget(self.tab_standarts)
+
+    # Устнавливаем размеры
+    width = 40
+    max_length = 700
+    min_lenght = 300
+
+    for widget in self.var_boxes.text_boxes.values():
+        widget.setMaximumSize(max_length,width)
+        widget.setMinimumSize(min_lenght,width)
+
+    for widget in self.var_boxes.combo_boxes.values():
+        widget.setMaximumSize(max_length,width)
+        widget.setMinimumSize(min_lenght,width)
+
+    for widget in self.buttons.Buttons.values():
+        widget.setMaximumSize(max_length,width)
+        widget.setMinimumSize(min_lenght,width)
+
+    for widget in self.buttons.CheckableButtons.values():
+        widget.setMaximumSize(max_length,width)
+        widget.setMinimumSize(min_lenght,width)
+
+    for widget in self.var_boxes.labels.values():
+        widget.setMaximumSize(max_length,10)
+        widget.setMinimumSize(min_lenght,10)
 
     # Add layouts in main_layout
     main_layout.addLayout(var_layout)

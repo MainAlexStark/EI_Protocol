@@ -352,6 +352,31 @@ def get_layout(self):
 
     var_r2_layout.addWidget(self.tab_standarts_excel)
 
+    # Устнавливаем размеры
+    width = 40
+    max_length = 700
+    min_lenght = 300
+
+    for widget in self.var_boxes_excel.text_boxes.values():
+        widget.setMaximumSize(max_length,width)
+        widget.setMinimumSize(min_lenght,width)
+
+    for widget in self.var_boxes_excel.combo_boxes.values():
+        widget.setMaximumSize(max_length,width)
+        widget.setMinimumSize(min_lenght,width)
+
+    for widget in self.buttons_excel.Buttons.values():
+        widget.setMaximumSize(max_length,width)
+        widget.setMinimumSize(min_lenght,width)
+
+    for widget in self.buttons_excel.CheckableButtons.values():
+        widget.setMaximumSize(max_length,width)
+        widget.setMinimumSize(min_lenght,width)
+
+    for widget in self.var_boxes_excel.labels.values():
+        widget.setMaximumSize(max_length,10)
+        widget.setMinimumSize(min_lenght,10)
+
     # Add layouts in main_layout
     main_layout.addLayout(var_layout)
     main_layout.addLayout(var_r_layout)

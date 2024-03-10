@@ -26,6 +26,7 @@ from . import strings
 class VarBoxes:
     combo_boxes = {}
     text_boxes = {}
+    labels = {}
 
 class Buttons:
     Buttons = {}
@@ -51,6 +52,10 @@ class App(QWidget):
         length_window = window_size['length']
         width_window = window_size['width']
 
+        # Отображаем окно в полноэкранном режиме
+        # Баг
+        #self.setMaximumSize(length_window, width_window)
+
         self.setWindowTitle(window_title)
         self.move(0,0)
 
@@ -74,27 +79,6 @@ class App(QWidget):
         self.initUI()
 
     def initUI(self):
-
-        # Устнавливаем размеры
-        width = 40
-        max_length = 700
-        min_lenght = 300
-
-        for widget in self.var_boxes.text_boxes.values():
-            widget.setMaximumSize(max_length,width)
-            widget.setMinimumSize(min_lenght,width)
-
-        for widget in self.var_boxes.combo_boxes.values():
-            widget.setMaximumSize(max_length,width)
-            widget.setMinimumSize(min_lenght,width)
-
-        for widget in self.buttons.Buttons.values():
-            widget.setMaximumSize(max_length,width)
-            widget.setMinimumSize(min_lenght,width)
-
-        for widget in self.buttons.CheckableButtons.values():
-            widget.setMaximumSize(max_length,width)
-            widget.setMinimumSize(min_lenght,width)
 
         # Создаем Tab Widget
         MainTab = QTabWidget()

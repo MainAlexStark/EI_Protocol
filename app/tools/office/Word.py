@@ -151,7 +151,7 @@ class Word():
         
         
     def create_template(self,path:str):
-        logger.debug('start')
+        logger.debug('Создание шаблона протокола Word')
 
         try:
 
@@ -339,12 +339,8 @@ class Word():
 
             logger.debug(f'Файл шаблона сохранен: {full}')
 
+            return True
 
         except Exception as e:
             logger.error(f'Ошибка при создании шаблона: {e}')
-
-            logger.debug('end')
-
             return e
-
-        return False

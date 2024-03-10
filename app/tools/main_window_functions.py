@@ -374,7 +374,8 @@ def clean(self,var_boxes, buttons):
 
 
 def create_template(self, word):
-    logger.debug('start')
+    logger.debug('Создание шаблона начальная функция')
+    logger.debug(f'Word: {word}')
 
     # Открываем диалоговое окно проводника
     file_dialog = QFileDialog()
@@ -388,24 +389,30 @@ def create_template(self, word):
         # Получаем выбранные файлы
         selected_files = file_dialog.selectedFiles()
         for file in selected_files:
+
+            result = None
             
             if word:
                 
                 # Дополнительная проверка на формат
-                if not (os.path.splitext(file)[1]) == '.docx':
-                    files[file] = 'Неверный формат файла (Нужен .docx)'
-                else:
+                if file.rsplit('.',1)[1] == 'docx':
                     result = WORD.create_template(file)
-            else:
-                
-                # Дополнительная проверка на формат
-                if not (os.path.splitext(file)[1]) == '.xlsx':
-                    files[file] = 'Неверный формат файла (Нужен .xlsx)'
                 else:
+                    logger.error('Неверный формат файла (Нужен .docx)')
+                    files[file] = 'Неверный формат файла (Нужен .docx)'
+            else:
+                logger.debug(f'Проверка на формат .xlsx. result={file.rsplit('.',1)[1]}')
+                # Дополнительная проверка на формат
+                if file.rsplit('.',1)[1] == 'xlsx':
                     result = EXCEL.create_template(file)
+                else:
+                    logger.error('Неверный формат файла (Нужен .xlsx)')
+                    files[file] = 'Неверный формат файла (Нужен .xlsx)'
                 
-            if result == False:
+            if result:
                 files[file] = 'Успешно'
+            elif result == None:
+                files[file] = "Непредвиденная ошибка"
             else:
                 files[file] = result
                 
