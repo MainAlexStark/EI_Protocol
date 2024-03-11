@@ -131,8 +131,8 @@ def get_selected_table(self, tab_widget):
     
     try:
     
-        current_tab_index = self.tab_widget.currentIndex()
-        current_tab = self.tab_widget.widget(current_tab_index)
+        current_tab_index = tab_widget.currentIndex()
+        current_tab = tab_widget.widget(current_tab_index)
         table = current_tab.findChild(QTableWidget)
         
         logger.debug(table)
@@ -175,10 +175,14 @@ def create_protocol(self, word:bool, var_boxes, buttons, inspection_date):
     logger.info('start')
 
     args = {}
+
+    logger.debug(f'Word={word}')
     
     if word:
+        logger.debug('Получение эталонов Word')
         selected_table = get_selected_table(self, tab_widget=self.tab_standarts)
     else:
+        logger.debug(f'Получение эталонов Excel= {self.tab_standarts_excel}')
         selected_table = get_selected_table(self, tab_widget=self.tab_standarts_excel)
         
     current_row = selected_table.currentRow()
@@ -208,7 +212,7 @@ def create_protocol(self, word:bool, var_boxes, buttons, inspection_date):
             
             text = str(var_boxes.text_boxes[text_widget_name].toPlainText()).strip()
             
-            PlaceHolderText = var_boxes.text_boxes[text_widget_name].placeholderText
+            PlaceHolderText = var_boxes.text_boxes[text_widget_name].placeholderText()
             
             if len(text) > 0:
                 args[text_widget_name] = data[text_widget_name] = text

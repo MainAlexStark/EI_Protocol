@@ -6163,3 +6163,390 @@ app/templates/Excel\Счетчик воды УВС-15Х  47204-11.xlsx
 2024-03-11 00:52:07.371 | DEBUG    | app.tools.main_window_functions:__init__:429 - Create_template_Dialog(QDialog): __init__
 2024-03-11 00:52:07.373 | DEBUG    | app.tools.main_window_functions:__init__:450 - __init__ end
 2024-03-11 00:52:17.827 | DEBUG    | app.tools.main_window_functions:create_template:454 - end
+2024-03-11 13:30:44.104 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-11 13:30:44.106 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-11 13:33:17.527 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-11 13:33:17.529 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-11 13:33:26.188 | INFO     | app.tools.main_window_functions:use_data:279 - start
+2024-03-11 13:33:26.206 | DEBUG    | app.tools.main_window_functions:verificationer_changed:156 - start
+2024-03-11 13:33:26.209 | DEBUG    | app.tools.main_window_functions:verificationer_changed:164 - end
+2024-03-11 13:33:26.213 | INFO     | app.tools.main_window_functions:scale_changed:98 - start
+2024-03-11 13:33:26.217 | DEBUG    | app.tools.main_window_functions:scale_changed:122 - end
+2024-03-11 13:33:26.219 | ERROR    | app.tools.main_window_functions:use_data:305 - Ошибка при установлении значений в var_boxes.text_boxes
+2024-03-11 13:33:26.229 | DEBUG    | app.tools.main_window_functions:use_data:354 - end
+2024-03-11 13:33:50.840 | INFO     | app.main_window:choose_scale_excel:222 - start
+2024-03-11 13:33:50.855 | INFO     | app.tools.dialogs.ChooseScaleDialog:__init__:27 - ChooseScaleDialog(QDialog): __init__
+2024-03-11 13:34:00.821 | DEBUG    | app.main_window:choose_scale_excel:226 - end
+2024-03-11 13:42:48.601 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-11 13:42:48.603 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-11 13:42:56.387 | INFO     | app.tools.main_window_functions:use_data:279 - start
+2024-03-11 13:42:56.392 | DEBUG    | app.tools.main_window_functions:verificationer_changed:156 - start
+2024-03-11 13:42:56.394 | DEBUG    | app.tools.main_window_functions:verificationer_changed:164 - end
+2024-03-11 13:42:56.398 | INFO     | app.tools.main_window_functions:scale_changed:98 - start
+2024-03-11 13:42:56.400 | DEBUG    | app.tools.main_window_functions:scale_changed:122 - end
+2024-03-11 13:42:56.402 | ERROR    | app.tools.main_window_functions:use_data:305 - Ошибка при установлении значений в var_boxes.text_boxes
+2024-03-11 13:42:56.406 | DEBUG    | app.tools.main_window_functions:use_data:354 - end
+2024-03-11 13:43:03.478 | INFO     | app.main_window:choose_scale_excel:222 - start
+2024-03-11 13:43:03.480 | INFO     | app.tools.dialogs.ChooseScaleDialog:__init__:27 - ChooseScaleDialog(QDialog): __init__
+2024-03-11 13:43:10.740 | DEBUG    | app.main_window:choose_scale_excel:226 - end
+2024-03-11 13:43:43.431 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-11 13:43:43.433 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-11 13:43:49.310 | DEBUG    | app.main_window:create_protocol_from_excel_excel:194 - Создание протокола из excel (funct)
+2024-03-11 13:43:49.311 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:34 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-03-11 13:43:51.514 | DEBUG    | app.main_window:create_protocol_from_excel_excel:198 - stop
+2024-03-11 13:43:54.294 | INFO     | app.tools.main_window_functions:use_data:279 - start
+2024-03-11 13:43:54.297 | DEBUG    | app.tools.main_window_functions:verificationer_changed:156 - start
+2024-03-11 13:43:54.299 | DEBUG    | app.tools.main_window_functions:verificationer_changed:164 - end
+2024-03-11 13:43:54.303 | INFO     | app.tools.main_window_functions:scale_changed:98 - start
+2024-03-11 13:43:54.305 | DEBUG    | app.tools.main_window_functions:scale_changed:122 - end
+2024-03-11 13:43:54.307 | ERROR    | app.tools.main_window_functions:use_data:305 - Ошибка при установлении значений в var_boxes.text_boxes
+2024-03-11 13:43:54.310 | DEBUG    | app.tools.main_window_functions:use_data:354 - end
+2024-03-11 13:44:40.167 | INFO     | app.main_window:choose_scale_excel:222 - start
+2024-03-11 13:44:40.168 | INFO     | app.tools.dialogs.ChooseScaleDialog:__init__:27 - ChooseScaleDialog(QDialog): __init__
+2024-03-11 13:44:44.243 | DEBUG    | app.main_window:choose_scale_excel:226 - end
+2024-03-11 13:45:15.824 | INFO     | app.main_window:add_path_excel:237 - start
+2024-03-11 13:45:20.048 | DEBUG    | app.main_window:add_path_excel:242 - end
+2024-03-11 13:45:22.508 | INFO     | app.tools.main_window_functions:create_protocol:175 - start
+2024-03-11 13:45:22.510 | DEBUG    | app.tools.main_window_functions:get_selected_table:130 - start
+2024-03-11 13:45:22.525 | ERROR    | app.tools.main_window_functions:get_selected_table:146 - 'App' object has no attribute 'tab_widget'
+2024-03-11 13:48:03.673 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-11 13:48:03.674 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-11 13:48:10.318 | INFO     | app.tools.main_window_functions:use_data:279 - start
+2024-03-11 13:48:10.321 | DEBUG    | app.tools.main_window_functions:verificationer_changed:156 - start
+2024-03-11 13:48:10.322 | DEBUG    | app.tools.main_window_functions:verificationer_changed:164 - end
+2024-03-11 13:48:10.325 | INFO     | app.tools.main_window_functions:scale_changed:98 - start
+2024-03-11 13:48:10.327 | DEBUG    | app.tools.main_window_functions:scale_changed:122 - end
+2024-03-11 13:48:10.328 | ERROR    | app.tools.main_window_functions:use_data:305 - Ошибка при установлении значений в var_boxes.text_boxes
+2024-03-11 13:48:10.334 | DEBUG    | app.tools.main_window_functions:use_data:354 - end
+2024-03-11 13:48:15.259 | INFO     | app.main_window:choose_scale_excel:222 - start
+2024-03-11 13:48:15.261 | INFO     | app.tools.dialogs.ChooseScaleDialog:__init__:27 - ChooseScaleDialog(QDialog): __init__
+2024-03-11 13:48:18.057 | DEBUG    | app.main_window:choose_scale_excel:226 - end
+2024-03-11 13:49:00.408 | INFO     | app.tools.main_window_functions:create_protocol:175 - start
+2024-03-11 13:49:00.410 | DEBUG    | app.tools.main_window_functions:get_selected_table:130 - start
+2024-03-11 13:49:00.411 | ERROR    | app.tools.main_window_functions:get_selected_table:146 - 'App' object has no attribute 'tab_widget'
+2024-03-11 13:49:35.428 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-11 13:49:35.430 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-11 13:49:42.168 | INFO     | app.tools.main_window_functions:use_data:281 - start
+2024-03-11 13:49:42.173 | DEBUG    | app.tools.main_window_functions:verificationer_changed:156 - start
+2024-03-11 13:49:42.175 | DEBUG    | app.tools.main_window_functions:verificationer_changed:164 - end
+2024-03-11 13:49:42.178 | INFO     | app.tools.main_window_functions:scale_changed:98 - start
+2024-03-11 13:49:42.180 | DEBUG    | app.tools.main_window_functions:scale_changed:122 - end
+2024-03-11 13:49:42.181 | ERROR    | app.tools.main_window_functions:use_data:307 - Ошибка при установлении значений в var_boxes.text_boxes
+2024-03-11 13:49:42.186 | DEBUG    | app.tools.main_window_functions:use_data:356 - end
+2024-03-11 13:49:46.429 | INFO     | app.tools.main_window_functions:create_protocol:175 - start
+2024-03-11 13:49:46.431 | DEBUG    | app.tools.main_window_functions:create_protocol:179 - Word=False
+2024-03-11 13:49:46.433 | DEBUG    | app.tools.main_window_functions:get_selected_table:130 - start
+2024-03-11 13:49:46.433 | ERROR    | app.tools.main_window_functions:get_selected_table:146 - 'App' object has no attribute 'tab_widget'
+2024-03-11 13:50:55.753 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-11 13:50:55.755 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-11 13:51:40.975 | INFO     | app.tools.main_window_functions:use_data:283 - start
+2024-03-11 13:51:40.979 | DEBUG    | app.tools.main_window_functions:verificationer_changed:156 - start
+2024-03-11 13:51:40.981 | DEBUG    | app.tools.main_window_functions:verificationer_changed:164 - end
+2024-03-11 13:51:40.983 | INFO     | app.tools.main_window_functions:scale_changed:98 - start
+2024-03-11 13:51:40.985 | DEBUG    | app.tools.main_window_functions:scale_changed:122 - end
+2024-03-11 13:51:40.986 | ERROR    | app.tools.main_window_functions:use_data:309 - Ошибка при установлении значений в var_boxes.text_boxes
+2024-03-11 13:51:40.989 | DEBUG    | app.tools.main_window_functions:use_data:358 - end
+2024-03-11 13:51:44.158 | INFO     | app.tools.main_window_functions:create_protocol:175 - start
+2024-03-11 13:51:44.159 | DEBUG    | app.tools.main_window_functions:create_protocol:179 - Word=False
+2024-03-11 13:51:44.160 | DEBUG    | app.tools.main_window_functions:create_protocol:185 - Получение эталонов Excel
+2024-03-11 13:51:44.161 | DEBUG    | app.tools.main_window_functions:get_selected_table:130 - start
+2024-03-11 13:51:44.161 | ERROR    | app.tools.main_window_functions:get_selected_table:146 - 'App' object has no attribute 'tab_widget'
+2024-03-11 13:52:41.324 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-11 13:52:41.326 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-11 13:52:47.208 | INFO     | app.tools.main_window_functions:use_data:283 - start
+2024-03-11 13:52:47.212 | DEBUG    | app.tools.main_window_functions:verificationer_changed:156 - start
+2024-03-11 13:52:47.214 | DEBUG    | app.tools.main_window_functions:verificationer_changed:164 - end
+2024-03-11 13:52:47.217 | INFO     | app.tools.main_window_functions:scale_changed:98 - start
+2024-03-11 13:52:47.219 | DEBUG    | app.tools.main_window_functions:scale_changed:122 - end
+2024-03-11 13:52:47.220 | ERROR    | app.tools.main_window_functions:use_data:309 - Ошибка при установлении значений в var_boxes.text_boxes
+2024-03-11 13:52:47.224 | DEBUG    | app.tools.main_window_functions:use_data:358 - end
+2024-03-11 13:52:48.846 | INFO     | app.tools.main_window_functions:create_protocol:175 - start
+2024-03-11 13:52:48.848 | DEBUG    | app.tools.main_window_functions:create_protocol:179 - Word=False
+2024-03-11 13:52:48.848 | DEBUG    | app.tools.main_window_functions:create_protocol:185 - Получение эталонов Excel= <PyQt5.QtWidgets.QTabWidget object at 0x0000029DB4D634A0>
+2024-03-11 13:52:48.849 | DEBUG    | app.tools.main_window_functions:get_selected_table:130 - start
+2024-03-11 13:52:48.850 | ERROR    | app.tools.main_window_functions:get_selected_table:146 - 'App' object has no attribute 'tab_widget'
+2024-03-11 13:53:03.581 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-11 13:53:03.582 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-11 13:53:08.721 | INFO     | app.tools.main_window_functions:use_data:283 - start
+2024-03-11 13:53:08.724 | DEBUG    | app.tools.main_window_functions:verificationer_changed:156 - start
+2024-03-11 13:53:08.726 | DEBUG    | app.tools.main_window_functions:verificationer_changed:164 - end
+2024-03-11 13:53:08.731 | INFO     | app.tools.main_window_functions:scale_changed:98 - start
+2024-03-11 13:53:08.732 | DEBUG    | app.tools.main_window_functions:scale_changed:122 - end
+2024-03-11 13:53:08.733 | ERROR    | app.tools.main_window_functions:use_data:309 - Ошибка при установлении значений в var_boxes.text_boxes
+2024-03-11 13:53:08.737 | DEBUG    | app.tools.main_window_functions:use_data:358 - end
+2024-03-11 13:53:10.916 | INFO     | app.tools.main_window_functions:create_protocol:175 - start
+2024-03-11 13:53:10.918 | DEBUG    | app.tools.main_window_functions:create_protocol:179 - Word=True
+2024-03-11 13:53:10.918 | DEBUG    | app.tools.main_window_functions:create_protocol:182 - Получение эталонов Word
+2024-03-11 13:53:10.919 | DEBUG    | app.tools.main_window_functions:get_selected_table:130 - start
+2024-03-11 13:53:10.921 | ERROR    | app.tools.main_window_functions:get_selected_table:146 - 'App' object has no attribute 'tab_widget'
+2024-03-11 13:55:31.766 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-11 13:55:31.767 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-11 13:55:37.538 | INFO     | app.tools.main_window_functions:use_data:283 - start
+2024-03-11 13:55:37.542 | DEBUG    | app.tools.main_window_functions:verificationer_changed:156 - start
+2024-03-11 13:55:37.543 | DEBUG    | app.tools.main_window_functions:verificationer_changed:164 - end
+2024-03-11 13:55:37.546 | INFO     | app.tools.main_window_functions:scale_changed:98 - start
+2024-03-11 13:55:37.546 | DEBUG    | app.tools.main_window_functions:scale_changed:122 - end
+2024-03-11 13:55:37.548 | ERROR    | app.tools.main_window_functions:use_data:309 - Ошибка при установлении значений в var_boxes.text_boxes
+2024-03-11 13:55:37.550 | DEBUG    | app.tools.main_window_functions:use_data:358 - end
+2024-03-11 13:55:39.236 | INFO     | app.tools.main_window_functions:create_protocol:175 - start
+2024-03-11 13:55:39.237 | DEBUG    | app.tools.main_window_functions:create_protocol:179 - Word=True
+2024-03-11 13:55:39.239 | DEBUG    | app.tools.main_window_functions:create_protocol:182 - Получение эталонов Word
+2024-03-11 13:55:39.239 | DEBUG    | app.tools.main_window_functions:get_selected_table:130 - start
+2024-03-11 13:55:39.240 | DEBUG    | app.tools.main_window_functions:get_selected_table:138 - <PyQt5.QtWidgets.QTableWidget object at 0x000001CC771C2180>
+2024-03-11 13:55:39.242 | DEBUG    | app.tools.main_window_functions:get_selected_table:140 - end
+2024-03-11 13:55:48.832 | DEBUG    | app.tools.main_window_functions:create_protocol:279 - end
+2024-03-11 13:56:45.996 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-11 13:56:45.997 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-11 13:56:50.234 | INFO     | app.tools.main_window_functions:use_data:283 - start
+2024-03-11 13:56:50.240 | DEBUG    | app.tools.main_window_functions:verificationer_changed:156 - start
+2024-03-11 13:56:50.241 | DEBUG    | app.tools.main_window_functions:verificationer_changed:164 - end
+2024-03-11 13:56:50.244 | INFO     | app.tools.main_window_functions:scale_changed:98 - start
+2024-03-11 13:56:50.246 | DEBUG    | app.tools.main_window_functions:scale_changed:122 - end
+2024-03-11 13:56:50.247 | ERROR    | app.tools.main_window_functions:use_data:309 - Ошибка при установлении значений в var_boxes.text_boxes
+2024-03-11 13:56:50.252 | DEBUG    | app.tools.main_window_functions:use_data:358 - end
+2024-03-11 13:56:52.805 | INFO     | app.tools.main_window_functions:create_protocol:175 - start
+2024-03-11 13:56:52.806 | DEBUG    | app.tools.main_window_functions:create_protocol:179 - Word=True
+2024-03-11 13:56:52.807 | DEBUG    | app.tools.main_window_functions:create_protocol:182 - Получение эталонов Word
+2024-03-11 13:56:52.808 | DEBUG    | app.tools.main_window_functions:get_selected_table:130 - start
+2024-03-11 13:56:52.809 | DEBUG    | app.tools.main_window_functions:get_selected_table:138 - <PyQt5.QtWidgets.QTableWidget object at 0x0000027679352180>
+2024-03-11 13:56:52.810 | DEBUG    | app.tools.main_window_functions:get_selected_table:140 - end
+2024-03-11 13:57:02.204 | DEBUG    | app.tools.main_window_functions:create_protocol:279 - end
+2024-03-11 14:00:49.464 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-11 14:00:49.465 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-11 14:00:55.234 | INFO     | app.tools.main_window_functions:use_data:283 - start
+2024-03-11 14:00:55.239 | DEBUG    | app.tools.main_window_functions:verificationer_changed:156 - start
+2024-03-11 14:00:55.240 | DEBUG    | app.tools.main_window_functions:verificationer_changed:164 - end
+2024-03-11 14:00:55.243 | INFO     | app.tools.main_window_functions:scale_changed:98 - start
+2024-03-11 14:00:55.245 | DEBUG    | app.tools.main_window_functions:scale_changed:122 - end
+2024-03-11 14:00:55.246 | ERROR    | app.tools.main_window_functions:use_data:309 - Ошибка при установлении значений в var_boxes.text_boxes
+2024-03-11 14:00:55.249 | DEBUG    | app.tools.main_window_functions:use_data:358 - end
+2024-03-11 14:01:00.098 | INFO     | app.main_window:choose_scale_excel:222 - start
+2024-03-11 14:01:00.100 | INFO     | app.tools.dialogs.ChooseScaleDialog:__init__:27 - ChooseScaleDialog(QDialog): __init__
+2024-03-11 14:01:04.227 | DEBUG    | app.main_window:choose_scale_excel:226 - end
+2024-03-11 14:01:14.497 | INFO     | app.tools.main_window_functions:create_protocol:175 - start
+2024-03-11 14:01:14.499 | DEBUG    | app.tools.main_window_functions:create_protocol:179 - Word=False
+2024-03-11 14:01:14.499 | DEBUG    | app.tools.main_window_functions:create_protocol:185 - Получение эталонов Excel= <PyQt5.QtWidgets.QTabWidget object at 0x0000019D895334A0>
+2024-03-11 14:01:14.500 | DEBUG    | app.tools.main_window_functions:get_selected_table:130 - start
+2024-03-11 14:01:14.501 | DEBUG    | app.tools.main_window_functions:get_selected_table:138 - <PyQt5.QtWidgets.QTableWidget object at 0x0000019D895335C0>
+2024-03-11 14:01:14.502 | DEBUG    | app.tools.main_window_functions:get_selected_table:140 - end
+2024-03-11 14:01:17.873 | DEBUG    | app.tools.main_window_functions:create_protocol:279 - end
+2024-03-11 14:01:22.365 | INFO     | app.tools.main_window_functions:create_protocol:175 - start
+2024-03-11 14:01:22.366 | DEBUG    | app.tools.main_window_functions:create_protocol:179 - Word=False
+2024-03-11 14:01:22.367 | DEBUG    | app.tools.main_window_functions:create_protocol:185 - Получение эталонов Excel= <PyQt5.QtWidgets.QTabWidget object at 0x0000019D895334A0>
+2024-03-11 14:01:22.368 | DEBUG    | app.tools.main_window_functions:get_selected_table:130 - start
+2024-03-11 14:01:22.368 | DEBUG    | app.tools.main_window_functions:get_selected_table:138 - <PyQt5.QtWidgets.QTableWidget object at 0x0000019D895335C0>
+2024-03-11 14:01:22.369 | DEBUG    | app.tools.main_window_functions:get_selected_table:140 - end
+2024-03-11 14:01:22.384 | INFO     | app.tools.office.Excel:make_new_protocol:85 - Создание Excel протокола
+2024-03-11 14:01:41.137 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-11 14:01:41.139 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-11 14:01:45.596 | INFO     | app.tools.main_window_functions:use_data:283 - start
+2024-03-11 14:01:45.612 | DEBUG    | app.tools.main_window_functions:verificationer_changed:156 - start
+2024-03-11 14:01:45.614 | DEBUG    | app.tools.main_window_functions:verificationer_changed:164 - end
+2024-03-11 14:01:45.618 | INFO     | app.tools.main_window_functions:scale_changed:98 - start
+2024-03-11 14:01:45.619 | DEBUG    | app.tools.main_window_functions:scale_changed:122 - end
+2024-03-11 14:01:45.620 | ERROR    | app.tools.main_window_functions:use_data:309 - Ошибка при установлении значений в var_boxes.text_boxes
+2024-03-11 14:01:45.626 | DEBUG    | app.tools.main_window_functions:use_data:358 - end
+2024-03-11 14:01:47.979 | INFO     | app.main_window:add_path:229 - start
+2024-03-11 14:01:52.848 | DEBUG    | app.main_window:add_path:234 - end
+2024-03-11 14:02:01.132 | DEBUG    | app.tools.main_window_functions:verificationer_changed:156 - start
+2024-03-11 14:02:01.134 | DEBUG    | app.tools.main_window_functions:verificationer_changed:164 - end
+2024-03-11 14:02:07.072 | INFO     | app.tools.main_window_functions:use_data:283 - start
+2024-03-11 14:02:07.076 | INFO     | app.tools.main_window_functions:scale_changed:98 - start
+2024-03-11 14:02:07.077 | DEBUG    | app.tools.main_window_functions:scale_changed:122 - end
+2024-03-11 14:02:07.078 | ERROR    | app.tools.main_window_functions:use_data:309 - Ошибка при установлении значений в var_boxes.text_boxes
+2024-03-11 14:02:07.081 | DEBUG    | app.tools.main_window_functions:use_data:358 - end
+2024-03-11 14:02:11.736 | DEBUG    | app.main_window:settings:245 - start
+2024-03-11 14:02:11.737 | INFO     | app.tools.dialogs.SettingDialog:__init__:19 - SettingDialog(QDialog): __init__
+2024-03-11 14:27:25.704 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-11 14:27:25.705 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-11 14:27:32.801 | INFO     | app.tools.main_window_functions:use_data:283 - start
+2024-03-11 14:27:32.805 | DEBUG    | app.tools.main_window_functions:verificationer_changed:156 - start
+2024-03-11 14:27:32.806 | DEBUG    | app.tools.main_window_functions:verificationer_changed:164 - end
+2024-03-11 14:27:32.809 | ERROR    | app.tools.main_window_functions:use_data:309 - Ошибка при установлении значений в var_boxes.text_boxes
+2024-03-11 14:27:32.815 | DEBUG    | app.tools.main_window_functions:use_data:358 - end
+2024-03-11 14:27:37.434 | INFO     | app.tools.main_window_functions:use_data:283 - start
+2024-03-11 14:27:37.438 | ERROR    | app.tools.main_window_functions:use_data:309 - Ошибка при установлении значений в var_boxes.text_boxes
+2024-03-11 14:27:37.441 | DEBUG    | app.tools.main_window_functions:use_data:358 - end
+2024-03-11 14:28:05.792 | INFO     | app.tools.main_window_functions:create_protocol:175 - start
+2024-03-11 14:28:05.793 | DEBUG    | app.tools.main_window_functions:create_protocol:179 - Word=False
+2024-03-11 14:28:05.794 | DEBUG    | app.tools.main_window_functions:create_protocol:185 - Получение эталонов Excel= <PyQt5.QtWidgets.QTabWidget object at 0x00000207301834A0>
+2024-03-11 14:28:05.796 | DEBUG    | app.tools.main_window_functions:get_selected_table:130 - start
+2024-03-11 14:28:05.797 | DEBUG    | app.tools.main_window_functions:get_selected_table:138 - <PyQt5.QtWidgets.QTableWidget object at 0x00000207301835C0>
+2024-03-11 14:28:05.798 | DEBUG    | app.tools.main_window_functions:get_selected_table:140 - end
+2024-03-11 14:28:05.800 | INFO     | app.tools.office.Excel:make_new_protocol:85 - Создание Excel протокола
+2024-03-11 14:28:05.801 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - scale: Весы настольные циферблатные РН-6Ц13У 8474-88
+2024-03-11 14:28:05.803 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - path: C:/Users/maina/PythonProjects/desktop
+2024-03-11 14:28:05.804 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - num_protocol: ЕИ-05-03-03-0000
+2024-03-11 14:28:05.805 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - num_scale: 1234
+2024-03-11 14:28:05.807 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - INN: INN
+2024-03-11 14:28:05.808 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - company: company
+2024-03-11 14:28:05.808 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - legal_address: place
+2024-03-11 14:28:05.809 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - inspection_address: place
+2024-03-11 14:28:05.810 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - path_to_excel: C:/Users/maina/PythonProjects/desktop/Журнал учета поверочных работ Бурков 20.08.2023.xlsx
+2024-03-11 14:28:05.812 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - temperature: temp
+2024-03-11 14:28:05.814 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - humidity: hum
+2024-03-11 14:28:05.816 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - pressure: press
+2024-03-11 14:28:05.817 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - INN_excel: 123
+2024-03-11 14:28:05.821 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - path_to_excel_jounal: 321
+2024-03-11 14:28:05.825 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - readings: 123
+2024-03-11 14:28:05.830 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - temperature_liquid: 321
+2024-03-11 14:28:05.831 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - work_place: 05 - Автоматические ВСУ
+2024-03-11 14:28:05.833 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - verificationer: Стариков
+2024-03-11 14:28:05.835 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - interval: 2
+2024-03-11 14:28:05.836 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - unfit: True
+2024-03-11 14:28:05.837 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - use_excel: False
+2024-03-11 14:28:05.838 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - inspection_date: 28.02.2024
+2024-03-11 14:28:05.839 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - standarts: Набор гирь 1 мг-500 г F1 рег. № в ФИФ 58463-14, №PV156, 2 разряд;
+Гиря М1 500 г рег. № в ФИФ 58048-14 №796242, 4 разряд;
+Гиря М1 1 кг рег. № в ФИФ 58048-14 №796241, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796236, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796237, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №796238, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №812854, 4 разряд
+2024-03-11 14:28:05.842 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - standarts_briefly: 58463.14.2Р.00869664|58048.14.4Р.00740372|58048.14.4Р.00740373|58048.14.4Р.00740374|58048.14.4Р.00740375|58048.14.4Р.00690618
+2024-03-11 14:28:05.844 | ERROR    | app.tools.office.Excel:open_document:41 - Ошибка при открытии шаблона
+2024-03-11 14:28:05.846 | INFO     | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-03-11 14:30:33.995 | DEBUG    | app.tools.main_window_functions:verificationer_changed:156 - start
+2024-03-11 14:30:33.998 | DEBUG    | app.tools.main_window_functions:verificationer_changed:164 - end
+2024-03-11 14:30:33.999 | DEBUG    | app.tools.main_window_functions:create_protocol:276 - end
+2024-03-11 14:30:34.000 | DEBUG    | app.tools.main_window_functions:create_protocol:279 - end
+2024-03-11 14:30:46.758 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-11 14:30:46.759 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-11 14:31:00.867 | INFO     | app.tools.main_window_functions:use_data:283 - start
+2024-03-11 14:31:00.883 | DEBUG    | app.tools.main_window_functions:verificationer_changed:156 - start
+2024-03-11 14:31:00.885 | DEBUG    | app.tools.main_window_functions:verificationer_changed:164 - end
+2024-03-11 14:31:00.888 | ERROR    | app.tools.main_window_functions:use_data:309 - Ошибка при установлении значений в var_boxes.text_boxes
+2024-03-11 14:31:00.896 | DEBUG    | app.tools.main_window_functions:use_data:358 - end
+2024-03-11 14:31:03.709 | DEBUG    | app.main_window:settings:245 - start
+2024-03-11 14:31:03.710 | INFO     | app.tools.dialogs.SettingDialog:__init__:19 - SettingDialog(QDialog): __init__
+2024-03-11 14:31:07.916 | DEBUG    | app.main_window:settings:249 - end
+2024-03-11 14:31:39.108 | INFO     | app.tools.main_window_functions:create_protocol:175 - start
+2024-03-11 14:31:39.109 | DEBUG    | app.tools.main_window_functions:create_protocol:179 - Word=False
+2024-03-11 14:31:39.110 | DEBUG    | app.tools.main_window_functions:create_protocol:185 - Получение эталонов Excel= <PyQt5.QtWidgets.QTabWidget object at 0x000002579F4734A0>
+2024-03-11 14:31:39.111 | DEBUG    | app.tools.main_window_functions:get_selected_table:130 - start
+2024-03-11 14:31:39.112 | DEBUG    | app.tools.main_window_functions:get_selected_table:138 - <PyQt5.QtWidgets.QTableWidget object at 0x000002579F4735C0>
+2024-03-11 14:31:39.113 | DEBUG    | app.tools.main_window_functions:get_selected_table:140 - end
+2024-03-11 14:31:39.116 | INFO     | app.tools.office.Excel:make_new_protocol:85 - Создание Excel протокола
+2024-03-11 14:31:39.118 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - scale: Весы настольные циферблатные РН-6Ц13У 8474-88
+2024-03-11 14:31:39.119 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - path: C:/Users/maina/PythonProjects/desktop
+2024-03-11 14:31:39.121 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - num_protocol: ЕИ-05-03-03-0000
+2024-03-11 14:31:39.121 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - num_scale: 1234
+2024-03-11 14:31:39.123 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - INN: INN
+2024-03-11 14:31:39.123 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - company: company
+2024-03-11 14:31:39.124 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - legal_address: place
+2024-03-11 14:31:39.125 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - inspection_address: place
+2024-03-11 14:31:39.125 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - path_to_excel: C:/Users/maina/PythonProjects/desktop/Журнал учета поверочных работ Бурков 20.08.2023.xlsx
+2024-03-11 14:31:39.126 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - temperature: temp
+2024-03-11 14:31:39.127 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - humidity: hum
+2024-03-11 14:31:39.129 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - pressure: press
+2024-03-11 14:31:39.131 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - INN_excel: 123
+2024-03-11 14:31:39.133 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - path_to_excel_jounal: 321
+2024-03-11 14:31:39.137 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - readings: 123
+2024-03-11 14:31:39.139 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - temperature_liquid: 321
+2024-03-11 14:31:39.141 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - work_place: 05 - Автоматические ВСУ
+2024-03-11 14:31:39.143 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - verificationer: Стариков
+2024-03-11 14:31:39.144 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - interval: 2
+2024-03-11 14:31:39.145 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - unfit: True
+2024-03-11 14:31:39.147 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - use_excel: False
+2024-03-11 14:31:39.148 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - inspection_date: 28.02.2024
+2024-03-11 14:31:39.150 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - standarts: Набор гирь 1 мг-500 г F1 рег. № в ФИФ 58463-14, №PV156, 2 разряд;
+Гиря М1 500 г рег. № в ФИФ 58048-14 №796242, 4 разряд;
+Гиря М1 1 кг рег. № в ФИФ 58048-14 №796241, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796236, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796237, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №796238, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №812854, 4 разряд
+2024-03-11 14:31:39.153 | DEBUG    | app.tools.office.Excel:make_new_protocol:94 - standarts_briefly: 58463.14.2Р.00869664|58048.14.4Р.00740372|58048.14.4Р.00740373|58048.14.4Р.00740374|58048.14.4Р.00740375|58048.14.4Р.00690618
+2024-03-11 14:31:39.155 | ERROR    | app.tools.office.Excel:open_document:41 - Ошибка при открытии шаблона
+2024-03-11 14:31:39.156 | INFO     | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-03-11 14:46:59.062 | DEBUG    | app.tools.main_window_functions:verificationer_changed:156 - start
+2024-03-11 14:46:59.068 | DEBUG    | app.tools.main_window_functions:verificationer_changed:164 - end
+2024-03-11 14:46:59.069 | DEBUG    | app.tools.main_window_functions:create_protocol:276 - end
+2024-03-11 14:46:59.069 | DEBUG    | app.tools.main_window_functions:create_protocol:279 - end
+2024-03-11 14:47:08.552 | INFO     | app.main_window:__init__:41 - Start initUI
+2024-03-11 14:47:08.553 | DEBUG    | app.main_window:__init__:42 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-11 14:47:24.924 | INFO     | app.tools.main_window_functions:use_data:283 - start
+2024-03-11 14:47:24.935 | DEBUG    | app.tools.main_window_functions:verificationer_changed:156 - start
+2024-03-11 14:47:24.937 | DEBUG    | app.tools.main_window_functions:verificationer_changed:164 - end
+2024-03-11 14:47:24.941 | ERROR    | app.tools.main_window_functions:use_data:309 - Ошибка при установлении значений в var_boxes.text_boxes
+2024-03-11 14:47:24.946 | DEBUG    | app.tools.main_window_functions:use_data:358 - end

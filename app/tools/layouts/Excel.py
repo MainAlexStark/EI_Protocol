@@ -26,7 +26,7 @@ def get_layout(self):
 
     var_layout.addWidget(self.text_scale_excel)
 
-    self.var_boxes_excel.text_boxes['scale_excel'] = self.text_scale_excel
+    self.var_boxes_excel.text_boxes['scale'] = self.text_scale_excel
 
     # Надпись
     self.button_choose_scale_excel = QPushButton('Выбрать весы', self)
@@ -124,13 +124,13 @@ def get_layout(self):
     self.text_INN_excel.setPlaceholderText("ИНН")
     var_layout.addWidget(self.text_INN_excel)
 
-    self.var_boxes.text_boxes['INN_excel'] = self.text_INN_excel
+    self.var_boxes_excel.text_boxes['INN_excel'] = self.text_INN_excel
 
     self.button_search_company_excel = QPushButton('Найти', self)
     self.button_search_company_excel.clicked.connect(self.search_company)  # Привязываем функцию
     var_layout.addWidget(self.button_search_company_excel)  # Добавляем в layout
 
-    self.buttons.Buttons['search'] = self.button_search_company
+    self.buttons_excel.Buttons['search'] = self.button_search_company
 
     # Company
     self.text_company_excel = QPlainTextEdit(self)
