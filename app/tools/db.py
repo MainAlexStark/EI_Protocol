@@ -13,6 +13,5 @@ def get_data(file_name: str):
             # Загрузите данные из файла
             return json.load(file)
         
-        
     except Exception as e:
         logger.error(f'Ошибка при получении данных из базы данных: {e}')

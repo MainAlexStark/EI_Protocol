@@ -183,7 +183,7 @@ class CreateProtocolFromExcelDialog(QDialog):
 
                 try:
 
-                    result_get = EXCEL.get_from_excel(self.text_path_to_excel.toPlainText(),row=str(row))
+                    result_get = EXCEL.get_args_from_excel(self.text_path_to_excel.toPlainText(),row=str(row))
 
                     if not result_get:
 

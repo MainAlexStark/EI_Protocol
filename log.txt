@@ -6550,3 +6550,1409 @@ The rights to the program belong to the company: ООО "Единица Изме
 2024-03-11 14:47:24.937 | DEBUG    | app.tools.main_window_functions:verificationer_changed:164 - end
 2024-03-11 14:47:24.941 | ERROR    | app.tools.main_window_functions:use_data:309 - Ошибка при установлении значений в var_boxes.text_boxes
 2024-03-11 14:47:24.946 | DEBUG    | app.tools.main_window_functions:use_data:358 - end
+2024-03-15 00:01:38.282 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 00:01:38.282 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 00:03:50.722 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 00:03:50.722 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 00:04:26.288 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 00:04:26.288 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 00:04:44.597 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 00:04:44.597 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 00:05:00.176 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 00:05:00.176 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 00:06:00.396 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 00:06:00.397 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 00:06:49.089 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 00:06:49.090 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 00:07:36.086 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 00:07:36.087 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 09:13:43.445 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 09:13:43.447 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 11:38:43.187 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 11:38:43.187 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 11:45:01.871 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 11:45:01.871 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 11:51:02.665 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 11:51:02.665 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 12:00:39.640 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 12:00:39.641 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 12:01:42.349 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 12:01:42.349 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 12:26:48.265 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 12:26:48.265 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 12:29:03.315 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 12:29:03.315 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 12:29:47.840 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 12:29:47.841 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 12:30:27.012 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 12:30:27.012 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 12:33:51.894 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 12:33:51.895 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 12:34:23.395 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 12:34:23.395 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 12:34:49.388 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 12:34:49.388 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 12:35:24.972 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 12:35:24.972 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 12:35:34.261 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 12:35:34.261 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 12:38:29.908 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 12:38:29.908 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 12:38:29.909 | SUCCESS  | app.tools.layouts.Word:get_layout:123 - MAIN WINDOW=<app.main_window.App object at 0x00000252CA1AC290>
+2024-03-15 12:38:30.274 | SUCCESS  | app.tools.layouts.Excel:get_layout:126 - MAIN WINDOW=<app.main_window.App object at 0x00000252CA1AC290>
+2024-03-15 12:38:52.172 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 12:38:52.172 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 12:38:52.173 | SUCCESS  | app.tools.layouts.Word:get_layout:123 - MAIN WINDOW=<app.main_window.App object at 0x000002E6E1B20290>
+2024-03-15 12:38:52.549 | SUCCESS  | app.tools.layouts.Excel:get_layout:126 - MAIN WINDOW=<app.main_window.App object at 0x000002E6E1B20290>
+2024-03-15 12:41:07.532 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 12:41:07.533 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 12:41:07.533 | SUCCESS  | app.tools.layouts.Word:get_layout:123 - MAIN WINDOW=<app.main_window.App object at 0x0000016CD36A0320>
+2024-03-15 12:41:07.901 | SUCCESS  | app.tools.layouts.Excel:get_layout:140 - MAIN WINDOW=<app.main_window.App object at 0x0000016CD36A0320>
+2024-03-15 12:43:10.358 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 12:43:10.358 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 12:43:10.359 | SUCCESS  | app.tools.layouts.Word:get_layout:137 - MAIN WINDOW=<app.main_window.App object at 0x00000210E89403B0>
+2024-03-15 12:43:10.741 | SUCCESS  | app.tools.layouts.Excel:get_layout:140 - MAIN WINDOW=<app.main_window.App object at 0x00000210E89403B0>
+2024-03-15 12:53:51.945 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 12:53:51.946 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 12:53:51.946 | SUCCESS  | app.tools.layouts.Word:get_layout:29 - MAIN WINDOW=<app.main_window.App object at 0x0000016BDEA843B0>
+2024-03-15 12:53:52.331 | SUCCESS  | app.tools.layouts.Excel:get_layout:140 - MAIN WINDOW=<app.main_window.App object at 0x0000016BDEA843B0>
+2024-03-15 12:55:36.148 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 12:55:36.149 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 12:55:36.149 | SUCCESS  | app.tools.layouts.Word:get_layout:29 - MAIN WINDOW=<app.main_window.App object at 0x00000211477843B0>
+2024-03-15 12:55:36.540 | SUCCESS  | app.tools.layouts.Excel:get_layout:140 - MAIN WINDOW=<app.main_window.App object at 0x00000211477843B0>
+2024-03-15 12:55:48.830 | SUCCESS  | app.tools.layouts.Word:use_data:464 - MAIN WINDOW=None
+2024-03-15 13:04:20.944 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 13:04:20.944 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 13:04:20.945 | SUCCESS  | app.tools.layouts.Word:get_layout:29 - MAIN WINDOW=<app.main_window.App object at 0x000001FC6DF683B0>
+2024-03-15 13:04:21.318 | SUCCESS  | app.tools.layouts.Excel:get_layout:140 - MAIN WINDOW=<app.main_window.App object at 0x000001FC6DF683B0>
+2024-03-15 13:04:23.140 | SUCCESS  | app.tools.layouts.Word:use_data:464 - MAIN WINDOW=<app.main_window.App object at 0x000001FC6DF683B0>
+2024-03-15 13:04:23.140 | INFO     | app.tools.functions:use_data:278 - start
+2024-03-15 13:04:23.162 | DEBUG    | app.tools.functions:use_data:356 - end
+2024-03-15 13:06:44.952 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 13:06:44.952 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 13:06:44.953 | SUCCESS  | app.tools.layouts.Word:get_layout:29 - MAIN WINDOW=<app.main_window.App object at 0x000002085F1C43B0>
+2024-03-15 13:06:45.369 | SUCCESS  | app.tools.layouts.Excel:get_layout:141 - MAIN WINDOW=<app.main_window.App object at 0x000002085F1C43B0>
+2024-03-15 13:06:52.720 | SUCCESS  | app.tools.layouts.Word:settings:525 - MAIN WINDOW=<app.main_window.App object at 0x000002085F1C43B0>
+2024-03-15 13:06:52.720 | DEBUG    | app.tools.layouts.Word:settings:526 - Настройки диалог
+2024-03-15 13:06:52.733 | INFO     | app.tools.dialogs.SettingDialog:__init__:19 - SettingDialog(QDialog): __init__
+2024-03-15 13:06:53.681 | DEBUG    | app.tools.layouts.Word:settings:530 - Успешно настройки диалог
+2024-03-15 13:06:55.530 | DEBUG    | app.tools.layouts.Excel:settings:106 - Настройки диалог
+2024-03-15 13:06:55.530 | INFO     | app.tools.dialogs.SettingDialog:__init__:19 - SettingDialog(QDialog): __init__
+2024-03-15 13:06:56.411 | DEBUG    | app.tools.layouts.Excel:settings:111 - Успешно настройки диалог
+2024-03-15 13:08:04.586 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 13:08:04.586 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 13:08:04.587 | SUCCESS  | app.tools.layouts.Word:get_layout:29 - MAIN WINDOW=<app.main_window.App object at 0x00000274C90A83B0>
+2024-03-15 13:08:04.958 | SUCCESS  | app.tools.layouts.Excel:get_layout:139 - MAIN WINDOW=<app.main_window.App object at 0x00000274C90A83B0>
+2024-03-15 13:08:07.895 | INFO     | app.tools.functions:use_data:278 - start
+2024-03-15 13:08:07.898 | DEBUG    | app.tools.functions:use_data:356 - end
+2024-03-15 13:08:12.634 | SUCCESS  | app.tools.layouts.Word:use_data:464 - MAIN WINDOW=<app.main_window.App object at 0x00000274C90A83B0>
+2024-03-15 13:08:12.634 | INFO     | app.tools.functions:use_data:278 - start
+2024-03-15 13:08:12.636 | DEBUG    | app.tools.functions:use_data:356 - end
+2024-03-15 13:08:13.514 | SUCCESS  | app.tools.layouts.Word:use_data:464 - MAIN WINDOW=<app.main_window.App object at 0x00000274C90A83B0>
+2024-03-15 13:08:13.514 | INFO     | app.tools.functions:use_data:278 - start
+2024-03-15 13:08:13.516 | DEBUG    | app.tools.functions:use_data:356 - end
+2024-03-15 13:08:17.771 | INFO     | app.tools.functions:clean:360 - Очистить все виджеты
+2024-03-15 13:08:17.773 | ERROR    | app.tools.functions:clean:383 - Ошибка при очищении значений всех виджетов
+2024-03-15 13:08:17.774 | SUCCESS  | app.tools.functions:clean:386 - Успешно очищены все виджеты
+2024-03-15 13:08:18.060 | INFO     | app.tools.functions:use_data:278 - start
+2024-03-15 13:08:18.061 | DEBUG    | app.tools.functions:use_data:356 - end
+2024-03-15 13:08:19.191 | INFO     | app.tools.functions:clean:360 - Очистить все виджеты
+2024-03-15 13:08:19.192 | ERROR    | app.tools.functions:clean:383 - Ошибка при очищении значений всех виджетов
+2024-03-15 13:08:19.192 | SUCCESS  | app.tools.functions:clean:386 - Успешно очищены все виджеты
+2024-03-15 13:08:19.547 | INFO     | app.tools.functions:use_data:278 - start
+2024-03-15 13:08:19.548 | DEBUG    | app.tools.functions:use_data:356 - end
+2024-03-15 13:08:20.512 | INFO     | app.tools.functions:clean:360 - Очистить все виджеты
+2024-03-15 13:08:20.512 | ERROR    | app.tools.functions:clean:383 - Ошибка при очищении значений всех виджетов
+2024-03-15 13:08:20.513 | SUCCESS  | app.tools.functions:clean:386 - Успешно очищены все виджеты
+2024-03-15 13:08:20.763 | INFO     | app.tools.functions:use_data:278 - start
+2024-03-15 13:08:20.765 | DEBUG    | app.tools.functions:use_data:356 - end
+2024-03-15 13:10:33.681 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 13:10:33.681 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 13:10:33.682 | SUCCESS  | app.tools.layouts.Word:get_layout:29 - MAIN WINDOW=<app.main_window.App object at 0x0000025A9B8083B0>
+2024-03-15 13:10:34.056 | SUCCESS  | app.tools.layouts.Excel:get_layout:139 - MAIN WINDOW=<app.main_window.App object at 0x0000025A9B8083B0>
+2024-03-15 13:10:35.456 | SUCCESS  | app.tools.layouts.Word:use_data:464 - MAIN WINDOW=<app.main_window.App object at 0x0000025A9B8083B0>
+2024-03-15 13:10:35.457 | INFO     | app.tools.functions:use_data:278 - start
+2024-03-15 13:10:35.460 | DEBUG    | app.tools.functions:use_data:356 - end
+2024-03-15 13:10:37.106 | SUCCESS  | app.tools.layouts.Word:clean:472 - MAIN WINDOW=<app.main_window.App object at 0x0000025A9B8083B0>
+2024-03-15 13:10:37.106 | INFO     | app.tools.functions:clean:360 - Очистить все виджеты
+2024-03-15 13:10:37.107 | ERROR    | app.tools.functions:clean:383 - Ошибка при очищении значений всех виджетов
+2024-03-15 13:10:37.107 | SUCCESS  | app.tools.functions:clean:386 - Успешно очищены все виджеты
+2024-03-15 13:10:37.514 | SUCCESS  | app.tools.layouts.Word:clean:472 - MAIN WINDOW=<app.main_window.App object at 0x0000025A9B8083B0>
+2024-03-15 13:10:37.514 | INFO     | app.tools.functions:clean:360 - Очистить все виджеты
+2024-03-15 13:10:37.514 | ERROR    | app.tools.functions:clean:383 - Ошибка при очищении значений всех виджетов
+2024-03-15 13:10:37.515 | SUCCESS  | app.tools.functions:clean:386 - Успешно очищены все виджеты
+2024-03-15 13:10:37.886 | SUCCESS  | app.tools.layouts.Word:use_data:464 - MAIN WINDOW=<app.main_window.App object at 0x0000025A9B8083B0>
+2024-03-15 13:10:37.886 | INFO     | app.tools.functions:use_data:278 - start
+2024-03-15 13:10:37.886 | DEBUG    | app.tools.functions:use_data:356 - end
+2024-03-15 13:10:38.403 | SUCCESS  | app.tools.layouts.Word:clean:472 - MAIN WINDOW=<app.main_window.App object at 0x0000025A9B8083B0>
+2024-03-15 13:10:38.403 | INFO     | app.tools.functions:clean:360 - Очистить все виджеты
+2024-03-15 13:10:38.404 | ERROR    | app.tools.functions:clean:383 - Ошибка при очищении значений всех виджетов
+2024-03-15 13:10:38.405 | SUCCESS  | app.tools.functions:clean:386 - Успешно очищены все виджеты
+2024-03-15 13:10:40.702 | INFO     | app.tools.functions:use_data:278 - start
+2024-03-15 13:10:40.703 | DEBUG    | app.tools.functions:use_data:356 - end
+2024-03-15 13:10:44.408 | DEBUG    | app.tools.layouts.Excel:settings:104 - Настройки диалог
+2024-03-15 13:10:44.409 | INFO     | app.tools.dialogs.SettingDialog:__init__:19 - SettingDialog(QDialog): __init__
+2024-03-15 13:10:47.418 | DEBUG    | app.tools.layouts.Excel:settings:109 - Успешно настройки диалог
+2024-03-15 13:10:50.778 | DEBUG    | app.tools.functions:verificationer_changed:156 - Изменение поверителя
+2024-03-15 13:10:50.779 | DEBUG    | app.tools.functions:verificationer_changed:164 - Поверитель изменен
+2024-03-15 13:11:40.990 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 13:11:40.991 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 13:11:40.991 | SUCCESS  | app.tools.layouts.Word:get_layout:29 - MAIN WINDOW=<app.main_window.App object at 0x00000287CE6AC3B0>
+2024-03-15 13:11:41.385 | SUCCESS  | app.tools.layouts.Excel:get_layout:139 - MAIN WINDOW=<app.main_window.App object at 0x00000287CE6AC3B0>
+2024-03-15 13:12:17.973 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 13:12:17.974 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 13:12:17.974 | SUCCESS  | app.tools.layouts.Word:get_layout:29 - MAIN WINDOW=<app.main_window.App object at 0x0000028132D7C3B0>
+2024-03-15 13:12:18.348 | SUCCESS  | app.tools.layouts.Excel:get_layout:139 - MAIN WINDOW=<app.main_window.App object at 0x0000028132D7C3B0>
+2024-03-15 13:12:19.726 | SUCCESS  | app.tools.layouts.Word:use_data:464 - MAIN WINDOW=<app.main_window.App object at 0x0000028132D7C3B0>
+2024-03-15 13:12:19.726 | INFO     | app.tools.functions:use_data:278 - start
+2024-03-15 13:12:19.729 | DEBUG    | app.tools.functions:use_data:356 - end
+2024-03-15 13:12:20.454 | SUCCESS  | app.tools.layouts.Word:use_data:464 - MAIN WINDOW=<app.main_window.App object at 0x0000028132D7C3B0>
+2024-03-15 13:12:20.454 | INFO     | app.tools.functions:use_data:278 - start
+2024-03-15 13:12:20.456 | DEBUG    | app.tools.functions:use_data:356 - end
+2024-03-15 13:12:21.393 | SUCCESS  | app.tools.layouts.Word:clean:472 - MAIN WINDOW=<app.main_window.App object at 0x0000028132D7C3B0>
+2024-03-15 13:12:21.394 | INFO     | app.tools.functions:clean:360 - Очистить все виджеты
+2024-03-15 13:12:21.394 | ERROR    | app.tools.functions:clean:383 - Ошибка при очищении значений всех виджетов
+2024-03-15 13:12:21.395 | SUCCESS  | app.tools.functions:clean:386 - Успешно очищены все виджеты
+2024-03-15 13:12:21.830 | SUCCESS  | app.tools.layouts.Word:use_data:464 - MAIN WINDOW=<app.main_window.App object at 0x0000028132D7C3B0>
+2024-03-15 13:12:21.830 | INFO     | app.tools.functions:use_data:278 - start
+2024-03-15 13:12:21.831 | DEBUG    | app.tools.functions:use_data:356 - end
+2024-03-15 13:12:22.186 | SUCCESS  | app.tools.layouts.Word:clean:472 - MAIN WINDOW=<app.main_window.App object at 0x0000028132D7C3B0>
+2024-03-15 13:12:22.187 | INFO     | app.tools.functions:clean:360 - Очистить все виджеты
+2024-03-15 13:12:22.188 | ERROR    | app.tools.functions:clean:383 - Ошибка при очищении значений всех виджетов
+2024-03-15 13:12:22.190 | SUCCESS  | app.tools.functions:clean:386 - Успешно очищены все виджеты
+2024-03-15 13:12:22.509 | SUCCESS  | app.tools.layouts.Word:use_data:464 - MAIN WINDOW=<app.main_window.App object at 0x0000028132D7C3B0>
+2024-03-15 13:12:22.510 | INFO     | app.tools.functions:use_data:278 - start
+2024-03-15 13:12:22.512 | DEBUG    | app.tools.functions:use_data:356 - end
+2024-03-15 13:12:22.838 | SUCCESS  | app.tools.layouts.Word:clean:472 - MAIN WINDOW=<app.main_window.App object at 0x0000028132D7C3B0>
+2024-03-15 13:12:22.838 | INFO     | app.tools.functions:clean:360 - Очистить все виджеты
+2024-03-15 13:12:22.839 | ERROR    | app.tools.functions:clean:383 - Ошибка при очищении значений всех виджетов
+2024-03-15 13:12:22.842 | SUCCESS  | app.tools.functions:clean:386 - Успешно очищены все виджеты
+2024-03-15 13:12:24.690 | INFO     | app.tools.functions:use_data:278 - start
+2024-03-15 13:12:24.691 | DEBUG    | app.tools.functions:use_data:356 - end
+2024-03-15 13:12:26.223 | INFO     | app.tools.functions:clean:360 - Очистить все виджеты
+2024-03-15 13:12:26.224 | ERROR    | app.tools.functions:clean:383 - Ошибка при очищении значений всех виджетов
+2024-03-15 13:12:26.224 | SUCCESS  | app.tools.functions:clean:386 - Успешно очищены все виджеты
+2024-03-15 13:12:26.768 | INFO     | app.tools.functions:use_data:278 - start
+2024-03-15 13:12:26.770 | DEBUG    | app.tools.functions:use_data:356 - end
+2024-03-15 13:12:27.536 | INFO     | app.tools.functions:clean:360 - Очистить все виджеты
+2024-03-15 13:12:27.536 | ERROR    | app.tools.functions:clean:383 - Ошибка при очищении значений всех виджетов
+2024-03-15 13:12:27.536 | SUCCESS  | app.tools.functions:clean:386 - Успешно очищены все виджеты
+2024-03-15 13:12:27.896 | INFO     | app.tools.functions:use_data:278 - start
+2024-03-15 13:12:27.898 | DEBUG    | app.tools.functions:use_data:356 - end
+2024-03-15 13:12:28.456 | INFO     | app.tools.functions:clean:360 - Очистить все виджеты
+2024-03-15 13:12:28.457 | ERROR    | app.tools.functions:clean:383 - Ошибка при очищении значений всех виджетов
+2024-03-15 13:12:28.457 | SUCCESS  | app.tools.functions:clean:386 - Успешно очищены все виджеты
+2024-03-15 13:12:28.563 | INFO     | app.tools.functions:clean:360 - Очистить все виджеты
+2024-03-15 13:12:28.564 | ERROR    | app.tools.functions:clean:383 - Ошибка при очищении значений всех виджетов
+2024-03-15 13:12:28.564 | SUCCESS  | app.tools.functions:clean:386 - Успешно очищены все виджеты
+2024-03-15 13:12:29.072 | INFO     | app.tools.functions:use_data:278 - start
+2024-03-15 13:12:29.073 | DEBUG    | app.tools.functions:use_data:356 - end
+2024-03-15 13:12:29.370 | INFO     | app.tools.functions:clean:360 - Очистить все виджеты
+2024-03-15 13:12:29.371 | ERROR    | app.tools.functions:clean:383 - Ошибка при очищении значений всех виджетов
+2024-03-15 13:12:29.372 | SUCCESS  | app.tools.functions:clean:386 - Успешно очищены все виджеты
+2024-03-15 13:16:58.091 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 13:16:58.091 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 13:16:58.092 | SUCCESS  | app.tools.layouts.Word:get_layout:29 - MAIN WINDOW=<app.main_window.App object at 0x000001E904B0C3B0>
+2024-03-15 13:16:58.464 | SUCCESS  | app.tools.layouts.Excel:get_layout:139 - MAIN WINDOW=<app.main_window.App object at 0x000001E904B0C3B0>
+2024-03-15 13:17:00.042 | SUCCESS  | app.tools.layouts.Word:use_data:464 - MAIN WINDOW=<app.main_window.App object at 0x000001E904B0C3B0>
+2024-03-15 13:17:00.043 | INFO     | app.tools.functions:use_data:278 - start
+2024-03-15 13:17:00.045 | DEBUG    | app.tools.functions:use_data:356 - end
+2024-03-15 13:23:18.801 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 13:23:18.802 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 13:23:18.802 | SUCCESS  | app.tools.layouts.Word:get_layout:29 - MAIN WINDOW=<app.main_window.App object at 0x00000216F05EC3B0>
+2024-03-15 13:23:19.175 | SUCCESS  | app.tools.layouts.Excel:get_layout:139 - MAIN WINDOW=<app.main_window.App object at 0x00000216F05EC3B0>
+2024-03-15 13:23:20.949 | SUCCESS  | app.tools.layouts.Word:use_data:464 - MAIN WINDOW=<app.main_window.App object at 0x00000216F05EC3B0>
+2024-03-15 13:23:20.949 | INFO     | app.tools.functions:use_data:278 - start
+2024-03-15 13:23:20.950 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=scale, STORAGE_NAME=path
+2024-03-15 13:23:20.950 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path, STORAGE_NAME=path
+2024-03-15 13:23:20.951 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_protocol, STORAGE_NAME=path
+2024-03-15 13:23:20.952 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_scale, STORAGE_NAME=path
+2024-03-15 13:23:20.952 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=INN, STORAGE_NAME=path
+2024-03-15 13:23:20.952 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=company, STORAGE_NAME=path
+2024-03-15 13:23:20.952 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=legal_address, STORAGE_NAME=path
+2024-03-15 13:23:20.952 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=inspection_address, STORAGE_NAME=path
+2024-03-15 13:23:20.952 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path_to_excel_jounal, STORAGE_NAME=path
+2024-03-15 13:23:20.953 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature, STORAGE_NAME=path
+2024-03-15 13:23:20.953 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=humidity, STORAGE_NAME=path
+2024-03-15 13:23:20.953 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=pressure, STORAGE_NAME=path
+2024-03-15 13:23:20.953 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=save_path, STORAGE_NAME=path
+2024-03-15 13:23:20.954 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=readings, STORAGE_NAME=path
+2024-03-15 13:23:20.954 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature_liquid, STORAGE_NAME=path
+2024-03-15 13:23:20.955 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=scale, STORAGE_NAME=verificationer
+2024-03-15 13:23:20.955 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path, STORAGE_NAME=verificationer
+2024-03-15 13:23:20.956 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_protocol, STORAGE_NAME=verificationer
+2024-03-15 13:23:20.956 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_scale, STORAGE_NAME=verificationer
+2024-03-15 13:23:20.956 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=INN, STORAGE_NAME=verificationer
+2024-03-15 13:23:20.957 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=company, STORAGE_NAME=verificationer
+2024-03-15 13:23:20.957 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=legal_address, STORAGE_NAME=verificationer
+2024-03-15 13:23:20.957 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=inspection_address, STORAGE_NAME=verificationer
+2024-03-15 13:23:20.957 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path_to_excel_jounal, STORAGE_NAME=verificationer
+2024-03-15 13:23:20.957 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature, STORAGE_NAME=verificationer
+2024-03-15 13:23:20.958 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=humidity, STORAGE_NAME=verificationer
+2024-03-15 13:23:20.958 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=pressure, STORAGE_NAME=verificationer
+2024-03-15 13:23:20.958 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=save_path, STORAGE_NAME=verificationer
+2024-03-15 13:23:20.958 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=readings, STORAGE_NAME=verificationer
+2024-03-15 13:23:20.959 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature_liquid, STORAGE_NAME=verificationer
+2024-03-15 13:23:20.959 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=scale, STORAGE_NAME=INN
+2024-03-15 13:23:20.959 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path, STORAGE_NAME=INN
+2024-03-15 13:23:20.959 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_protocol, STORAGE_NAME=INN
+2024-03-15 13:23:20.960 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_scale, STORAGE_NAME=INN
+2024-03-15 13:23:20.960 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=INN, STORAGE_NAME=INN
+2024-03-15 13:23:20.960 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=company, STORAGE_NAME=INN
+2024-03-15 13:23:20.961 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=legal_address, STORAGE_NAME=INN
+2024-03-15 13:23:20.961 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=inspection_address, STORAGE_NAME=INN
+2024-03-15 13:23:20.961 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path_to_excel_jounal, STORAGE_NAME=INN
+2024-03-15 13:23:20.961 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature, STORAGE_NAME=INN
+2024-03-15 13:23:20.962 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=humidity, STORAGE_NAME=INN
+2024-03-15 13:23:20.962 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=pressure, STORAGE_NAME=INN
+2024-03-15 13:23:20.962 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=save_path, STORAGE_NAME=INN
+2024-03-15 13:23:20.963 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=readings, STORAGE_NAME=INN
+2024-03-15 13:23:20.963 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature_liquid, STORAGE_NAME=INN
+2024-03-15 13:23:20.963 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=scale, STORAGE_NAME=company
+2024-03-15 13:23:20.963 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path, STORAGE_NAME=company
+2024-03-15 13:23:20.964 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_protocol, STORAGE_NAME=company
+2024-03-15 13:23:20.964 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_scale, STORAGE_NAME=company
+2024-03-15 13:23:20.964 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=INN, STORAGE_NAME=company
+2024-03-15 13:23:20.964 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=company, STORAGE_NAME=company
+2024-03-15 13:23:20.965 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=legal_address, STORAGE_NAME=company
+2024-03-15 13:23:20.968 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=inspection_address, STORAGE_NAME=company
+2024-03-15 13:23:20.968 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path_to_excel_jounal, STORAGE_NAME=company
+2024-03-15 13:23:20.969 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature, STORAGE_NAME=company
+2024-03-15 13:23:20.970 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=humidity, STORAGE_NAME=company
+2024-03-15 13:23:20.970 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=pressure, STORAGE_NAME=company
+2024-03-15 13:23:20.970 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=save_path, STORAGE_NAME=company
+2024-03-15 13:23:20.970 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=readings, STORAGE_NAME=company
+2024-03-15 13:23:20.971 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature_liquid, STORAGE_NAME=company
+2024-03-15 13:23:20.971 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=scale, STORAGE_NAME=legal_address
+2024-03-15 13:23:20.971 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path, STORAGE_NAME=legal_address
+2024-03-15 13:23:20.971 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_protocol, STORAGE_NAME=legal_address
+2024-03-15 13:23:20.972 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_scale, STORAGE_NAME=legal_address
+2024-03-15 13:23:20.972 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=INN, STORAGE_NAME=legal_address
+2024-03-15 13:23:20.972 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=company, STORAGE_NAME=legal_address
+2024-03-15 13:23:20.972 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=legal_address, STORAGE_NAME=legal_address
+2024-03-15 13:23:20.973 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=inspection_address, STORAGE_NAME=legal_address
+2024-03-15 13:23:20.973 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path_to_excel_jounal, STORAGE_NAME=legal_address
+2024-03-15 13:23:20.973 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature, STORAGE_NAME=legal_address
+2024-03-15 13:23:20.974 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=humidity, STORAGE_NAME=legal_address
+2024-03-15 13:23:20.974 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=pressure, STORAGE_NAME=legal_address
+2024-03-15 13:23:20.974 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=save_path, STORAGE_NAME=legal_address
+2024-03-15 13:23:20.974 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=readings, STORAGE_NAME=legal_address
+2024-03-15 13:23:20.974 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature_liquid, STORAGE_NAME=legal_address
+2024-03-15 13:23:20.975 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=scale, STORAGE_NAME=inspection_address
+2024-03-15 13:23:20.975 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path, STORAGE_NAME=inspection_address
+2024-03-15 13:23:20.975 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_protocol, STORAGE_NAME=inspection_address
+2024-03-15 13:23:20.975 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_scale, STORAGE_NAME=inspection_address
+2024-03-15 13:23:20.976 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=INN, STORAGE_NAME=inspection_address
+2024-03-15 13:23:20.976 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=company, STORAGE_NAME=inspection_address
+2024-03-15 13:23:20.976 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=legal_address, STORAGE_NAME=inspection_address
+2024-03-15 13:23:20.977 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=inspection_address, STORAGE_NAME=inspection_address
+2024-03-15 13:23:20.977 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path_to_excel_jounal, STORAGE_NAME=inspection_address
+2024-03-15 13:23:20.977 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature, STORAGE_NAME=inspection_address
+2024-03-15 13:23:20.977 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=humidity, STORAGE_NAME=inspection_address
+2024-03-15 13:23:20.978 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=pressure, STORAGE_NAME=inspection_address
+2024-03-15 13:23:20.978 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=save_path, STORAGE_NAME=inspection_address
+2024-03-15 13:23:20.978 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=readings, STORAGE_NAME=inspection_address
+2024-03-15 13:23:20.978 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature_liquid, STORAGE_NAME=inspection_address
+2024-03-15 13:23:20.979 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=scale, STORAGE_NAME=inspection_date
+2024-03-15 13:23:20.979 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path, STORAGE_NAME=inspection_date
+2024-03-15 13:23:20.979 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_protocol, STORAGE_NAME=inspection_date
+2024-03-15 13:23:20.980 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_scale, STORAGE_NAME=inspection_date
+2024-03-15 13:23:20.980 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=INN, STORAGE_NAME=inspection_date
+2024-03-15 13:23:20.980 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=company, STORAGE_NAME=inspection_date
+2024-03-15 13:23:20.980 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=legal_address, STORAGE_NAME=inspection_date
+2024-03-15 13:23:20.981 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=inspection_address, STORAGE_NAME=inspection_date
+2024-03-15 13:23:20.983 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path_to_excel_jounal, STORAGE_NAME=inspection_date
+2024-03-15 13:23:20.984 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature, STORAGE_NAME=inspection_date
+2024-03-15 13:23:20.984 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=humidity, STORAGE_NAME=inspection_date
+2024-03-15 13:23:20.984 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=pressure, STORAGE_NAME=inspection_date
+2024-03-15 13:23:20.984 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=save_path, STORAGE_NAME=inspection_date
+2024-03-15 13:23:20.985 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=readings, STORAGE_NAME=inspection_date
+2024-03-15 13:23:20.985 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature_liquid, STORAGE_NAME=inspection_date
+2024-03-15 13:23:20.985 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=scale, STORAGE_NAME=temperature
+2024-03-15 13:23:20.985 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path, STORAGE_NAME=temperature
+2024-03-15 13:23:20.986 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_protocol, STORAGE_NAME=temperature
+2024-03-15 13:23:20.986 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_scale, STORAGE_NAME=temperature
+2024-03-15 13:23:20.986 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=INN, STORAGE_NAME=temperature
+2024-03-15 13:23:20.986 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=company, STORAGE_NAME=temperature
+2024-03-15 13:23:20.987 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=legal_address, STORAGE_NAME=temperature
+2024-03-15 13:23:20.987 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=inspection_address, STORAGE_NAME=temperature
+2024-03-15 13:23:20.987 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path_to_excel_jounal, STORAGE_NAME=temperature
+2024-03-15 13:23:20.987 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature, STORAGE_NAME=temperature
+2024-03-15 13:23:20.988 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=humidity, STORAGE_NAME=temperature
+2024-03-15 13:23:20.988 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=pressure, STORAGE_NAME=temperature
+2024-03-15 13:23:20.988 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=save_path, STORAGE_NAME=temperature
+2024-03-15 13:23:20.988 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=readings, STORAGE_NAME=temperature
+2024-03-15 13:23:20.989 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature_liquid, STORAGE_NAME=temperature
+2024-03-15 13:23:20.989 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=scale, STORAGE_NAME=humidity
+2024-03-15 13:23:20.989 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path, STORAGE_NAME=humidity
+2024-03-15 13:23:20.989 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_protocol, STORAGE_NAME=humidity
+2024-03-15 13:23:20.990 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_scale, STORAGE_NAME=humidity
+2024-03-15 13:23:20.990 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=INN, STORAGE_NAME=humidity
+2024-03-15 13:23:20.990 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=company, STORAGE_NAME=humidity
+2024-03-15 13:23:20.991 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=legal_address, STORAGE_NAME=humidity
+2024-03-15 13:23:20.991 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=inspection_address, STORAGE_NAME=humidity
+2024-03-15 13:23:20.991 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path_to_excel_jounal, STORAGE_NAME=humidity
+2024-03-15 13:23:20.991 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature, STORAGE_NAME=humidity
+2024-03-15 13:23:20.992 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=humidity, STORAGE_NAME=humidity
+2024-03-15 13:23:20.992 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=pressure, STORAGE_NAME=humidity
+2024-03-15 13:23:20.992 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=save_path, STORAGE_NAME=humidity
+2024-03-15 13:23:20.992 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=readings, STORAGE_NAME=humidity
+2024-03-15 13:23:20.993 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature_liquid, STORAGE_NAME=humidity
+2024-03-15 13:23:20.993 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=scale, STORAGE_NAME=pressure
+2024-03-15 13:23:20.993 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path, STORAGE_NAME=pressure
+2024-03-15 13:23:20.994 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_protocol, STORAGE_NAME=pressure
+2024-03-15 13:23:20.994 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_scale, STORAGE_NAME=pressure
+2024-03-15 13:23:20.994 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=INN, STORAGE_NAME=pressure
+2024-03-15 13:23:20.994 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=company, STORAGE_NAME=pressure
+2024-03-15 13:23:20.995 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=legal_address, STORAGE_NAME=pressure
+2024-03-15 13:23:20.995 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=inspection_address, STORAGE_NAME=pressure
+2024-03-15 13:23:20.995 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path_to_excel_jounal, STORAGE_NAME=pressure
+2024-03-15 13:23:20.995 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature, STORAGE_NAME=pressure
+2024-03-15 13:23:20.995 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=humidity, STORAGE_NAME=pressure
+2024-03-15 13:23:20.999 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=pressure, STORAGE_NAME=pressure
+2024-03-15 13:23:21.000 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=save_path, STORAGE_NAME=pressure
+2024-03-15 13:23:21.000 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=readings, STORAGE_NAME=pressure
+2024-03-15 13:23:21.000 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature_liquid, STORAGE_NAME=pressure
+2024-03-15 13:23:21.000 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=scale, STORAGE_NAME=use_excel
+2024-03-15 13:23:21.001 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path, STORAGE_NAME=use_excel
+2024-03-15 13:23:21.001 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_protocol, STORAGE_NAME=use_excel
+2024-03-15 13:23:21.001 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_scale, STORAGE_NAME=use_excel
+2024-03-15 13:23:21.001 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=INN, STORAGE_NAME=use_excel
+2024-03-15 13:23:21.002 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=company, STORAGE_NAME=use_excel
+2024-03-15 13:23:21.002 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=legal_address, STORAGE_NAME=use_excel
+2024-03-15 13:23:21.002 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=inspection_address, STORAGE_NAME=use_excel
+2024-03-15 13:23:21.002 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path_to_excel_jounal, STORAGE_NAME=use_excel
+2024-03-15 13:23:21.003 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature, STORAGE_NAME=use_excel
+2024-03-15 13:23:21.003 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=humidity, STORAGE_NAME=use_excel
+2024-03-15 13:23:21.003 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=pressure, STORAGE_NAME=use_excel
+2024-03-15 13:23:21.003 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=save_path, STORAGE_NAME=use_excel
+2024-03-15 13:23:21.004 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=readings, STORAGE_NAME=use_excel
+2024-03-15 13:23:21.004 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature_liquid, STORAGE_NAME=use_excel
+2024-03-15 13:23:21.004 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=scale, STORAGE_NAME=standarts
+2024-03-15 13:23:21.004 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path, STORAGE_NAME=standarts
+2024-03-15 13:23:21.005 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_protocol, STORAGE_NAME=standarts
+2024-03-15 13:23:21.005 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_scale, STORAGE_NAME=standarts
+2024-03-15 13:23:21.005 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=INN, STORAGE_NAME=standarts
+2024-03-15 13:23:21.005 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=company, STORAGE_NAME=standarts
+2024-03-15 13:23:21.006 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=legal_address, STORAGE_NAME=standarts
+2024-03-15 13:23:21.006 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=inspection_address, STORAGE_NAME=standarts
+2024-03-15 13:23:21.006 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path_to_excel_jounal, STORAGE_NAME=standarts
+2024-03-15 13:23:21.006 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature, STORAGE_NAME=standarts
+2024-03-15 13:23:21.007 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=humidity, STORAGE_NAME=standarts
+2024-03-15 13:23:21.007 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=pressure, STORAGE_NAME=standarts
+2024-03-15 13:23:21.007 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=save_path, STORAGE_NAME=standarts
+2024-03-15 13:23:21.007 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=readings, STORAGE_NAME=standarts
+2024-03-15 13:23:21.008 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature_liquid, STORAGE_NAME=standarts
+2024-03-15 13:23:21.008 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=scale, STORAGE_NAME=scale
+2024-03-15 13:23:21.008 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path, STORAGE_NAME=scale
+2024-03-15 13:23:21.009 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_protocol, STORAGE_NAME=scale
+2024-03-15 13:23:21.009 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_scale, STORAGE_NAME=scale
+2024-03-15 13:23:21.009 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=INN, STORAGE_NAME=scale
+2024-03-15 13:23:21.009 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=company, STORAGE_NAME=scale
+2024-03-15 13:23:21.010 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=legal_address, STORAGE_NAME=scale
+2024-03-15 13:23:21.010 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=inspection_address, STORAGE_NAME=scale
+2024-03-15 13:23:21.010 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path_to_excel_jounal, STORAGE_NAME=scale
+2024-03-15 13:23:21.010 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature, STORAGE_NAME=scale
+2024-03-15 13:23:21.011 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=humidity, STORAGE_NAME=scale
+2024-03-15 13:23:21.011 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=pressure, STORAGE_NAME=scale
+2024-03-15 13:23:21.011 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=save_path, STORAGE_NAME=scale
+2024-03-15 13:23:21.012 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=readings, STORAGE_NAME=scale
+2024-03-15 13:23:21.015 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature_liquid, STORAGE_NAME=scale
+2024-03-15 13:23:21.015 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=scale, STORAGE_NAME=voltage
+2024-03-15 13:23:21.016 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path, STORAGE_NAME=voltage
+2024-03-15 13:23:21.016 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_protocol, STORAGE_NAME=voltage
+2024-03-15 13:23:21.017 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_scale, STORAGE_NAME=voltage
+2024-03-15 13:23:21.017 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=INN, STORAGE_NAME=voltage
+2024-03-15 13:23:21.017 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=company, STORAGE_NAME=voltage
+2024-03-15 13:23:21.017 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=legal_address, STORAGE_NAME=voltage
+2024-03-15 13:23:21.018 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=inspection_address, STORAGE_NAME=voltage
+2024-03-15 13:23:21.018 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path_to_excel_jounal, STORAGE_NAME=voltage
+2024-03-15 13:23:21.018 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature, STORAGE_NAME=voltage
+2024-03-15 13:23:21.018 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=humidity, STORAGE_NAME=voltage
+2024-03-15 13:23:21.019 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=pressure, STORAGE_NAME=voltage
+2024-03-15 13:23:21.019 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=save_path, STORAGE_NAME=voltage
+2024-03-15 13:23:21.019 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=readings, STORAGE_NAME=voltage
+2024-03-15 13:23:21.019 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature_liquid, STORAGE_NAME=voltage
+2024-03-15 13:23:21.020 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=scale, STORAGE_NAME=frequency
+2024-03-15 13:23:21.020 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path, STORAGE_NAME=frequency
+2024-03-15 13:23:21.020 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_protocol, STORAGE_NAME=frequency
+2024-03-15 13:23:21.020 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_scale, STORAGE_NAME=frequency
+2024-03-15 13:23:21.020 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=INN, STORAGE_NAME=frequency
+2024-03-15 13:23:21.020 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=company, STORAGE_NAME=frequency
+2024-03-15 13:23:21.021 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=legal_address, STORAGE_NAME=frequency
+2024-03-15 13:23:21.021 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=inspection_address, STORAGE_NAME=frequency
+2024-03-15 13:23:21.021 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path_to_excel_jounal, STORAGE_NAME=frequency
+2024-03-15 13:23:21.021 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature, STORAGE_NAME=frequency
+2024-03-15 13:23:21.022 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=humidity, STORAGE_NAME=frequency
+2024-03-15 13:23:21.022 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=pressure, STORAGE_NAME=frequency
+2024-03-15 13:23:21.022 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=save_path, STORAGE_NAME=frequency
+2024-03-15 13:23:21.022 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=readings, STORAGE_NAME=frequency
+2024-03-15 13:23:21.023 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature_liquid, STORAGE_NAME=frequency
+2024-03-15 13:23:21.023 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=scale, STORAGE_NAME=num_protocol
+2024-03-15 13:23:21.023 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path, STORAGE_NAME=num_protocol
+2024-03-15 13:23:21.023 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_protocol, STORAGE_NAME=num_protocol
+2024-03-15 13:23:21.024 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_scale, STORAGE_NAME=num_protocol
+2024-03-15 13:23:21.024 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=INN, STORAGE_NAME=num_protocol
+2024-03-15 13:23:21.024 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=company, STORAGE_NAME=num_protocol
+2024-03-15 13:23:21.025 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=legal_address, STORAGE_NAME=num_protocol
+2024-03-15 13:23:21.025 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=inspection_address, STORAGE_NAME=num_protocol
+2024-03-15 13:23:21.025 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path_to_excel_jounal, STORAGE_NAME=num_protocol
+2024-03-15 13:23:21.025 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature, STORAGE_NAME=num_protocol
+2024-03-15 13:23:21.026 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=humidity, STORAGE_NAME=num_protocol
+2024-03-15 13:23:21.026 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=pressure, STORAGE_NAME=num_protocol
+2024-03-15 13:23:21.026 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=save_path, STORAGE_NAME=num_protocol
+2024-03-15 13:23:21.027 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=readings, STORAGE_NAME=num_protocol
+2024-03-15 13:23:21.029 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature_liquid, STORAGE_NAME=num_protocol
+2024-03-15 13:23:21.030 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=scale, STORAGE_NAME=num_scale
+2024-03-15 13:23:21.031 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path, STORAGE_NAME=num_scale
+2024-03-15 13:23:21.031 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_protocol, STORAGE_NAME=num_scale
+2024-03-15 13:23:21.031 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_scale, STORAGE_NAME=num_scale
+2024-03-15 13:23:21.032 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=INN, STORAGE_NAME=num_scale
+2024-03-15 13:23:21.032 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=company, STORAGE_NAME=num_scale
+2024-03-15 13:23:21.032 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=legal_address, STORAGE_NAME=num_scale
+2024-03-15 13:23:21.032 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=inspection_address, STORAGE_NAME=num_scale
+2024-03-15 13:23:21.033 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path_to_excel_jounal, STORAGE_NAME=num_scale
+2024-03-15 13:23:21.033 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature, STORAGE_NAME=num_scale
+2024-03-15 13:23:21.033 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=humidity, STORAGE_NAME=num_scale
+2024-03-15 13:23:21.033 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=pressure, STORAGE_NAME=num_scale
+2024-03-15 13:23:21.033 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=save_path, STORAGE_NAME=num_scale
+2024-03-15 13:23:21.034 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=readings, STORAGE_NAME=num_scale
+2024-03-15 13:23:21.034 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature_liquid, STORAGE_NAME=num_scale
+2024-03-15 13:23:21.034 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=scale, STORAGE_NAME=unfit
+2024-03-15 13:23:21.034 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path, STORAGE_NAME=unfit
+2024-03-15 13:23:21.035 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_protocol, STORAGE_NAME=unfit
+2024-03-15 13:23:21.035 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_scale, STORAGE_NAME=unfit
+2024-03-15 13:23:21.035 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=INN, STORAGE_NAME=unfit
+2024-03-15 13:23:21.035 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=company, STORAGE_NAME=unfit
+2024-03-15 13:23:21.036 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=legal_address, STORAGE_NAME=unfit
+2024-03-15 13:23:21.036 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=inspection_address, STORAGE_NAME=unfit
+2024-03-15 13:23:21.036 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path_to_excel_jounal, STORAGE_NAME=unfit
+2024-03-15 13:23:21.036 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature, STORAGE_NAME=unfit
+2024-03-15 13:23:21.037 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=humidity, STORAGE_NAME=unfit
+2024-03-15 13:23:21.037 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=pressure, STORAGE_NAME=unfit
+2024-03-15 13:23:21.037 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=save_path, STORAGE_NAME=unfit
+2024-03-15 13:23:21.037 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=readings, STORAGE_NAME=unfit
+2024-03-15 13:23:21.038 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature_liquid, STORAGE_NAME=unfit
+2024-03-15 13:23:21.038 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=scale, STORAGE_NAME=work_place
+2024-03-15 13:23:21.038 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path, STORAGE_NAME=work_place
+2024-03-15 13:23:21.038 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_protocol, STORAGE_NAME=work_place
+2024-03-15 13:23:21.039 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_scale, STORAGE_NAME=work_place
+2024-03-15 13:23:21.039 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=INN, STORAGE_NAME=work_place
+2024-03-15 13:23:21.039 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=company, STORAGE_NAME=work_place
+2024-03-15 13:23:21.039 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=legal_address, STORAGE_NAME=work_place
+2024-03-15 13:23:21.040 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=inspection_address, STORAGE_NAME=work_place
+2024-03-15 13:23:21.040 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path_to_excel_jounal, STORAGE_NAME=work_place
+2024-03-15 13:23:21.040 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature, STORAGE_NAME=work_place
+2024-03-15 13:23:21.040 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=humidity, STORAGE_NAME=work_place
+2024-03-15 13:23:21.040 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=pressure, STORAGE_NAME=work_place
+2024-03-15 13:23:21.041 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=save_path, STORAGE_NAME=work_place
+2024-03-15 13:23:21.041 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=readings, STORAGE_NAME=work_place
+2024-03-15 13:23:21.041 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature_liquid, STORAGE_NAME=work_place
+2024-03-15 13:23:21.041 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=scale, STORAGE_NAME=path_to_excel
+2024-03-15 13:23:21.042 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path, STORAGE_NAME=path_to_excel
+2024-03-15 13:23:21.042 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_protocol, STORAGE_NAME=path_to_excel
+2024-03-15 13:23:21.042 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_scale, STORAGE_NAME=path_to_excel
+2024-03-15 13:23:21.042 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=INN, STORAGE_NAME=path_to_excel
+2024-03-15 13:23:21.045 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=company, STORAGE_NAME=path_to_excel
+2024-03-15 13:23:21.045 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=legal_address, STORAGE_NAME=path_to_excel
+2024-03-15 13:23:21.046 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=inspection_address, STORAGE_NAME=path_to_excel
+2024-03-15 13:23:21.047 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path_to_excel_jounal, STORAGE_NAME=path_to_excel
+2024-03-15 13:23:21.047 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature, STORAGE_NAME=path_to_excel
+2024-03-15 13:23:21.047 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=humidity, STORAGE_NAME=path_to_excel
+2024-03-15 13:23:21.047 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=pressure, STORAGE_NAME=path_to_excel
+2024-03-15 13:23:21.048 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=save_path, STORAGE_NAME=path_to_excel
+2024-03-15 13:23:21.048 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=readings, STORAGE_NAME=path_to_excel
+2024-03-15 13:23:21.048 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature_liquid, STORAGE_NAME=path_to_excel
+2024-03-15 13:23:21.048 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=scale, STORAGE_NAME=interval
+2024-03-15 13:23:21.049 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path, STORAGE_NAME=interval
+2024-03-15 13:23:21.049 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_protocol, STORAGE_NAME=interval
+2024-03-15 13:23:21.049 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=num_scale, STORAGE_NAME=interval
+2024-03-15 13:23:21.049 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=INN, STORAGE_NAME=interval
+2024-03-15 13:23:21.049 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=company, STORAGE_NAME=interval
+2024-03-15 13:23:21.050 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=legal_address, STORAGE_NAME=interval
+2024-03-15 13:23:21.050 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=inspection_address, STORAGE_NAME=interval
+2024-03-15 13:23:21.050 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=path_to_excel_jounal, STORAGE_NAME=interval
+2024-03-15 13:23:21.050 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature, STORAGE_NAME=interval
+2024-03-15 13:23:21.051 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=humidity, STORAGE_NAME=interval
+2024-03-15 13:23:21.051 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=pressure, STORAGE_NAME=interval
+2024-03-15 13:23:21.051 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=save_path, STORAGE_NAME=interval
+2024-03-15 13:23:21.051 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=readings, STORAGE_NAME=interval
+2024-03-15 13:23:21.052 | DEBUG    | app.tools.functions:use_data:302 - WIDGET_NAME=temperature_liquid, STORAGE_NAME=interval
+2024-03-15 13:23:21.052 | DEBUG    | app.tools.functions:use_data:357 - end
+2024-03-15 13:24:04.019 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 13:24:04.019 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 13:24:04.020 | SUCCESS  | app.tools.layouts.Word:get_layout:29 - MAIN WINDOW=<app.main_window.App object at 0x00000119D9B5C3B0>
+2024-03-15 13:24:04.400 | SUCCESS  | app.tools.layouts.Excel:get_layout:139 - MAIN WINDOW=<app.main_window.App object at 0x00000119D9B5C3B0>
+2024-03-15 13:24:05.748 | SUCCESS  | app.tools.layouts.Word:use_data:464 - MAIN WINDOW=<app.main_window.App object at 0x00000119D9B5C3B0>
+2024-03-15 13:24:05.748 | INFO     | app.tools.functions:use_data:278 - start
+2024-03-15 13:24:05.749 | DEBUG    | app.tools.functions:use_data:304 - WIDGET_NAME=path, STORAGE_NAME=path
+2024-03-15 13:24:05.750 | DEBUG    | app.tools.functions:use_data:304 - WIDGET_NAME=INN, STORAGE_NAME=INN
+2024-03-15 13:24:05.751 | DEBUG    | app.tools.functions:use_data:304 - WIDGET_NAME=company, STORAGE_NAME=company
+2024-03-15 13:24:05.751 | DEBUG    | app.tools.functions:use_data:304 - WIDGET_NAME=legal_address, STORAGE_NAME=legal_address
+2024-03-15 13:24:05.751 | DEBUG    | app.tools.functions:use_data:304 - WIDGET_NAME=inspection_address, STORAGE_NAME=inspection_address
+2024-03-15 13:24:05.752 | DEBUG    | app.tools.functions:use_data:304 - WIDGET_NAME=temperature, STORAGE_NAME=temperature
+2024-03-15 13:24:05.752 | DEBUG    | app.tools.functions:use_data:304 - WIDGET_NAME=humidity, STORAGE_NAME=humidity
+2024-03-15 13:24:05.752 | DEBUG    | app.tools.functions:use_data:304 - WIDGET_NAME=pressure, STORAGE_NAME=pressure
+2024-03-15 13:24:05.752 | DEBUG    | app.tools.functions:use_data:304 - WIDGET_NAME=scale, STORAGE_NAME=scale
+2024-03-15 13:24:05.753 | DEBUG    | app.tools.functions:use_data:304 - WIDGET_NAME=num_protocol, STORAGE_NAME=num_protocol
+2024-03-15 13:24:05.753 | DEBUG    | app.tools.functions:use_data:304 - WIDGET_NAME=num_scale, STORAGE_NAME=num_scale
+2024-03-15 13:24:05.753 | DEBUG    | app.tools.functions:use_data:357 - end
+2024-03-15 13:39:22.758 | SUCCESS  | app.tools.layouts.Word:use_data:464 - MAIN WINDOW=<app.main_window.App object at 0x00000119D9B5C3B0>
+2024-03-15 13:39:22.759 | INFO     | app.tools.functions:use_data:278 - start
+2024-03-15 13:39:22.759 | DEBUG    | app.tools.functions:use_data:304 - WIDGET_NAME=path, STORAGE_NAME=path
+2024-03-15 13:39:22.760 | DEBUG    | app.tools.functions:use_data:304 - WIDGET_NAME=INN, STORAGE_NAME=INN
+2024-03-15 13:39:22.760 | DEBUG    | app.tools.functions:use_data:304 - WIDGET_NAME=company, STORAGE_NAME=company
+2024-03-15 13:39:22.761 | DEBUG    | app.tools.functions:use_data:304 - WIDGET_NAME=legal_address, STORAGE_NAME=legal_address
+2024-03-15 13:39:22.761 | DEBUG    | app.tools.functions:use_data:304 - WIDGET_NAME=inspection_address, STORAGE_NAME=inspection_address
+2024-03-15 13:39:22.764 | DEBUG    | app.tools.functions:use_data:304 - WIDGET_NAME=temperature, STORAGE_NAME=temperature
+2024-03-15 13:39:22.764 | DEBUG    | app.tools.functions:use_data:304 - WIDGET_NAME=humidity, STORAGE_NAME=humidity
+2024-03-15 13:39:22.765 | DEBUG    | app.tools.functions:use_data:304 - WIDGET_NAME=pressure, STORAGE_NAME=pressure
+2024-03-15 13:39:22.765 | DEBUG    | app.tools.functions:use_data:304 - WIDGET_NAME=scale, STORAGE_NAME=scale
+2024-03-15 13:39:22.765 | DEBUG    | app.tools.functions:use_data:304 - WIDGET_NAME=num_protocol, STORAGE_NAME=num_protocol
+2024-03-15 13:39:22.766 | DEBUG    | app.tools.functions:use_data:304 - WIDGET_NAME=num_scale, STORAGE_NAME=num_scale
+2024-03-15 13:39:22.767 | DEBUG    | app.tools.functions:use_data:357 - end
+2024-03-15 13:39:23.542 | SUCCESS  | app.tools.layouts.Word:use_data:464 - MAIN WINDOW=<app.main_window.App object at 0x00000119D9B5C3B0>
+2024-03-15 13:39:23.543 | INFO     | app.tools.functions:use_data:278 - start
+2024-03-15 13:39:23.544 | DEBUG    | app.tools.functions:use_data:304 - WIDGET_NAME=path, STORAGE_NAME=path
+2024-03-15 13:39:23.544 | DEBUG    | app.tools.functions:use_data:304 - WIDGET_NAME=INN, STORAGE_NAME=INN
+2024-03-15 13:39:23.546 | DEBUG    | app.tools.functions:use_data:304 - WIDGET_NAME=company, STORAGE_NAME=company
+2024-03-15 13:39:23.547 | DEBUG    | app.tools.functions:use_data:304 - WIDGET_NAME=legal_address, STORAGE_NAME=legal_address
+2024-03-15 13:39:23.547 | DEBUG    | app.tools.functions:use_data:304 - WIDGET_NAME=inspection_address, STORAGE_NAME=inspection_address
+2024-03-15 13:39:23.547 | DEBUG    | app.tools.functions:use_data:304 - WIDGET_NAME=temperature, STORAGE_NAME=temperature
+2024-03-15 13:39:23.548 | DEBUG    | app.tools.functions:use_data:304 - WIDGET_NAME=humidity, STORAGE_NAME=humidity
+2024-03-15 13:39:23.548 | DEBUG    | app.tools.functions:use_data:304 - WIDGET_NAME=pressure, STORAGE_NAME=pressure
+2024-03-15 13:39:23.548 | DEBUG    | app.tools.functions:use_data:304 - WIDGET_NAME=scale, STORAGE_NAME=scale
+2024-03-15 13:39:23.549 | DEBUG    | app.tools.functions:use_data:304 - WIDGET_NAME=num_protocol, STORAGE_NAME=num_protocol
+2024-03-15 13:39:23.549 | DEBUG    | app.tools.functions:use_data:304 - WIDGET_NAME=num_scale, STORAGE_NAME=num_scale
+2024-03-15 13:39:23.549 | DEBUG    | app.tools.functions:use_data:357 - end
+2024-03-15 13:39:24.974 | SUCCESS  | app.tools.layouts.Word:create_protocol:454 - MAIN WINDOW=<app.main_window.App object at 0x00000119D9B5C3B0>
+2024-03-15 13:39:24.975 | INFO     | app.tools.functions:create_protocol:175 - start
+2024-03-15 13:39:24.976 | DEBUG    | app.tools.functions:get_selected_table:130 - start
+2024-03-15 13:39:24.978 | ERROR    | app.tools.functions:get_selected_table:146 - 'App' object has no attribute 'tab_widget'
+2024-03-15 13:40:39.270 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 13:40:39.271 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 13:40:39.271 | SUCCESS  | app.tools.layouts.Word:get_layout:29 - MAIN WINDOW=<app.main_window.App object at 0x000001DF37BFC3B0>
+2024-03-15 13:40:39.661 | SUCCESS  | app.tools.layouts.Excel:get_layout:139 - MAIN WINDOW=<app.main_window.App object at 0x000001DF37BFC3B0>
+2024-03-15 13:40:41.266 | SUCCESS  | app.tools.layouts.Word:create_protocol:454 - MAIN WINDOW=<app.main_window.App object at 0x000001DF37BFC3B0>
+2024-03-15 13:40:41.267 | INFO     | app.tools.functions:create_protocol:175 - start
+2024-03-15 13:40:41.267 | DEBUG    | app.tools.functions:get_selected_table:130 - start
+2024-03-15 13:40:41.267 | ERROR    | app.tools.functions:get_selected_table:146 - 'App' object has no attribute 'tab_widget'
+2024-03-15 13:41:42.177 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 13:41:42.177 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 13:41:42.178 | SUCCESS  | app.tools.layouts.Word:get_layout:29 - MAIN WINDOW=<app.main_window.App object at 0x000001B04BD3C3B0>
+2024-03-15 13:41:42.569 | SUCCESS  | app.tools.layouts.Excel:get_layout:139 - MAIN WINDOW=<app.main_window.App object at 0x000001B04BD3C3B0>
+2024-03-15 13:41:44.160 | SUCCESS  | app.tools.layouts.Word:create_protocol:454 - MAIN WINDOW=<app.main_window.App object at 0x000001B04BD3C3B0>
+2024-03-15 13:41:44.161 | INFO     | app.tools.functions:create_protocol:175 - start
+2024-03-15 13:41:44.161 | DEBUG    | app.tools.functions:get_selected_table:130 - start
+2024-03-15 13:41:44.162 | DEBUG    | app.tools.functions:get_selected_table:138 - <PyQt5.QtWidgets.QTableWidget object at 0x000001B04BD8B260>
+2024-03-15 13:41:44.162 | DEBUG    | app.tools.functions:get_selected_table:140 - end
+2024-03-15 13:49:25.379 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 13:49:25.379 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 13:49:25.380 | SUCCESS  | app.tools.layouts.Word:get_layout:29 - MAIN WINDOW=<app.main_window.App object at 0x000002350289C320>
+2024-03-15 13:49:25.747 | SUCCESS  | app.tools.layouts.Excel:get_layout:139 - MAIN WINDOW=<app.main_window.App object at 0x000002350289C320>
+2024-03-15 13:49:28.428 | SUCCESS  | app.tools.layouts.Word:create_protocol:454 - MAIN WINDOW=<app.main_window.App object at 0x000002350289C320>
+2024-03-15 13:49:28.429 | INFO     | app.tools.functions:create_protocol:175 - start
+2024-03-15 13:49:28.429 | DEBUG    | app.tools.functions:get_selected_table:130 - start
+2024-03-15 13:49:28.429 | DEBUG    | app.tools.functions:get_selected_table:138 - <PyQt5.QtWidgets.QTableWidget object at 0x00000235028EB1D0>
+2024-03-15 13:49:28.429 | DEBUG    | app.tools.functions:get_selected_table:140 - end
+2024-03-15 13:51:02.526 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 13:51:02.527 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 13:51:02.527 | SUCCESS  | app.tools.layouts.Word:get_layout:29 - MAIN WINDOW=<app.main_window.App object at 0x00000121D9BEC320>
+2024-03-15 13:51:02.899 | SUCCESS  | app.tools.layouts.Excel:get_layout:139 - MAIN WINDOW=<app.main_window.App object at 0x00000121D9BEC320>
+2024-03-15 13:51:04.617 | SUCCESS  | app.tools.layouts.Word:create_protocol:454 - MAIN WINDOW=<app.main_window.App object at 0x00000121D9BEC320>
+2024-03-15 13:51:04.618 | INFO     | app.tools.functions:create_protocol:175 - start
+2024-03-15 13:51:04.618 | DEBUG    | app.tools.functions:get_selected_table:130 - start
+2024-03-15 13:51:04.618 | DEBUG    | app.tools.functions:get_selected_table:138 - <PyQt5.QtWidgets.QTableWidget object at 0x00000121D9C3B1D0>
+2024-03-15 13:51:04.618 | DEBUG    | app.tools.functions:get_selected_table:140 - end
+2024-03-15 13:51:04.618 | DEBUG    | app.tools.functions:create_protocol:182 - Selected table=<PyQt5.QtWidgets.QTableWidget object at 0x00000121D9C3B1D0>
+2024-03-15 13:51:27.539 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 13:51:27.540 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 13:51:27.541 | SUCCESS  | app.tools.layouts.Word:get_layout:29 - MAIN WINDOW=<app.main_window.App object at 0x0000016FCED7C320>
+2024-03-15 13:51:27.914 | SUCCESS  | app.tools.layouts.Excel:get_layout:139 - MAIN WINDOW=<app.main_window.App object at 0x0000016FCED7C320>
+2024-03-15 13:51:29.663 | SUCCESS  | app.tools.layouts.Word:create_protocol:454 - MAIN WINDOW=<app.main_window.App object at 0x0000016FCED7C320>
+2024-03-15 13:51:29.663 | INFO     | app.tools.functions:create_protocol:175 - start
+2024-03-15 13:51:29.664 | DEBUG    | app.tools.functions:get_selected_table:130 - start
+2024-03-15 13:51:29.664 | DEBUG    | app.tools.functions:get_selected_table:138 - <PyQt5.QtWidgets.QTableWidget object at 0x0000016FCEDCB1D0>
+2024-03-15 13:51:29.664 | DEBUG    | app.tools.functions:get_selected_table:140 - end
+2024-03-15 13:51:29.664 | DEBUG    | app.tools.functions:create_protocol:182 - Selected table=<PyQt5.QtWidgets.QTableWidget object at 0x0000016FCEDCB1D0>
+2024-03-15 13:51:29.665 | DEBUG    | app.tools.functions:create_protocol:185 - current_row=-1
+2024-03-15 13:51:51.805 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 13:51:51.805 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 13:51:51.806 | SUCCESS  | app.tools.layouts.Word:get_layout:29 - MAIN WINDOW=<app.main_window.App object at 0x00000200E9E4C320>
+2024-03-15 13:51:52.207 | SUCCESS  | app.tools.layouts.Excel:get_layout:139 - MAIN WINDOW=<app.main_window.App object at 0x00000200E9E4C320>
+2024-03-15 13:51:54.055 | SUCCESS  | app.tools.layouts.Word:create_protocol:454 - MAIN WINDOW=<app.main_window.App object at 0x00000200E9E4C320>
+2024-03-15 13:51:54.055 | INFO     | app.tools.functions:create_protocol:175 - start
+2024-03-15 13:51:54.056 | DEBUG    | app.tools.functions:get_selected_table:130 - start
+2024-03-15 13:51:54.056 | DEBUG    | app.tools.functions:get_selected_table:138 - <PyQt5.QtWidgets.QTableWidget object at 0x00000200E9E9B1D0>
+2024-03-15 13:51:54.056 | DEBUG    | app.tools.functions:get_selected_table:140 - end
+2024-03-15 13:51:54.057 | DEBUG    | app.tools.functions:create_protocol:182 - Selected table=<PyQt5.QtWidgets.QTableWidget object at 0x00000200E9E9B1D0>
+2024-03-15 13:51:54.057 | DEBUG    | app.tools.functions:create_protocol:185 - current_row=-1
+2024-03-15 13:52:08.165 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 13:52:08.166 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 13:52:08.166 | SUCCESS  | app.tools.layouts.Word:get_layout:29 - MAIN WINDOW=<app.main_window.App object at 0x000001E09EB5C320>
+2024-03-15 13:52:08.552 | SUCCESS  | app.tools.layouts.Excel:get_layout:139 - MAIN WINDOW=<app.main_window.App object at 0x000001E09EB5C320>
+2024-03-15 13:52:11.754 | SUCCESS  | app.tools.layouts.Word:create_protocol:454 - MAIN WINDOW=<app.main_window.App object at 0x000001E09EB5C320>
+2024-03-15 13:52:11.755 | INFO     | app.tools.functions:create_protocol:175 - start
+2024-03-15 13:52:11.755 | DEBUG    | app.tools.functions:get_selected_table:130 - start
+2024-03-15 13:52:11.755 | DEBUG    | app.tools.functions:get_selected_table:138 - <PyQt5.QtWidgets.QTableWidget object at 0x000001E09EBA71D0>
+2024-03-15 13:52:11.755 | DEBUG    | app.tools.functions:get_selected_table:140 - end
+2024-03-15 13:52:11.756 | DEBUG    | app.tools.functions:create_protocol:182 - Selected table=<PyQt5.QtWidgets.QTableWidget object at 0x000001E09EBA71D0>
+2024-03-15 13:52:11.756 | DEBUG    | app.tools.functions:create_protocol:185 - current_row=-1
+2024-03-15 13:52:25.601 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 13:52:25.601 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 13:52:25.602 | SUCCESS  | app.tools.layouts.Word:get_layout:29 - MAIN WINDOW=<app.main_window.App object at 0x000001F7CCCEC320>
+2024-03-15 13:52:25.993 | SUCCESS  | app.tools.layouts.Excel:get_layout:139 - MAIN WINDOW=<app.main_window.App object at 0x000001F7CCCEC320>
+2024-03-15 13:52:30.117 | INFO     | app.tools.functions:create_protocol:175 - start
+2024-03-15 13:52:30.117 | DEBUG    | app.tools.functions:get_selected_table:130 - start
+2024-03-15 13:52:30.117 | DEBUG    | app.tools.functions:get_selected_table:138 - <PyQt5.QtWidgets.QTableWidget object at 0x000001F7CCD371D0>
+2024-03-15 13:52:30.118 | DEBUG    | app.tools.functions:get_selected_table:140 - end
+2024-03-15 13:52:30.118 | DEBUG    | app.tools.functions:create_protocol:182 - Selected table=<PyQt5.QtWidgets.QTableWidget object at 0x000001F7CCD371D0>
+2024-03-15 13:52:30.118 | DEBUG    | app.tools.functions:create_protocol:185 - current_row=9
+2024-03-15 13:52:39.847 | DEBUG    | app.tools.functions:create_protocol:276 - end
+2024-03-15 14:02:46.951 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 14:02:46.951 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 14:02:46.952 | SUCCESS  | app.tools.layouts.Word:get_layout:29 - MAIN WINDOW=<app.main_window.App object at 0x000002BAE3B74320>
+2024-03-15 14:02:47.321 | DEBUG    | app.tools.layouts.Word:get_layout:424 - Other widgets=<app.main_window.Other_Widgets object at 0x000002BAE38ABBC0>
+2024-03-15 14:02:47.322 | SUCCESS  | app.tools.layouts.Excel:get_layout:139 - MAIN WINDOW=<app.main_window.App object at 0x000002BAE3B74320>
+2024-03-15 14:02:47.562 | DEBUG    | app.tools.layouts.Excel:get_layout:520 - Other widgets=<app.main_window.Other_Widgets object at 0x000002BAE38B7500>
+2024-03-15 14:03:24.649 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 14:03:24.649 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 14:03:24.650 | SUCCESS  | app.tools.layouts.Word:get_layout:29 - MAIN WINDOW=<app.main_window.App object at 0x000001AEFB324320>
+2024-03-15 14:03:25.022 | DEBUG    | app.tools.layouts.Word:get_layout:424 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000001AEFB325490>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000001AEFB325BE0>}
+2024-03-15 14:03:25.023 | SUCCESS  | app.tools.layouts.Excel:get_layout:139 - MAIN WINDOW=<app.main_window.App object at 0x000001AEFB324320>
+2024-03-15 14:03:25.267 | DEBUG    | app.tools.layouts.Excel:get_layout:520 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000001AEFB316960>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000001AEFB3170B0>}
+2024-03-15 14:03:47.305 | SUCCESS  | app.tools.layouts.Word:create_protocol:458 - MAIN WINDOW=<app.main_window.App object at 0x000001AEFB324320>
+2024-03-15 14:03:47.306 | INFO     | app.tools.functions:create_protocol:175 - start
+2024-03-15 14:03:47.306 | DEBUG    | app.tools.functions:get_selected_table:130 - start
+2024-03-15 14:03:47.306 | DEBUG    | app.tools.functions:get_selected_table:138 - <PyQt5.QtWidgets.QTableWidget object at 0x000001AEFB3171D0>
+2024-03-15 14:03:47.306 | DEBUG    | app.tools.functions:get_selected_table:140 - end
+2024-03-15 14:03:47.306 | DEBUG    | app.tools.functions:create_protocol:182 - Selected table=<PyQt5.QtWidgets.QTableWidget object at 0x000001AEFB3171D0>
+2024-03-15 14:03:47.307 | DEBUG    | app.tools.functions:create_protocol:185 - current_row=-1
+2024-03-15 14:10:10.273 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 14:10:10.273 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 14:10:10.648 | DEBUG    | app.tools.layouts.Word:get_layout:423 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x00000213B3D25520>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x00000213B3D25C70>}
+2024-03-15 14:10:10.887 | DEBUG    | app.tools.layouts.Excel:get_layout:519 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x00000213B3D229F0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x00000213B3D23140>}
+2024-03-15 14:10:14.798 | INFO     | app.tools.functions:create_protocol:175 - start
+2024-03-15 14:10:14.799 | DEBUG    | app.tools.functions:get_selected_table:130 - start
+2024-03-15 14:10:14.799 | DEBUG    | app.tools.functions:get_selected_table:138 - <PyQt5.QtWidgets.QTableWidget object at 0x00000213B3D23260>
+2024-03-15 14:10:14.799 | DEBUG    | app.tools.functions:get_selected_table:140 - end
+2024-03-15 14:10:14.799 | DEBUG    | app.tools.functions:create_protocol:183 - OTHER_WIDGETS={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x00000213B3D229F0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x00000213B3D23140>}
+2024-03-15 14:10:14.800 | DEBUG    | app.tools.functions:create_protocol:184 - Selected table=<PyQt5.QtWidgets.QTableWidget object at 0x00000213B3D23260>
+2024-03-15 14:10:14.800 | DEBUG    | app.tools.functions:create_protocol:185 - current_row=-1
+2024-03-15 14:14:55.862 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 14:14:55.863 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 14:14:56.229 | DEBUG    | app.tools.layouts.Word:get_layout:423 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000019CA4BED490>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000019CA4BEDBE0>}
+2024-03-15 14:14:56.468 | DEBUG    | app.tools.layouts.Excel:get_layout:519 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000019CA4C36960>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000019CA4C370B0>}
+2024-03-15 14:15:16.884 | INFO     | app.tools.functions:create_protocol:176 - start
+2024-03-15 14:15:16.885 | DEBUG    | app.tools.functions:get_selected_table:130 - start
+2024-03-15 14:15:16.885 | DEBUG    | app.tools.functions:get_selected_table:138 - TAB_WIDGET=<PyQt5.QtWidgets.QTabWidget object at 0x0000019CA4C370B0>
+2024-03-15 14:15:16.885 | DEBUG    | app.tools.functions:get_selected_table:139 - TABLE=<PyQt5.QtWidgets.QTableWidget object at 0x0000019CA4C371D0>
+2024-03-15 14:15:16.886 | DEBUG    | app.tools.functions:get_selected_table:141 - end
+2024-03-15 14:15:16.886 | DEBUG    | app.tools.functions:create_protocol:184 - OTHER_WIDGETS={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000019CA4C36960>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000019CA4C370B0>}
+2024-03-15 14:15:16.886 | DEBUG    | app.tools.functions:create_protocol:185 - Selected table=<PyQt5.QtWidgets.QTableWidget object at 0x0000019CA4C371D0>
+2024-03-15 14:15:16.887 | DEBUG    | app.tools.functions:create_protocol:186 - current_row=-1
+2024-03-15 14:30:11.583 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 14:30:11.583 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 14:30:30.550 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 14:30:30.551 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 14:31:04.061 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 14:31:04.062 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 14:31:04.448 | DEBUG    | app.tools.layouts.Word:get_layout:423 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x00000278A66E5400>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x00000278A66E5B50>}
+2024-03-15 14:31:44.270 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 14:31:44.271 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 14:31:44.644 | DEBUG    | app.tools.layouts.Word:get_layout:423 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000029CAE095400>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000029CAE095B50>}
+2024-03-15 14:32:13.675 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 14:32:13.676 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 14:32:14.043 | DEBUG    | app.tools.layouts.Word:get_layout:423 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x00000201C0D91490>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x00000201C0D91BE0>}
+2024-03-15 14:32:29.648 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 14:32:29.648 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 14:32:30.031 | DEBUG    | app.tools.layouts.Word:get_layout:423 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000023719E71490>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000023719E71BE0>}
+2024-03-15 14:32:30.281 | DEBUG    | app.tools.layouts.Excel:get_layout:406 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000023719E36960>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000023719E370B0>}
+2024-03-15 14:32:38.171 | DEBUG    | app.tools.layouts.Word:create_protocol:454 - OTHER_WIDGETS=<app.main_window.Other_Widgets object at 0x0000023719B7F860>
+2024-03-15 14:32:38.172 | INFO     | app.tools.functions:create_protocol:176 - start
+2024-03-15 14:32:38.172 | DEBUG    | app.tools.functions:get_selected_table:130 - start
+2024-03-15 14:32:38.173 | DEBUG    | app.tools.functions:get_selected_table:138 - TAB_WIDGET=<PyQt5.QtWidgets.QTabWidget object at 0x0000023719E370B0>
+2024-03-15 14:32:38.173 | DEBUG    | app.tools.functions:get_selected_table:139 - TABLE=<PyQt5.QtWidgets.QTableWidget object at 0x0000023719E371D0>
+2024-03-15 14:32:38.173 | DEBUG    | app.tools.functions:get_selected_table:141 - end
+2024-03-15 14:32:38.173 | DEBUG    | app.tools.functions:create_protocol:184 - OTHER_WIDGETS={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000023719E36960>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000023719E370B0>}
+2024-03-15 14:32:38.174 | DEBUG    | app.tools.functions:create_protocol:185 - Selected table=<PyQt5.QtWidgets.QTableWidget object at 0x0000023719E371D0>
+2024-03-15 14:32:38.174 | DEBUG    | app.tools.functions:create_protocol:186 - current_row=-1
+2024-03-15 14:33:24.441 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 14:33:24.441 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 14:33:24.831 | DEBUG    | app.tools.layouts.Word:get_layout:423 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000014577379400>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000014577379B50>}
+2024-03-15 14:33:25.083 | DEBUG    | app.tools.layouts.Excel:get_layout:406 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000001457734A8D0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000001457734B020>}
+2024-03-15 14:33:31.433 | DEBUG    | app.tools.layouts.Word:create_protocol:454 - OTHER_WIDGETS={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000001457734A8D0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000001457734B020>}
+2024-03-15 14:33:31.434 | INFO     | app.tools.functions:create_protocol:176 - start
+2024-03-15 14:33:31.434 | DEBUG    | app.tools.functions:get_selected_table:130 - start
+2024-03-15 14:33:31.435 | DEBUG    | app.tools.functions:get_selected_table:138 - TAB_WIDGET=<PyQt5.QtWidgets.QTabWidget object at 0x000001457734B020>
+2024-03-15 14:33:31.435 | DEBUG    | app.tools.functions:get_selected_table:139 - TABLE=<PyQt5.QtWidgets.QTableWidget object at 0x000001457734B140>
+2024-03-15 14:33:31.435 | DEBUG    | app.tools.functions:get_selected_table:141 - end
+2024-03-15 14:33:31.435 | DEBUG    | app.tools.functions:create_protocol:184 - OTHER_WIDGETS={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000001457734A8D0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000001457734B020>}
+2024-03-15 14:33:31.435 | DEBUG    | app.tools.functions:create_protocol:185 - Selected table=<PyQt5.QtWidgets.QTableWidget object at 0x000001457734B140>
+2024-03-15 14:33:31.436 | DEBUG    | app.tools.functions:create_protocol:186 - current_row=-1
+2024-03-15 14:34:55.198 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 14:34:55.198 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 14:34:55.613 | DEBUG    | app.tools.layouts.Word:get_layout:423 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000001AC32235400>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000001AC32235B50>}
+2024-03-15 14:34:55.859 | DEBUG    | app.tools.layouts.Excel:get_layout:406 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000001AC3224E8D0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000001AC3224F020>}
+2024-03-15 14:34:58.210 | DEBUG    | app.tools.layouts.Word:create_protocol:454 - GET OTHER_WIDGETS={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000001AC3224E8D0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000001AC3224F020>}
+2024-03-15 14:34:58.210 | INFO     | app.tools.functions:create_protocol:176 - start
+2024-03-15 14:34:58.211 | DEBUG    | app.tools.functions:get_selected_table:130 - start
+2024-03-15 14:34:58.211 | DEBUG    | app.tools.functions:get_selected_table:138 - TAB_WIDGET=<PyQt5.QtWidgets.QTabWidget object at 0x000001AC3224F020>
+2024-03-15 14:34:58.212 | DEBUG    | app.tools.functions:get_selected_table:139 - TABLE=<PyQt5.QtWidgets.QTableWidget object at 0x000001AC3224F140>
+2024-03-15 14:34:58.212 | DEBUG    | app.tools.functions:get_selected_table:141 - end
+2024-03-15 14:34:58.212 | DEBUG    | app.tools.functions:create_protocol:184 - OTHER_WIDGETS={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000001AC3224E8D0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000001AC3224F020>}
+2024-03-15 14:34:58.212 | DEBUG    | app.tools.functions:create_protocol:185 - Selected table=<PyQt5.QtWidgets.QTableWidget object at 0x000001AC3224F140>
+2024-03-15 14:34:58.212 | DEBUG    | app.tools.functions:create_protocol:186 - current_row=-1
+2024-03-15 14:40:26.072 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 14:40:26.073 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 14:40:26.437 | DEBUG    | app.tools.layouts.Word:get_layout:423 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000026A1C0FD490>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000026A1C0FDBE0>}
+2024-03-15 14:40:26.671 | DEBUG    | app.tools.layouts.Excel:get_layout:406 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000026A1C146960>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000026A1C1470B0>}
+2024-03-15 14:40:44.649 | DEBUG    | app.tools.layouts.Word:use_data:463 - OTHER_WIDGETS=<app.main_window.Other_Widgets object at 0x0000026A1BE71160>
+2024-03-15 14:40:44.650 | INFO     | app.tools.functions:use_data:281 - start
+2024-03-15 14:40:44.651 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=path, STORAGE_NAME=path
+2024-03-15 14:40:44.653 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=INN, STORAGE_NAME=INN
+2024-03-15 14:40:44.653 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=company, STORAGE_NAME=company
+2024-03-15 14:40:44.653 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=legal_address, STORAGE_NAME=legal_address
+2024-03-15 14:40:44.654 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=inspection_address, STORAGE_NAME=inspection_address
+2024-03-15 14:40:44.654 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=temperature, STORAGE_NAME=temperature
+2024-03-15 14:40:44.654 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=humidity, STORAGE_NAME=humidity
+2024-03-15 14:40:44.655 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=pressure, STORAGE_NAME=pressure
+2024-03-15 14:40:44.655 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=scale, STORAGE_NAME=scale
+2024-03-15 14:40:44.655 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=num_protocol, STORAGE_NAME=num_protocol
+2024-03-15 14:40:44.656 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=num_scale, STORAGE_NAME=num_scale
+2024-03-15 14:40:44.687 | DEBUG    | app.tools.functions:use_data:360 - end
+2024-03-15 14:40:59.892 | DEBUG    | app.tools.layouts.Word:create_protocol:454 - GET OTHER_WIDGETS={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000026A1C146960>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000026A1C1470B0>}
+2024-03-15 14:40:59.892 | INFO     | app.tools.functions:create_protocol:176 - start
+2024-03-15 14:40:59.893 | DEBUG    | app.tools.functions:get_selected_table:130 - start
+2024-03-15 14:40:59.893 | DEBUG    | app.tools.functions:get_selected_table:138 - TAB_WIDGET=<PyQt5.QtWidgets.QTabWidget object at 0x0000026A1C1470B0>
+2024-03-15 14:40:59.893 | DEBUG    | app.tools.functions:get_selected_table:139 - TABLE=<PyQt5.QtWidgets.QTableWidget object at 0x0000026A1C1471D0>
+2024-03-15 14:40:59.894 | DEBUG    | app.tools.functions:get_selected_table:141 - end
+2024-03-15 14:40:59.894 | DEBUG    | app.tools.functions:create_protocol:184 - OTHER_WIDGETS={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000026A1C146960>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000026A1C1470B0>}
+2024-03-15 14:40:59.894 | DEBUG    | app.tools.functions:create_protocol:185 - Selected table=<PyQt5.QtWidgets.QTableWidget object at 0x0000026A1C1471D0>
+2024-03-15 14:40:59.894 | DEBUG    | app.tools.functions:create_protocol:186 - current_row=9
+2024-03-15 14:41:20.670 | DEBUG    | app.tools.functions:create_protocol:277 - end
+2024-03-15 14:42:15.897 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 14:42:15.897 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 14:42:16.268 | DEBUG    | app.tools.layouts.Word:get_layout:423 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000023015689400>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000023015689B50>}
+2024-03-15 14:42:16.508 | DEBUG    | app.tools.layouts.Excel:get_layout:406 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x00000230156628D0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000023015663020>}
+2024-03-15 14:42:18.781 | DEBUG    | app.tools.layouts.Word:create_protocol:454 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x00000230156628D0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000023015663020>}
+2024-03-15 14:42:18.781 | INFO     | app.tools.functions:create_protocol:176 - start
+2024-03-15 14:42:18.782 | DEBUG    | app.tools.functions:get_selected_table:130 - start
+2024-03-15 14:42:18.782 | DEBUG    | app.tools.functions:get_selected_table:138 - TAB_WIDGET=<PyQt5.QtWidgets.QTabWidget object at 0x0000023015663020>
+2024-03-15 14:42:18.782 | DEBUG    | app.tools.functions:get_selected_table:139 - TABLE=<PyQt5.QtWidgets.QTableWidget object at 0x0000023015663140>
+2024-03-15 14:42:18.782 | DEBUG    | app.tools.functions:get_selected_table:141 - end
+2024-03-15 14:42:18.783 | DEBUG    | app.tools.functions:create_protocol:184 - OTHER_WIDGETS={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x00000230156628D0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000023015663020>}
+2024-03-15 14:42:18.783 | DEBUG    | app.tools.functions:create_protocol:185 - Selected table=<PyQt5.QtWidgets.QTableWidget object at 0x0000023015663140>
+2024-03-15 14:42:18.783 | DEBUG    | app.tools.functions:create_protocol:186 - current_row=-1
+2024-03-15 14:44:27.619 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 14:44:27.619 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 14:44:27.987 | DEBUG    | app.tools.layouts.Word:get_layout:423 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000001E752C49400>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000001E752C49B50>}
+2024-03-15 14:44:28.223 | DEBUG    | app.tools.layouts.Excel:get_layout:406 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000001E752C1A8D0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000001E752C1B020>}
+2024-03-15 14:44:31.762 | DEBUG    | app.tools.layouts.Word:create_protocol:454 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000001E752C1A8D0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000001E752C1B020>}
+2024-03-15 14:44:31.762 | DEBUG    | app.tools.layouts.Word:create_protocol:455 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000001E752C1A8D0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000001E752C1B020>}
+2024-03-15 14:44:31.763 | INFO     | app.tools.functions:create_protocol:176 - start
+2024-03-15 14:44:31.763 | DEBUG    | app.tools.functions:get_selected_table:130 - start
+2024-03-15 14:44:31.763 | DEBUG    | app.tools.functions:get_selected_table:138 - TAB_WIDGET=<PyQt5.QtWidgets.QTabWidget object at 0x000001E752C1B020>
+2024-03-15 14:44:31.764 | DEBUG    | app.tools.functions:get_selected_table:139 - TABLE=<PyQt5.QtWidgets.QTableWidget object at 0x000001E752C1B140>
+2024-03-15 14:44:31.764 | DEBUG    | app.tools.functions:get_selected_table:141 - end
+2024-03-15 14:44:31.764 | DEBUG    | app.tools.functions:create_protocol:184 - OTHER_WIDGETS={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000001E752C1A8D0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000001E752C1B020>}
+2024-03-15 14:44:31.764 | DEBUG    | app.tools.functions:create_protocol:185 - Selected table=<PyQt5.QtWidgets.QTableWidget object at 0x000001E752C1B140>
+2024-03-15 14:44:31.764 | DEBUG    | app.tools.functions:create_protocol:186 - current_row=-1
+2024-03-15 14:45:54.272 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 14:45:54.273 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 14:45:54.639 | DEBUG    | app.tools.layouts.Word:get_layout:423 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x00000245E48FD490>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x00000245E48FDBE0>}
+2024-03-15 14:45:54.883 | DEBUG    | app.tools.layouts.Excel:get_layout:406 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x00000245E494A960>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x00000245E494B0B0>}
+2024-03-15 14:45:54.884 | DEBUG    | app.main_window:__init__:63 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x00000245E494A960>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x00000245E494B0B0>}
+2024-03-15 14:45:54.884 | DEBUG    | app.main_window:__init__:64 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x00000245E494A960>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x00000245E494B0B0>}
+2024-03-15 14:52:12.655 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 14:52:12.655 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 14:52:43.047 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 14:52:43.047 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 14:52:43.409 | DEBUG    | app.tools.layouts.Word:get_layout:423 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x00000272130F9400>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x00000272130F9B50>}
+2024-03-15 14:52:56.763 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 14:52:56.764 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 14:52:57.126 | DEBUG    | app.tools.layouts.Word:get_layout:423 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000027CE910D520>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000027CE910DC70>}
+2024-03-15 14:52:57.368 | DEBUG    | app.tools.layouts.Excel:get_layout:406 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000027CE90D69F0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000027CE90D7140>}
+2024-03-15 14:53:16.541 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 14:53:16.542 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 14:53:16.921 | DEBUG    | app.tools.layouts.Word:get_layout:423 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000002154A18D520>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000002154A18DC70>}
+2024-03-15 14:53:17.161 | DEBUG    | app.tools.layouts.Excel:get_layout:406 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000002154A1D69F0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000002154A1D7140>}
+2024-03-15 14:53:17.161 | DEBUG    | app.main_window:__init__:63 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000002154A18D520>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000002154A18DC70>}
+2024-03-15 14:53:17.161 | DEBUG    | app.main_window:__init__:64 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000002154A1D69F0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000002154A1D7140>}
+2024-03-15 14:53:32.429 | DEBUG    | app.tools.layouts.Word:create_protocol:454 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000002154A18D520>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000002154A18DC70>}
+2024-03-15 14:53:32.429 | DEBUG    | app.tools.layouts.Word:create_protocol:455 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000002154A1D69F0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000002154A1D7140>}
+2024-03-15 14:53:32.429 | INFO     | app.tools.functions:create_protocol:176 - start
+2024-03-15 14:53:32.430 | DEBUG    | app.tools.functions:get_selected_table:130 - start
+2024-03-15 14:53:32.430 | DEBUG    | app.tools.functions:get_selected_table:138 - TAB_WIDGET=<PyQt5.QtWidgets.QTabWidget object at 0x000002154A18DC70>
+2024-03-15 14:53:32.430 | DEBUG    | app.tools.functions:get_selected_table:139 - TABLE=<PyQt5.QtWidgets.QTableWidget object at 0x000002154A18DD90>
+2024-03-15 14:53:32.430 | DEBUG    | app.tools.functions:get_selected_table:141 - end
+2024-03-15 14:53:32.431 | DEBUG    | app.tools.functions:create_protocol:184 - OTHER_WIDGETS={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000002154A18D520>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000002154A18DC70>}
+2024-03-15 14:53:32.431 | DEBUG    | app.tools.functions:create_protocol:185 - Selected table=<PyQt5.QtWidgets.QTableWidget object at 0x000002154A18DD90>
+2024-03-15 14:53:32.431 | DEBUG    | app.tools.functions:create_protocol:186 - current_row=11
+2024-03-15 14:53:40.401 | DEBUG    | app.tools.functions:create_protocol:277 - end
+2024-03-15 14:53:56.815 | DEBUG    | app.tools.layouts.Word:use_data:464 - OTHER_WIDGETS={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000002154A18D520>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000002154A18DC70>}
+2024-03-15 14:53:56.816 | INFO     | app.tools.functions:use_data:281 - start
+2024-03-15 14:53:56.817 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=path, STORAGE_NAME=path
+2024-03-15 14:53:56.819 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=INN, STORAGE_NAME=INN
+2024-03-15 14:53:56.819 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=company, STORAGE_NAME=company
+2024-03-15 14:53:56.819 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=legal_address, STORAGE_NAME=legal_address
+2024-03-15 14:53:56.820 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=inspection_address, STORAGE_NAME=inspection_address
+2024-03-15 14:53:56.820 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=temperature, STORAGE_NAME=temperature
+2024-03-15 14:53:56.820 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=humidity, STORAGE_NAME=humidity
+2024-03-15 14:53:56.820 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=pressure, STORAGE_NAME=pressure
+2024-03-15 14:53:56.821 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=scale, STORAGE_NAME=scale
+2024-03-15 14:53:56.821 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=num_protocol, STORAGE_NAME=num_protocol
+2024-03-15 14:53:56.821 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=num_scale, STORAGE_NAME=num_scale
+2024-03-15 14:53:56.821 | DEBUG    | app.tools.functions:use_data:360 - end
+2024-03-15 15:59:51.459 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 15:59:51.460 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 16:00:10.445 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 16:00:10.446 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 16:00:11.098 | DEBUG    | app.main_window:__init__:67 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000002796DC392E0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000002796DC39A30>}
+2024-03-15 16:00:11.099 | DEBUG    | app.main_window:__init__:68 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000002796DC0A7B0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000002796DC0AF00>}
+2024-03-15 16:00:16.069 | INFO     | app.tools.functions:use_data:281 - start
+2024-03-15 16:00:16.070 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=path, STORAGE_NAME=path
+2024-03-15 16:00:16.072 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=INN, STORAGE_NAME=INN
+2024-03-15 16:00:16.073 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=company, STORAGE_NAME=company
+2024-03-15 16:00:16.073 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=legal_address, STORAGE_NAME=legal_address
+2024-03-15 16:00:16.073 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=inspection_address, STORAGE_NAME=inspection_address
+2024-03-15 16:00:16.073 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=temperature, STORAGE_NAME=temperature
+2024-03-15 16:00:16.073 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=humidity, STORAGE_NAME=humidity
+2024-03-15 16:00:16.073 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=pressure, STORAGE_NAME=pressure
+2024-03-15 16:00:16.074 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=scale, STORAGE_NAME=scale
+2024-03-15 16:00:16.075 | INFO     | app.tools.functions:scale_changed:98 - start
+2024-03-15 16:03:26.379 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 16:03:26.380 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 16:03:26.978 | DEBUG    | app.main_window:__init__:67 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000027B52FED250>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000027B52FED9A0>}
+2024-03-15 16:03:26.979 | DEBUG    | app.main_window:__init__:68 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000027B5303E720>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000027B5303EE70>}
+2024-03-15 16:03:29.673 | INFO     | app.tools.functions:use_data:281 - start
+2024-03-15 16:03:29.674 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=path, STORAGE_NAME=path
+2024-03-15 16:03:29.675 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=INN, STORAGE_NAME=INN
+2024-03-15 16:03:29.676 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=company, STORAGE_NAME=company
+2024-03-15 16:03:29.676 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=legal_address, STORAGE_NAME=legal_address
+2024-03-15 16:03:29.676 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=inspection_address, STORAGE_NAME=inspection_address
+2024-03-15 16:03:29.677 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=temperature, STORAGE_NAME=temperature
+2024-03-15 16:03:29.677 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=humidity, STORAGE_NAME=humidity
+2024-03-15 16:03:29.678 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=pressure, STORAGE_NAME=pressure
+2024-03-15 16:03:29.678 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=scale, STORAGE_NAME=scale
+2024-03-15 16:03:29.679 | INFO     | app.tools.functions:scale_changed:98 - start
+2024-03-15 16:05:24.783 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 16:05:24.784 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 16:05:25.382 | DEBUG    | app.main_window:__init__:67 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000001093481D250>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000001093481D9A0>}
+2024-03-15 16:05:25.383 | DEBUG    | app.main_window:__init__:68 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000001093486E720>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000001093486EE70>}
+2024-03-15 16:05:26.741 | INFO     | app.tools.functions:use_data:281 - start
+2024-03-15 16:05:26.742 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=path, STORAGE_NAME=path
+2024-03-15 16:05:26.745 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=INN, STORAGE_NAME=INN
+2024-03-15 16:05:26.745 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=company, STORAGE_NAME=company
+2024-03-15 16:05:26.746 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=legal_address, STORAGE_NAME=legal_address
+2024-03-15 16:05:26.746 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=inspection_address, STORAGE_NAME=inspection_address
+2024-03-15 16:05:26.746 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=temperature, STORAGE_NAME=temperature
+2024-03-15 16:05:26.747 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=humidity, STORAGE_NAME=humidity
+2024-03-15 16:05:26.747 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=pressure, STORAGE_NAME=pressure
+2024-03-15 16:05:26.748 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=scale, STORAGE_NAME=scale
+2024-03-15 16:05:26.748 | INFO     | app.tools.functions:scale_changed:98 - start
+2024-03-15 16:05:26.749 | DEBUG    | app.tools.functions:scale_changed:122 - end
+2024-03-15 16:05:26.749 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=num_protocol, STORAGE_NAME=num_protocol
+2024-03-15 16:05:26.749 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=num_scale, STORAGE_NAME=num_scale
+2024-03-15 16:05:26.749 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=interval, STORAGE_NAME=interval
+2024-03-15 16:05:26.750 | ERROR    | app.tools.functions:use_data:311 - Ошибка при установлении значений в var_boxes.text_boxes
+2024-03-15 16:05:26.750 | DEBUG    | app.tools.functions:use_data:360 - end
+2024-03-15 16:06:27.939 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 16:06:27.939 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 16:06:28.625 | DEBUG    | app.main_window:__init__:67 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000001941BE0D250>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000001941BE0D9A0>}
+2024-03-15 16:06:28.626 | DEBUG    | app.main_window:__init__:68 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000001941BE62720>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000001941BE62E70>}
+2024-03-15 16:06:30.032 | INFO     | app.tools.functions:use_data:281 - start
+2024-03-15 16:06:30.032 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=path, STORAGE_NAME=path
+2024-03-15 16:06:30.035 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=INN, STORAGE_NAME=INN
+2024-03-15 16:06:30.035 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=company, STORAGE_NAME=company
+2024-03-15 16:06:30.035 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=legal_address, STORAGE_NAME=legal_address
+2024-03-15 16:06:30.035 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=inspection_address, STORAGE_NAME=inspection_address
+2024-03-15 16:06:30.035 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=temperature, STORAGE_NAME=temperature
+2024-03-15 16:06:30.035 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=humidity, STORAGE_NAME=humidity
+2024-03-15 16:06:30.036 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=pressure, STORAGE_NAME=pressure
+2024-03-15 16:06:30.037 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=scale, STORAGE_NAME=scale
+2024-03-15 16:06:30.037 | INFO     | app.tools.functions:scale_changed:98 - start
+2024-03-15 16:06:30.037 | DEBUG    | app.tools.functions:scale_changed:122 - end
+2024-03-15 16:06:30.037 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=num_protocol, STORAGE_NAME=num_protocol
+2024-03-15 16:06:30.037 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=num_scale, STORAGE_NAME=num_scale
+2024-03-15 16:06:30.038 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=interval, STORAGE_NAME=interval
+2024-03-15 16:06:30.038 | ERROR    | app.tools.functions:use_data:311 - Ошибка при установлении значений в var_boxes.text_boxes: 'QLabel' object has no attribute 'setPlainText'
+2024-03-15 16:06:30.038 | DEBUG    | app.tools.functions:use_data:360 - end
+2024-03-15 16:07:29.790 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 16:07:29.791 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 16:07:30.443 | DEBUG    | app.main_window:__init__:67 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000022F21145250>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000022F211459A0>}
+2024-03-15 16:07:30.444 | DEBUG    | app.main_window:__init__:68 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000022F2115E720>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000022F2115EE70>}
+2024-03-15 16:07:31.576 | INFO     | app.tools.functions:use_data:281 - start
+2024-03-15 16:07:31.577 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=path, STORAGE_NAME=path
+2024-03-15 16:07:31.579 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=INN, STORAGE_NAME=INN
+2024-03-15 16:07:31.579 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=company, STORAGE_NAME=company
+2024-03-15 16:07:31.579 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=legal_address, STORAGE_NAME=legal_address
+2024-03-15 16:07:31.579 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=inspection_address, STORAGE_NAME=inspection_address
+2024-03-15 16:07:31.579 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=temperature, STORAGE_NAME=temperature
+2024-03-15 16:07:31.581 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=humidity, STORAGE_NAME=humidity
+2024-03-15 16:07:31.581 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=pressure, STORAGE_NAME=pressure
+2024-03-15 16:07:31.581 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=scale, STORAGE_NAME=scale
+2024-03-15 16:07:31.582 | INFO     | app.tools.functions:scale_changed:98 - start
+2024-03-15 16:07:31.582 | DEBUG    | app.tools.functions:scale_changed:122 - end
+2024-03-15 16:07:31.582 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=num_protocol, STORAGE_NAME=num_protocol
+2024-03-15 16:07:31.582 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=num_scale, STORAGE_NAME=num_scale
+2024-03-15 16:07:31.583 | DEBUG    | app.tools.functions:use_data:360 - end
+2024-03-15 16:19:01.449 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 16:19:01.450 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 16:19:02.078 | DEBUG    | app.main_window:__init__:67 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000013C459DD130>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000013C459DD880>}
+2024-03-15 16:19:02.078 | DEBUG    | app.main_window:__init__:68 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000013C45A0E600>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000013C45A0ED50>}
+2024-03-15 16:19:09.441 | INFO     | app.tools.functions:use_data:281 - start
+2024-03-15 16:19:09.442 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=path, STORAGE_NAME=path
+2024-03-15 16:19:09.445 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=INN, STORAGE_NAME=INN
+2024-03-15 16:19:09.445 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=company, STORAGE_NAME=company
+2024-03-15 16:19:09.445 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=legal_address, STORAGE_NAME=legal_address
+2024-03-15 16:19:09.445 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=inspection_address, STORAGE_NAME=inspection_address
+2024-03-15 16:19:09.445 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=temperature, STORAGE_NAME=temperature
+2024-03-15 16:19:09.445 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=humidity, STORAGE_NAME=humidity
+2024-03-15 16:19:09.446 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=pressure, STORAGE_NAME=pressure
+2024-03-15 16:19:09.446 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=scale, STORAGE_NAME=scale
+2024-03-15 16:19:09.447 | INFO     | app.tools.functions:scale_changed:98 - start
+2024-03-15 16:19:09.447 | DEBUG    | app.tools.functions:scale_changed:122 - end
+2024-03-15 16:19:09.447 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=num_protocol, STORAGE_NAME=num_protocol
+2024-03-15 16:19:09.447 | DEBUG    | app.tools.functions:use_data:307 - WIDGET_NAME=num_scale, STORAGE_NAME=num_scale
+2024-03-15 16:19:09.448 | DEBUG    | app.tools.functions:use_data:360 - end
+2024-03-15 16:19:39.750 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 16:19:39.751 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 16:19:40.419 | DEBUG    | app.main_window:__init__:67 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x00000216132E5130>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x00000216132E5880>}
+2024-03-15 16:19:40.420 | DEBUG    | app.main_window:__init__:68 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000002161332E600>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000002161332ED50>}
+2024-03-15 16:19:42.970 | INFO     | app.tools.functions:use_data:281 - start
+2024-03-15 16:19:42.973 | DEBUG    | app.tools.functions:use_data:359 - end
+2024-03-15 16:19:54.982 | INFO     | app.tools.functions:use_data:281 - start
+2024-03-15 16:19:54.984 | INFO     | app.tools.functions:scale_changed:98 - start
+2024-03-15 16:19:54.984 | DEBUG    | app.tools.functions:scale_changed:122 - end
+2024-03-15 16:19:54.985 | DEBUG    | app.tools.functions:use_data:359 - end
+2024-03-15 16:20:55.533 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 16:20:55.534 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 16:20:56.223 | DEBUG    | app.main_window:__init__:67 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x00000243336D5130>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x00000243336D5880>}
+2024-03-15 16:20:56.223 | DEBUG    | app.main_window:__init__:68 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000024333722600>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000024333722D50>}
+2024-03-15 16:20:57.542 | INFO     | app.tools.layouts.Word:choose_scale:493 - Выбор весов диалог
+2024-03-15 16:20:57.542 | INFO     | app.tools.dialogs.ChooseScaleDialog:__init__:27 - ChooseScaleDialog(QDialog): __init__
+2024-03-15 16:21:01.085 | SUCCESS  | app.tools.layouts.Word:choose_scale:497 - Успешно выбор весов диалог
+2024-03-15 16:21:02.540 | INFO     | app.tools.layouts.Excel:choose_scale:482 - Выбор весов диалог
+2024-03-15 16:21:02.541 | INFO     | app.tools.dialogs.ChooseScaleDialog:__init__:27 - ChooseScaleDialog(QDialog): __init__
+2024-03-15 16:21:04.116 | SUCCESS  | app.tools.layouts.Excel:choose_scale:487 - Успешно выбор весов диалог
+2024-03-15 16:27:18.102 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 16:27:18.103 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 16:27:18.728 | DEBUG    | app.main_window:__init__:67 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000023A5877D130>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000023A5877D880>}
+2024-03-15 16:27:18.729 | DEBUG    | app.main_window:__init__:68 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000023A587AE600>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000023A587AED50>}
+2024-03-15 16:27:21.076 | DEBUG    | app.tools.layouts.Word:create_protocol_from_excel:475 - Создание протокола из excel
+2024-03-15 16:27:21.077 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:34 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-03-15 16:27:33.598 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:create_protocol:126 - start
+2024-03-15 16:27:33.599 | ERROR    | app.tools.dialogs.CreateProtocolFromExcelDialog:create_protocol:223 - Ошибка при создании протколов 'Excel' object has no attribute 'get_from_excel'
+2024-03-15 16:27:37.496 | ERROR    | app.tools.dialogs.CreateProtocolFromExcelDialog:create_protocol:223 - Ошибка при создании протколов 'Excel' object has no attribute 'get_from_excel'
+2024-03-15 16:27:46.641 | SUCCESS  | app.tools.layouts.Word:create_protocol_from_excel:480 - Успешное создание протокола из excel
+2024-03-15 16:29:36.311 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 16:29:36.311 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 16:29:36.939 | DEBUG    | app.main_window:__init__:67 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000016563615130>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000016563615880>}
+2024-03-15 16:29:36.941 | DEBUG    | app.main_window:__init__:68 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000001656365E600>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000001656365ED50>}
+2024-03-15 16:29:39.113 | DEBUG    | app.tools.layouts.Word:create_protocol_from_excel:475 - Создание протокола из excel
+2024-03-15 16:29:39.113 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:34 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-03-15 16:29:44.387 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:create_protocol:126 - start
+2024-03-15 16:29:44.398 | ERROR    | app.tools.dialogs.CreateProtocolFromExcelDialog:create_protocol:223 - Ошибка при создании протколов Excel.get_args_from_excel() got multiple values for argument 'row'
+2024-03-15 16:29:49.713 | ERROR    | app.tools.dialogs.CreateProtocolFromExcelDialog:create_protocol:223 - Ошибка при создании протколов Excel.get_args_from_excel() got multiple values for argument 'row'
+2024-03-15 16:29:54.302 | SUCCESS  | app.tools.layouts.Word:create_protocol_from_excel:480 - Успешное создание протокола из excel
+2024-03-15 16:30:40.401 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-15 16:30:40.401 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-15 16:30:41.081 | DEBUG    | app.main_window:__init__:67 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000026BC0D151C0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000026BC0D15910>}
+2024-03-15 16:30:41.082 | DEBUG    | app.main_window:__init__:68 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000026BC0D5E690>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000026BC0D5EDE0>}
+2024-03-15 16:30:46.435 | DEBUG    | app.tools.layouts.Word:create_protocol_from_excel:475 - Создание протокола из excel
+2024-03-15 16:30:46.436 | INFO     | app.tools.dialogs.CreateProtocolFromExcelDialog:__init__:34 - CreateProtocolFromExcelDialog(QDialog): __init__
+2024-03-15 16:30:55.335 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:create_protocol:126 - start
+2024-03-15 16:30:55.336 | ERROR    | app.tools.office.Excel:get_args_from_excel:269 - Ошибка при получении значений из excel файла: [Errno 2] No such file or directory: 'C:/Users/maina/PythonProjects/desktop/Журнал учета поверочных работ Бурков 20.08.2023.xlsx'
+2024-03-15 16:30:59.687 | ERROR    | app.tools.office.Excel:get_args_from_excel:269 - Ошибка при получении значений из excel файла: [Errno 2] No such file or directory: 'C:/Users/maina/PythonProjects/desktop/Журнал учета поверочных работ Бурков 20.08.2023.xlsx'
+2024-03-15 16:31:01.117 | SUCCESS  | app.tools.layouts.Word:create_protocol_from_excel:480 - Успешное создание протокола из excel

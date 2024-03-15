@@ -41,7 +41,7 @@ class SettingDialog(QDialog):
                                      'num_scale': QCheckBox("Номер весов"),
                                      'num_protocol': QCheckBox("Номер протокола"),
                                      'path': QCheckBox("Путь сохранения"),
-                                     'verificationer': QCheckBox('Поверитель'),
+                                     'verificationer_combo': QCheckBox('Поверитель'),
                                      'company': QCheckBox('Компания'),
                                      'INN': QCheckBox('ИНН'),
                                      'legal_address': QCheckBox('Юридический адрес'),
@@ -50,8 +50,9 @@ class SettingDialog(QDialog):
                                      'standarts': QCheckBox('Набор эталонов (Может работать неккоректно)'),
                                      'use_excel': QCheckBox('Использовать excel'),
                                      'unfit': QCheckBox('Соответсвует/Несоответсвует'),
-                                     'interval': QCheckBox('Интервал'),
-                                     'create_excel': QCheckBox('Создавать excel шаблон/протокол')
+                                     'interval_combo': QCheckBox('Интервал'),
+                                     'create_excel': QCheckBox('Создавать excel шаблон/протокол'),
+                                     'work_place_combo': QCheckBox('Рабочее место')
                                      }
 
         for widget in self.use_data_check_boxes.values():

@@ -81,30 +81,19 @@ class Excel():
             return e
 
 
-    def make_new_protocol(self, args):
+    def make_new_protocol(self, path_template: str, args):
         logger.info("Создание Excel протокола")
-
-        scale = args['scale'].rsplit(' ',1)[0]
-        fif = args['scale'].rsplit(' ',1)[1]
-
-        args['num_protocol'] = args['num_protocol'].split('-',1)[0] + '-' + args['work_place'].split('-')[0].strip() + '-' + args['num_protocol'].split('-',1)[1]
-
-        for key in args.keys():
-            argument = args[key]
-            logger.debug(f"{key}: {argument}")
-
-        path_to_template_file = f'app\\templates\\Excel\\{args['scale']}.xlsx'
         
-        workbook = self.open_document(path=path_to_template_file)
+        workbook = self.open_document(path=args['path_to_excel'])
         
         if workbook is not None:
 
             #Выбор активного листа
             worksheet = workbook['Данные']
 
-            worksheet['B1'] = args['scale']
-            worksheet['B2'] = args['num_protocol']
-            worksheet['B4'] = args['num_scale']
+            worksheet['B1'] = args['scale_excel']
+            worksheet['B2'] = args['num_protocol_excel']
+            worksheet['B4'] = args['num_scale_excel']
             worksheet['B5'] = args['readings']
             worksheet['B6'] = args['company']
             worksheet['B7'] = args['inspection_address']
@@ -119,11 +108,6 @@ class Excel():
             worksheet['С8'] = args['verificationer']
             
             worksheet['D8'] = args['standarts']
-
-            full = f'{args['path']}/{args['num_protocol']} {scale} №{args['num_scale']} ({fif}).xlsx'
-
-            # Сохраняем изменения в файле Excel
-            workbook.save(filename=args['path_to_excel'])
 
             logger.success("Протокол Excel создан")
             
@@ -228,7 +212,7 @@ class Excel():
             return rows
     
     
-    def get_args_from_excel(path: str, row: str):
+    def get_args_from_excel(self, path: str, row: str):
 
         try:
 
