@@ -20,7 +20,7 @@ class CreateProtocolDialog(QDialog):
 
             self.main_window = main_window
 
-            logger.info('CreateProtocolDialog(QDialog): __init__')
+            logger.debug('CreateProtocolDialog(QDialog): __init__')
 
             length_window = 500
             width_window = 500
@@ -37,7 +37,7 @@ class CreateProtocolDialog(QDialog):
             if result:
                 self.label.setText(result)
             else:
-                self.label.setText('Возникла ошибка!')
+                self.label.setText('Возникла непредвиденная ошибка ошибка!')
 
             self.setLayout(self.main_layout)
 

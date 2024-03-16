@@ -80,24 +80,26 @@ class Excel():
             logger.error('Ошибка при создании Excel шаблона')
             return e
 
+    # НЕ РАБОТАЕТ
+    def make_new_protocol(self, args):
+        logger.debug("Создание Excel протокола")
 
-    def make_new_protocol(self, path_template: str, args):
-        logger.info("Создание Excel протокола")
+        path_to_excel_file = f'app\\templates\\Excel\\{args['scale']}.xlsx'
         
-        workbook = self.open_document(path=args['path_to_excel'])
+        workbook = self.open_document(path=path_to_excel_file)
         
         if workbook is not None:
 
             #Выбор активного листа
             worksheet = workbook['Данные']
 
-            worksheet['B1'] = args['scale_excel']
-            worksheet['B2'] = args['num_protocol_excel']
-            worksheet['B4'] = args['num_scale_excel']
+            worksheet['B1'] = args['scale']
+            worksheet['B2'] = args['num_protocol']
+            worksheet['B4'] = args['num_scale']
             worksheet['B5'] = args['readings']
             worksheet['B6'] = args['company']
             worksheet['B7'] = args['inspection_address']
-            worksheet['B8'] = args['work_place'].split('-')[0]
+            worksheet['B8'] = args['work_place_combo'].split('-')[0]
             worksheet['B9'] = args['inspection_date']
             worksheet['B10'] = args['temperature']
             worksheet['B11'] = args['humidity']
@@ -105,9 +107,17 @@ class Excel():
             worksheet['B13'] = args['temperature_liquid']
             worksheet['B14'] = args['temperature_liquid']
             
-            worksheet['С8'] = args['verificationer']
+            worksheet['С8'] = args['verificationer_combo']
             
-            worksheet['D8'] = args['standarts']
+            worksheet['D8'] = args['tab_standarts']
+
+            scale = args['scale'].rsplit(' ',1)[0]
+            fif = args['scale'].rsplit(' ',1)[1]
+
+            full = f'{args['save_path']}/{args['num_protocol']} {scale} №{args['num_scale']} ({fif}).docx'
+
+            # Сохраняем изменения в файле Excel
+            workbook.save(filename=full)
 
             logger.success("Протокол Excel создан")
             
@@ -118,7 +128,7 @@ class Excel():
         
         logger.debug(args)
         
-        num_protocol = args['num_protocol'].split('-',1)[0] + '-' + args['work_place'].split('-')[0].strip() + '-' + args['num_protocol'].split('-',1)[1]
+        num_protocol = args['num_protocol'].split('-',1)[0] + '-' + args['work_place_combo'].split('-')[0].strip() + '-' + args['num_protocol'].split('-',1)[1]
 
         # Исходная строка с датой
         date_str = args['inspection_date']
@@ -135,13 +145,13 @@ class Excel():
         # Преобразуем объект datetime обратно в строку
         new_date_str = new_date.strftime("%d.%m.%Y")
 
-        if args['unfit'] == False:
+        if args['unfit_button'] == False:
                 unfit = 'Пригодно'
         else:
                 unfit = 'Непригодно'
 
         # Загрузка существующего файла
-        workbook = self.open_document(path=args['path_to_excel'])
+        workbook = self.open_document(path=args['path_to_excel_jounal'])
         
         if workbook is not None:
 
@@ -168,7 +178,7 @@ class Excel():
             worksheet['V' + str(empty_row)] = args['standarts_briefly']
             worksheet['AG' + str(empty_row)] = args['company']
             worksheet['AI' + str(empty_row)] = '1'
-            worksheet['AJ' + str(empty_row)] = args['verificationer']
+            worksheet['AJ' + str(empty_row)] = args['verificationer_combo']
             worksheet['AS' + str(empty_row)] = args['INN']
             worksheet['AT' + str(empty_row)] = args['legal_address']
             worksheet['AU' + str(empty_row)] = args['inspection_address']

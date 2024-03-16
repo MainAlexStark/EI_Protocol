@@ -54,7 +54,7 @@ def get_layout(self):
     # Добавляем элементы в layouts
     var_layout.addWidget(text_path)
 
-    self.text_boxes_word['path'] = text_path
+    self.text_boxes_word['save_path'] = text_path
     
     # Создаем кнопку
     path_button = QPushButton('Выбрать путь сохранения', self)
@@ -196,7 +196,7 @@ def get_layout(self):
     unfit_button.setCheckable(True)
     var_layout.addWidget(unfit_button)  # Добавляем в layout
 
-    self.buttons_word['unfit_button'] = unfit_button
+    self.checkable_buttons_word['unfit_button'] = unfit_button
 
     # Line
 
@@ -230,7 +230,7 @@ def get_layout(self):
     add_to_excel_button.setCheckable(True)
     var_layout.addWidget(add_to_excel_button)  # Добавляем в layout
 
-    self.buttons_word['add_to_excel_button'] = add_to_excel_button
+    self.checkable_buttons_word['add_to_excel_button'] = add_to_excel_button
 
     ####### var_r_layout
 

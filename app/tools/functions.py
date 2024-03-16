@@ -265,8 +265,8 @@ def create_protocol(self, word:bool,other_widgets, text_boxes, combo_boxes, chec
         dialogs.CreateProtocolDialog(self, result=result).exec_()
 
         # Очищаем
-        self.var_boxes_excel.text_boxes['num_protocol'].clear()
-        self.var_boxes_excel.text_boxes['num_scale'].clear()
+        self.text_boxes_excel['num_protocol'].clear()
+        self.text_boxes_excel['num_scale'].clear()
 
         self.verificationer_changed()
 

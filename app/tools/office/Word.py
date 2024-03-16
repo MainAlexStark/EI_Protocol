@@ -50,7 +50,7 @@ class Word():
         try:
             logger.debug('start')
             
-            num_protocol = args['num_protocol'].split('-',1)[0] + '-' + args['work_place'].split('-')[0].strip() + '-' + args['num_protocol'].split('-',1)[1]
+            num_protocol = args['num_protocol'].split('-',1)[0] + '-' + args['work_place_combo'].split('-')[0].strip() + '-' + args['num_protocol'].split('-',1)[1]
 
             for key in args.keys():
                 argument = args[key]
@@ -78,14 +78,14 @@ class Word():
                         .replace('ВЛАЖНОСТЬ_ПЕРЕМЕННАЯ', args['humidity']) \
                         .replace('ДАВЛЕНИЕ_ПЕРЕМЕННАЯ', args['pressure']) \
                         .replace('ЭТАЛОНЫ_ПОВЕРКИ_ПЕРЕМЕННАЯ', args['standarts']) \
-                        .replace('ПОВЕРИТЕЛЬ_ПЕРЕМЕННАЯ', args['verificationer']) \
+                        .replace('ПОВЕРИТЕЛЬ_ПЕРЕМЕННАЯ', args['verificationer_combo']) \
                         .replace('ДАТА_ПОВЕРКИ_ПЕРЕМЕННАЯ', args['inspection_date']) \
 
                     if 'voltage' in args.keys():
                         paragraph.text = paragraph.text.replace('НАПРЯЖЕНИЕ_ПЕРЕМЕННАЯ', args['voltage']) \
                         .replace('ЧАСТОТА_ПЕРЕМЕННАЯ', args['frequency'])
 
-                    if 'соответствует установленным в описании типа метрологическим требованиям' in paragraph.text and args['unfit'] == True:
+                    if 'соответствует установленным в описании типа метрологическим требованиям' in paragraph.text and args['unfit_button'] == True:
                         paragraph.text = paragraph.text.replace('соответствует','несоответствует')\
                         .replace('пригодно','непригодно')
                         
@@ -101,28 +101,28 @@ class Word():
             scale = args['scale'].rsplit(' ',1)[0]
             fif = args['scale'].rsplit(' ',1)[1]
 
-            full = f'{args['path']}/{args['num_protocol']} {scale} №{args['num_scale']} ({fif}).docx'
+            full = f'{args['save_path']}/{args['num_protocol']} {scale} №{args['num_scale']} ({fif}).docx'
 
             doc.save(full)
             logger.debug(full)
 
-            if args['use_excel']:
+            if args['add_to_excel_button']:
                 try:
                     Excel.add_args_to_excel_journal(args=args)
                 except Exception as e:
                     logger.error(f'Ошибка при редактировании Excel файла:{e}')
                     
                     
-            if args['unfit'] == False:
-                    unfit = 'Пригодно'
+            if args['unfit_button'] == False:
+                unfit = 'Пригодно'
             else:
-                    unfit = 'Непригодно'
+                unfit = 'Непригодно'
                     
                     
             result = ''
             
             result += full + '\n'
-            result += args['num_protocol'].split('-',1)[0] + '-' + args['work_place'].split('-')[0].strip() + '-' + args['num_protocol'].split('-',1)[1] + '\n'
+            result += args['num_protocol'].split('-',1)[0] + '-' + args['work_place_combo'].split('-')[0].strip() + '-' + args['num_protocol'].split('-',1)[1] + '\n'
             result += args['scale'] + '\n'
             result += args['num_scale'] + '\n'
             result += args['inspection_date'] + '\n'
@@ -132,7 +132,7 @@ class Word():
             result += args['humidity'] + '\n'
             result += args['standarts'] + '\n'
             result += args['company'] + '\n'
-            result += args['verificationer'] + '\n'
+            result += args['verificationer_combo'] + '\n'
             result += args['legal_address'] + '\n'
             result += args['inspection_address'] + '\n'
             result += unfit

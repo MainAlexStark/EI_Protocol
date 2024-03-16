@@ -7956,3 +7956,714 @@ The rights to the program belong to the company: ООО "Единица Изме
 2024-03-15 16:30:55.336 | ERROR    | app.tools.office.Excel:get_args_from_excel:269 - Ошибка при получении значений из excel файла: [Errno 2] No such file or directory: 'C:/Users/maina/PythonProjects/desktop/Журнал учета поверочных работ Бурков 20.08.2023.xlsx'
 2024-03-15 16:30:59.687 | ERROR    | app.tools.office.Excel:get_args_from_excel:269 - Ошибка при получении значений из excel файла: [Errno 2] No such file or directory: 'C:/Users/maina/PythonProjects/desktop/Журнал учета поверочных работ Бурков 20.08.2023.xlsx'
 2024-03-15 16:31:01.117 | SUCCESS  | app.tools.layouts.Word:create_protocol_from_excel:480 - Успешное создание протокола из excel
+2024-03-16 21:48:11.439 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-16 21:48:11.440 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-16 21:48:12.280 | DEBUG    | app.main_window:__init__:67 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000002759616D1C0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000002759616D910>}
+2024-03-16 21:48:12.281 | DEBUG    | app.main_window:__init__:68 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000002759619E690>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000002759619EDE0>}
+2024-03-16 21:48:15.805 | INFO     | app.tools.functions:use_data:281 - start
+2024-03-16 21:48:15.816 | INFO     | app.tools.functions:scale_changed:98 - start
+2024-03-16 21:48:15.817 | DEBUG    | app.tools.functions:scale_changed:122 - end
+2024-03-16 21:48:15.820 | DEBUG    | app.tools.functions:use_data:359 - end
+2024-03-16 21:48:29.840 | DEBUG    | app.tools.functions:verificationer_changed:157 - Изменение поверителя
+2024-03-16 21:48:29.841 | DEBUG    | app.tools.functions:verificationer_changed:165 - Поверитель изменен
+2024-03-16 21:48:40.637 | INFO     | app.tools.functions:create_protocol:176 - start
+2024-03-16 21:48:40.637 | DEBUG    | app.tools.functions:get_selected_table:130 - start
+2024-03-16 21:48:40.638 | DEBUG    | app.tools.functions:get_selected_table:138 - TAB_WIDGET=<PyQt5.QtWidgets.QTabWidget object at 0x000002759616D910>
+2024-03-16 21:48:40.638 | DEBUG    | app.tools.functions:get_selected_table:139 - TABLE=<PyQt5.QtWidgets.QTableWidget object at 0x000002759616DA30>
+2024-03-16 21:48:40.638 | DEBUG    | app.tools.functions:get_selected_table:141 - end
+2024-03-16 21:48:40.639 | DEBUG    | app.tools.functions:create_protocol:184 - OTHER_WIDGETS={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000002759616D1C0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000002759616D910>}
+2024-03-16 21:48:40.639 | DEBUG    | app.tools.functions:create_protocol:185 - Selected table=<PyQt5.QtWidgets.QTableWidget object at 0x000002759616DA30>
+2024-03-16 21:48:40.640 | DEBUG    | app.tools.functions:create_protocol:186 - current_row=11
+2024-03-16 21:48:44.116 | DEBUG    | app.tools.functions:create_protocol:277 - end
+2024-03-16 21:48:45.465 | INFO     | app.tools.layouts.Word:add_path_to_excel:518 - Добавление пути до журнала Excel
+2024-03-16 21:48:53.912 | DEBUG    | app.tools.layouts.Word:add_path_to_excel:525 - Успешно Добавление пути до журнала Excel
+2024-03-16 21:49:03.277 | INFO     | app.tools.layouts.Word:add_path_to_excel:518 - Добавление пути до журнала Excel
+2024-03-16 21:49:04.414 | DEBUG    | app.tools.layouts.Word:add_path_to_excel:525 - Успешно Добавление пути до журнала Excel
+2024-03-16 21:49:07.068 | INFO     | app.tools.functions:create_protocol:176 - start
+2024-03-16 21:49:07.069 | DEBUG    | app.tools.functions:get_selected_table:130 - start
+2024-03-16 21:49:07.069 | DEBUG    | app.tools.functions:get_selected_table:138 - TAB_WIDGET=<PyQt5.QtWidgets.QTabWidget object at 0x000002759616D910>
+2024-03-16 21:49:07.069 | DEBUG    | app.tools.functions:get_selected_table:139 - TABLE=<PyQt5.QtWidgets.QTableWidget object at 0x000002759616DA30>
+2024-03-16 21:49:07.070 | DEBUG    | app.tools.functions:get_selected_table:141 - end
+2024-03-16 21:49:07.071 | DEBUG    | app.tools.functions:create_protocol:184 - OTHER_WIDGETS={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000002759616D1C0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000002759616D910>}
+2024-03-16 21:49:07.071 | DEBUG    | app.tools.functions:create_protocol:185 - Selected table=<PyQt5.QtWidgets.QTableWidget object at 0x000002759616DA30>
+2024-03-16 21:49:07.071 | DEBUG    | app.tools.functions:create_protocol:186 - current_row=11
+2024-03-16 21:49:07.072 | DEBUG    | app.tools.office.Word:make_new_protocol:51 - start
+2024-03-16 21:49:07.072 | ERROR    | app.tools.office.Word:make_new_protocol:145 - Error create protocol: 'work_place'
+2024-03-16 21:49:07.073 | DEBUG    | app.tools.office.Word:make_new_protocol:147 - end
+2024-03-16 21:49:07.073 | INFO     | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-03-16 21:49:07.073 | ERROR    | app.tools.dialogs.CreateProtocolDialog:__init__:45 - Error init ChooseScaleDialog(QDialog) : setText(self, a0: Optional[str]): argument 1 has unexpected type 'KeyError'
+2024-03-16 21:54:05.506 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-16 21:54:05.506 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-16 21:54:06.139 | DEBUG    | app.main_window:__init__:67 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000024CA5DD91C0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000024CA5DD9910>}
+2024-03-16 21:54:06.139 | DEBUG    | app.main_window:__init__:68 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000024CA5E1E690>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000024CA5E1EDE0>}
+2024-03-16 21:54:07.614 | INFO     | app.tools.functions:use_data:281 - start
+2024-03-16 21:54:07.617 | INFO     | app.tools.functions:scale_changed:98 - start
+2024-03-16 21:54:07.617 | DEBUG    | app.tools.functions:scale_changed:122 - end
+2024-03-16 21:54:07.618 | DEBUG    | app.tools.functions:verificationer_changed:157 - Изменение поверителя
+2024-03-16 21:54:07.618 | DEBUG    | app.tools.functions:verificationer_changed:165 - Поверитель изменен
+2024-03-16 21:54:07.619 | DEBUG    | app.tools.functions:use_data:359 - end
+2024-03-16 21:54:13.685 | INFO     | app.tools.functions:create_protocol:176 - start
+2024-03-16 21:54:13.686 | DEBUG    | app.tools.functions:get_selected_table:130 - start
+2024-03-16 21:54:13.686 | DEBUG    | app.tools.functions:get_selected_table:138 - TAB_WIDGET=<PyQt5.QtWidgets.QTabWidget object at 0x0000024CA5DD9910>
+2024-03-16 21:54:13.687 | DEBUG    | app.tools.functions:get_selected_table:139 - TABLE=<PyQt5.QtWidgets.QTableWidget object at 0x0000024CA5DD9A30>
+2024-03-16 21:54:13.687 | DEBUG    | app.tools.functions:get_selected_table:141 - end
+2024-03-16 21:54:13.687 | DEBUG    | app.tools.functions:create_protocol:184 - OTHER_WIDGETS={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000024CA5DD91C0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000024CA5DD9910>}
+2024-03-16 21:54:13.688 | DEBUG    | app.tools.functions:create_protocol:185 - Selected table=<PyQt5.QtWidgets.QTableWidget object at 0x0000024CA5DD9A30>
+2024-03-16 21:54:13.688 | DEBUG    | app.tools.functions:create_protocol:186 - current_row=11
+2024-03-16 21:54:13.689 | DEBUG    | app.tools.office.Word:make_new_protocol:51 - start
+2024-03-16 21:54:13.689 | ERROR    | app.tools.office.Word:make_new_protocol:145 - Error create protocol: 'work_place'
+2024-03-16 21:54:13.690 | DEBUG    | app.tools.office.Word:make_new_protocol:147 - end
+2024-03-16 21:54:13.690 | DEBUG    | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-03-16 21:54:13.690 | ERROR    | app.tools.dialogs.CreateProtocolDialog:__init__:45 - Error init ChooseScaleDialog(QDialog) : setText(self, a0: Optional[str]): argument 1 has unexpected type 'KeyError'
+2024-03-16 21:59:51.379 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-16 21:59:51.379 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-16 21:59:52.017 | DEBUG    | app.main_window:__init__:67 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000001F7FBD11250>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000001F7FBD119A0>}
+2024-03-16 21:59:52.017 | DEBUG    | app.main_window:__init__:68 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000001F7FBD5A720>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000001F7FBD5AE70>}
+2024-03-16 21:59:54.392 | INFO     | app.tools.functions:use_data:281 - start
+2024-03-16 21:59:54.396 | INFO     | app.tools.functions:scale_changed:98 - start
+2024-03-16 21:59:54.396 | DEBUG    | app.tools.functions:scale_changed:122 - end
+2024-03-16 21:59:54.396 | DEBUG    | app.tools.functions:verificationer_changed:157 - Изменение поверителя
+2024-03-16 21:59:54.397 | DEBUG    | app.tools.functions:verificationer_changed:165 - Поверитель изменен
+2024-03-16 21:59:54.398 | DEBUG    | app.tools.functions:use_data:359 - end
+2024-03-16 21:59:59.487 | INFO     | app.tools.functions:create_protocol:176 - start
+2024-03-16 21:59:59.488 | DEBUG    | app.tools.functions:get_selected_table:130 - start
+2024-03-16 21:59:59.488 | DEBUG    | app.tools.functions:get_selected_table:138 - TAB_WIDGET=<PyQt5.QtWidgets.QTabWidget object at 0x000001F7FBD119A0>
+2024-03-16 21:59:59.488 | DEBUG    | app.tools.functions:get_selected_table:139 - TABLE=<PyQt5.QtWidgets.QTableWidget object at 0x000001F7FBD11AC0>
+2024-03-16 21:59:59.489 | DEBUG    | app.tools.functions:get_selected_table:141 - end
+2024-03-16 21:59:59.489 | DEBUG    | app.tools.functions:create_protocol:184 - OTHER_WIDGETS={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000001F7FBD11250>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000001F7FBD119A0>}
+2024-03-16 21:59:59.490 | DEBUG    | app.tools.functions:create_protocol:185 - Selected table=<PyQt5.QtWidgets.QTableWidget object at 0x000001F7FBD11AC0>
+2024-03-16 21:59:59.490 | DEBUG    | app.tools.functions:create_protocol:186 - current_row=11
+2024-03-16 21:59:59.491 | DEBUG    | app.tools.office.Word:make_new_protocol:51 - start
+2024-03-16 21:59:59.491 | ERROR    | app.tools.office.Word:make_new_protocol:145 - Error create protocol: 'work_place'
+2024-03-16 21:59:59.491 | DEBUG    | app.tools.office.Word:make_new_protocol:147 - end
+2024-03-16 21:59:59.492 | DEBUG    | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-03-16 21:59:59.492 | ERROR    | app.tools.dialogs.CreateProtocolDialog:__init__:45 - Error init ChooseScaleDialog(QDialog) : setText(self, a0: Optional[str]): argument 1 has unexpected type 'KeyError'
+2024-03-16 22:00:29.666 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-16 22:00:29.666 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-16 22:00:30.305 | DEBUG    | app.main_window:__init__:67 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000027B164712E0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000027B16471A30>}
+2024-03-16 22:00:30.305 | DEBUG    | app.main_window:__init__:68 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000027B164BA7B0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000027B164BAF00>}
+2024-03-16 22:00:31.903 | INFO     | app.tools.functions:use_data:281 - start
+2024-03-16 22:00:31.906 | INFO     | app.tools.functions:scale_changed:98 - start
+2024-03-16 22:00:31.906 | DEBUG    | app.tools.functions:scale_changed:122 - end
+2024-03-16 22:00:31.906 | DEBUG    | app.tools.functions:verificationer_changed:157 - Изменение поверителя
+2024-03-16 22:00:31.907 | DEBUG    | app.tools.functions:verificationer_changed:165 - Поверитель изменен
+2024-03-16 22:00:31.907 | DEBUG    | app.tools.functions:use_data:359 - end
+2024-03-16 22:00:32.827 | INFO     | app.tools.functions:create_protocol:176 - start
+2024-03-16 22:00:32.827 | DEBUG    | app.tools.functions:get_selected_table:130 - start
+2024-03-16 22:00:32.827 | DEBUG    | app.tools.functions:get_selected_table:138 - TAB_WIDGET=<PyQt5.QtWidgets.QTabWidget object at 0x0000027B16471A30>
+2024-03-16 22:00:32.827 | DEBUG    | app.tools.functions:get_selected_table:139 - TABLE=<PyQt5.QtWidgets.QTableWidget object at 0x0000027B16471B50>
+2024-03-16 22:00:32.827 | DEBUG    | app.tools.functions:get_selected_table:141 - end
+2024-03-16 22:00:32.827 | DEBUG    | app.tools.functions:create_protocol:184 - OTHER_WIDGETS={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000027B164712E0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000027B16471A30>}
+2024-03-16 22:00:32.827 | DEBUG    | app.tools.functions:create_protocol:185 - Selected table=<PyQt5.QtWidgets.QTableWidget object at 0x0000027B16471B50>
+2024-03-16 22:00:32.827 | DEBUG    | app.tools.functions:create_protocol:186 - current_row=11
+2024-03-16 22:00:32.828 | DEBUG    | app.tools.office.Word:make_new_protocol:51 - start
+2024-03-16 22:00:32.828 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - scale: Весы настольные циферблатные РН-6Ц13У 8474-88
+2024-03-16 22:00:32.828 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - path: C:/Users/maina/PythonProjects/desktop
+2024-03-16 22:00:32.828 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - num_protocol: ЕИ-03-9999
+2024-03-16 22:00:32.829 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - num_scale: 1234
+2024-03-16 22:00:32.829 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - INN: INN
+2024-03-16 22:00:32.829 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - company: company
+2024-03-16 22:00:32.829 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - legal_address: place
+2024-03-16 22:00:32.829 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - inspection_address: place
+2024-03-16 22:00:32.829 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - path_to_excel_jounal: 123
+2024-03-16 22:00:32.830 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - temperature: temp
+2024-03-16 22:00:32.830 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - humidity: hum
+2024-03-16 22:00:32.830 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - pressure: press
+2024-03-16 22:00:32.830 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - work_place_combo: 04 - Счетчики воды
+2024-03-16 22:00:32.830 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - verificationer_combo: Стариков
+2024-03-16 22:00:32.830 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - interval_combo: 1
+2024-03-16 22:00:32.830 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - inspection_date: 15.03.2024
+2024-03-16 22:00:32.831 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - standarts: Набор гирь 1 мг-500 г F1 рег. № в ФИФ 58463-14, №PV156, 2 разряд;
+Гиря М1 500 г рег. № в ФИФ 58048-14 №796242, 4 разряд;
+Гиря М1 1 кг рег. № в ФИФ 58048-14 №796241, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796236, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796237, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №796238, 4 разряд.
+2024-03-16 22:00:32.831 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - standarts_briefly: 58463.14.2Р.00869664|58048.14.4Р.00740372|58048.14.4Р.00740373|58048.14.4Р.00740374|58048.14.4Р.00740375
+2024-03-16 22:00:32.831 | DEBUG    | app.tools.office.Word:open_document:35 - Open Word Document: app\templates\Word\Весы настольные циферблатные РН-6Ц13У 8474-88.docx
+2024-03-16 22:00:32.895 | DEBUG    | app.tools.office.Word:open_document:40 - Документ Word открыт
+2024-03-16 22:00:32.896 | ERROR    | app.tools.office.Word:make_new_protocol:145 - Error create protocol: 'verificationer'
+2024-03-16 22:00:32.896 | DEBUG    | app.tools.office.Word:make_new_protocol:147 - end
+2024-03-16 22:00:32.896 | DEBUG    | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-03-16 22:00:32.897 | ERROR    | app.tools.dialogs.CreateProtocolDialog:__init__:45 - Error init ChooseScaleDialog(QDialog) : setText(self, a0: Optional[str]): argument 1 has unexpected type 'KeyError'
+2024-03-16 22:01:03.624 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-16 22:01:03.624 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-16 22:01:04.246 | DEBUG    | app.main_window:__init__:67 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000019D962A12E0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000019D962A1A30>}
+2024-03-16 22:01:04.246 | DEBUG    | app.main_window:__init__:68 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000019D962EA7B0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000019D962EAF00>}
+2024-03-16 22:01:06.105 | INFO     | app.tools.functions:use_data:281 - start
+2024-03-16 22:01:06.108 | INFO     | app.tools.functions:scale_changed:98 - start
+2024-03-16 22:01:06.108 | DEBUG    | app.tools.functions:scale_changed:122 - end
+2024-03-16 22:01:06.108 | DEBUG    | app.tools.functions:verificationer_changed:157 - Изменение поверителя
+2024-03-16 22:01:06.109 | DEBUG    | app.tools.functions:verificationer_changed:165 - Поверитель изменен
+2024-03-16 22:01:06.110 | DEBUG    | app.tools.functions:use_data:359 - end
+2024-03-16 22:01:06.496 | INFO     | app.tools.functions:create_protocol:176 - start
+2024-03-16 22:01:06.496 | DEBUG    | app.tools.functions:get_selected_table:130 - start
+2024-03-16 22:01:06.497 | DEBUG    | app.tools.functions:get_selected_table:138 - TAB_WIDGET=<PyQt5.QtWidgets.QTabWidget object at 0x0000019D962A1A30>
+2024-03-16 22:01:06.497 | DEBUG    | app.tools.functions:get_selected_table:139 - TABLE=<PyQt5.QtWidgets.QTableWidget object at 0x0000019D962A1B50>
+2024-03-16 22:01:06.497 | DEBUG    | app.tools.functions:get_selected_table:141 - end
+2024-03-16 22:01:06.498 | DEBUG    | app.tools.functions:create_protocol:184 - OTHER_WIDGETS={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000019D962A12E0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000019D962A1A30>}
+2024-03-16 22:01:06.498 | DEBUG    | app.tools.functions:create_protocol:185 - Selected table=<PyQt5.QtWidgets.QTableWidget object at 0x0000019D962A1B50>
+2024-03-16 22:01:06.498 | DEBUG    | app.tools.functions:create_protocol:186 - current_row=11
+2024-03-16 22:01:06.499 | DEBUG    | app.tools.office.Word:make_new_protocol:51 - start
+2024-03-16 22:01:06.499 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - scale: Весы настольные циферблатные РН-6Ц13У 8474-88
+2024-03-16 22:01:06.499 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - path: C:/Users/maina/PythonProjects/desktop
+2024-03-16 22:01:06.500 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - num_protocol: ЕИ-03-9999
+2024-03-16 22:01:06.500 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - num_scale: 1234
+2024-03-16 22:01:06.501 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - INN: INN
+2024-03-16 22:01:06.501 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - company: company
+2024-03-16 22:01:06.501 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - legal_address: place
+2024-03-16 22:01:06.501 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - inspection_address: place
+2024-03-16 22:01:06.501 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - path_to_excel_jounal: 123
+2024-03-16 22:01:06.502 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - temperature: temp
+2024-03-16 22:01:06.502 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - humidity: hum
+2024-03-16 22:01:06.502 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - pressure: press
+2024-03-16 22:01:06.502 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - work_place_combo: 04 - Счетчики воды
+2024-03-16 22:01:06.502 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - verificationer_combo: Стариков
+2024-03-16 22:01:06.503 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - interval_combo: 1
+2024-03-16 22:01:06.503 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - inspection_date: 15.03.2024
+2024-03-16 22:01:06.503 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - standarts: Набор гирь 1 мг-500 г F1 рег. № в ФИФ 58463-14, №PV156, 2 разряд;
+Гиря М1 500 г рег. № в ФИФ 58048-14 №796242, 4 разряд;
+Гиря М1 1 кг рег. № в ФИФ 58048-14 №796241, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796236, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796237, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №796238, 4 разряд.
+2024-03-16 22:01:06.503 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - standarts_briefly: 58463.14.2Р.00869664|58048.14.4Р.00740372|58048.14.4Р.00740373|58048.14.4Р.00740374|58048.14.4Р.00740375
+2024-03-16 22:01:06.503 | DEBUG    | app.tools.office.Word:open_document:35 - Open Word Document: app\templates\Word\Весы настольные циферблатные РН-6Ц13У 8474-88.docx
+2024-03-16 22:01:06.509 | DEBUG    | app.tools.office.Word:open_document:40 - Документ Word открыт
+2024-03-16 22:01:06.518 | ERROR    | app.tools.office.Word:make_new_protocol:145 - Error create protocol: 'unfit'
+2024-03-16 22:01:06.518 | DEBUG    | app.tools.office.Word:make_new_protocol:147 - end
+2024-03-16 22:01:06.519 | DEBUG    | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-03-16 22:01:06.519 | ERROR    | app.tools.dialogs.CreateProtocolDialog:__init__:45 - Error init ChooseScaleDialog(QDialog) : setText(self, a0: Optional[str]): argument 1 has unexpected type 'KeyError'
+2024-03-16 22:01:44.405 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-16 22:01:44.406 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-16 22:01:45.045 | DEBUG    | app.main_window:__init__:67 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000024C037512E0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000024C03751A30>}
+2024-03-16 22:01:45.046 | DEBUG    | app.main_window:__init__:68 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000024C0379A7B0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000024C0379AF00>}
+2024-03-16 22:01:47.025 | INFO     | app.tools.functions:use_data:281 - start
+2024-03-16 22:01:47.028 | INFO     | app.tools.functions:scale_changed:98 - start
+2024-03-16 22:01:47.028 | DEBUG    | app.tools.functions:scale_changed:122 - end
+2024-03-16 22:01:47.028 | DEBUG    | app.tools.functions:verificationer_changed:157 - Изменение поверителя
+2024-03-16 22:01:47.029 | DEBUG    | app.tools.functions:verificationer_changed:165 - Поверитель изменен
+2024-03-16 22:01:47.030 | DEBUG    | app.tools.functions:use_data:359 - end
+2024-03-16 22:01:48.135 | INFO     | app.tools.functions:create_protocol:176 - start
+2024-03-16 22:01:48.137 | DEBUG    | app.tools.functions:get_selected_table:130 - start
+2024-03-16 22:01:48.137 | DEBUG    | app.tools.functions:get_selected_table:138 - TAB_WIDGET=<PyQt5.QtWidgets.QTabWidget object at 0x0000024C03751A30>
+2024-03-16 22:01:48.138 | DEBUG    | app.tools.functions:get_selected_table:139 - TABLE=<PyQt5.QtWidgets.QTableWidget object at 0x0000024C03751B50>
+2024-03-16 22:01:48.138 | DEBUG    | app.tools.functions:get_selected_table:141 - end
+2024-03-16 22:01:48.138 | DEBUG    | app.tools.functions:create_protocol:184 - OTHER_WIDGETS={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000024C037512E0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000024C03751A30>}
+2024-03-16 22:01:48.139 | DEBUG    | app.tools.functions:create_protocol:185 - Selected table=<PyQt5.QtWidgets.QTableWidget object at 0x0000024C03751B50>
+2024-03-16 22:01:48.139 | DEBUG    | app.tools.functions:create_protocol:186 - current_row=11
+2024-03-16 22:01:48.140 | DEBUG    | app.tools.office.Word:make_new_protocol:51 - start
+2024-03-16 22:01:48.141 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - scale: Весы настольные циферблатные РН-6Ц13У 8474-88
+2024-03-16 22:01:48.141 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - path: C:/Users/maina/PythonProjects/desktop
+2024-03-16 22:01:48.141 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - num_protocol: ЕИ-03-9999
+2024-03-16 22:01:48.141 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - num_scale: 1234
+2024-03-16 22:01:48.142 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - INN: INN
+2024-03-16 22:01:48.142 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - company: company
+2024-03-16 22:01:48.142 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - legal_address: place
+2024-03-16 22:01:48.142 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - inspection_address: place
+2024-03-16 22:01:48.143 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - path_to_excel_jounal: 123
+2024-03-16 22:01:48.143 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - temperature: temp
+2024-03-16 22:01:48.143 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - humidity: hum
+2024-03-16 22:01:48.143 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - pressure: press
+2024-03-16 22:01:48.143 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - work_place_combo: 04 - Счетчики воды
+2024-03-16 22:01:48.143 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - verificationer_combo: Стариков
+2024-03-16 22:01:48.143 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - interval_combo: 1
+2024-03-16 22:01:48.143 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - inspection_date: 15.03.2024
+2024-03-16 22:01:48.144 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - standarts: Набор гирь 1 мг-500 г F1 рег. № в ФИФ 58463-14, №PV156, 2 разряд;
+Гиря М1 500 г рег. № в ФИФ 58048-14 №796242, 4 разряд;
+Гиря М1 1 кг рег. № в ФИФ 58048-14 №796241, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796236, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796237, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №796238, 4 разряд.
+2024-03-16 22:01:48.144 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - standarts_briefly: 58463.14.2Р.00869664|58048.14.4Р.00740372|58048.14.4Р.00740373|58048.14.4Р.00740374|58048.14.4Р.00740375
+2024-03-16 22:01:48.144 | DEBUG    | app.tools.office.Word:open_document:35 - Open Word Document: app\templates\Word\Весы настольные циферблатные РН-6Ц13У 8474-88.docx
+2024-03-16 22:01:48.149 | DEBUG    | app.tools.office.Word:open_document:40 - Документ Word открыт
+2024-03-16 22:01:48.157 | ERROR    | app.tools.office.Word:make_new_protocol:145 - Error create protocol: 'unfit_combo'
+2024-03-16 22:01:48.157 | DEBUG    | app.tools.office.Word:make_new_protocol:147 - end
+2024-03-16 22:01:48.157 | DEBUG    | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-03-16 22:01:48.157 | ERROR    | app.tools.dialogs.CreateProtocolDialog:__init__:45 - Error init ChooseScaleDialog(QDialog) : setText(self, a0: Optional[str]): argument 1 has unexpected type 'KeyError'
+2024-03-16 22:02:30.718 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-16 22:02:30.718 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-16 22:02:31.362 | DEBUG    | app.main_window:__init__:67 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000023E49E312E0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000023E49E31A30>}
+2024-03-16 22:02:31.363 | DEBUG    | app.main_window:__init__:68 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000023E49E767B0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000023E49E76F00>}
+2024-03-16 22:02:32.844 | INFO     | app.tools.functions:use_data:281 - start
+2024-03-16 22:02:32.847 | INFO     | app.tools.functions:scale_changed:98 - start
+2024-03-16 22:02:32.847 | DEBUG    | app.tools.functions:scale_changed:122 - end
+2024-03-16 22:02:32.848 | DEBUG    | app.tools.functions:verificationer_changed:157 - Изменение поверителя
+2024-03-16 22:02:32.848 | DEBUG    | app.tools.functions:verificationer_changed:165 - Поверитель изменен
+2024-03-16 22:02:32.848 | DEBUG    | app.tools.functions:use_data:359 - end
+2024-03-16 22:02:33.273 | INFO     | app.tools.functions:create_protocol:176 - start
+2024-03-16 22:02:33.273 | DEBUG    | app.tools.functions:get_selected_table:130 - start
+2024-03-16 22:02:33.274 | DEBUG    | app.tools.functions:get_selected_table:138 - TAB_WIDGET=<PyQt5.QtWidgets.QTabWidget object at 0x0000023E49E31A30>
+2024-03-16 22:02:33.274 | DEBUG    | app.tools.functions:get_selected_table:139 - TABLE=<PyQt5.QtWidgets.QTableWidget object at 0x0000023E49E31B50>
+2024-03-16 22:02:33.274 | DEBUG    | app.tools.functions:get_selected_table:141 - end
+2024-03-16 22:02:33.274 | DEBUG    | app.tools.functions:create_protocol:184 - OTHER_WIDGETS={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000023E49E312E0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000023E49E31A30>}
+2024-03-16 22:02:33.274 | DEBUG    | app.tools.functions:create_protocol:185 - Selected table=<PyQt5.QtWidgets.QTableWidget object at 0x0000023E49E31B50>
+2024-03-16 22:02:33.274 | DEBUG    | app.tools.functions:create_protocol:186 - current_row=11
+2024-03-16 22:02:33.275 | DEBUG    | app.tools.office.Word:make_new_protocol:51 - start
+2024-03-16 22:02:33.276 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - scale: Весы настольные циферблатные РН-6Ц13У 8474-88
+2024-03-16 22:02:33.276 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - path: C:/Users/maina/PythonProjects/desktop
+2024-03-16 22:02:33.276 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - num_protocol: ЕИ-03-9999
+2024-03-16 22:02:33.276 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - num_scale: 1234
+2024-03-16 22:02:33.277 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - INN: INN
+2024-03-16 22:02:33.277 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - company: company
+2024-03-16 22:02:33.277 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - legal_address: place
+2024-03-16 22:02:33.277 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - inspection_address: place
+2024-03-16 22:02:33.278 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - path_to_excel_jounal: 123
+2024-03-16 22:02:33.278 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - temperature: temp
+2024-03-16 22:02:33.278 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - humidity: hum
+2024-03-16 22:02:33.278 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - pressure: press
+2024-03-16 22:02:33.279 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - work_place_combo: 04 - Счетчики воды
+2024-03-16 22:02:33.279 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - verificationer_combo: Стариков
+2024-03-16 22:02:33.279 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - interval_combo: 1
+2024-03-16 22:02:33.279 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - inspection_date: 15.03.2024
+2024-03-16 22:02:33.279 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - standarts: Набор гирь 1 мг-500 г F1 рег. № в ФИФ 58463-14, №PV156, 2 разряд;
+Гиря М1 500 г рег. № в ФИФ 58048-14 №796242, 4 разряд;
+Гиря М1 1 кг рег. № в ФИФ 58048-14 №796241, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796236, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796237, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №796238, 4 разряд.
+2024-03-16 22:02:33.279 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - standarts_briefly: 58463.14.2Р.00869664|58048.14.4Р.00740372|58048.14.4Р.00740373|58048.14.4Р.00740374|58048.14.4Р.00740375
+2024-03-16 22:02:33.279 | DEBUG    | app.tools.office.Word:open_document:35 - Open Word Document: app\templates\Word\Весы настольные циферблатные РН-6Ц13У 8474-88.docx
+2024-03-16 22:02:33.285 | DEBUG    | app.tools.office.Word:open_document:40 - Документ Word открыт
+2024-03-16 22:02:33.294 | ERROR    | app.tools.office.Word:make_new_protocol:145 - Error create protocol: 'unfit_button'
+2024-03-16 22:02:33.294 | DEBUG    | app.tools.office.Word:make_new_protocol:147 - end
+2024-03-16 22:02:33.295 | DEBUG    | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-03-16 22:02:33.295 | ERROR    | app.tools.dialogs.CreateProtocolDialog:__init__:45 - Error init ChooseScaleDialog(QDialog) : setText(self, a0: Optional[str]): argument 1 has unexpected type 'KeyError'
+2024-03-16 22:04:19.825 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-16 22:04:19.825 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-16 22:04:20.460 | DEBUG    | app.main_window:__init__:67 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000001956A9492E0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000001956A949A30>}
+2024-03-16 22:04:20.461 | DEBUG    | app.main_window:__init__:68 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000001956A91A7B0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000001956A91AF00>}
+2024-03-16 22:04:23.537 | INFO     | app.tools.functions:use_data:281 - start
+2024-03-16 22:04:23.540 | INFO     | app.tools.functions:scale_changed:98 - start
+2024-03-16 22:04:23.540 | DEBUG    | app.tools.functions:scale_changed:122 - end
+2024-03-16 22:04:23.541 | DEBUG    | app.tools.functions:verificationer_changed:157 - Изменение поверителя
+2024-03-16 22:04:23.541 | DEBUG    | app.tools.functions:verificationer_changed:165 - Поверитель изменен
+2024-03-16 22:04:23.542 | DEBUG    | app.tools.functions:use_data:359 - end
+2024-03-16 22:04:24.558 | INFO     | app.tools.functions:create_protocol:176 - start
+2024-03-16 22:04:24.560 | DEBUG    | app.tools.functions:get_selected_table:130 - start
+2024-03-16 22:04:24.560 | DEBUG    | app.tools.functions:get_selected_table:138 - TAB_WIDGET=<PyQt5.QtWidgets.QTabWidget object at 0x000001956A949A30>
+2024-03-16 22:04:24.560 | DEBUG    | app.tools.functions:get_selected_table:139 - TABLE=<PyQt5.QtWidgets.QTableWidget object at 0x000001956A949B50>
+2024-03-16 22:04:24.560 | DEBUG    | app.tools.functions:get_selected_table:141 - end
+2024-03-16 22:04:24.560 | DEBUG    | app.tools.functions:create_protocol:184 - OTHER_WIDGETS={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000001956A9492E0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000001956A949A30>}
+2024-03-16 22:04:24.560 | DEBUG    | app.tools.functions:create_protocol:185 - Selected table=<PyQt5.QtWidgets.QTableWidget object at 0x000001956A949B50>
+2024-03-16 22:04:24.560 | DEBUG    | app.tools.functions:create_protocol:186 - current_row=11
+2024-03-16 22:04:24.572 | DEBUG    | app.tools.office.Word:make_new_protocol:51 - start
+2024-03-16 22:04:24.573 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - scale: Весы настольные циферблатные РН-6Ц13У 8474-88
+2024-03-16 22:04:24.573 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - path: C:/Users/maina/PythonProjects/desktop
+2024-03-16 22:04:24.573 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - num_protocol: ЕИ-03-9999
+2024-03-16 22:04:24.573 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - num_scale: 1234
+2024-03-16 22:04:24.573 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - INN: INN
+2024-03-16 22:04:24.574 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - company: company
+2024-03-16 22:04:24.574 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - legal_address: place
+2024-03-16 22:04:24.574 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - inspection_address: place
+2024-03-16 22:04:24.574 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - path_to_excel_jounal: 123
+2024-03-16 22:04:24.574 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - temperature: temp
+2024-03-16 22:04:24.575 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - humidity: hum
+2024-03-16 22:04:24.575 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - pressure: press
+2024-03-16 22:04:24.575 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - work_place_combo: 04 - Счетчики воды
+2024-03-16 22:04:24.575 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - verificationer_combo: Стариков
+2024-03-16 22:04:24.575 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - interval_combo: 1
+2024-03-16 22:04:24.575 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - unfit_button: False
+2024-03-16 22:04:24.576 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - inspection_date: 15.03.2024
+2024-03-16 22:04:24.576 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - standarts: Набор гирь 1 мг-500 г F1 рег. № в ФИФ 58463-14, №PV156, 2 разряд;
+Гиря М1 500 г рег. № в ФИФ 58048-14 №796242, 4 разряд;
+Гиря М1 1 кг рег. № в ФИФ 58048-14 №796241, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796236, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796237, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №796238, 4 разряд.
+2024-03-16 22:04:24.576 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - standarts_briefly: 58463.14.2Р.00869664|58048.14.4Р.00740372|58048.14.4Р.00740373|58048.14.4Р.00740374|58048.14.4Р.00740375
+2024-03-16 22:04:24.576 | DEBUG    | app.tools.office.Word:open_document:35 - Open Word Document: app\templates\Word\Весы настольные циферблатные РН-6Ц13У 8474-88.docx
+2024-03-16 22:04:24.581 | DEBUG    | app.tools.office.Word:open_document:40 - Документ Word открыт
+2024-03-16 22:04:24.592 | ERROR    | app.tools.office.Word:make_new_protocol:145 - Error create protocol: [Errno 2] No such file or directory: 'C:/Users/maina/PythonProjects/desktop/ЕИ-03-9999 Весы настольные циферблатные РН-6Ц13У №1234 (8474-88).docx'
+2024-03-16 22:04:24.592 | DEBUG    | app.tools.office.Word:make_new_protocol:147 - end
+2024-03-16 22:04:24.593 | DEBUG    | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-03-16 22:04:24.594 | ERROR    | app.tools.dialogs.CreateProtocolDialog:__init__:45 - Error init ChooseScaleDialog(QDialog) : setText(self, a0: Optional[str]): argument 1 has unexpected type 'FileNotFoundError'
+2024-03-16 22:05:31.005 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-16 22:05:31.005 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-16 22:05:31.604 | DEBUG    | app.main_window:__init__:67 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x00000256D990D2E0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x00000256D990DA30>}
+2024-03-16 22:05:31.604 | DEBUG    | app.main_window:__init__:68 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x00000256D99567B0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x00000256D9956F00>}
+2024-03-16 22:05:33.808 | INFO     | app.tools.functions:use_data:281 - start
+2024-03-16 22:05:33.812 | INFO     | app.tools.functions:scale_changed:98 - start
+2024-03-16 22:05:33.812 | DEBUG    | app.tools.functions:scale_changed:122 - end
+2024-03-16 22:05:33.812 | DEBUG    | app.tools.functions:verificationer_changed:157 - Изменение поверителя
+2024-03-16 22:05:33.813 | DEBUG    | app.tools.functions:verificationer_changed:165 - Поверитель изменен
+2024-03-16 22:05:33.814 | DEBUG    | app.tools.functions:use_data:359 - end
+2024-03-16 22:05:35.112 | INFO     | app.tools.layouts.Word:add_save_path:501 - Выбор пути сохранения
+2024-03-16 22:06:22.692 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-16 22:06:22.693 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-16 22:06:23.388 | DEBUG    | app.main_window:__init__:67 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000001A94D3212E0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000001A94D321A30>}
+2024-03-16 22:06:23.390 | DEBUG    | app.main_window:__init__:68 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000001A94D2F27B0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000001A94D2F2F00>}
+2024-03-16 22:06:24.662 | INFO     | app.tools.functions:use_data:281 - start
+2024-03-16 22:06:24.665 | INFO     | app.tools.functions:scale_changed:98 - start
+2024-03-16 22:06:24.665 | DEBUG    | app.tools.functions:scale_changed:122 - end
+2024-03-16 22:06:24.666 | DEBUG    | app.tools.functions:verificationer_changed:157 - Изменение поверителя
+2024-03-16 22:06:24.666 | DEBUG    | app.tools.functions:verificationer_changed:165 - Поверитель изменен
+2024-03-16 22:06:24.667 | DEBUG    | app.tools.functions:use_data:359 - end
+2024-03-16 22:06:26.948 | INFO     | app.tools.layouts.Word:add_save_path:501 - Выбор пути сохранения
+2024-03-16 22:06:35.088 | SUCCESS  | app.tools.layouts.Word:add_save_path:506 - Успешно выбор пути сохранения
+2024-03-16 22:06:39.638 | INFO     | app.tools.functions:create_protocol:176 - start
+2024-03-16 22:06:39.639 | DEBUG    | app.tools.functions:get_selected_table:130 - start
+2024-03-16 22:06:39.639 | DEBUG    | app.tools.functions:get_selected_table:138 - TAB_WIDGET=<PyQt5.QtWidgets.QTabWidget object at 0x000001A94D321A30>
+2024-03-16 22:06:39.640 | DEBUG    | app.tools.functions:get_selected_table:139 - TABLE=<PyQt5.QtWidgets.QTableWidget object at 0x000001A94D321B50>
+2024-03-16 22:06:39.640 | DEBUG    | app.tools.functions:get_selected_table:141 - end
+2024-03-16 22:06:39.641 | DEBUG    | app.tools.functions:create_protocol:184 - OTHER_WIDGETS={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000001A94D3212E0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000001A94D321A30>}
+2024-03-16 22:06:39.641 | DEBUG    | app.tools.functions:create_protocol:185 - Selected table=<PyQt5.QtWidgets.QTableWidget object at 0x000001A94D321B50>
+2024-03-16 22:06:39.642 | DEBUG    | app.tools.functions:create_protocol:186 - current_row=11
+2024-03-16 22:06:39.651 | DEBUG    | app.tools.office.Word:make_new_protocol:51 - start
+2024-03-16 22:06:39.651 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - scale: Весы настольные циферблатные РН-6Ц13У 8474-88
+2024-03-16 22:06:39.652 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - save_path: C:/Users/maina/Projects/PythonProjects
+2024-03-16 22:06:39.652 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - num_protocol: ЕИ-03-9999
+2024-03-16 22:06:39.652 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - num_scale: 1234
+2024-03-16 22:06:39.652 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - INN: INN
+2024-03-16 22:06:39.652 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - company: company
+2024-03-16 22:06:39.652 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - legal_address: place
+2024-03-16 22:06:39.653 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - inspection_address: place
+2024-03-16 22:06:39.653 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - path_to_excel_jounal: 123
+2024-03-16 22:06:39.653 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - temperature: temp
+2024-03-16 22:06:39.653 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - humidity: hum
+2024-03-16 22:06:39.653 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - pressure: press
+2024-03-16 22:06:39.654 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - work_place_combo: 04 - Счетчики воды
+2024-03-16 22:06:39.654 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - verificationer_combo: Стариков
+2024-03-16 22:06:39.654 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - interval_combo: 1
+2024-03-16 22:06:39.655 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - unfit_button: False
+2024-03-16 22:06:39.655 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - inspection_date: 15.03.2024
+2024-03-16 22:06:39.655 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - standarts: Набор гирь 1 мг-500 г F1 рег. № в ФИФ 58463-14, №PV156, 2 разряд;
+Гиря М1 500 г рег. № в ФИФ 58048-14 №796242, 4 разряд;
+Гиря М1 1 кг рег. № в ФИФ 58048-14 №796241, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796236, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796237, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №796238, 4 разряд.
+2024-03-16 22:06:39.655 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - standarts_briefly: 58463.14.2Р.00869664|58048.14.4Р.00740372|58048.14.4Р.00740373|58048.14.4Р.00740374|58048.14.4Р.00740375
+2024-03-16 22:06:39.656 | DEBUG    | app.tools.office.Word:open_document:35 - Open Word Document: app\templates\Word\Весы настольные циферблатные РН-6Ц13У 8474-88.docx
+2024-03-16 22:06:39.665 | DEBUG    | app.tools.office.Word:open_document:40 - Документ Word открыт
+2024-03-16 22:06:39.677 | ERROR    | app.tools.office.Word:make_new_protocol:145 - Error create protocol: 'path'
+2024-03-16 22:06:39.678 | DEBUG    | app.tools.office.Word:make_new_protocol:147 - end
+2024-03-16 22:06:39.678 | DEBUG    | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-03-16 22:06:39.678 | ERROR    | app.tools.dialogs.CreateProtocolDialog:__init__:45 - Error init ChooseScaleDialog(QDialog) : setText(self, a0: Optional[str]): argument 1 has unexpected type 'KeyError'
+2024-03-16 22:07:18.316 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-16 22:07:18.316 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-16 22:07:18.976 | DEBUG    | app.main_window:__init__:67 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000002387E62D2E0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000002387E62DA30>}
+2024-03-16 22:07:18.977 | DEBUG    | app.main_window:__init__:68 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000002387E67A7B0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000002387E67AF00>}
+2024-03-16 22:07:20.086 | INFO     | app.tools.functions:use_data:281 - start
+2024-03-16 22:07:20.089 | INFO     | app.tools.functions:scale_changed:98 - start
+2024-03-16 22:07:20.089 | DEBUG    | app.tools.functions:scale_changed:122 - end
+2024-03-16 22:07:20.090 | DEBUG    | app.tools.functions:verificationer_changed:157 - Изменение поверителя
+2024-03-16 22:07:20.090 | DEBUG    | app.tools.functions:verificationer_changed:165 - Поверитель изменен
+2024-03-16 22:07:20.091 | DEBUG    | app.tools.functions:use_data:359 - end
+2024-03-16 22:07:21.308 | INFO     | app.tools.functions:create_protocol:176 - start
+2024-03-16 22:07:21.309 | DEBUG    | app.tools.functions:get_selected_table:130 - start
+2024-03-16 22:07:21.309 | DEBUG    | app.tools.functions:get_selected_table:138 - TAB_WIDGET=<PyQt5.QtWidgets.QTabWidget object at 0x000002387E62DA30>
+2024-03-16 22:07:21.310 | DEBUG    | app.tools.functions:get_selected_table:139 - TABLE=<PyQt5.QtWidgets.QTableWidget object at 0x000002387E62DB50>
+2024-03-16 22:07:21.310 | DEBUG    | app.tools.functions:get_selected_table:141 - end
+2024-03-16 22:07:21.310 | DEBUG    | app.tools.functions:create_protocol:184 - OTHER_WIDGETS={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000002387E62D2E0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000002387E62DA30>}
+2024-03-16 22:07:21.311 | DEBUG    | app.tools.functions:create_protocol:185 - Selected table=<PyQt5.QtWidgets.QTableWidget object at 0x000002387E62DB50>
+2024-03-16 22:07:21.311 | DEBUG    | app.tools.functions:create_protocol:186 - current_row=11
+2024-03-16 22:07:21.312 | DEBUG    | app.tools.office.Word:make_new_protocol:51 - start
+2024-03-16 22:07:21.312 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - scale: Весы настольные циферблатные РН-6Ц13У 8474-88
+2024-03-16 22:07:21.313 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - save_path: C:/Users/maina/Projects/PythonProjects
+2024-03-16 22:07:21.313 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - num_protocol: ЕИ-03-9999
+2024-03-16 22:07:21.314 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - num_scale: 1234
+2024-03-16 22:07:21.314 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - INN: INN
+2024-03-16 22:07:21.314 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - company: company
+2024-03-16 22:07:21.314 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - legal_address: place
+2024-03-16 22:07:21.315 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - inspection_address: place
+2024-03-16 22:07:21.315 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - path_to_excel_jounal: 123
+2024-03-16 22:07:21.315 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - temperature: temp
+2024-03-16 22:07:21.315 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - humidity: hum
+2024-03-16 22:07:21.315 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - pressure: press
+2024-03-16 22:07:21.315 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - work_place_combo: 04 - Счетчики воды
+2024-03-16 22:07:21.315 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - verificationer_combo: Стариков
+2024-03-16 22:07:21.316 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - interval_combo: 1
+2024-03-16 22:07:21.316 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - unfit_button: False
+2024-03-16 22:07:21.316 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - inspection_date: 15.03.2024
+2024-03-16 22:07:21.316 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - standarts: Набор гирь 1 мг-500 г F1 рег. № в ФИФ 58463-14, №PV156, 2 разряд;
+Гиря М1 500 г рег. № в ФИФ 58048-14 №796242, 4 разряд;
+Гиря М1 1 кг рег. № в ФИФ 58048-14 №796241, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796236, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796237, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №796238, 4 разряд.
+2024-03-16 22:07:21.316 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - standarts_briefly: 58463.14.2Р.00869664|58048.14.4Р.00740372|58048.14.4Р.00740373|58048.14.4Р.00740374|58048.14.4Р.00740375
+2024-03-16 22:07:21.316 | DEBUG    | app.tools.office.Word:open_document:35 - Open Word Document: app\templates\Word\Весы настольные циферблатные РН-6Ц13У 8474-88.docx
+2024-03-16 22:07:21.321 | DEBUG    | app.tools.office.Word:open_document:40 - Документ Word открыт
+2024-03-16 22:07:21.337 | DEBUG    | app.tools.office.Word:make_new_protocol:107 - C:/Users/maina/Projects/PythonProjects/ЕИ-03-9999 Весы настольные циферблатные РН-6Ц13У №1234 (8474-88).docx
+2024-03-16 22:07:21.337 | ERROR    | app.tools.office.Word:make_new_protocol:145 - Error create protocol: 'use_excel'
+2024-03-16 22:07:21.338 | DEBUG    | app.tools.office.Word:make_new_protocol:147 - end
+2024-03-16 22:07:21.338 | DEBUG    | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-03-16 22:07:21.338 | ERROR    | app.tools.dialogs.CreateProtocolDialog:__init__:45 - Error init ChooseScaleDialog(QDialog) : setText(self, a0: Optional[str]): argument 1 has unexpected type 'KeyError'
+2024-03-16 22:07:51.717 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-16 22:07:51.717 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-16 22:07:52.335 | DEBUG    | app.main_window:__init__:67 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000021DE92412E0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000021DE9241A30>}
+2024-03-16 22:07:52.335 | DEBUG    | app.main_window:__init__:68 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000021DE924A7B0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000021DE924AF00>}
+2024-03-16 22:07:54.652 | INFO     | app.tools.functions:use_data:281 - start
+2024-03-16 22:07:54.655 | INFO     | app.tools.functions:scale_changed:98 - start
+2024-03-16 22:07:54.655 | DEBUG    | app.tools.functions:scale_changed:122 - end
+2024-03-16 22:07:54.655 | DEBUG    | app.tools.functions:verificationer_changed:157 - Изменение поверителя
+2024-03-16 22:07:54.656 | DEBUG    | app.tools.functions:verificationer_changed:165 - Поверитель изменен
+2024-03-16 22:07:54.657 | DEBUG    | app.tools.functions:use_data:359 - end
+2024-03-16 22:07:55.236 | INFO     | app.tools.functions:create_protocol:176 - start
+2024-03-16 22:07:55.237 | DEBUG    | app.tools.functions:get_selected_table:130 - start
+2024-03-16 22:07:55.237 | DEBUG    | app.tools.functions:get_selected_table:138 - TAB_WIDGET=<PyQt5.QtWidgets.QTabWidget object at 0x0000021DE9241A30>
+2024-03-16 22:07:55.238 | DEBUG    | app.tools.functions:get_selected_table:139 - TABLE=<PyQt5.QtWidgets.QTableWidget object at 0x0000021DE9241B50>
+2024-03-16 22:07:55.238 | DEBUG    | app.tools.functions:get_selected_table:141 - end
+2024-03-16 22:07:55.239 | DEBUG    | app.tools.functions:create_protocol:184 - OTHER_WIDGETS={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000021DE92412E0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000021DE9241A30>}
+2024-03-16 22:07:55.239 | DEBUG    | app.tools.functions:create_protocol:185 - Selected table=<PyQt5.QtWidgets.QTableWidget object at 0x0000021DE9241B50>
+2024-03-16 22:07:55.239 | DEBUG    | app.tools.functions:create_protocol:186 - current_row=11
+2024-03-16 22:07:55.240 | DEBUG    | app.tools.office.Word:make_new_protocol:51 - start
+2024-03-16 22:07:55.240 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - scale: Весы настольные циферблатные РН-6Ц13У 8474-88
+2024-03-16 22:07:55.240 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - save_path: C:/Users/maina/Projects/PythonProjects
+2024-03-16 22:07:55.240 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - num_protocol: ЕИ-03-9999
+2024-03-16 22:07:55.241 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - num_scale: 1234
+2024-03-16 22:07:55.241 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - INN: INN
+2024-03-16 22:07:55.241 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - company: company
+2024-03-16 22:07:55.241 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - legal_address: place
+2024-03-16 22:07:55.241 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - inspection_address: place
+2024-03-16 22:07:55.241 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - path_to_excel_jounal: 123
+2024-03-16 22:07:55.241 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - temperature: temp
+2024-03-16 22:07:55.242 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - humidity: hum
+2024-03-16 22:07:55.242 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - pressure: press
+2024-03-16 22:07:55.242 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - work_place_combo: 04 - Счетчики воды
+2024-03-16 22:07:55.242 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - verificationer_combo: Стариков
+2024-03-16 22:07:55.242 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - interval_combo: 1
+2024-03-16 22:07:55.242 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - unfit_button: False
+2024-03-16 22:07:55.242 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - inspection_date: 15.03.2024
+2024-03-16 22:07:55.243 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - standarts: Набор гирь 1 мг-500 г F1 рег. № в ФИФ 58463-14, №PV156, 2 разряд;
+Гиря М1 500 г рег. № в ФИФ 58048-14 №796242, 4 разряд;
+Гиря М1 1 кг рег. № в ФИФ 58048-14 №796241, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796236, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796237, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №796238, 4 разряд.
+2024-03-16 22:07:55.243 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - standarts_briefly: 58463.14.2Р.00869664|58048.14.4Р.00740372|58048.14.4Р.00740373|58048.14.4Р.00740374|58048.14.4Р.00740375
+2024-03-16 22:07:55.243 | DEBUG    | app.tools.office.Word:open_document:35 - Open Word Document: app\templates\Word\Весы настольные циферблатные РН-6Ц13У 8474-88.docx
+2024-03-16 22:07:55.249 | DEBUG    | app.tools.office.Word:open_document:40 - Документ Word открыт
+2024-03-16 22:07:55.264 | DEBUG    | app.tools.office.Word:make_new_protocol:107 - C:/Users/maina/Projects/PythonProjects/ЕИ-03-9999 Весы настольные циферблатные РН-6Ц13У №1234 (8474-88).docx
+2024-03-16 22:07:55.264 | ERROR    | app.tools.office.Word:make_new_protocol:145 - Error create protocol: 'add_to_excel_button'
+2024-03-16 22:07:55.265 | DEBUG    | app.tools.office.Word:make_new_protocol:147 - end
+2024-03-16 22:07:55.265 | DEBUG    | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-03-16 22:07:55.265 | ERROR    | app.tools.dialogs.CreateProtocolDialog:__init__:45 - Error init ChooseScaleDialog(QDialog) : setText(self, a0: Optional[str]): argument 1 has unexpected type 'KeyError'
+2024-03-16 22:08:17.674 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-16 22:08:17.675 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-16 22:08:18.275 | DEBUG    | app.main_window:__init__:67 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000024F812B12E0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000024F812B1A30>}
+2024-03-16 22:08:18.275 | DEBUG    | app.main_window:__init__:68 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000024F812827B0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000024F81282F00>}
+2024-03-16 22:08:19.755 | INFO     | app.tools.functions:use_data:281 - start
+2024-03-16 22:08:19.759 | INFO     | app.tools.functions:scale_changed:98 - start
+2024-03-16 22:08:19.759 | DEBUG    | app.tools.functions:scale_changed:122 - end
+2024-03-16 22:08:19.759 | DEBUG    | app.tools.functions:verificationer_changed:157 - Изменение поверителя
+2024-03-16 22:08:19.760 | DEBUG    | app.tools.functions:verificationer_changed:165 - Поверитель изменен
+2024-03-16 22:08:19.761 | DEBUG    | app.tools.functions:use_data:359 - end
+2024-03-16 22:08:21.123 | INFO     | app.tools.functions:create_protocol:176 - start
+2024-03-16 22:08:21.124 | DEBUG    | app.tools.functions:get_selected_table:130 - start
+2024-03-16 22:08:21.125 | DEBUG    | app.tools.functions:get_selected_table:138 - TAB_WIDGET=<PyQt5.QtWidgets.QTabWidget object at 0x0000024F812B1A30>
+2024-03-16 22:08:21.125 | DEBUG    | app.tools.functions:get_selected_table:139 - TABLE=<PyQt5.QtWidgets.QTableWidget object at 0x0000024F812B1B50>
+2024-03-16 22:08:21.126 | DEBUG    | app.tools.functions:get_selected_table:141 - end
+2024-03-16 22:08:21.126 | DEBUG    | app.tools.functions:create_protocol:184 - OTHER_WIDGETS={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000024F812B12E0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000024F812B1A30>}
+2024-03-16 22:08:21.127 | DEBUG    | app.tools.functions:create_protocol:185 - Selected table=<PyQt5.QtWidgets.QTableWidget object at 0x0000024F812B1B50>
+2024-03-16 22:08:21.127 | DEBUG    | app.tools.functions:create_protocol:186 - current_row=11
+2024-03-16 22:08:21.128 | DEBUG    | app.tools.office.Word:make_new_protocol:51 - start
+2024-03-16 22:08:21.128 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - scale: Весы настольные циферблатные РН-6Ц13У 8474-88
+2024-03-16 22:08:21.128 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - save_path: C:/Users/maina/Projects/PythonProjects
+2024-03-16 22:08:21.129 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - num_protocol: ЕИ-03-9999
+2024-03-16 22:08:21.129 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - num_scale: 1234
+2024-03-16 22:08:21.129 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - INN: INN
+2024-03-16 22:08:21.129 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - company: company
+2024-03-16 22:08:21.129 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - legal_address: place
+2024-03-16 22:08:21.130 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - inspection_address: place
+2024-03-16 22:08:21.130 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - path_to_excel_jounal: 123
+2024-03-16 22:08:21.130 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - temperature: temp
+2024-03-16 22:08:21.130 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - humidity: hum
+2024-03-16 22:08:21.130 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - pressure: press
+2024-03-16 22:08:21.130 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - work_place_combo: 04 - Счетчики воды
+2024-03-16 22:08:21.130 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - verificationer_combo: Стариков
+2024-03-16 22:08:21.131 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - interval_combo: 1
+2024-03-16 22:08:21.131 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - unfit_button: False
+2024-03-16 22:08:21.131 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - add_to_excel_button: False
+2024-03-16 22:08:21.131 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - inspection_date: 15.03.2024
+2024-03-16 22:08:21.132 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - standarts: Набор гирь 1 мг-500 г F1 рег. № в ФИФ 58463-14, №PV156, 2 разряд;
+Гиря М1 500 г рег. № в ФИФ 58048-14 №796242, 4 разряд;
+Гиря М1 1 кг рег. № в ФИФ 58048-14 №796241, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796236, 4 разряд;
+Гиря М1 2 кг рег. № в ФИФ 58048-14 №796237, 4 разряд;
+Гиря М1 5 кг рег. № в ФИФ 58048-14 №796238, 4 разряд.
+2024-03-16 22:08:21.132 | DEBUG    | app.tools.office.Word:make_new_protocol:57 - standarts_briefly: 58463.14.2Р.00869664|58048.14.4Р.00740372|58048.14.4Р.00740373|58048.14.4Р.00740374|58048.14.4Р.00740375
+2024-03-16 22:08:21.132 | DEBUG    | app.tools.office.Word:open_document:35 - Open Word Document: app\templates\Word\Весы настольные циферблатные РН-6Ц13У 8474-88.docx
+2024-03-16 22:08:21.137 | DEBUG    | app.tools.office.Word:open_document:40 - Документ Word открыт
+2024-03-16 22:08:21.152 | DEBUG    | app.tools.office.Word:make_new_protocol:107 - C:/Users/maina/Projects/PythonProjects/ЕИ-03-9999 Весы настольные циферблатные РН-6Ц13У №1234 (8474-88).docx
+2024-03-16 22:08:21.153 | DEBUG    | app.tools.office.Word:make_new_protocol:140 - end
+2024-03-16 22:08:21.153 | DEBUG    | app.tools.dialogs.CreateProtocolDialog:__init__:23 - CreateProtocolDialog(QDialog): __init__
+2024-03-16 22:14:51.319 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-16 22:14:51.320 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-16 22:14:52.010 | DEBUG    | app.main_window:__init__:67 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000014D27D3D2E0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000014D27D3DA30>}
+2024-03-16 22:14:52.010 | DEBUG    | app.main_window:__init__:68 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000014D27D867B0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000014D27D86F00>}
+2024-03-16 22:14:54.957 | INFO     | app.tools.functions:use_data:281 - start
+2024-03-16 22:14:54.961 | DEBUG    | app.tools.functions:verificationer_changed:157 - Изменение поверителя
+2024-03-16 22:14:54.961 | DEBUG    | app.tools.functions:verificationer_changed:165 - Поверитель изменен
+2024-03-16 22:14:54.962 | DEBUG    | app.tools.functions:use_data:359 - end
+2024-03-16 22:15:05.500 | INFO     | app.tools.layouts.Excel:choose_scale:482 - Выбор весов диалог
+2024-03-16 22:15:05.501 | INFO     | app.tools.dialogs.ChooseScaleDialog:__init__:27 - ChooseScaleDialog(QDialog): __init__
+2024-03-16 22:15:08.506 | SUCCESS  | app.tools.layouts.Excel:choose_scale:487 - Успешно выбор весов диалог
+2024-03-16 22:15:34.056 | INFO     | app.tools.functions:create_protocol:176 - start
+2024-03-16 22:15:34.057 | DEBUG    | app.tools.functions:get_selected_table:130 - start
+2024-03-16 22:15:34.057 | DEBUG    | app.tools.functions:get_selected_table:138 - TAB_WIDGET=<PyQt5.QtWidgets.QTabWidget object at 0x0000014D27D86F00>
+2024-03-16 22:15:34.057 | DEBUG    | app.tools.functions:get_selected_table:139 - TABLE=<PyQt5.QtWidgets.QTableWidget object at 0x0000014D27D87020>
+2024-03-16 22:15:34.058 | DEBUG    | app.tools.functions:get_selected_table:141 - end
+2024-03-16 22:15:34.058 | DEBUG    | app.tools.functions:create_protocol:184 - OTHER_WIDGETS={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x0000014D27D867B0>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x0000014D27D86F00>}
+2024-03-16 22:15:34.058 | DEBUG    | app.tools.functions:create_protocol:185 - Selected table=<PyQt5.QtWidgets.QTableWidget object at 0x0000014D27D87020>
+2024-03-16 22:15:34.059 | DEBUG    | app.tools.functions:create_protocol:186 - current_row=11
+2024-03-16 22:22:23.176 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-16 22:22:23.177 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-16 22:22:23.791 | DEBUG    | app.main_window:__init__:67 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000002936E18D250>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000002936E18D9A0>}
+2024-03-16 22:22:23.792 | DEBUG    | app.main_window:__init__:68 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000002936E1DE720>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000002936E1DEE70>}
+2024-03-16 22:22:27.954 | INFO     | app.tools.functions:use_data:281 - start
+2024-03-16 22:22:27.956 | DEBUG    | app.tools.functions:verificationer_changed:157 - Изменение поверителя
+2024-03-16 22:22:27.956 | DEBUG    | app.tools.functions:verificationer_changed:165 - Поверитель изменен
+2024-03-16 22:22:27.958 | DEBUG    | app.tools.functions:use_data:359 - end
+2024-03-16 22:22:31.828 | INFO     | app.tools.functions:create_protocol:176 - start
+2024-03-16 22:22:31.828 | DEBUG    | app.tools.functions:get_selected_table:130 - start
+2024-03-16 22:22:31.829 | DEBUG    | app.tools.functions:get_selected_table:138 - TAB_WIDGET=<PyQt5.QtWidgets.QTabWidget object at 0x000002936E1DEE70>
+2024-03-16 22:22:31.829 | DEBUG    | app.tools.functions:get_selected_table:139 - TABLE=<PyQt5.QtWidgets.QTableWidget object at 0x000002936E1DEF90>
+2024-03-16 22:22:31.829 | DEBUG    | app.tools.functions:get_selected_table:141 - end
+2024-03-16 22:22:31.830 | DEBUG    | app.tools.functions:create_protocol:184 - OTHER_WIDGETS={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000002936E1DE720>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000002936E1DEE70>}
+2024-03-16 22:22:31.830 | DEBUG    | app.tools.functions:create_protocol:185 - Selected table=<PyQt5.QtWidgets.QTableWidget object at 0x000002936E1DEF90>
+2024-03-16 22:22:31.830 | DEBUG    | app.tools.functions:create_protocol:186 - current_row=11
+2024-03-16 22:22:31.831 | INFO     | app.tools.office.Excel:make_new_protocol:85 - Создание Excel протокола
+2024-03-16 22:25:04.197 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-16 22:25:04.198 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-16 22:25:04.799 | DEBUG    | app.main_window:__init__:67 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000001D249AAD250>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000001D249AAD9A0>}
+2024-03-16 22:25:04.800 | DEBUG    | app.main_window:__init__:68 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000001D249B02720>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000001D249B02E70>}
+2024-03-16 22:25:08.066 | INFO     | app.tools.functions:use_data:281 - start
+2024-03-16 22:25:08.070 | DEBUG    | app.tools.functions:verificationer_changed:157 - Изменение поверителя
+2024-03-16 22:25:08.070 | DEBUG    | app.tools.functions:verificationer_changed:165 - Поверитель изменен
+2024-03-16 22:25:08.071 | DEBUG    | app.tools.functions:use_data:359 - end
+2024-03-16 22:25:12.310 | INFO     | app.tools.functions:create_protocol:176 - start
+2024-03-16 22:25:12.312 | DEBUG    | app.tools.functions:get_selected_table:130 - start
+2024-03-16 22:25:12.312 | DEBUG    | app.tools.functions:get_selected_table:138 - TAB_WIDGET=<PyQt5.QtWidgets.QTabWidget object at 0x000001D249B02E70>
+2024-03-16 22:25:12.312 | DEBUG    | app.tools.functions:get_selected_table:139 - TABLE=<PyQt5.QtWidgets.QTableWidget object at 0x000001D249B02F90>
+2024-03-16 22:25:12.313 | DEBUG    | app.tools.functions:get_selected_table:141 - end
+2024-03-16 22:25:12.313 | DEBUG    | app.tools.functions:create_protocol:184 - OTHER_WIDGETS={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000001D249B02720>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000001D249B02E70>}
+2024-03-16 22:25:12.313 | DEBUG    | app.tools.functions:create_protocol:185 - Selected table=<PyQt5.QtWidgets.QTableWidget object at 0x000001D249B02F90>
+2024-03-16 22:25:12.313 | DEBUG    | app.tools.functions:create_protocol:186 - current_row=11
+2024-03-16 22:25:12.314 | INFO     | app.tools.office.Excel:make_new_protocol:85 - Создание Excel протокола
+2024-03-16 22:26:21.602 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-16 22:26:21.603 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-16 22:26:22.236 | DEBUG    | app.main_window:__init__:67 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000001A2D5DCD250>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000001A2D5DCD9A0>}
+2024-03-16 22:26:22.236 | DEBUG    | app.main_window:__init__:68 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000001A2D5E1E720>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000001A2D5E1EE70>}
+2024-03-16 22:26:25.039 | INFO     | app.tools.functions:use_data:281 - start
+2024-03-16 22:26:25.041 | DEBUG    | app.tools.functions:verificationer_changed:157 - Изменение поверителя
+2024-03-16 22:26:25.041 | DEBUG    | app.tools.functions:verificationer_changed:165 - Поверитель изменен
+2024-03-16 22:26:25.043 | DEBUG    | app.tools.functions:use_data:359 - end
+2024-03-16 22:26:26.612 | INFO     | app.tools.functions:create_protocol:176 - start
+2024-03-16 22:26:26.613 | DEBUG    | app.tools.functions:get_selected_table:130 - start
+2024-03-16 22:26:26.613 | DEBUG    | app.tools.functions:get_selected_table:138 - TAB_WIDGET=<PyQt5.QtWidgets.QTabWidget object at 0x000001A2D5E1EE70>
+2024-03-16 22:26:26.614 | DEBUG    | app.tools.functions:get_selected_table:139 - TABLE=<PyQt5.QtWidgets.QTableWidget object at 0x000001A2D5E1EF90>
+2024-03-16 22:26:26.614 | DEBUG    | app.tools.functions:get_selected_table:141 - end
+2024-03-16 22:26:26.614 | DEBUG    | app.tools.functions:create_protocol:184 - OTHER_WIDGETS={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000001A2D5E1E720>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000001A2D5E1EE70>}
+2024-03-16 22:26:26.614 | DEBUG    | app.tools.functions:create_protocol:185 - Selected table=<PyQt5.QtWidgets.QTableWidget object at 0x000001A2D5E1EF90>
+2024-03-16 22:26:26.614 | DEBUG    | app.tools.functions:create_protocol:186 - current_row=11
+2024-03-16 22:26:26.615 | INFO     | app.tools.office.Excel:make_new_protocol:85 - Создание Excel протокола
+2024-03-16 22:32:50.418 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-16 22:32:50.418 | DEBUG    | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-16 22:32:51.070 | DEBUG    | app.main_window:__init__:67 - Other widgets Word={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x000002361599D250>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x000002361599D9A0>}
+2024-03-16 22:32:51.071 | DEBUG    | app.main_window:__init__:68 - Other widgets Excel={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x00000236159EE720>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x00000236159EEE70>}
+2024-03-16 22:32:56.716 | INFO     | app.tools.functions:use_data:281 - start
+2024-03-16 22:32:56.719 | DEBUG    | app.tools.functions:verificationer_changed:157 - Изменение поверителя
+2024-03-16 22:32:56.719 | DEBUG    | app.tools.functions:verificationer_changed:165 - Поверитель изменен
+2024-03-16 22:32:56.721 | DEBUG    | app.tools.functions:use_data:359 - end
+2024-03-16 22:32:57.129 | INFO     | app.tools.functions:create_protocol:176 - start
+2024-03-16 22:32:57.129 | DEBUG    | app.tools.functions:get_selected_table:130 - start
+2024-03-16 22:32:57.130 | DEBUG    | app.tools.functions:get_selected_table:138 - TAB_WIDGET=<PyQt5.QtWidgets.QTabWidget object at 0x00000236159EEE70>
+2024-03-16 22:32:57.130 | DEBUG    | app.tools.functions:get_selected_table:139 - TABLE=<PyQt5.QtWidgets.QTableWidget object at 0x00000236159EEF90>
+2024-03-16 22:32:57.130 | DEBUG    | app.tools.functions:get_selected_table:141 - end
+2024-03-16 22:32:57.130 | DEBUG    | app.tools.functions:create_protocol:184 - OTHER_WIDGETS={'inspection_date': <PyQt5.QtWidgets.QCalendarWidget object at 0x00000236159EE720>, 'tab_standarts': <PyQt5.QtWidgets.QTabWidget object at 0x00000236159EEE70>}
+2024-03-16 22:32:57.130 | DEBUG    | app.tools.functions:create_protocol:185 - Selected table=<PyQt5.QtWidgets.QTableWidget object at 0x00000236159EEF90>
+2024-03-16 22:32:57.131 | DEBUG    | app.tools.functions:create_protocol:186 - current_row=11
+2024-03-16 22:32:57.131 | INFO     | app.tools.office.Excel:make_new_protocol:85 - Создание Excel протокола
