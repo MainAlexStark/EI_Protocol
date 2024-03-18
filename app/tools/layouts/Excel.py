@@ -15,6 +15,8 @@ main_window = None
 
 
 def get_layout(self):
+    logger.debug('Get Excel layout')
+
     global main_window
     main_layout = QHBoxLayout()
 
@@ -410,7 +412,7 @@ def get_layout(self):
 def search_company():
     self = main_window
 
-    company_name, legal_address = functions.search_company(self=self)
+    company_name, legal_address = functions.search_company(self=self, inn=self.text_boxes_excel['INN'].toPlainText())
         
     # Устанавливаем в QPlainTextEdit
     self.text_boxes_excel['company'].setPlainText(company_name)
@@ -479,7 +481,7 @@ def show_inspection_address_setting():
         logger.success('Успешно показаны настройки адреса поверки')
 
 def choose_scale():
-    logger.info('Выбор весов диалог')
+    logger.debug('Выбор весов диалог')
     self = main_window
 
     dialogs.ChooseScaleDialog(text_scale_widget=self.text_boxes_excel['scale'],word=False).exec_()
@@ -487,7 +489,7 @@ def choose_scale():
     logger.success('Успешно выбор весов диалог')
 
 def add_save_path():
-    logger.info('Выбор пути сохранения')
+    logger.debug('Выбор пути сохранения')
     self = main_window
 
     dialog = QDialog()
@@ -497,14 +499,13 @@ def add_save_path():
 
 def settings():
         logger.debug('Настройки диалог')
-        self = main_window
 
         dialogs.SettingDialog().exec_()
 
-        logger.debug('Успешно настройки диалог')
+        logger.success('Успешно настройки диалог')
 
 def add_path_to_excel():
-    logger.info('Добавление пути до журнала Excel')
+    logger.debug('Добавление пути до журнала Excel')
     self = main_window
 
     options = QFileDialog.Options()
@@ -512,4 +513,4 @@ def add_path_to_excel():
 
     self.text_boxes_excel['path_to_excel_jounal'].setPlainText(filePath)
 
-    logger.debug('Успешно Добавление пути до журнала Excel')
+    logger.success('Успешно Добавление пути до журнала Excel')

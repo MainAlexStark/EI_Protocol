@@ -33,7 +33,7 @@ class App(QWidget):
         # Logger
         logger.add("log.txt")
         logger.info('Start initUI')
-        logger.debug(strings.start_text)
+        logger.success(strings.start_text)
 
         # Получаем данные из config.py
         path_to_data = 'app\\tools\\data\\config.json'
@@ -63,9 +63,6 @@ class App(QWidget):
 
         self.WordLayout = layouts.Word.get_layout(self=self)
         self.ExcelLayout = layouts.Excel.get_layout(self=self)
-
-        logger.debug(f'Other widgets Word={self.other_widgets_word}')
-        logger.debug(f'Other widgets Excel={self.other_widgets_excel}')
         
         self.initUI()
 

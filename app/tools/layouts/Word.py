@@ -18,6 +18,8 @@ import os
 main_window = None
 
 def get_layout(self):
+    logger.debug('Get Word layout')
+
     global main_window
     main_layout = QHBoxLayout()
 
@@ -423,7 +425,7 @@ def get_layout(self):
 
 def search_company():
     self = main_window
-    company_name, legal_address = functions.search_company(self=self)
+    company_name, legal_address = functions.search_company(self=self, inn=self.text_boxes_word['INN'].toPlainText())
         
     # Устанавливаем в QPlainTextEdit
     self.text_boxes_word['company'].setPlainText(company_name)
@@ -490,7 +492,7 @@ def show_inspection_address_setting():
 
 def choose_scale():
     self = main_window
-    logger.info('Выбор весов диалог')
+    logger.debug('Выбор весов диалог')
 
     dialogs.ChooseScaleDialog(text_scale_widget=self.text_boxes_word['scale'],word=True).exec_()
 
@@ -498,7 +500,7 @@ def choose_scale():
 
 def add_save_path():
     self = main_window
-    logger.info('Выбор пути сохранения')
+    logger.debug('Выбор пути сохранения')
 
     dialog = QDialog()
     self.text_boxes_word['save_path'].setPlainText(QFileDialog.getExistingDirectory(dialog, "Выберите папку"))
@@ -506,20 +508,19 @@ def add_save_path():
     logger.success('Успешно выбор пути сохранения')
 
 def settings():
-        self = main_window
         logger.debug('Настройки диалог')
 
         dialogs.SettingDialog().exec_()
 
-        logger.debug('Успешно настройки диалог')
+        logger.success('Успешно настройки диалог')
 
 def add_path_to_excel():
     self = main_window
-    logger.info('Добавление пути до журнала Excel')
+    logger.debug('Добавление пути до журнала Excel')
 
     options = QFileDialog.Options()
     filePath, _ = QFileDialog.getOpenFileName(self, 'Выберите файл', '', 'All Files (*);;Text Files (*.txt)', options=options)
 
     self.text_boxes_word['path_to_excel_jounal'].setPlainText(filePath)
 
-    logger.debug('Успешно Добавление пути до журнала Excel')
+    logger.success('Успешно Добавление пути до журнала Excel')

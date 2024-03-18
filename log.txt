@@ -8967,3 +8967,122 @@ The rights to the program belong to the company: ООО "Единица Изме
 2024-03-18 12:05:23.591 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:add_path_to_excel:234 - start
 2024-03-18 12:05:40.076 | DEBUG    | app.tools.dialogs.CreateProtocolFromExcelDialog:create_protocol:126 - start
 2024-03-18 12:05:49.420 | SUCCESS  | app.tools.layouts.Excel:create_protocol_from_excel:470 - Успешное создание протокола из excel
+2024-03-18 12:49:50.805 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-18 12:49:50.806 | SUCCESS  | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-18 12:49:50.807 | DEBUG    | app.tools.layouts.Word:get_layout:21 - Get Word layout
+2024-03-18 12:49:51.472 | DEBUG    | app.tools.layouts.Excel:get_layout:18 - Get Excel layout
+2024-03-18 12:50:39.603 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-18 12:50:39.604 | SUCCESS  | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-18 12:50:39.604 | DEBUG    | app.tools.layouts.Word:get_layout:21 - Get Word layout
+2024-03-18 12:50:39.970 | DEBUG    | app.tools.layouts.Excel:get_layout:18 - Get Excel layout
+2024-03-18 12:52:39.742 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-18 12:52:39.742 | SUCCESS  | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-18 12:52:39.743 | DEBUG    | app.tools.layouts.Word:get_layout:21 - Get Word layout
+2024-03-18 12:52:40.137 | DEBUG    | app.tools.layouts.Excel:get_layout:18 - Get Excel layout
+2024-03-18 12:52:53.492 | DEBUG    | app.tools.functions:search_company:28 - Поиск компании...
+2024-03-18 12:54:46.407 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-18 12:54:46.408 | SUCCESS  | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-18 12:54:46.408 | DEBUG    | app.tools.layouts.Word:get_layout:21 - Get Word layout
+2024-03-18 12:54:46.797 | DEBUG    | app.tools.layouts.Excel:get_layout:18 - Get Excel layout
+2024-03-18 12:54:54.502 | DEBUG    | app.tools.functions:search_company:28 - Поиск компании...
+2024-03-18 12:54:54.502 | DEBUG    | app.tools.parse.FNS_RUS:__init__:6 - start
+2024-03-18 12:57:42.005 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-18 12:57:42.005 | SUCCESS  | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-18 12:57:42.006 | DEBUG    | app.tools.layouts.Word:get_layout:21 - Get Word layout
+2024-03-18 12:57:42.435 | DEBUG    | app.tools.layouts.Excel:get_layout:18 - Get Excel layout
+2024-03-18 12:57:49.772 | DEBUG    | app.tools.functions:search_company:28 - Поиск компании...
+2024-03-18 12:57:49.773 | DEBUG    | app.tools.parse.FNS_RUS:__init__:6 - start
+2024-03-18 12:57:49.773 | DEBUG    | app.tools.parse.FNS_RUS:get_company_data:10 - start
+2024-03-18 12:57:50.325 | DEBUG    | app.tools.parse.LIST_ORG:get_company_name_by_inn:23 - Получение названия компании из list-org
+2024-03-18 12:57:50.735 | ERROR    | app.tools.functions:search_company:72 - Ошибка при работе с List-org.ru
+2024-03-18 12:58:45.695 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-18 12:58:45.695 | SUCCESS  | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-18 12:58:45.696 | DEBUG    | app.tools.layouts.Word:get_layout:21 - Get Word layout
+2024-03-18 12:58:46.120 | DEBUG    | app.tools.layouts.Excel:get_layout:18 - Get Excel layout
+2024-03-18 12:58:50.672 | DEBUG    | app.tools.functions:search_company:28 - Поиск компании...
+2024-03-18 12:58:50.673 | DEBUG    | app.tools.parse.FNS_RUS:__init__:6 - start
+2024-03-18 12:58:50.673 | DEBUG    | app.tools.parse.FNS_RUS:get_company_data:10 - start
+2024-03-18 12:58:51.081 | DEBUG    | app.tools.parse.LIST_ORG:get_company_name_by_inn:23 - Получение названия компании из list-org
+2024-03-18 12:58:51.447 | ERROR    | app.tools.functions:search_company:72 - Ошибка при работе с List-org.ru: 'NoneType' object has no attribute 'text'
+2024-03-18 12:59:37.680 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-18 12:59:37.680 | SUCCESS  | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-18 12:59:37.681 | DEBUG    | app.tools.layouts.Word:get_layout:21 - Get Word layout
+2024-03-18 12:59:38.103 | DEBUG    | app.tools.layouts.Excel:get_layout:18 - Get Excel layout
+2024-03-18 12:59:40.150 | DEBUG    | app.tools.functions:search_company:28 - Поиск компании...
+2024-03-18 12:59:40.151 | DEBUG    | app.tools.parse.FNS_RUS:__init__:6 - start
+2024-03-18 12:59:40.151 | DEBUG    | app.tools.parse.FNS_RUS:get_company_data:10 - start
+2024-03-18 12:59:40.563 | DEBUG    | app.tools.parse.LIST_ORG:get_company_name_by_inn:23 - Получение названия компании из list-org
+2024-03-18 12:59:40.944 | ERROR    | app.tools.functions:search_company:74 - Ошибка при работе с List-org.ru: 'NoneType' object has no attribute 'text'
+2024-03-18 13:00:03.216 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-18 13:00:03.217 | SUCCESS  | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-18 13:00:03.217 | DEBUG    | app.tools.layouts.Word:get_layout:21 - Get Word layout
+2024-03-18 13:00:03.628 | DEBUG    | app.tools.layouts.Excel:get_layout:18 - Get Excel layout
+2024-03-18 13:00:05.952 | DEBUG    | app.tools.functions:search_company:28 - Поиск компании...
+2024-03-18 13:00:05.953 | DEBUG    | app.tools.parse.FNS_RUS:__init__:6 - start
+2024-03-18 13:00:05.953 | DEBUG    | app.tools.parse.FNS_RUS:get_company_data:10 - start
+2024-03-18 13:00:06.381 | DEBUG    | app.tools.parse.LIST_ORG:get_company_name_by_inn:23 - Получение названия компании из list-org
+2024-03-18 13:00:39.981 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-18 13:00:39.981 | SUCCESS  | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-18 13:00:39.982 | DEBUG    | app.tools.layouts.Word:get_layout:21 - Get Word layout
+2024-03-18 13:00:40.361 | DEBUG    | app.tools.layouts.Excel:get_layout:18 - Get Excel layout
+2024-03-18 13:00:47.621 | DEBUG    | app.tools.functions:search_company:28 - Поиск компании...
+2024-03-18 13:00:47.621 | DEBUG    | app.tools.parse.FNS_RUS:__init__:6 - start
+2024-03-18 13:00:47.622 | DEBUG    | app.tools.parse.FNS_RUS:get_company_data:10 - start
+2024-03-18 13:01:37.064 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-18 13:01:37.064 | SUCCESS  | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-18 13:01:37.065 | DEBUG    | app.tools.layouts.Word:get_layout:21 - Get Word layout
+2024-03-18 13:01:37.514 | DEBUG    | app.tools.layouts.Excel:get_layout:18 - Get Excel layout
+2024-03-18 13:01:40.658 | DEBUG    | app.tools.functions:search_company:28 - Поиск компании...
+2024-03-18 13:01:40.659 | DEBUG    | app.tools.parse.FNS_RUS:__init__:6 - start
+2024-03-18 13:01:40.659 | DEBUG    | app.tools.parse.FNS_RUS:get_company_data:10 - start
+2024-03-18 13:01:41.062 | DEBUG    | app.tools.parse.LIST_ORG:get_company_name_by_inn:23 - Получение названия компании из list-org

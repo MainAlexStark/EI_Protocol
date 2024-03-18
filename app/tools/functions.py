@@ -24,78 +24,67 @@ EXCEL = Excel()
 
 
 
-def search_company(self):
-    logger.debug('start')
+def search_company(self, inn):
+    logger.debug('Поиск компании...')
 
-    if len(self.text_INN.toPlainText()) > 0:
+    print(inn)
 
-        # Определите имя файла хранилища
-        file_name = 'app/tools/data/config.json'
-        data = get_data(file_name=file_name)
+    # Определите имя файла хранилища
+    file_name = 'app/tools/data/config.json'
+    data = get_data(file_name=file_name)
 
-        FNS_TOKEN = data.get('FNS_TOKEN', [])
+    FNS_TOKEN = data.get('FNS_TOKEN', [])
 
-        # Создаем обьект компании
-        company = FNS_API(FNS_TOKEN)
+    # Создаем обьект компании
+    company = FNS_API(FNS_TOKEN)
 
-        # Получаем INN
-        INN = self.text_INN.toPlainText()
+    # Получаем INN
+    INN = inn
+    
+    # Получаем данные о компании по INN
+    data = company.get_company_data(INN)
+
+    if data is not True and len(data['items']) > 0:
+
+        # Получаем данные о названии комании
+        company_name = data['items'][0]['ЮЛ']['НаимСокрЮЛ']
+
+        # Получаем данные о юр.адресе компании
+        legal_address = data['items'][0]['ЮЛ']['АдресПолн']
         
-        # Получаем данные о компании по INN
-        data = company.get_company_data(INN)
+        logger.debug('end')
+        
+        return company_name, legal_address
 
-        if data is not True and len(data['items']) > 0:
 
-            # Получаем данные о названии комании
-            company_name = data['items'][0]['ЮЛ']['НаимСокрЮЛ']
+    else:
 
-            # Получаем данные о юр.адресе компании
-            legal_address = data['items'][0]['ЮЛ']['АдресПолн']
-            
-            logger.debug('end')
+        LIST_ORG = List_org()
+
+        try:
+
+            data = LIST_ORG.get_company_name_by_inn(INN)
+
+            company_name = data['name']
+            legal_address = data['address']
             
             return company_name, legal_address
 
-
-        else:
-
-            LIST_ORG = List_org()
-
-            try:
-
-                data = LIST_ORG.get_company_name_by_inn(INN)
-
-                company_name = data['name']
-                legal_address = data['address']
-                
-                return company_name, legal_address
-
-            except Exception as e:
-                logger.error('Ошибка при работе с List-org.ru')
+        except Exception as e:
+            logger.error(f'Ошибка при работе с List-org.ru: {e}')
 
 
-                message_box = QMessageBox()
-                message_box.setIcon(QMessageBox.Critical)
-                message_box.setText("Не удалось получить данные о компании!\nПроверьте введенный ИНН")
-                message_box.setWindowTitle("Ошибка")
-                message_box.setStandardButtons(QMessageBox.Ok)
-                message_box.exec_()
-
-                logger.debug('end')
-
-    else:
-        message_box = QMessageBox()
-        message_box.setIcon(QMessageBox.Critical)
-        message_box.setText(f"Введите ИНН!")
-        message_box.setWindowTitle("Ошибка")
-        message_box.setStandardButtons(QMessageBox.Ok)
-        message_box.exec_()
-
+            message_box = QMessageBox()
+            message_box.setIcon(QMessageBox.Critical)
+            message_box.setText("Не удалось получить данные о компании!\nПроверьте введенный ИНН")
+            message_box.setWindowTitle("Ошибка")
+            message_box.setStandardButtons(QMessageBox.Ok)
+            message_box.exec_()
 
 
 
 def scale_changed(self):
-    logger.info('start')
+    logger.debug('Весы изменены')
 
     if 'Влагомеры' in self.text_boxes_word['scale'].toPlainText() and self.text_boxes_word['voltage'] is None:
         text_voltage = QPlainTextEdit(self)
@@ -119,7 +108,6 @@ def scale_changed(self):
             del self.text_boxes_word['frequency']
             del self.text_boxes_word['voltage']
 
-    logger.debug('end')
 
 
 
@@ -127,18 +115,11 @@ def scale_changed(self):
 
 
 def get_selected_table(self, tab_widget):
-    logger.debug('start')
-    
     try:
     
         current_tab_index = tab_widget.currentIndex()
         current_tab = tab_widget.widget(current_tab_index)
         table = current_tab.findChild(QTableWidget)
-        
-        logger.debug(f'TAB_WIDGET={tab_widget}')
-        logger.debug(f'TABLE={table}')
-
-        logger.debug('end')
 
         return table
 
@@ -173,17 +154,13 @@ def verificationer_changed(self, verificationer_combo):
 
 
 def create_protocol(self, word:bool,other_widgets, text_boxes, combo_boxes, checkable_buttons):
-    logger.info('start')
+    logger.info('Создание протокола...')
 
     args = {}
 
     tab_standarts = other_widgets['tab_standarts']
     selected_table = get_selected_table(self, tab_widget=tab_standarts)
     current_row = selected_table.currentRow()
-    
-    logger.debug(f'OTHER_WIDGETS={other_widgets}')
-    logger.debug(f'Selected table={selected_table}')
-    logger.debug(f'current_row={current_row}')
 
     # Получаем standarts
     standarts = selected_table.item(current_row, 1).text()  
@@ -269,14 +246,9 @@ def create_protocol(self, word:bool,other_widgets, text_boxes, combo_boxes, chec
         self.text_boxes_excel['num_scale'].clear()
 
 
-        logger.debug('end')
-        
-        
-    logger.debug('end')
-
 
 def use_data(self,other_widgets, text_boxes, combo_boxes, checkable_buttons):
-    logger.info('start')
+    logger.info('Использование преведущих данных...')
 
     # Определите имя файла хранилища
     file_name = 'app/tools/data/config.json'
@@ -314,8 +286,8 @@ def use_data(self,other_widgets, text_boxes, combo_boxes, checkable_buttons):
                 if name == widget_name:
                     # Устанавливаем значение из storage.json в текст виджета
                     combo_boxes[widget_name].setCurrentText(data[name])
-        except:
-            logger.error('Ошибка при установлении значений в var_boxes.combo_boxes')
+        except Exception as e:
+            logger.error(f'Ошибка при установлении значений в var_boxes.combo_boxes: {e}')
 
         try:
             # Перебираем все key комбо виджетов
@@ -324,8 +296,8 @@ def use_data(self,other_widgets, text_boxes, combo_boxes, checkable_buttons):
                 if name == widget_name:
                     # Устанавливаем значение из storage.json в текст виджета
                     checkable_buttons[widget_name].setChecked(data[name])
-        except:
-            logger.error('Ошибка при установлении значений в buttons.CheckableButtons')
+        except Exception as e:
+            logger.error(f'Ошибка при установлении значений в buttons.CheckableButtons: {e}')
 
 
     if use_data['inspection_date']:
@@ -352,9 +324,6 @@ def use_data(self,other_widgets, text_boxes, combo_boxes, checkable_buttons):
                     tab_standarts.setCurrentIndex(index)  # Установить текущую вкладку
                     # Выделяем найденную строку
                     table.selectRow(row)
-
-
-    logger.debug('end')
 
 
 def clean(self,text_boxes, combo_boxes, checkable_buttons):
@@ -468,8 +437,4 @@ def create_template(self, word):
 
             self.setLayout(main_layout)
 
-            logger.debug('__init__ end')
-
     Create_template_Dialog().exec_()
-
-    logger.debug('end')
