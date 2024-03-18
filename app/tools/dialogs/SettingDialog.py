@@ -47,7 +47,7 @@ class SettingDialog(QDialog):
                                      'legal_address': QCheckBox('Юридический адрес'),
                                      'inspection_address': QCheckBox('Адрес поверки'),
                                      'inspection_date': QCheckBox('Дата'),
-                                     'standarts': QCheckBox('Набор эталонов (Может работать неккоректно)'),
+                                     'tab_standarts': QCheckBox('Набор эталонов (Может работать неккоректно)'),
                                      'use_excel': QCheckBox('Использовать excel'),
                                      'unfit': QCheckBox('Соответсвует/Несоответсвует'),
                                      'interval_combo': QCheckBox('Интервал'),

@@ -35,7 +35,7 @@ class CreateProtocolDialog(QDialog):
             self.main_layout.addWidget(self.label)
 
             if result:
-                self.label.setText(result)
+                self.label.setText('Успешно')
             else:
                 self.label.setText('Возникла непредвиденная ошибка ошибка!')
 

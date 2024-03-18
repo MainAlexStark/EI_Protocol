@@ -268,8 +268,6 @@ def create_protocol(self, word:bool,other_widgets, text_boxes, combo_boxes, chec
         self.text_boxes_excel['num_protocol'].clear()
         self.text_boxes_excel['num_scale'].clear()
 
-        self.verificationer_changed()
-
 
         logger.debug('end')
         

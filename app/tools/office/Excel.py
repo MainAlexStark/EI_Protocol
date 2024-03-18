@@ -80,7 +80,6 @@ class Excel():
             logger.error('Ошибка при создании Excel шаблона')
             return e
 
-    # НЕ РАБОТАЕТ
     def make_new_protocol(self, args):
         logger.debug("Создание Excel протокола")
 
@@ -90,38 +89,46 @@ class Excel():
         
         if workbook is not None:
 
-            #Выбор активного листа
-            worksheet = workbook['Данные']
+            try:
 
-            worksheet['B1'] = args['scale']
-            worksheet['B2'] = args['num_protocol']
-            worksheet['B4'] = args['num_scale']
-            worksheet['B5'] = args['readings']
-            worksheet['B6'] = args['company']
-            worksheet['B7'] = args['inspection_address']
-            worksheet['B8'] = args['work_place_combo'].split('-')[0]
-            worksheet['B9'] = args['inspection_date']
-            worksheet['B10'] = args['temperature']
-            worksheet['B11'] = args['humidity']
-            worksheet['B12'] = args['pressure']
-            worksheet['B13'] = args['temperature_liquid']
-            worksheet['B14'] = args['temperature_liquid']
-            
-            worksheet['С8'] = args['verificationer_combo']
-            
-            worksheet['D8'] = args['tab_standarts']
+                #Выбор активного листа
+                worksheet = workbook['Данные']
 
-            scale = args['scale'].rsplit(' ',1)[0]
-            fif = args['scale'].rsplit(' ',1)[1]
+                worksheet['B1'] = args['scale']
+                worksheet['B2'] = args['num_protocol']
+                worksheet['B4'] = args['num_scale']
+                worksheet['B5'] = args['readings']
+                worksheet['B6'] = args['company']
+                worksheet['B7'] = args['inspection_address']
+                worksheet['B8'] = args['work_place_combo'].split('-')[0]
+                worksheet['B9'] = args['inspection_date']
+                worksheet['B10'] = args['temperature']
+                worksheet['B11'] = args['humidity']
+                worksheet['B12'] = args['pressure']
+                worksheet['B13'] = args['temperature_liquid']
+                worksheet['B14'] = args['temperature_liquid']
+                
+                worksheet['C8'] = args['verificationer_combo']
+                
+                worksheet['D8'] = args['standarts']
 
-            full = f'{args['save_path']}/{args['num_protocol']} {scale} №{args['num_scale']} ({fif}).docx'
+                scale = args['scale'].rsplit(' ',1)[0]
+                fif = args['scale'].rsplit(' ',1)[1]
 
-            # Сохраняем изменения в файле Excel
-            workbook.save(filename=full)
+                full = f'{args['save_path']}/{args['num_protocol']} {scale} №{args['num_scale']} ({fif}).xlsx'
 
-            logger.success("Протокол Excel создан")
-            
-            return args
+                # Сохраняем изменения в файле Excel
+                workbook.save(filename=full)
+
+                workbook.close()
+
+                logger.success("Протокол Excel создан")
+                
+                return args
+            except Exception as e:
+                logger.error(f'Ошибка при создании Excel протокола:{e}')
+        else:
+            logger.error('Неправильный путь к файлу')
 
     def add_args_to_excel_journal(self, args):
         logger.debug('start')
