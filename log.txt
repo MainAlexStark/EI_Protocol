@@ -9086,3 +9086,37 @@ The rights to the program belong to the company: ООО "Единица Изме
 2024-03-18 13:01:40.659 | DEBUG    | app.tools.parse.FNS_RUS:__init__:6 - start
 2024-03-18 13:01:40.659 | DEBUG    | app.tools.parse.FNS_RUS:get_company_data:10 - start
 2024-03-18 13:01:41.062 | DEBUG    | app.tools.parse.LIST_ORG:get_company_name_by_inn:23 - Получение названия компании из list-org
+2024-03-22 15:57:42.571 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-22 15:57:42.572 | SUCCESS  | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-22 15:57:42.583 | DEBUG    | app.tools.layouts.Word:get_layout:21 - Get Word layout
+2024-03-22 15:57:44.176 | DEBUG    | app.tools.layouts.Excel:get_layout:18 - Get Excel layout
+2024-03-22 15:57:49.445 | DEBUG    | app.tools.layouts.Word:settings:511 - Настройки диалог
+2024-03-22 15:57:49.468 | INFO     | app.tools.dialogs.SettingDialog:__init__:19 - SettingDialog(QDialog): __init__
+2024-03-22 16:01:47.762 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-22 16:01:47.763 | SUCCESS  | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-22 16:01:47.774 | DEBUG    | app.tools.layouts.Word:get_layout:21 - Get Word layout
+2024-03-22 16:01:48.851 | DEBUG    | app.tools.layouts.Excel:get_layout:18 - Get Excel layout
+2024-03-22 16:01:52.521 | DEBUG    | app.tools.layouts.Word:settings:511 - Настройки диалог
+2024-03-22 16:01:52.523 | INFO     | app.tools.dialogs.SettingDialog:__init__:19 - SettingDialog(QDialog): __init__
+2024-03-22 16:04:22.651 | INFO     | app.main_window:__init__:35 - Start initUI
+2024-03-22 16:04:22.653 | SUCCESS  | app.main_window:__init__:36 - 
+Program: EI_Protocol
+Version: alpha 2.1                      
+This program is created for commercial use                     
+The rights to the program belong to the company: ООО "Единица Измерения"
+
+2024-03-22 16:04:22.665 | DEBUG    | app.tools.layouts.Word:get_layout:21 - Get Word layout
+2024-03-22 16:04:23.716 | DEBUG    | app.tools.layouts.Excel:get_layout:18 - Get Excel layout
+2024-03-22 16:04:45.433 | DEBUG    | app.tools.layouts.Word:settings:511 - Настройки диалог
+2024-03-22 16:04:45.435 | INFO     | app.tools.dialogs.SettingDialog:__init__:19 - SettingDialog(QDialog): __init__
+2024-03-22 16:04:47.911 | SUCCESS  | app.tools.layouts.Word:settings:515 - Успешно настройки диалог
