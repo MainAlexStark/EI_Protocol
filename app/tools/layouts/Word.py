@@ -1,140 +1,103 @@
-import sys
-from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QPlainTextEdit, QComboBox, \
-    QLabel, QCalendarWidget, QCompleter, QFileDialog, QTableWidget, QTableWidgetItem, \
-    QTabWidget, QAbstractItemView, QCheckBox
-from PyQt5.QtCore import QDate
-from PyQt5 import QtCore
-from PyQt5.QtWidgets import QMessageBox, QDialog, QFrame, QAction, QMenu
-
-from ...tools.db import get_data
-from ...tools import functions
-from ...tools import dialogs
-
-from docx import Document
-from loguru import logger
-
+""" third party imports """
+from PyQt5.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QPlainTextEdit, QComboBox, \
+    QLabel, QCalendarWidget, QTableWidget, QTableWidgetItem, \
+    QTabWidget, QAbstractItemView, QFrame, QDialog, QFileDialog, QCheckBox, QMessageBox
+from PyQt5.QtGui import QFont
 import os
+from loguru import logger
+from docx import Document
+
+""" internal imports """
+from ...db import Config
+from .. import functions
+from ..dialogs.choose_scale import ChooseScaleDialog
+from ..dialogs.create_template import CreateTemplateDialog
+
+""" OPEN CONFIG """
+file_path = 'data/config.json'
+if os.path.exists(file_path):
+    config_client = Config(file_path)
+else:
+    raise Exception(f'File {file_path} not found')
+
 
 main_window = None
 
-def get_layout(self):
-    logger.debug('Get Word layout')
+def get_layout(app: QWidget):
+    """
+    Функция создает и возвращает layout по работе с word-протколами
+    Привязанные фукнции хранятся в этом же файле
+    """
 
     global main_window
+
+    main_window = app
+
     main_layout = QHBoxLayout()
 
     var_layout = QVBoxLayout()
     var_r_layout = QVBoxLayout()
     var_r2_layout = QVBoxLayout()
 
-    main_window = self
-
-    # Инициализируем элементы ввода
-
     # Scale
 
-    text_scale = QPlainTextEdit(self)
-    text_scale.setPlaceholderText('Весы')
-
-    text_scale.textChanged.connect(scale_changed)
-
-    var_layout.addWidget(text_scale)
-
-    self.text_boxes_word['scale'] = text_scale
+    scale = QPlainTextEdit()
+    scale.setPlaceholderText('Весы')
+    app.word_widgets.add_widget('весы', scale)
+    var_layout.addWidget(scale)
 
     # Надпись
-    choose_scale_button = QPushButton('Выбрать весы', self)
+    choose_scale_button = QPushButton('Выбрать весы', app)
     choose_scale_button.clicked.connect(choose_scale)  # Привязываем функцию
     var_layout.addWidget(choose_scale_button)  # Добавляем в layout
+    app.word_widgets.add_widget('весы', choose_scale_button)
 
-    self.buttons_word['choose_scale_button'] = choose_scale_button
+    # Путь сохранения
 
-    # path
-    # Текстовое поле
-    text_path = QPlainTextEdit(self)
-    text_path.setPlaceholderText('Путь сохранения')
-    # Добавляем элементы в layouts
-    var_layout.addWidget(text_path)
+    path_layout = QHBoxLayout()
 
-    self.text_boxes_word['save_path'] = text_path
-    
-    # Создаем кнопку
-    path_button = QPushButton('Выбрать путь сохранения', self)
-    path_button.clicked.connect(add_save_path)  # Привязываем функцию
-    var_layout.addWidget(path_button)  # Добавляем в layout
+    save_path = QPlainTextEdit(app)
+    save_path.setPlaceholderText('Путь сохрания')
+    path_layout.addWidget(save_path)
 
-    self.buttons_word['path_button'] = path_button
-    
-    
-    # Work place num
-    
-    work_places = [
-        '01 - Манометры',
-        '02 - Гири эталонные и общего назначения',
-        '03 - Весы',
-        '04 - Счетчики воды',
-        '05 - Автоматические ВСУ',
-        '06 - Влагомеры',
-        '07 - Гидрометры',
-        '08 - Дозаторы обьемные',
-        '09 - Дозаторы весовые'
-    ]
-    
-    label_work_place_combo = QLabel("Выберите рабочее место:")
-    work_place_combo = QComboBox()
-    work_place_combo.addItems(work_places)
-    work_place_combo.setCurrentIndex(-1)
-    var_layout.addWidget(label_work_place_combo)
-    var_layout.addWidget(work_place_combo)
+    app.word_widgets.add_widget('путь сохранения', save_path)
 
-    # Добавляем в словарь combo boxes
-    self.combo_boxes_word['work_place_combo'] = work_place_combo
+    save_path_button = QPushButton('...', app)
+    save_path_button.setFixedSize(50, 50)
+    save_path_button.clicked.connect(add_save_path)  # Привязываем функцию
+    path_layout.addWidget(save_path_button)  # Добавляем в layout
+
+    var_layout.addLayout(path_layout)
+
 
     # num_protocol
-
-    # Текстовое поле
-    text_num_protocol = QPlainTextEdit(self)
+    text_num_protocol = QPlainTextEdit(app)
     text_num_protocol.setPlaceholderText('Номер протокола')
-    # Добавляем элементы в layouts
     var_layout.addWidget(text_num_protocol)
-
-    self.text_boxes_word['num_protocol'] = text_num_protocol
+    app.word_widgets.add_widget('номер протокола', text_num_protocol)
 
     # num_scale
-    text_num_scale = QPlainTextEdit(self)
+    text_num_scale = QPlainTextEdit(app)
     text_num_scale.setPlaceholderText('Номер весов')
     var_layout.addWidget(text_num_scale)
+    app.word_widgets.add_widget('номер весов', text_num_scale)
 
-    self.text_boxes_word['num_scale'] = text_num_scale
 
-    # Verificationer
-    # Определите имя файла хранилища
-    path_to_data = 'app/tools/data/config.json'
-    data = get_data(path_to_data)
-
-    # Массив с поверителями
+    # Поверитель
+    login = app.login
+    verificationers = app.ei_api.get_verificationers()
     ver = []
-
-
-    verificationers = data.get('verificationers', [])
-    verificationers_text = ''
-    for verificationer in verificationers.keys():
-        verificationers_text += verificationer
-    verificationers_text = '\n'.join(verificationers)
-
-    for i in verificationers_text.split('\n'): ver.append(i)
 
     label_verificationer_combo = QLabel("Выберите поверителя:")
     verificationer_combo = QComboBox()
-    verificationer_combo.addItems(verificationers)
-    verificationer_combo.setCurrentIndex(-1)
+    verificationer_combo.addItems(verificationers.keys())
+    verificationer_combo.setCurrentText(login)
     verificationer_combo.setFixedSize(500, 40)
     verificationer_combo.currentTextChanged.connect(verificationer_changed)
     var_layout.addWidget(label_verificationer_combo)
     var_layout.addWidget(verificationer_combo)
 
-    # Добавляем в словарь combo boxes
-    self.combo_boxes_word['verificationer_combo'] = verificationer_combo
+    app.word_widgets.add_widget('поверитель', verificationer_combo)
 
 
     # Line
@@ -147,45 +110,46 @@ def get_layout(self):
     var_layout.addWidget(line)
 
     # INN
-    text_INN = QPlainTextEdit(self)
-    text_INN.setPlaceholderText("ИНН")
-    var_layout.addWidget(text_INN)
+    INN = QPlainTextEdit(app)
+    INN.setPlaceholderText("ИНН")
+    var_layout.addWidget(INN)
 
-    self.text_boxes_word['INN'] = text_INN
+    app.word_widgets.add_widget('инн', INN)
 
-    search_company_button = QPushButton('Найти', self)
+    search_company_button = QPushButton('Найти', app)
     search_company_button.clicked.connect(search_company)  # Привязываем функцию
     var_layout.addWidget(search_company_button)  # Добавляем в layout
 
-    self.buttons_word['search_company_button'] = search_company_button
+    app.word_widgets.add_widget('найти компанию', search_company_button)
+
 
     # Company
-    text_company = QPlainTextEdit(self)
-    text_company.setPlaceholderText("Компания")
-    var_layout.addWidget(text_company)
+    company = QPlainTextEdit(app)
+    company.setPlaceholderText("Компания")
+    var_layout.addWidget(company)
 
-    self.text_boxes_word['company'] = text_company
+    app.word_widgets.add_widget('компания', company)
+
 
     # Legal address
+    legal_address = QPlainTextEdit(app)
+    legal_address.setPlaceholderText("Юридический адрес")
+    var_layout.addWidget(legal_address)
 
-    text_legal_address = QPlainTextEdit(self)
-    text_legal_address.setPlaceholderText("Юридический адрес")
-    var_layout.addWidget(text_legal_address)
-
-    self.text_boxes_word['legal_address'] = text_legal_address
+    app.word_widgets.add_widget('юридический адрес', legal_address)
 
 
     # inspection address
 
     inspection_address_layout = QHBoxLayout()
 
-    text_inspection_address = QPlainTextEdit(self)
-    text_inspection_address.setPlaceholderText('Адрес поверки')
-    inspection_address_layout.addWidget(text_inspection_address)
+    inspection_address = QPlainTextEdit(app)
+    inspection_address.setPlaceholderText('Адрес поверки')
+    inspection_address_layout.addWidget(inspection_address)
 
-    self.text_boxes_word['inspection_address'] = text_inspection_address
+    app.word_widgets.add_widget('адрес поверки', inspection_address)
 
-    button_inspection_address_setting = QPushButton('...', self)
+    button_inspection_address_setting = QPushButton('...', app)
     button_inspection_address_setting.setFixedSize(50, 50)
     button_inspection_address_setting.clicked.connect(show_inspection_address_setting)  # Привязываем функцию
     inspection_address_layout.addWidget(button_inspection_address_setting)  # Добавляем в layout
@@ -193,59 +157,52 @@ def get_layout(self):
     var_layout.addLayout(inspection_address_layout)
 
     # Unfit
+    unfit = QCheckBox('Несоответсвует', app)
+    var_layout.addWidget(unfit)  # Добавляем в layout
 
-    unfit_button = QPushButton('Несоответсвует', self)
-    unfit_button.setCheckable(True)
-    var_layout.addWidget(unfit_button)  # Добавляем в layout
-
-    self.checkable_buttons_word['unfit_button'] = unfit_button
+    app.word_widgets.add_widget('пригодность', unfit)
 
     # Line
-
     line = QFrame()
     line.setFrameShape(QFrame.HLine)
     line.setMinimumSize(300,2)
     line.setMaximumSize(700,2)
-
     var_layout.addWidget(line)
 
-    # PAth to excel
+    # path to excel
 
     path_excel_layout = QHBoxLayout()
 
-    text_path_to_excel_journal = QPlainTextEdit(self)
-    text_path_to_excel_journal.setPlaceholderText("Путь к журналу excel")
-    path_excel_layout.addWidget(text_path_to_excel_journal)
+    path_to_excel_journal = QPlainTextEdit(app)
+    path_to_excel_journal.setPlaceholderText("Путь к журналу excel")
+    path_excel_layout.addWidget(path_to_excel_journal)
 
-    self.text_boxes_word['path_to_excel_jounal'] = text_path_to_excel_journal
+    app.word_widgets.add_widget('путь к журналу', path_to_excel_journal)
 
-    path_to_excel_dialog_button = QPushButton('...', self)
+    path_to_excel_dialog_button = QPushButton('...', app)
     path_to_excel_dialog_button.setFixedSize(50, 50)
     path_to_excel_dialog_button.clicked.connect(add_path_to_excel)  # Привязываем функцию
     path_excel_layout.addWidget(path_to_excel_dialog_button)  # Добавляем в layout
 
     var_layout.addLayout(path_excel_layout)
 
-    # Use excel
+    # Use Excel
+    use_excel = QCheckBox('Добавить протокол в журнал', app)
+    var_layout.addWidget(use_excel)  # Добавляем в layout
 
-    add_to_excel_button = QPushButton('Добавить протокол в Excel', self)
-    add_to_excel_button.setCheckable(True)
-    var_layout.addWidget(add_to_excel_button)  # Добавляем в layout
+    app.word_widgets.add_widget('добавить протокол в журнал', use_excel)
 
-    self.checkable_buttons_word['add_to_excel_button'] = add_to_excel_button
 
-    ####### var_r_layout
+    """     Var r Layout    """
 
     # inspection_date
-
-    inspection_date = QCalendarWidget(self)
+    inspection_date = QCalendarWidget(app)
     inspection_date.setFixedSize(500, 300)
     var_r_layout.addWidget(inspection_date)
 
-    self.other_widgets_word['inspection_date'] = inspection_date
+    app.word_widgets.add_widget('дата поверки', inspection_date)
 
     # interval
-
     nums = ['1','2']
 
     label_interval_combo = QLabel("Выберите интервал до следующей проверки:")
@@ -255,102 +212,88 @@ def get_layout(self):
     var_r_layout.addWidget(label_interval_combo)
     var_r_layout.addWidget(interval_combo)
 
-    # Добавляем в словарь combo boxes
-    self.combo_boxes_word['interval_combo'] = interval_combo
-
+    app.word_widgets.add_widget('интервал между поверками', interval_combo)
 
     # weather
-
-    text_temperature = QPlainTextEdit(self)
+    text_temperature = QPlainTextEdit(app)
     text_temperature.setPlaceholderText("Температура")
 
     var_r_layout.addWidget(text_temperature)
 
-    self.text_boxes_word['temperature'] = text_temperature
+    app.word_widgets.add_widget('температура', text_temperature)
 
-    text_humidity = QPlainTextEdit(self)
+    text_humidity = QPlainTextEdit(app)
     text_humidity.setPlaceholderText("Влажность")
     var_r_layout.addWidget(text_humidity)
 
-    self.text_boxes_word['humidity'] = text_humidity
+    app.word_widgets.add_widget('влажность', text_humidity)
 
-    text_pressure = QPlainTextEdit(self)
+    text_pressure = QPlainTextEdit(app)
     text_pressure.setPlaceholderText("Давление")
     var_r_layout.addWidget(text_pressure)
 
-    self.text_boxes_word['pressure'] = text_pressure
-
+    app.word_widgets.add_widget('давление', text_pressure)
 
 
     # Создаем кнопки
 
     # Create template
-
-    create_template_button = QPushButton('Создать шаблон', self)
+    create_template_button = QPushButton('Создать шаблон', app)
     create_template_button.clicked.connect(create_template)  # Привязываем функцию
     var_r_layout.addWidget(create_template_button)  # Добавляем в layout
 
-    self.buttons_word['create_template_button'] = create_template_button
+    app.word_widgets.add_widget('создать шаблон', create_template_button)
 
     # Create protocol
-
-    create_protocol_button = QPushButton('Создать протокол', self)
+    create_protocol_button = QPushButton('Создать протокол', app)
     create_protocol_button.clicked.connect(create_protocol)  # Привязываем функцию
     var_r_layout.addWidget(create_protocol_button)  # Добавляем в layout
 
-    self.buttons_word['create_protocol_button'] = create_protocol_button
+    app.word_widgets.add_widget('создать протокол', create_protocol_button)
+
 
     # Create protocol from excel
-
-    create_protocol_from_excel_button = QPushButton('Создать протокол из excel', self)
+    create_protocol_from_excel_button = QPushButton('Создать протокол из журнала excel', app)
     create_protocol_from_excel_button.clicked.connect(create_protocol_from_excel)  # Привязываем функцию
     var_r_layout.addWidget(create_protocol_from_excel_button)  # Добавляем в layout
 
-    self.buttons_word['create_protocol_from_excel_button'] = create_protocol_from_excel_button
+    app.word_widgets.add_widget('создать протокол из журнала', create_protocol_from_excel_button)
+
 
     # Line
-
     line = QFrame()
     line.setFrameShape(QFrame.HLine)
     line.setMinimumSize(300,2)
     line.setMaximumSize(700,2)
-
     var_r_layout.addWidget(line)
 
-    # Use data
 
-    use_data_button = QPushButton('Использовать преведущие данные', self)
+    # Use data
+    use_data_button = QPushButton('Использовать преведущие данные', app)
     use_data_button.clicked.connect(use_data)  # Привязываем функцию
     var_r_layout.addWidget(use_data_button)  # Добавляем в layout
 
-    self.buttons_word['use_data_button'] = use_data_button
+    app.word_widgets.add_widget('использовать преведущие данные', use_data_button)
+
 
     # Clean
-
-    clean_button = QPushButton('Очистить', self)
+    clean_button = QPushButton('Очистить', app)
     clean_button.clicked.connect(clean)  # Привязываем функцию
     var_r_layout.addWidget(clean_button)  # Добавляем в layout
 
-    self.buttons_word['clean_button'] = clean_button
+    app.word_widgets.add_widget('очистить', clean_button)
 
-    # Settings
-
-    settings_button = QPushButton('Настройки', self)
-    settings_button.clicked.connect(settings)  # Привязываем функцию
-    var_r_layout.addWidget(settings_button)  # Добавляем в layout
-
-    self.buttons_word['settings_button'] = settings_button
 
     # 2 layout
 
     # Standarts
 
-    tab_standarts = QTabWidget(self)
+    tab_standarts = QTabWidget(app)
     tab_standarts.setMaximumSize(900, 950)
     tab_standarts.setMinimumSize(850, 800)
 
     # Укажите путь к нужной папке
-    folder_path = f'app/standarts'
+    folder_path = f'data/standarts'
     file_names = os.listdir(folder_path)
 
     for file_name in file_names:
@@ -362,7 +305,7 @@ def get_layout(self):
         Qtable.setEditTriggers(QAbstractItemView.NoEditTriggers)  # Запрещаем редактирование
         # Добавление столбцов и строк в таблицу
         # Открываем docx документ
-        document = Document(f"app/standarts/{file_name}")
+        document = Document(f"data/standarts/{file_name}")
 
         # Получаем первую таблицу из документа
         table = document.tables[0]
@@ -387,28 +330,20 @@ def get_layout(self):
 
     var_r2_layout.addWidget(tab_standarts)
 
-    self.other_widgets_word['tab_standarts'] = tab_standarts
+    app.word_widgets.add_widget('эталоны', tab_standarts)
 
-    # Устнавливаем размеры
-    width = 40
-    max_length = 700
-    min_lenght = 300
-
-    for widget in self.text_boxes_word.values():
-        widget.setMaximumSize(max_length,width)
-        widget.setMinimumSize(min_lenght,width)
-
-    for widget in self.combo_boxes_word.values():
-        widget.setMaximumSize(max_length,width)
-        widget.setMinimumSize(min_lenght,width)
-
-    for widget in self.buttons_word.values():
-        widget.setMaximumSize(max_length,width)
-        widget.setMinimumSize(min_lenght,width)
-
-    for widget in self.checkable_buttons_word.values():
-        widget.setMaximumSize(max_length,width)
-        widget.setMinimumSize(min_lenght,width)
+    for widget in app.word_widgets.text_boxes.values():
+        widget.setMinimumSize(300,40)
+        widget.setMaximumSize(700,40)
+    for widget in app.word_widgets.combo_boxes.values():
+        widget.setMinimumSize(300,40)
+        widget.setMaximumSize(700,40)
+    for widget in app.word_widgets.check_boxes.values():
+        widget.setMinimumSize(300,40)
+        widget.setMaximumSize(700,40)
+    for widget in app.word_widgets.buttons.values():
+        widget.setMinimumSize(300,40)
+        widget.setMaximumSize(700,40)
 
     # Add layouts in main_layout
     main_layout.addLayout(var_layout)
@@ -418,109 +353,207 @@ def get_layout(self):
     return main_layout
 
 
-
-
-
 # FUNCTIONS
 
 def search_company():
-    self = main_window
-    company_name, legal_address = functions.search_company(self=self, inn=self.text_boxes_word['INN'].toPlainText())
-        
-    # Устанавливаем в QPlainTextEdit
-    self.text_boxes_word['company'].setPlainText(company_name)
-    
-    # Устанавливаем в QPlainTextEdit
-    self.text_boxes_word['legal_address'].setPlainText(legal_address)
+    try:
+        company_name, legal_address = functions.search_company(self=main_window, inn=main_window.word_widgets.text_boxes['инн'].toPlainText())
+
+        main_window.word_widgets.text_boxes['компания'].setPlainText(company_name)
+        main_window.word_widgets.text_boxes['юридический адрес'].setPlainText(legal_address)
+    except:
+        ...
 
 def scale_changed():
-    self = main_window
-    functions.scale_changed(self=self)
+    ...
 
 def verificationer_changed():
-    self = main_window
-    result = functions.verificationer_changed(self=self, verificationer_combo=self.combo_boxes_word['verificationer_combo'])
-    self.text_boxes_word['num_protocol'].setPlainText = result
+    ...
 
 def create_protocol():
-    self = main_window
-    functions.create_protocol(self=self, 
-                                word=True, 
-                                other_widgets=self.other_widgets_word,
-                                text_boxes=self.text_boxes_word,
-                                combo_boxes=self.combo_boxes_word,
-                                checkable_buttons=self.checkable_buttons_word)
+    ...
         
 def use_data():
-    self = main_window
-    functions.use_data(self=self,
-                        other_widgets=self.other_widgets_word,
-                        text_boxes=self.text_boxes_word,
-                        combo_boxes=self.combo_boxes_word,
-                        checkable_buttons=self.checkable_buttons_word)
+    config = config_client.get()
+
+    errors = []
+
+    # Словари с данными
+    values_word = config['data_widgets']['word']
+    values_excel = config['data_widgets']['excel']
+
+    # Словари с bool значением
+    data_word_widgets = config['save_widgets']['word']
+    data_excel_widgets = config['save_widgets']['excel']
+
+    # Word
+    # text_boxes
+    for name, widget in main_window.word_widgets.text_boxes.items():
+        try:
+            if name in data_word_widgets.keys(): 
+                if data_word_widgets[name]:
+                    widget.setPlainText(values_word['name'])
+        except:
+            errors.append(name)
+
+    # combo_boxes
+    for name, widget in main_window.word_widgets.combo_boxes.items():
+        try:
+            if name in data_word_widgets.keys(): 
+                if data_word_widgets[name]:
+                    widget.setPlainText(values_word['name'])
+        except:
+            errors.append(name)
+
+    # check_boxes
+    for name, widget in main_window.word_widgets.check_boxes.items():
+        try:
+            if name in data_word_widgets.keys(): 
+                if data_word_widgets[name]:
+                    widget.setChecked(values_word['name'])
+        except:
+            errors.append(name)
+
+    # Excel
+    # text_boxes
+    for name, widget in main_window.excel_widgets.text_boxes.items():
+        try:
+            if name in data_excel_widgets.keys(): 
+                if data_excel_widgets[name]:
+                    widget.setPlainText(values_word['name'])
+        except:
+            errors.append(name)
+
+    # combo_boxes
+    for name, widget in main_window.excel_widgets.combo_boxes.items():
+        try:
+            if name in data_excel_widgets.keys(): 
+                if data_excel_widgets[name]:
+                    widget.setPlainText(values_word['name'])
+        except:
+            errors.append(name)
+
+    # check_boxes
+    for name, widget in main_window.excel_widgets.check_boxes.items():
+        try:
+            if name in data_excel_widgets.keys(): 
+                if data_excel_widgets[name]:
+                    widget.setChecked(values_word['name'])
+        except:
+            errors.append(name)
+
+    if len(errors) > 0:
+        msg = ''
+        for err in errors:
+            msg += err + '\n'
+
+        QMessageBox.warning(main_window, 'Ошибка. Не удалось получить:', msg)
+    
         
 def clean():
-    self = main_window
-    functions.clean(self=self,
-                    text_boxes=self.text_boxes_word,
-                    combo_boxes=self.combo_boxes_word,
-                    checkable_buttons=self.checkable_buttons_word)
+    for widget in main_window.word_widgets.text_boxes.values():
+        widget.clear()
+    for widget in main_window.word_widgets.combo_boxes.values():
+        widget.setCurrentIndex(-1)
+    for widget in main_window.word_widgets.check_boxes.values():
+        widget.setChecked(False)
+
+    for widget in main_window.excel_widgets.text_boxes.values():
+        widget.clear()
+    for widget in main_window.excel_widgets.combo_boxes.values():
+        widget.setCurrentIndex(-1)
+    for widget in main_window.excel_widgets.check_boxes.values():
+        widget.setChecked(False)
         
 def create_template():
-    self = main_window
-    functions.create_template(self=self, word=True)
+    names = []
+    for widget in main_window.word_widgets.text_boxes.keys():
+        if widget == 'путь к журналу' or widget == 'путь сохранения': continue
+        names.append(widget)
+    for widget in main_window.word_widgets.combo_boxes.keys():
+        if widget == 'интервал между поверками': continue
+        names.append(widget)
+    for widget in main_window.word_widgets.check_boxes.keys():
+        if widget == 'добавить протокол в журнал': continue
+        names.append(widget)
+    for widget in main_window.word_widgets.calendars.keys():
+        names.append(widget)
+    for widget in main_window.word_widgets.tab_widgets.keys():
+        names.append(widget)
 
+    options = QFileDialog.Options()
+    filePath, _ = QFileDialog.getOpenFileName(main_window, 'Выберите файл', '', 'Word Files (*.docx);', options=options)
+    if filePath:
+        CreateTemplateDialog(path=filePath, widgets_names=names).exec_()
 
 # Dialogs
         
 def create_protocol_from_excel():
-    logger.debug('Создание протокола из excel')
-    self = main_window
-
-    dialogs.CreateProtocolFromExcelDialog(self, word=True).exec_()
-
-    logger.success('Успешное создание протокола из excel')
+    ...
 
 def show_inspection_address_setting():
-        logger.debug('Показать настройки адреса поверки')
-        self = main_window
+    class CreateProtocolFromExcelDialog(QDialog):
+        def __init__(self):
+            super().__init__()
 
-        dialogs.ChooseInspectionAddressDialog(self,inspection=self.text_boxes_word['inspection_address'],\
-                                            legal=self.text_boxes_word['legal_address'], word=True).exec_()
+            self.main_layout = QVBoxLayout()
 
-        logger.success('Успешно показаны настройки адреса поверки')
+            length_window = 1000
+            width_window = 150
+
+            self.setGeometry(200, 400, length_window, width_window)
+            self.setWindowTitle('Выберите нужный вариант')
+
+            self.var = [
+                'Использовать введенный юр.адрес',
+                'Использовать юр.адрес ООО \"ЕДИНИЦА ИЗМЕРЕНИЯ\"'
+            ]
+
+            # Таблица с вариантами
+            self.combo = QLabel("Выберите нужный вариант:")
+            self.combo = QTableWidget()
+            self.combo.setRowCount(len(self.var))
+            self.combo.setColumnCount(1)
+
+            self.combo.setEditTriggers(QAbstractItemView.NoEditTriggers)  # Запрещаем редактирование
+
+            self.combo.setColumnWidth(0, 940)
+
+            i = 0
+            for var in self.var:
+                self.combo.setItem(i,0, QTableWidgetItem(var))
+                i += 1
+
+            self.combo.setCurrentCell(-1,-1)
+            self.combo.currentItemChanged.connect(self.change)
+
+            self.main_layout.addWidget(self.combo)
+
+            self.setLayout(self.main_layout)
+
+        def change(self):
+            if self.combo.currentRow() == 0:
+                main_window.word_widgets.text_boxes['адрес поверки'].setPlainText(main_window.word_widgets.text_boxes['юридический адрес'].toPlainText())
+            else:
+                main_window.word_widgets.text_boxes['адрес поверки'].setPlainText("610027, Россия, Кировская область, город Киров, улица Красноармейская, дом 43А") 
+
+            self.close()
+            
+    CreateProtocolFromExcelDialog().exec_()
 
 def choose_scale():
-    self = main_window
-    logger.debug('Выбор весов диалог')
-
-    dialogs.ChooseScaleDialog(text_scale_widget=self.text_boxes_word['scale'],word=True).exec_()
-
-    logger.success('Успешно выбор весов диалог')
+    ChooseScaleDialog(text_scale_widget=main_window.word_widgets.text_boxes['весы'],word=True).exec_()
 
 def add_save_path():
-    self = main_window
-    logger.debug('Выбор пути сохранения')
-
     dialog = QDialog()
-    self.text_boxes_word['save_path'].setPlainText(QFileDialog.getExistingDirectory(dialog, "Выберите папку"))
+    main_window.word_widgets.text_boxes['путь сохранения'].setPlainText(QFileDialog.getExistingDirectory(dialog, "Выберите папку"))
 
-    logger.success('Успешно выбор пути сохранения')
 
 def settings():
-        logger.debug('Настройки диалог')
-
-        dialogs.SettingDialog().exec_()
-
-        logger.success('Успешно настройки диалог')
+    ...
 
 def add_path_to_excel():
-    self = main_window
-    logger.debug('Добавление пути до журнала Excel')
-
     options = QFileDialog.Options()
-    filePath, _ = QFileDialog.getOpenFileName(self, 'Выберите файл', '', 'All Files (*);;Text Files (*.txt)', options=options)
+    filePath, _ = QFileDialog.getOpenFileName(main_window, 'Выберите файл', '', 'Excel Files (*.xlsx);', options=options)
 
-    self.text_boxes_word['path_to_excel_jounal'].setPlainText(filePath)
-
-    logger.success('Успешно Добавление пути до журнала Excel')
+    main_window.word_widgets.text_boxes['путь к журналу'].setPlainText(filePath)
